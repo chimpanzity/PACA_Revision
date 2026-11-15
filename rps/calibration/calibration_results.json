@@ -1,0 +1,489 @@
+{
+ "label": "RPS Proteus v1 calibration (offline, no API calls)",
+ "opponent_version": "rps-proteus-v1",
+ "trials_per_session": 200,
+ "null": {
+  "n_sessions": 1000,
+  "mean_payoff": -0.00196,
+  "se": 0.0018591301096923705,
+  "ci95": [
+   -0.005603895014997046,
+   0.001683895014997046
+  ],
+  "session_sd_payoff": 0.058790856132265715,
+  "mean_expected_payoff": -0.00014147426969037718,
+  "session_sd_expected_payoff": 0.010575944218478218,
+  "variance_ratio_expected_over_realized": 0.03236076158760842,
+  "W": 0.331965,
+  "L": 0.333925,
+  "D": 0.33411,
+  "any_channel_activation": 0.09851,
+  "per_channel_activation": [
+   0.035155,
+   0.031420000000000003,
+   0.02087,
+   0.00921,
+   0.00214,
+   0.020185,
+   0.00185,
+   1.5e-05,
+   0.0
+  ],
+  "winning_channel_share": {
+   "-1": 0.90149,
+   "0": 0.026935,
+   "1": 0.023155,
+   "2": 0.017655,
+   "3": 0.00843,
+   "4": 0.00177,
+   "5": 0.01876,
+   "6": 0.0018,
+   "7": 5e-06
+  },
+  "episode_lengths": {
+   "n": 11011,
+   "mean": 1.7893016074834256,
+   "median": 1,
+   "max": 167
+  },
+  "first_activation_trial": {
+   "n_sessions_with": 976,
+   "median": 45.0,
+   "mean": 54.77459016393443
+  }
+ },
+ "mp_binary_null": {
+  "any_channel_activation": 0.107415,
+  "win": 0.50058,
+  "se_win": 0.0011009658149668982,
+  "n_sessions": 1000
+ },
+ "structured": {
+  "always_R": {
+   "n_sessions": 200,
+   "mean_payoff": -0.981525,
+   "se": 0.0005458816804447889,
+   "ci95": [
+    -0.9825949280936718,
+    -0.9804550719063282
+   ],
+   "session_sd_payoff": 0.007719932759360364,
+   "mean_expected_payoff": -0.98,
+   "session_sd_expected_payoff": 0.0,
+   "variance_ratio_expected_over_realized": 0.0,
+   "W": 0.006,
+   "L": 0.987525,
+   "D": 0.006475,
+   "any_channel_activation": 0.98,
+   "per_channel_activation": [
+    0.98,
+    0.975,
+    0.97,
+    0.965,
+    0.96,
+    0.962525,
+    0.954,
+    0.948225,
+    0.943075
+   ],
+   "winning_channel_share": {
+    "-1": 0.02,
+    "0": 0.98
+   },
+   "episode_lengths": {
+    "n": 200,
+    "mean": 196,
+    "median": 196.0,
+    "max": 196
+   },
+   "first_activation_trial": {
+    "n_sessions_with": 200,
+    "median": 5.0,
+    "mean": 5
+   }
+  },
+  "alternate_R_P": {
+   "n_sessions": 200,
+   "mean_payoff": -0.9536749999999999,
+   "se": 0.0008201892629970702,
+   "ci95": [
+    -0.9552825709554742,
+    -0.9520674290445257
+   ],
+   "session_sd_payoff": 0.0115992277944325,
+   "mean_expected_payoff": -0.955,
+   "session_sd_expected_payoff": 0.0,
+   "variance_ratio_expected_over_realized": 0.0,
+   "W": 0.015625,
+   "L": 0.9692999999999999,
+   "D": 0.015075,
+   "any_channel_activation": 0.955,
+   "per_channel_activation": [
+    0.94,
+    0.955,
+    0.95,
+    0.945,
+    0.94,
+    0.9243250000000001,
+    0.9109,
+    0.9036000000000001,
+    0.897775
+   ],
+   "winning_channel_share": {
+    "-1": 0.045,
+    "1": 0.955
+   },
+   "episode_lengths": {
+    "n": 200,
+    "mean": 191,
+    "median": 191.0,
+    "max": 191
+   },
+   "first_activation_trial": {
+    "n_sessions_with": 200,
+    "median": 10.0,
+    "mean": 10
+   }
+  },
+  "cycle_R_P_S": {
+   "n_sessions": 200,
+   "mean_payoff": -0.9333750000000001,
+   "se": 0.0010697634524609173,
+   "ci95": [
+    -0.9354717363668235,
+    -0.9312782636331767
+   ],
+   "session_sd_payoff": 0.01512873983001295,
+   "mean_expected_payoff": -0.935,
+   "session_sd_expected_payoff": 0.0,
+   "variance_ratio_expected_over_realized": 0.0,
+   "W": 0.02275,
+   "L": 0.956125,
+   "D": 0.021125,
+   "any_channel_activation": 0.935,
+   "per_channel_activation": [
+    0.0,
+    0.935,
+    0.93,
+    0.925,
+    0.92,
+    0.891175,
+    0.87255,
+    0.8641,
+    0.858
+   ],
+   "winning_channel_share": {
+    "-1": 0.065,
+    "1": 0.935
+   },
+   "episode_lengths": {
+    "n": 200,
+    "mean": 187,
+    "median": 187.0,
+    "max": 187
+   },
+   "first_activation_trial": {
+    "n_sessions_with": 200,
+    "median": 14.0,
+    "mean": 14
+   }
+  },
+  "noisy_cycle_.75": {
+   "n_sessions": 200,
+   "mean_payoff": -0.558025,
+   "se": 0.005439929784039163,
+   "ci95": [
+    -0.5686872623767167,
+    -0.5473627376232832
+   ],
+   "session_sd_payoff": 0.07693222478945527,
+   "mean_expected_payoff": -0.5609732082632356,
+   "session_sd_expected_payoff": 0.06287325137726553,
+   "variance_ratio_expected_over_realized": 0.6679058626494836,
+   "W": 0.1476,
+   "L": 0.705625,
+   "D": 0.146775,
+   "any_channel_activation": 0.8882,
+   "per_channel_activation": [
+    0.0,
+    0.8852,
+    0.738175,
+    0.60345,
+    0.4846,
+    0.690325,
+    0.437875,
+    0.275825,
+    0.1706
+   ],
+   "winning_channel_share": {
+    "-1": 0.1118,
+    "1": 0.3003,
+    "2": 0.0966,
+    "3": 0.08505,
+    "4": 0.07275,
+    "5": 0.155775,
+    "6": 0.09035,
+    "7": 0.04865,
+    "8": 0.038725
+   },
+   "episode_lengths": {
+    "n": 971,
+    "mean": 36.58908341915551,
+    "median": 2,
+    "max": 187
+   },
+   "first_activation_trial": {
+    "n_sessions_with": 200,
+    "median": 16.0,
+    "mean": 16.975
+   }
+  },
+  "biased_.6_.2_.2": {
+   "n_sessions": 200,
+   "mean_payoff": -0.192125,
+   "se": 0.005351634970669849,
+   "ci95": [
+    -0.2026142045425129,
+    -0.1816357954574871
+   ],
+   "session_sd_payoff": 0.07568354756391442,
+   "mean_expected_payoff": -0.1863538393028404,
+   "session_sd_expected_payoff": 0.05965184877494138,
+   "variance_ratio_expected_over_realized": 0.6212191781566913,
+   "W": 0.26745,
+   "L": 0.459575,
+   "D": 0.272975,
+   "any_channel_activation": 0.885225,
+   "per_channel_activation": [
+    0.880125,
+    0.6578,
+    0.37977500000000003,
+    0.179625,
+    0.076075,
+    0.400575,
+    0.09845,
+    0.022025,
+    0.004675
+   ],
+   "winning_channel_share": {
+    "-1": 0.114775,
+    "0": 0.3515,
+    "1": 0.142875,
+    "2": 0.1062,
+    "3": 0.066575,
+    "4": 0.0363,
+    "5": 0.13125,
+    "6": 0.039525,
+    "7": 0.008825,
+    "8": 0.002175
+   },
+   "episode_lengths": {
+    "n": 566,
+    "mean": 62.56007067137809,
+    "median": 3.0,
+    "max": 196
+   },
+   "first_activation_trial": {
+    "n_sessions_with": 200,
+    "median": 14.0,
+    "mean": 17.55
+   }
+  },
+  "win_stay_lose_shift": {
+   "n_sessions": 200,
+   "mean_payoff": -0.847525,
+   "se": 0.0028018742605369173,
+   "ci95": [
+    -0.8530166735506524,
+    -0.8420333264493476
+   ],
+   "session_sd_payoff": 0.03962448579315395,
+   "mean_expected_payoff": -0.8456046616737273,
+   "session_sd_expected_payoff": 0.019078868073948537,
+   "variance_ratio_expected_over_realized": 0.23183442844918217,
+   "W": 0.050175,
+   "L": 0.8977,
+   "D": 0.052125,
+   "any_channel_activation": 0.8481,
+   "per_channel_activation": [
+    0.000625,
+    0.723625,
+    0.734325,
+    0.736325,
+    0.73885,
+    0.846625,
+    0.7888000000000001,
+    0.765375,
+    0.752775
+   ],
+   "winning_channel_share": {
+    "-1": 0.1519,
+    "0": 0.0005,
+    "1": 0.002375,
+    "2": 0.0133,
+    "3": 0.167925,
+    "4": 0.253525,
+    "5": 0.410475
+   },
+   "episode_lengths": {
+    "n": 870,
+    "mean": 38.99310344827586,
+    "median": 2.0,
+    "max": 179
+   },
+   "first_activation_trial": {
+    "n_sessions_with": 200,
+    "median": 22.0,
+    "mean": 21.47
+   }
+  },
+  "beat_opponent_last": {
+   "n_sessions": 200,
+   "mean_payoff": -0.840625,
+   "se": 0.002681580924805628,
+   "ci95": [
+    -0.845880898612619,
+    -0.835369101387381
+   ],
+   "session_sd_payoff": 0.03792328112461106,
+   "mean_expected_payoff": -0.8418754747244107,
+   "session_sd_expected_payoff": 0.017041183104502186,
+   "variance_ratio_expected_over_realized": 0.2019238763478217,
+   "W": 0.053200000000000004,
+   "L": 0.893825,
+   "D": 0.052975,
+   "any_channel_activation": 0.8448749999999999,
+   "per_channel_activation": [
+    0.00135,
+    0.7153,
+    0.729025,
+    0.732675,
+    0.738425,
+    0.8428749999999999,
+    0.7839,
+    0.761175,
+    0.74995
+   ],
+   "winning_channel_share": {
+    "-1": 0.155125,
+    "0": 0.001025,
+    "1": 0.0007,
+    "2": 0.009025,
+    "3": 0.1779,
+    "4": 0.300775,
+    "5": 0.35545
+   },
+   "episode_lengths": {
+    "n": 882,
+    "mean": 38.316326530612244,
+    "median": 2.0,
+    "max": 177
+   },
+   "first_activation_trial": {
+    "n_sessions_with": 200,
+    "median": 22.0,
+    "mean": 21.385
+   }
+  },
+  "no_repeat (repeat=0)": {
+   "n_sessions": 200,
+   "mean_payoff": -0.216175,
+   "se": 0.004284771664404114,
+   "ci95": [
+    -0.22457315246223206,
+    -0.20777684753776796
+   ],
+   "session_sd_payoff": 0.060595821994722375,
+   "mean_expected_payoff": -0.2172545398278444,
+   "session_sd_expected_payoff": 0.04343237556226979,
+   "variance_ratio_expected_over_realized": 0.5137381361774068,
+   "W": 0.2044,
+   "L": 0.420575,
+   "D": 0.375025,
+   "any_channel_activation": 0.835525,
+   "per_channel_activation": [
+    5e-05,
+    0.8317,
+    0.656575,
+    0.32695,
+    0.06205,
+    0.508175,
+    0.045825,
+    0.0033,
+    0.0001
+   ],
+   "winning_channel_share": {
+    "-1": 0.164475,
+    "1": 0.307675,
+    "2": 0.17835,
+    "3": 0.11305,
+    "4": 0.0435,
+    "5": 0.161925,
+    "6": 0.028625,
+    "7": 0.002325,
+    "8": 7.5e-05
+   },
+   "episode_lengths": {
+    "n": 1214,
+    "mean": 27.529654036243823,
+    "median": 1.0,
+    "max": 167
+   },
+   "first_activation_trial": {
+    "n_sessions_with": 200,
+    "median": 22.0,
+    "mean": 23.055
+   }
+  },
+  "low_repeat (repeat=.20)": {
+   "n_sessions": 200,
+   "mean_payoff": -0.023425,
+   "se": 0.004249383268879043,
+   "ci95": [
+    -0.031753791207002925,
+    -0.015096208792997078
+   ],
+   "session_sd_payoff": 0.060095354505700596,
+   "mean_expected_payoff": -0.01961275407160112,
+   "session_sd_expected_payoff": 0.02438673504030439,
+   "variance_ratio_expected_over_realized": 0.1646741826650686,
+   "W": 0.321625,
+   "L": 0.34505,
+   "D": 0.333325,
+   "any_channel_activation": 0.2764,
+   "per_channel_activation": [
+    0.00975,
+    0.22592500000000001,
+    0.073925,
+    0.0188,
+    0.005025,
+    0.063575,
+    0.00295,
+    2.5e-05,
+    0.0
+   ],
+   "winning_channel_share": {
+    "-1": 0.7236,
+    "0": 0.005275,
+    "1": 0.141725,
+    "2": 0.05385,
+    "3": 0.0158,
+    "4": 0.0044,
+    "5": 0.052475,
+    "6": 0.00285,
+    "7": 2.5e-05
+   },
+   "episode_lengths": {
+    "n": 5839,
+    "mean": 1.8934749100873438,
+    "median": 1,
+    "max": 86
+   },
+   "first_activation_trial": {
+    "n_sessions_with": 200,
+    "median": 44.0,
+    "mean": 48.68
+   }
+  }
+ }
+}

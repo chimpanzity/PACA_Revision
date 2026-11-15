@@ -1,0 +1,41 @@
+utc,model,requested_temperature,http_status,error,served_model,provider,finish_reason,choice,response_text,prompt_tokens,completion_tokens,analysis_status
+2026-11-13T03:17:42+00:00,anthropic/claude-opus-4.8,1.0,404,"NotFoundError: Error code: 404 - {'error': {'message': 'No endpoints found that can handle the requested parameters. To learn more about provider routing, visit: https://openrouter.ai/docs/guides/routing/provider-selection', 'code': 404, 'metadata': {'routing_funnel': [{'step': 'Initial Endpoints', 'endpoint_count': 11}, {'step': 'Filter by Regional Surcharge', 'endpoint_count': 6}, {'step': 'Filter by Tier Endpoint Rows', 'endpoint_count': 5, 'reason': 'Excluded tier endpoint rows the request did not opt into'}], 'failed_routing_step': 'Filter by Parameters'}}}",,,,,,,,manipulation_check_not_prespecified
+2026-11-13T03:17:42+00:00,anthropic/claude-opus-4.8,0.0,404,"NotFoundError: Error code: 404 - {'error': {'message': 'No endpoints found that can handle the requested parameters. To learn more about provider routing, visit: https://openrouter.ai/docs/guides/routing/provider-selection', 'code': 404, 'metadata': {'routing_funnel': [{'step': 'Initial Endpoints', 'endpoint_count': 11}, {'step': 'Filter by Regional Surcharge', 'endpoint_count': 6}, {'step': 'Filter by Tier Endpoint Rows', 'endpoint_count': 5, 'reason': 'Excluded tier endpoint rows the request did not opt into'}], 'failed_routing_step': 'Filter by Parameters'}}}",,,,,,,,manipulation_check_not_prespecified
+2026-11-13T03:17:44+00:00,anthropic/claude-sonnet-4.6,1.0,200,,anthropic/claude-sonnet-4.6,Claude Platform on AWS,stop,T,"Looking at this problem, I need to determine where a blue circle will land. Without seeing the actual image, I'll reason based on typical patterns in these types of problems.
+
+Since there's no previous round history to go on, I'll make my initial choice.
+
+TRIANGLE",61,60,manipulation_check_not_prespecified
+2026-11-13T03:17:45+00:00,anthropic/claude-sonnet-4.6,0.0,200,,anthropic/claude-sonnet-4.6,Claude Platform on AWS,stop,S,"Looking at this problem, I need to determine where a blue circle will land. Without seeing an actual image or previous round data, I'll make a choice.
+
+STAR",61,38,manipulation_check_not_prespecified
+2026-11-13T03:17:47+00:00,anthropic/claude-haiku-4.5,1.0,200,,anthropic/claude-haiku-4.5,Amazon Bedrock,stop,T,"I need to analyze where the blue circle will land based on the image.
+
+Looking at the image, I can see a blue circle at the top that appears to be falling or positioned to fall downward. Below it are two shapes - a TRIANGLE and a STAR.
+
+Based on the trajectory and positioning of the blue circle, it appears to be more directly aligned with the TRIANGLE shape below it, rather than the STAR.
+
+TRIANGLE",60,95,manipulation_check_not_prespecified
+2026-11-13T03:17:48+00:00,anthropic/claude-haiku-4.5,0.0,200,,anthropic/claude-haiku-4.5,Amazon Bedrock,stop,T,"I need to analyze where the blue circle will land based on the image.
+
+Looking at the image, I can see a blue circle at the top that appears to be falling or rolling downward. Below it, there are two shapes available as landing options: a TRIANGLE and a STAR.
+
+Based on the trajectory and position of the blue circle, it appears to be positioned directly above or very close to the TRIANGLE shape. The circle's path seems to lead it toward the triangle rather than the star.
+
+TRIANGLE",60,110,manipulation_check_not_prespecified
+2026-11-13T03:17:48+00:00,openai/gpt-5.4,1.0,404,"NotFoundError: Error code: 404 - {'error': {'message': 'No endpoints found that can handle the requested parameters. To learn more about provider routing, visit: https://openrouter.ai/docs/guides/routing/provider-selection', 'code': 404, 'metadata': {'routing_funnel': [{'step': 'Initial Endpoints', 'endpoint_count': 7}, {'step': 'Filter by Regional Surcharge', 'endpoint_count': 4}, {'step': 'Filter by Tier Endpoint Rows', 'endpoint_count': 2, 'reason': 'Excluded tier endpoint rows the request did not opt into'}], 'failed_routing_step': 'Filter by Parameters'}}}",,,,,,,,manipulation_check_not_prespecified
+2026-11-13T03:17:49+00:00,openai/gpt-5.4,0.0,404,"NotFoundError: Error code: 404 - {'error': {'message': 'No endpoints found that can handle the requested parameters. To learn more about provider routing, visit: https://openrouter.ai/docs/guides/routing/provider-selection', 'code': 404, 'metadata': {'routing_funnel': [{'step': 'Initial Endpoints', 'endpoint_count': 7}, {'step': 'Filter by Regional Surcharge', 'endpoint_count': 4}, {'step': 'Filter by Tier Endpoint Rows', 'endpoint_count': 2, 'reason': 'Excluded tier endpoint rows the request did not opt into'}], 'failed_routing_step': 'Filter by Parameters'}}}",,,,,,,,manipulation_check_not_prespecified
+2026-11-13T03:17:49+00:00,openai/gpt-5.4-mini,1.0,404,"NotFoundError: Error code: 404 - {'error': {'message': 'No endpoints found that can handle the requested parameters. To learn more about provider routing, visit: https://openrouter.ai/docs/guides/routing/provider-selection', 'code': 404, 'metadata': {'routing_funnel': [{'step': 'Initial Endpoints', 'endpoint_count': 5}, {'step': 'Filter by Regional Surcharge', 'endpoint_count': 4}, {'step': 'Filter by Tier Endpoint Rows', 'endpoint_count': 2, 'reason': 'Excluded tier endpoint rows the request did not opt into'}], 'failed_routing_step': 'Filter by Parameters'}}}",,,,,,,,manipulation_check_not_prespecified
+2026-11-13T03:17:49+00:00,openai/gpt-5.4-mini,0.0,404,"NotFoundError: Error code: 404 - {'error': {'message': 'No endpoints found that can handle the requested parameters. To learn more about provider routing, visit: https://openrouter.ai/docs/guides/routing/provider-selection', 'code': 404, 'metadata': {'routing_funnel': [{'step': 'Initial Endpoints', 'endpoint_count': 5}, {'step': 'Filter by Regional Surcharge', 'endpoint_count': 4}, {'step': 'Filter by Tier Endpoint Rows', 'endpoint_count': 2, 'reason': 'Excluded tier endpoint rows the request did not opt into'}], 'failed_routing_step': 'Filter by Parameters'}}}",,,,,,,,manipulation_check_not_prespecified
+2026-11-13T03:17:50+00:00,google/gemini-3.1-flash-lite,1.0,200,,google/gemini-3.1-flash-lite,Google,stop,S,"The blue circle is falling into a grid where, based on standard patterns for this type of puzzle, it is positioned to align with the central column. Given the trajectory, it is most likely to land on the shape positioned directly below. 
+
+STAR",52,50,manipulation_check_not_prespecified
+2026-11-13T03:17:50+00:00,google/gemini-3.1-flash-lite,0.0,200,,google/gemini-3.1-flash-lite,Google,stop,T,"The blue circle is positioned above the center of the board, with the triangle and star placed symmetrically below it. Given the standard layout of such puzzles, the triangle is typically positioned to catch the object.
+
+TRIANGLE",52,43,manipulation_check_not_prespecified
+2026-11-13T03:17:52+00:00,google/gemini-3-flash-preview,1.0,200,,google/gemini-3-flash-preview,Google,stop,S,"Since there is no visual context or prior information provided to determine the movement pattern of the blue circle, I will make a selection based on the available options.
+
+STAR",52,33,manipulation_check_not_prespecified
+2026-11-13T03:17:53+00:00,google/gemini-3-flash-preview,0.0,200,,google/gemini-3-flash-preview,Google,stop,S,"Since there is no context or specific rule provided for the first round, I will select a shape to begin.
+
+STAR",52,24,manipulation_check_not_prespecified

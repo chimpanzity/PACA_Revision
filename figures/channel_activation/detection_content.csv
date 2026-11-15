@@ -1,0 +1,57 @@
+prompt,model,category,n_rounds,share_pct,proteus_win_pct,points_taken,shortfall
+minimalist,Sonnet 4.6,none,1051,75.07,50.9,0.68,2.93
+minimalist,Sonnet 4.6,side,1,0.07,0.0,-0.04,2.93
+minimalist,Sonnet 4.6,switch,138,9.86,59.42,0.93,2.93
+minimalist,Sonnet 4.6,repeat,210,15.0,59.05,1.36,2.93
+minimalist,Haiku 4.5,none,905,64.64,47.96,-1.32,0.0
+minimalist,Haiku 4.5,side,24,1.71,45.83,-0.07,0.0
+minimalist,Haiku 4.5,switch,19,1.36,68.42,0.25,0.0
+minimalist,Haiku 4.5,repeat,452,32.29,53.54,1.14,0.0
+minimalist,Gemini 3.1 FL,none,883,63.07,51.98,1.25,4.5
+minimalist,Gemini 3.1 FL,side,40,2.86,42.5,-0.21,4.5
+minimalist,Gemini 3.1 FL,switch,18,1.29,66.67,0.21,4.5
+minimalist,Gemini 3.1 FL,repeat,459,32.79,59.91,3.25,4.5
+minimalist,GPT-5.4,none,602,43.0,50.0,0.0,4.0
+minimalist,GPT-5.4,side,27,1.93,44.44,-0.11,4.0
+minimalist,GPT-5.4,switch,19,1.36,47.37,-0.04,4.0
+minimalist,GPT-5.4,repeat,752,53.71,57.71,4.14,4.0
+minimalist,GPT-5.4-mini,none,808,57.71,47.28,-1.57,0.86
+minimalist,GPT-5.4-mini,side,84,6.0,46.43,-0.21,0.86
+minimalist,GPT-5.4-mini,switch,46,3.29,56.52,0.21,0.86
+minimalist,GPT-5.4-mini,repeat,462,33.0,57.36,2.43,0.86
+minimalist,Opus 4.8,none,294,21.0,51.02,0.21,8.71
+minimalist,Opus 4.8,side,9,0.64,44.44,-0.04,8.71
+minimalist,Opus 4.8,switch,40,2.86,57.5,0.21,8.71
+minimalist,Opus 4.8,repeat,1057,75.5,61.02,8.32,8.71
+minimalist,Gemini 3 FP,none,317,22.64,44.48,-1.25,9.5
+minimalist,Gemini 3 FP,side,17,1.21,41.18,-0.11,9.5
+minimalist,Gemini 3 FP,switch,52,3.71,75.0,0.93,9.5
+minimalist,Gemini 3 FP,repeat,1014,72.43,63.71,9.93,9.5
+informed,Sonnet 4.6,none,157,11.21,56.05,0.68,28.71
+informed,Sonnet 4.6,side,0,0.0,,0.0,28.71
+informed,Sonnet 4.6,switch,1242,88.71,81.56,28.0,28.71
+informed,Sonnet 4.6,repeat,1,0.07,100.0,0.04,28.71
+informed,Haiku 4.5,none,221,15.79,48.87,-0.18,21.71
+informed,Haiku 4.5,side,0,0.0,,0.0,21.71
+informed,Haiku 4.5,switch,1179,84.21,76.0,21.89,21.71
+informed,Haiku 4.5,repeat,0,0.0,,0.0,21.71
+informed,Gemini 3.1 FL,none,205,14.64,52.68,0.39,16.0
+informed,Gemini 3.1 FL,side,1159,82.79,68.25,15.11,16.0
+informed,Gemini 3.1 FL,switch,33,2.36,66.67,0.39,16.0
+informed,Gemini 3.1 FL,repeat,3,0.21,100.0,0.11,16.0
+informed,GPT-5.4,none,192,13.71,48.96,-0.14,15.0
+informed,GPT-5.4,side,1198,85.57,67.53,15.0,15.0
+informed,GPT-5.4,switch,7,0.5,57.14,0.04,15.0
+informed,GPT-5.4,repeat,3,0.21,100.0,0.11,15.0
+informed,GPT-5.4-mini,none,233,16.64,50.21,0.04,8.0
+informed,GPT-5.4-mini,side,1159,82.79,59.62,7.96,8.0
+informed,GPT-5.4-mini,switch,0,0.0,,0.0,8.0
+informed,GPT-5.4-mini,repeat,8,0.57,50.0,0.0,8.0
+informed,Opus 4.8,none,441,31.5,52.38,0.75,12.57
+informed,Opus 4.8,side,295,21.07,71.19,4.46,12.57
+informed,Opus 4.8,switch,656,46.86,65.7,7.36,12.57
+informed,Opus 4.8,repeat,8,0.57,50.0,0.0,12.57
+informed,Gemini 3 FP,none,960,68.57,52.6,1.79,4.79
+informed,Gemini 3 FP,side,0,0.0,,0.0,4.79
+informed,Gemini 3 FP,switch,438,31.29,59.82,3.07,4.79
+informed,Gemini 3 FP,repeat,2,0.14,0.0,-0.07,4.79

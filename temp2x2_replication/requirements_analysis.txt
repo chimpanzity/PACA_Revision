@@ -1,0 +1,4 @@
+# analyze_temp2x2.py environment (installed 12 Nov 2026 into the project .venv, Python 3.14)
+numpy==2.5.4
+pandas==3.1.1
+scipy==1.18.1

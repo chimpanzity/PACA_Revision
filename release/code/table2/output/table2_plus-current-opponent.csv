@@ -1,0 +1,15 @@
+model,frame,own,opp,outcome,current,lag1_median,fit_issues
+Opus 4.8,minimalist,7,7,2,1,1.255007473471516,0
+Opus 4.8,informed,7,1,1,1,-3.6789492145972456,1
+Sonnet 4.6,minimalist,2,7,3,0,0.37602364033536567,0
+Sonnet 4.6,informed,7,1,1,1,-5.346502526186049,3
+Haiku 4.5,minimalist,5,7,0,0,0.08468616990579213,0
+Haiku 4.5,informed,7,2,0,0,-3.401428901564755,0
+GPT-5.4,minimalist,5,7,0,1,0.6617113922366763,0
+GPT-5.4,informed,0,0,0,0,0.044372983443672825,0
+GPT-5.4-mini,minimalist,4,7,1,1,0.3391805015328548,0
+GPT-5.4-mini,informed,1,1,2,0,-0.30792851076469474,0
+Gemini 3.1 FL,minimalist,3,7,0,2,0.708959125816427,0
+Gemini 3.1 FL,informed,6,4,3,1,-1.7897368481323879,1
+Gemini 3 FP,minimalist,6,7,0,1,1.4051983331931615,0
+Gemini 3 FP,informed,5,1,0,0,-1.0569541690757935,0

@@ -1,0 +1,99 @@
+model,family,prompt,session,win_rate,p_triangle,marginal_bias,runs_z,source_file
+Opus 4.8,Anthropic,minimal,1,0.415,0.445,0.055,-4.132,opus_proteus_minimalist_t0p0_s0_20260702-001344.csv
+Opus 4.8,Anthropic,minimal,2,0.420,0.475,0.025,-3.802,opus_proteus_minimalist_t0p0_s1_20260702-002315.csv
+Opus 4.8,Anthropic,minimal,3,0.420,0.475,0.025,-4.797,opus_proteus_minimalist_t0p0_s2_20260702-003231.csv
+Opus 4.8,Anthropic,minimal,4,0.425,0.505,0.005,-4.536,opus_proteus_minimalist_t0p0_s3_20260702-004213.csv
+Opus 4.8,Anthropic,minimal,5,0.400,0.490,0.010,-4.675,opus_proteus_minimalist_t0p0_s4_20260702-005128.csv
+Opus 4.8,Anthropic,minimal,6,0.435,0.470,0.030,-4.502,opus_proteus_minimalist_t0p0_s5_20260702-010110.csv
+Opus 4.8,Anthropic,minimal,7,0.375,0.505,0.005,-3.543,opus_proteus_minimalist_t0p0_s6_20260702-011046.csv
+Opus 4.8,Anthropic,informed,1,0.420,0.410,0.090,7.216,opus_proteus_informed_t0p0_s7_20260702-012100.csv
+Opus 4.8,Anthropic,informed,2,0.390,0.410,0.090,6.923,opus_proteus_informed_t0p0_s8_20260702-012903.csv
+Opus 4.8,Anthropic,informed,3,0.365,0.410,0.090,8.095,opus_proteus_informed_t0p0_s9_20260702-013825.csv
+Opus 4.8,Anthropic,informed,4,0.345,0.395,0.105,7.182,opus_proteus_informed_t0p0_s10_20260702-014638.csv
+Opus 4.8,Anthropic,informed,5,0.350,0.390,0.110,7.428,opus_proteus_informed_t0p0_s11_20260702-015504.csv
+Opus 4.8,Anthropic,informed,6,0.370,0.415,0.085,6.555,opus_proteus_informed_t0p0_s12_20260702-020346.csv
+Opus 4.8,Anthropic,informed,7,0.380,0.415,0.085,6.993,opus_proteus_informed_t0p0_s13_20260702-021142.csv
+Sonnet 4.6,Anthropic,minimal,1,0.480,0.530,0.030,-1.514,sonnet_proteus_minimalist_t0p0_s14_20260702-021942.csv
+Sonnet 4.6,Anthropic,minimal,2,0.535,0.525,0.025,-1.386,sonnet_proteus_minimalist_t0p0_s15_20260702-023941.csv
+Sonnet 4.6,Anthropic,minimal,3,0.415,0.520,0.020,-0.687,sonnet_proteus_minimalist_t0p0_s16_20260702-025734.csv
+Sonnet 4.6,Anthropic,minimal,4,0.485,0.535,0.035,0.070,sonnet_proteus_minimalist_t0p0_s17_20260702-031753.csv
+Sonnet 4.6,Anthropic,minimal,5,0.460,0.555,0.055,0.030,sonnet_proteus_minimalist_t0p0_s18_20260702-033819.csv
+Sonnet 4.6,Anthropic,minimal,6,0.495,0.510,0.010,-0.278,sonnet_proteus_minimalist_t0p0_s19_20260702-035901.csv
+Sonnet 4.6,Anthropic,minimal,7,0.425,0.490,0.010,-0.562,sonnet_proteus_minimalist_t0p0_s20_20260702-041909.csv
+Sonnet 4.6,Anthropic,informed,1,0.180,0.520,0.020,9.963,sonnet_proteus_informed_t0p0_s21_20260702-043857.csv
+Sonnet 4.6,Anthropic,informed,2,0.185,0.520,0.020,10.531,sonnet_proteus_informed_t0p0_s22_20260702-044621.csv
+Sonnet 4.6,Anthropic,informed,3,0.220,0.525,0.025,10.411,sonnet_proteus_informed_t0p0_s23_20260702-045423.csv
+Sonnet 4.6,Anthropic,informed,4,0.220,0.540,0.040,10.651,sonnet_proteus_informed_t0p0_s24_20260702-050155.csv
+Sonnet 4.6,Anthropic,informed,5,0.230,0.515,0.015,10.656,sonnet_proteus_informed_t0p0_s25_20260702-050917.csv
+Sonnet 4.6,Anthropic,informed,6,0.235,0.535,0.035,10.186,sonnet_proteus_informed_t0p0_s26_20260702-051648.csv
+Sonnet 4.6,Anthropic,informed,7,0.220,0.515,0.015,10.230,sonnet_proteus_informed_t0p0_s27_20260702-052440.csv
+Haiku 4.5,Anthropic,minimal,1,0.505,0.510,0.010,-0.845,haiku_proteus_minimalist_t0p0_s28_20260702-053209.csv
+Haiku 4.5,Anthropic,minimal,2,0.500,0.525,0.025,-1.528,haiku_proteus_minimalist_t0p0_s29_20260702-054318.csv
+Haiku 4.5,Anthropic,minimal,3,0.520,0.485,0.015,-0.413,haiku_proteus_minimalist_t0p0_s30_20260702-055404.csv
+Haiku 4.5,Anthropic,minimal,4,0.450,0.480,0.020,-0.261,haiku_proteus_minimalist_t0p0_s31_20260702-060454.csv
+Haiku 4.5,Anthropic,minimal,5,0.515,0.520,0.020,-3.385,haiku_proteus_minimalist_t0p0_s32_20260702-061556.csv
+Haiku 4.5,Anthropic,minimal,6,0.505,0.490,0.010,-1.413,haiku_proteus_minimalist_t0p0_s33_20260702-062703.csv
+Haiku 4.5,Anthropic,minimal,7,0.505,0.500,0.000,-2.268,haiku_proteus_minimalist_t0p0_s34_20260702-063819.csv
+Haiku 4.5,Anthropic,informed,1,0.245,0.470,0.030,9.585,haiku_proteus_informed_t0p0_s35_20260702-064910.csv
+Haiku 4.5,Anthropic,informed,2,0.245,0.465,0.035,9.189,haiku_proteus_informed_t0p0_s36_20260702-065809.csv
+Haiku 4.5,Anthropic,informed,3,0.320,0.465,0.035,7.194,haiku_proteus_informed_t0p0_s37_20260702-070731.csv
+Haiku 4.5,Anthropic,informed,4,0.345,0.495,0.005,6.807,haiku_proteus_informed_t0p0_s38_20260702-071634.csv
+Haiku 4.5,Anthropic,informed,5,0.230,0.475,0.025,10.554,haiku_proteus_informed_t0p0_s39_20260702-072552.csv
+Haiku 4.5,Anthropic,informed,6,0.240,0.465,0.035,9.189,haiku_proteus_informed_t0p0_s40_20260702-073557.csv
+Haiku 4.5,Anthropic,informed,7,0.355,0.485,0.015,7.818,haiku_proteus_informed_t0p0_s41_20260702-074518.csv
+GPT-5.4,OpenAI,minimal,1,0.420,0.465,0.035,-3.350,gpt54_proteus_minimalist_t0p0_s42_20260702-075418.csv
+GPT-5.4,OpenAI,minimal,2,0.470,0.495,0.005,-1.417,gpt54_proteus_minimalist_t0p0_s43_20260702-075821.csv
+GPT-5.4,OpenAI,minimal,3,0.480,0.470,0.030,-4.075,gpt54_proteus_minimalist_t0p0_s44_20260702-080235.csv
+GPT-5.4,OpenAI,minimal,4,0.460,0.465,0.035,-2.637,gpt54_proteus_minimalist_t0p0_s45_20260702-080656.csv
+GPT-5.4,OpenAI,minimal,5,0.485,0.480,0.020,-2.391,gpt54_proteus_minimalist_t0p0_s46_20260702-081112.csv
+GPT-5.4,OpenAI,minimal,6,0.445,0.445,0.055,-3.271,gpt54_proteus_minimalist_t0p0_s47_20260702-081545.csv
+GPT-5.4,OpenAI,minimal,7,0.460,0.475,0.025,-1.102,gpt54_proteus_minimalist_t0p0_s48_20260702-082015.csv
+GPT-5.4,OpenAI,informed,1,0.330,0.255,0.245,-0.185,gpt54_proteus_informed_t0p0_s49_20260702-082502.csv
+GPT-5.4,OpenAI,informed,2,0.335,0.265,0.235,0.563,gpt54_proteus_informed_t0p0_s50_20260702-082836.csv
+GPT-5.4,OpenAI,informed,3,0.315,0.260,0.240,-0.362,gpt54_proteus_informed_t0p0_s51_20260702-083224.csv
+GPT-5.4,OpenAI,informed,4,0.355,0.235,0.265,0.413,gpt54_proteus_informed_t0p0_s52_20260702-083806.csv
+GPT-5.4,OpenAI,informed,5,0.390,0.250,0.250,-0.189,gpt54_proteus_informed_t0p0_s53_20260702-084211.csv
+GPT-5.4,OpenAI,informed,6,0.375,0.265,0.235,0.928,gpt54_proteus_informed_t0p0_s54_20260702-084522.csv
+GPT-5.4,OpenAI,informed,7,0.350,0.295,0.205,-1.227,gpt54_proteus_informed_t0p0_s55_20260702-084922.csv
+GPT-5.4-mini,OpenAI,minimal,1,0.545,0.470,0.030,-2.225,gpt54mini_proteus_minimalist_t0p0_s56_20260702-085259.csv
+GPT-5.4-mini,OpenAI,minimal,2,0.485,0.420,0.080,-0.937,gpt54mini_proteus_minimalist_t0p0_s57_20260702-085613.csv
+GPT-5.4-mini,OpenAI,minimal,3,0.480,0.525,0.025,-2.949,gpt54mini_proteus_minimalist_t0p0_s58_20260702-085918.csv
+GPT-5.4-mini,OpenAI,minimal,4,0.415,0.450,0.050,-2.291,gpt54mini_proteus_minimalist_t0p0_s59_20260702-090238.csv
+GPT-5.4-mini,OpenAI,minimal,5,0.485,0.450,0.050,-0.573,gpt54mini_proteus_minimalist_t0p0_s60_20260702-090546.csv
+GPT-5.4-mini,OpenAI,minimal,6,0.520,0.430,0.070,-1.018,gpt54mini_proteus_minimalist_t0p0_s61_20260702-090904.csv
+GPT-5.4-mini,OpenAI,minimal,7,0.510,0.485,0.015,-1.406,gpt54mini_proteus_minimalist_t0p0_s62_20260702-091241.csv
+GPT-5.4-mini,OpenAI,informed,1,0.400,0.300,0.200,0.845,gpt54mini_proteus_informed_t0p0_s63_20260702-091603.csv
+GPT-5.4-mini,OpenAI,informed,2,0.410,0.325,0.175,0.525,gpt54mini_proteus_informed_t0p0_s64_20260702-091926.csv
+GPT-5.4-mini,OpenAI,informed,3,0.445,0.325,0.175,-1.091,gpt54mini_proteus_informed_t0p0_s65_20260702-092229.csv
+GPT-5.4-mini,OpenAI,informed,4,0.410,0.355,0.145,1.457,gpt54mini_proteus_informed_t0p0_s66_20260702-092550.csv
+GPT-5.4-mini,OpenAI,informed,5,0.430,0.300,0.200,1.183,gpt54mini_proteus_informed_t0p0_s67_20260702-092852.csv
+GPT-5.4-mini,OpenAI,informed,6,0.430,0.305,0.195,1.207,gpt54mini_proteus_informed_t0p0_s68_20260702-093237.csv
+GPT-5.4-mini,OpenAI,informed,7,0.415,0.320,0.180,1.787,gpt54mini_proteus_informed_t0p0_s69_20260702-093610.csv
+Gemini 3.1 FL,Google,minimal,1,0.425,0.435,0.065,-1.054,gemini31fl_proteus_minimalist_t0p0_s70_20260702-093948.csv
+Gemini 3.1 FL,Google,minimal,2,0.515,0.465,0.035,-2.780,gemini31fl_proteus_minimalist_t0p0_s71_20260702-094340.csv
+Gemini 3.1 FL,Google,minimal,3,0.460,0.445,0.055,-1.692,gemini31fl_proteus_minimalist_t0p0_s72_20260702-094718.csv
+Gemini 3.1 FL,Google,minimal,4,0.385,0.505,0.005,-3.827,gemini31fl_proteus_minimalist_t0p0_s73_20260702-095022.csv
+Gemini 3.1 FL,Google,minimal,5,0.460,0.495,0.005,-2.409,gemini31fl_proteus_minimalist_t0p0_s74_20260702-095322.csv
+Gemini 3.1 FL,Google,minimal,6,0.455,0.495,0.005,-1.558,gemini31fl_proteus_minimalist_t0p0_s75_20260702-095626.csv
+Gemini 3.1 FL,Google,minimal,7,0.485,0.465,0.035,-1.782,gemini31fl_proteus_minimalist_t0p0_s76_20260702-095916.csv
+Gemini 3.1 FL,Google,informed,1,0.350,0.260,0.240,2.221,gemini31fl_proteus_informed_t0p0_s77_20260702-100215.csv
+Gemini 3.1 FL,Google,informed,2,0.310,0.245,0.255,2.113,gemini31fl_proteus_informed_t0p0_s78_20260702-100459.csv
+Gemini 3.1 FL,Google,informed,3,0.345,0.260,0.240,2.959,gemini31fl_proteus_informed_t0p0_s79_20260702-100735.csv
+Gemini 3.1 FL,Google,informed,4,0.455,0.295,0.205,2.185,gemini31fl_proteus_informed_t0p0_s80_20260702-101008.csv
+Gemini 3.1 FL,Google,informed,5,0.260,0.230,0.270,3.642,gemini31fl_proteus_informed_t0p0_s81_20260702-101241.csv
+Gemini 3.1 FL,Google,informed,6,0.345,0.260,0.240,2.959,gemini31fl_proteus_informed_t0p0_s82_20260702-101518.csv
+Gemini 3.1 FL,Google,informed,7,0.315,0.245,0.255,2.881,gemini31fl_proteus_informed_t0p0_s83_20260702-101758.csv
+Gemini 3 FP,Google,minimal,1,0.430,0.475,0.025,-3.660,gemini3fp_proteus_minimalist_t0p0_s84_20260702-102034.csv
+Gemini 3 FP,Google,minimal,2,0.440,0.480,0.020,-5.090,gemini3fp_proteus_minimalist_t0p0_s85_20260702-102631.csv
+Gemini 3 FP,Google,minimal,3,0.350,0.500,0.000,-4.112,gemini3fp_proteus_minimalist_t0p0_s86_20260702-103234.csv
+Gemini 3 FP,Google,minimal,4,0.435,0.490,0.010,-3.115,gemini3fp_proteus_minimalist_t0p0_s87_20260702-103830.csv
+Gemini 3 FP,Google,minimal,5,0.360,0.480,0.020,-4.379,gemini3fp_proteus_minimalist_t0p0_s88_20260702-104424.csv
+Gemini 3 FP,Google,minimal,6,0.390,0.510,0.010,-5.384,gemini3fp_proteus_minimalist_t0p0_s89_20260702-105033.csv
+Gemini 3 FP,Google,minimal,7,0.430,0.505,0.005,-2.125,gemini3fp_proteus_minimalist_t0p0_s90_20260702-105725.csv
+Gemini 3 FP,Google,informed,1,0.445,0.440,0.060,4.523,gemini3fp_proteus_informed_t0p0_s91_20260702-110453.csv
+Gemini 3 FP,Google,informed,2,0.415,0.495,0.005,2.554,gemini3fp_proteus_informed_t0p0_s92_20260702-111020.csv
+Gemini 3 FP,Google,informed,3,0.455,0.485,0.015,2.425,gemini3fp_proteus_informed_t0p0_s93_20260702-111512.csv
+Gemini 3 FP,Google,informed,4,0.475,0.475,0.025,2.168,gemini3fp_proteus_informed_t0p0_s94_20260702-112037.csv
+Gemini 3 FP,Google,informed,5,0.460,0.490,0.010,3.126,gemini3fp_proteus_informed_t0p0_s95_20260702-112804.csv
+Gemini 3 FP,Google,informed,6,0.475,0.470,0.030,4.320,gemini3fp_proteus_informed_t0p0_s96_20260702-113309.csv
+Gemini 3 FP,Google,informed,7,0.440,0.465,0.035,4.629,gemini3fp_proteus_informed_t0p0_s97_20260702-113800.csv

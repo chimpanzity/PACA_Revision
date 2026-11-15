@@ -1,0 +1,93 @@
+PACA role-contrast PILOT  run_id=582a90d2-e7d1-4d26-861f-45be2c21d370
+  config sha256 41c9e71ecaff339b  schedule sha256 2fa21c569e145b58  harness ae3ce14 (role_contrast/ has uncommitted changes)  -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_role_contrast_v1_pilot
+=== Claude Sonnet 4.6 [Anthropic] block order [2, 3, 4, 1] (rot1), temperature applied
+[sonnet s9017 MI block2.1] seed=919554393 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_role_contrast_v1_pilot\sonnet\sonnet_roleproteus_MI_t0p0_s9017_20261114-215321.csv
+  t001 you=T circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  t002 you=S circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t003 you=S circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t004 you=T circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  t005 you=S circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t006 you=S circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t007 you=T circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  t008 you=S circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t009 you=T circle=T WIN  | act=0 ch=-1 pred=- random_no_detection
+  t010 you=S circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t011 you=T circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  t012 you=S circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t013 you=T circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  t014 you=S circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t015 you=T circle=T WIN  | act=0 ch=-1 pred=- random_no_detection
+  t016 you=S circle=T LOSS | act=1 ch=1 pred=S exploit
+  t017 you=T circle=T WIN  | act=0 ch=-1 pred=- random_no_detection
+  t018 you=T circle=T WIN  | act=2 ch=1 pred=S exploit
+  t019 you=S circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t020 you=T circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  ok: 20/20 win_rate=0.500 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_role_contrast_v1_pilot\sonnet\sonnet_roleproteus_MI_t0p0_s9017_20261114-215321.csv
+[sonnet s9018 MM block2.2] seed=919554393 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_role_contrast_v1_pilot\sonnet\sonnet_roleproteus_MM_t0p0_s9018_20261114-215342.csv
+  t001 you=S circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t002 you=T circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  t003 you=S circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t004 you=S circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t005 you=S circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t006 you=S circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t007 you=S circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t008 you=S circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t009 you=S circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t010 you=S circle=T LOSS | act=1 ch=0 pred=S exploit
+  t011 you=T circle=T WIN  | act=2 ch=2 pred=S exploit
+  t012 you=T circle=T WIN  | act=0 ch=-1 pred=- random_no_detection
+  t013 you=T circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  t014 you=T circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  t015 you=S circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t016 you=T circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  t017 you=T circle=T WIN  | act=0 ch=-1 pred=- random_no_detection
+  t018 you=S circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t019 you=T circle=T WIN  | act=0 ch=-1 pred=- random_no_detection
+  t020 you=S circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  ok: 20/20 win_rate=0.600 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_role_contrast_v1_pilot\sonnet\sonnet_roleproteus_MM_t0p0_s9018_20261114-215342.csv
+[sonnet s9019 XI block2.3] seed=919554393 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_role_contrast_v1_pilot\sonnet\sonnet_roleproteus_XI_t0p0_s9019_20261114-215443.csv
+  t001 you=T circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t002 you=S circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  t003 you=T circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t004 you=S circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  t005 you=T circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t006 you=T circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t007 you=S circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  t008 you=T circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t009 you=S circle=T WIN  | act=0 ch=-1 pred=- random_no_detection
+  t010 you=T circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t011 you=S circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  t012 you=T circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t013 you=S circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  t014 you=T circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t015 you=S circle=T WIN  | act=0 ch=-1 pred=- random_no_detection
+  t016 you=T circle=T LOSS | act=2 ch=1 pred=T exploit
+  t017 you=S circle=T WIN  | act=0 ch=-1 pred=- random_no_detection
+  t018 you=T circle=T LOSS | act=2 ch=1 pred=T exploit
+  t019 you=S circle=S LOSS | act=1 ch=1 pred=S exploit
+  t020 you=T circle=T LOSS | act=4 ch=1 pred=T exploit
+  ok: 20/20 win_rate=0.450 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_role_contrast_v1_pilot\sonnet\sonnet_roleproteus_XI_t0p0_s9019_20261114-215443.csv
+[sonnet s9020 XM block2.4] seed=919554393 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_role_contrast_v1_pilot\sonnet\sonnet_roleproteus_XM_t0p0_s9020_20261114-215503.csv
+  t001 you=S circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  t002 you=T circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t003 you=S circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  t004 you=T circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t005 you=T circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t006 you=T circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t007 you=T circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t008 you=T circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t009 you=T circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t010 you=T circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t011 you=T circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t012 you=S circle=T WIN  | act=1 ch=2 pred=T exploit
+  t013 you=T circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t014 you=T circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t015 you=T circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t016 you=T circle=T LOSS | act=1 ch=0 pred=T exploit
+  t017 you=S circle=T WIN  | act=3 ch=2 pred=T exploit
+  t018 you=T circle=S WIN  | act=1 ch=0 pred=T mercy
+  t019 you=T circle=T LOSS | act=1 ch=0 pred=T exploit
+  t020 you=S circle=T WIN  | act=1 ch=0 pred=T exploit
+  ok: 20/20 win_rate=0.650 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_role_contrast_v1_pilot\sonnet\sonnet_roleproteus_XM_t0p0_s9020_20261114-215503.csv
+
+DONE run_id=582a90d2-e7d1-4d26-861f-45be2c21d370 ran=4 skipped=0 stopped=[] -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_role_contrast_v1_pilot

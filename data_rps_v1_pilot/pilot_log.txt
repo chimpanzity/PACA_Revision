@@ -1,0 +1,319 @@
+﻿PACA-RPS PILOT  run_id=864905b4-c7ae-40a7-a71e-3988082b1789
+  config sha256 9dfb3b5b3b182b3c  schedule sha256 ecdbcab2dc4963f2  harness 12f4a0e (rps/ has uncommitted changes)  -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_rps_v1_pilot
+=== Claude Opus 4.8 [Anthropic] temp seq A, prompt seq A
+[opus s9003 minimalist T=1.0] seed=1855832306 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_rps_v1_pilot\opus\opus_rpsproteus_minimalist_t1p0_s9003_20261114-001808.csv
+  t001 you=R opp=P L cum=-1 | act=0 ch=-1 g= random_no_detection
+  t002 you=S opp=R L cum=-2 | act=0 ch=-1 g= random_no_detection
+  t003 you=R opp=S W cum=-1 | act=0 ch=-1 g= random_no_detection
+  t004 you=S opp=P W cum=+0 | act=0 ch=-1 g= random_no_detection
+  t005 you=P opp=R W cum=+1 | act=0 ch=-1 g= random_no_detection
+  t006 you=R opp=R D cum=+1 | act=0 ch=-1 g= random_no_detection
+  t007 you=P opp=S L cum=+0 | act=0 ch=-1 g= random_no_detection
+  t008 you=S opp=P W cum=+1 | act=0 ch=-1 g= random_no_detection
+  t009 you=P opp=R W cum=+2 | act=0 ch=-1 g= random_no_detection
+  t010 you=P opp=R W cum=+3 | act=0 ch=-1 g= random_no_detection
+  t011 you=P opp=S L cum=+2 | act=0 ch=-1 g= random_no_detection
+  t012 you=S opp=R L cum=+1 | act=0 ch=-1 g= random_no_detection
+  t013 you=P opp=P D cum=+1 | act=0 ch=-1 g= random_no_detection
+  t014 you=P opp=S L cum=+0 | act=0 ch=-1 g= random_no_detection
+  t015 you=P opp=R W cum=+1 | act=0 ch=-1 g= random_no_detection
+  t016 you=P opp=S L cum=+0 | act=0 ch=-1 g= random_no_detection
+  t017 you=P opp=S L cum=-1 | act=0 ch=-1 g= random_no_detection
+  t018 you=R opp=R D cum=-1 | act=0 ch=-1 g= random_no_detection
+  t019 you=P opp=R W cum=+0 | act=0 ch=-1 g= random_no_detection
+  t020 you=P opp=P D cum=+0 | act=0 ch=-1 g= random_no_detection
+  ok: 20/20 payoff/round=+0.000 W/L/D=8/8/4 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_rps_v1_pilot\opus\opus_rpsproteus_minimalist_t1p0_s9003_20261114-001808.csv
+[opus s9004 informed T=1.0] seed=1855832306 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_rps_v1_pilot\opus\opus_rpsproteus_informed_t1p0_s9004_20261114-001859.csv
+  t001 you=P opp=P D cum=+0 | act=0 ch=-1 g= random_no_detection
+  t002 you=S opp=R L cum=-1 | act=0 ch=-1 g= random_no_detection
+  t003 you=R opp=S W cum=+0 | act=0 ch=-1 g= random_no_detection
+  t004 you=S opp=P W cum=+1 | act=0 ch=-1 g= random_no_detection
+  t005 you=R opp=R D cum=+1 | act=0 ch=-1 g= random_no_detection
+  t006 you=P opp=R W cum=+2 | act=0 ch=-1 g= random_no_detection
+  t007 you=P opp=S L cum=+1 | act=0 ch=-1 g= random_no_detection
+  t008 you=S opp=P W cum=+2 | act=0 ch=-1 g= random_no_detection
+  t009 you=R opp=R D cum=+2 | act=0 ch=-1 g= random_no_detection
+  t010 you=S opp=R L cum=+1 | act=0 ch=-1 g= random_no_detection
+  t011 you=R opp=S W cum=+2 | act=0 ch=-1 g= random_no_detection
+  t012 you=P opp=R W cum=+3 | act=0 ch=-1 g= random_no_detection
+  t013 you=S opp=P W cum=+4 | act=0 ch=-1 g= random_no_detection
+  t014 you=P opp=P D cum=+4 | act=1 ch=1 g=1.00 exploit
+  t015 you=R opp=R D cum=+4 | act=0 ch=-1 g= random_no_detection
+  t016 you=S opp=S D cum=+4 | act=0 ch=-1 g= random_no_detection
+  t017 you=R opp=S W cum=+5 | act=0 ch=-1 g= random_no_detection
+  t018 you=P opp=R W cum=+6 | act=0 ch=-1 g= random_no_detection
+  t019 you=S opp=R L cum=+5 | act=0 ch=-1 g= random_no_detection
+  t020 you=P opp=P D cum=+5 | act=0 ch=-1 g= random_no_detection
+  ok: 20/20 payoff/round=+0.250 W/L/D=9/4/7 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_rps_v1_pilot\opus\opus_rpsproteus_informed_t1p0_s9004_20261114-001859.csv
+=== Claude Sonnet 4.6 [Anthropic] temp seq B, prompt seq B
+[sonnet s9017 minimalist T=1.0] seed=622958622 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_rps_v1_pilot\sonnet\sonnet_rpsproteus_minimalist_t1p0_s9017_20261114-001925.csv
+  t001 you=R opp=R D cum=+0 | act=0 ch=-1 g= random_no_detection
+  t002 you=P opp=R W cum=+1 | act=0 ch=-1 g= random_no_detection
+  t003 you=P opp=P D cum=+1 | act=0 ch=-1 g= random_no_detection
+  t004 you=S opp=R L cum=+0 | act=0 ch=-1 g= random_no_detection
+  t005 you=P opp=R W cum=+1 | act=0 ch=-1 g= random_no_detection
+  t006 you=P opp=R W cum=+2 | act=0 ch=-1 g= random_no_detection
+  t007 you=P opp=P D cum=+2 | act=0 ch=-1 g= random_no_detection
+  t008 you=P opp=R W cum=+3 | act=0 ch=-1 g= random_no_detection
+  t009 you=P opp=S L cum=+2 | act=0 ch=-1 g= random_no_detection
+  t010 you=R opp=S W cum=+3 | act=1 ch=0 g=0.67 exploit
+  t011 you=R opp=R D cum=+3 | act=0 ch=-1 g= random_no_detection
+  t012 you=P opp=P D cum=+3 | act=0 ch=-1 g= random_no_detection
+  t013 you=P opp=R W cum=+4 | act=0 ch=-1 g= random_no_detection
+  t014 you=P opp=S L cum=+3 | act=2 ch=5 g=1.00 exploit
+  t015 you=P opp=S L cum=+2 | act=2 ch=1 g=0.67 exploit
+  t016 you=P opp=S L cum=+1 | act=2 ch=1 g=0.70 exploit
+  t017 you=R opp=S W cum=+2 | act=2 ch=1 g=0.73 exploit
+  t018 you=P opp=S L cum=+1 | act=1 ch=0 g=0.47 exploit
+  t019 you=R opp=S W cum=+2 | act=2 ch=1 g=0.58 exploit
+  t020 you=R opp=S W cum=+3 | act=1 ch=0 g=0.42 exploit
+  ok: 20/20 payoff/round=+0.150 W/L/D=9/6/5 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_rps_v1_pilot\sonnet\sonnet_rpsproteus_minimalist_t1p0_s9017_20261114-001925.csv
+[sonnet s9018 informed T=1.0] seed=622958622 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_rps_v1_pilot\sonnet\sonnet_rpsproteus_informed_t1p0_s9018_20261114-002021.csv
+  t001 you=R opp=R D cum=+0 | act=0 ch=-1 g= random_no_detection
+  t002 you=P opp=R W cum=+1 | act=0 ch=-1 g= random_no_detection
+  t003 you=S opp=P W cum=+2 | act=0 ch=-1 g= random_no_detection
+  t004 you=R opp=R D cum=+2 | act=0 ch=-1 g= random_no_detection
+  t005 you=P opp=R W cum=+3 | act=0 ch=-1 g= random_no_detection
+  t006 you=S opp=R L cum=+2 | act=0 ch=-1 g= random_no_detection
+  t007 you=R opp=P L cum=+1 | act=0 ch=-1 g= random_no_detection
+  t008 you=P opp=R W cum=+2 | act=0 ch=-1 g= random_no_detection
+  t009 you=S opp=S D cum=+2 | act=0 ch=-1 g= random_no_detection
+  t010 you=R opp=S W cum=+3 | act=0 ch=-1 g= random_no_detection
+  t011 you=P opp=R W cum=+4 | act=0 ch=-1 g= random_no_detection
+  t012 you=R opp=P L cum=+3 | act=0 ch=-1 g= random_no_detection
+  t013 you=S opp=S D cum=+3 | act=1 ch=1 g=1.00 exploit
+  t014 you=P opp=S L cum=+2 | act=0 ch=-1 g= random_no_detection
+  t015 you=S opp=S D cum=+2 | act=0 ch=-1 g= random_no_detection
+  t016 you=R opp=S W cum=+3 | act=0 ch=-1 g= random_no_detection
+  t017 you=P opp=S L cum=+2 | act=0 ch=-1 g= random_no_detection
+  t018 you=S opp=S D cum=+2 | act=0 ch=-1 g= random_no_detection
+  t019 you=R opp=P L cum=+1 | act=1 ch=2 g=1.00 exploit
+  t020 you=P opp=S L cum=+0 | act=2 ch=2 g=1.00 exploit
+  ok: 20/20 payoff/round=+0.000 W/L/D=7/7/6 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_rps_v1_pilot\sonnet\sonnet_rpsproteus_informed_t1p0_s9018_20261114-002021.csv
+=== Claude Haiku 4.5 [Anthropic] temp seq B, prompt seq A
+[haiku s9033 informed T=1.0] seed=1599513300 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_rps_v1_pilot\haiku\haiku_rpsproteus_informed_t1p0_s9033_20261114-002044.csv
+  t001 you=R opp=P L cum=-1 | act=0 ch=-1 g= random_no_detection
+  t002 you=P opp=R W cum=+0 | act=0 ch=-1 g= random_no_detection
+  t003 you=S opp=S D cum=+0 | act=0 ch=-1 g= random_no_detection
+  t004 you=R opp=P L cum=-1 | act=0 ch=-1 g= random_no_detection
+  t005 you=P opp=R W cum=+0 | act=0 ch=-1 g= random_no_detection
+  t006 you=S opp=R L cum=-1 | act=0 ch=-1 g= random_no_detection
+  t007 you=P opp=S L cum=-2 | act=0 ch=-1 g= random_no_detection
+  t008 you=P opp=P D cum=-2 | act=0 ch=-1 g= random_no_detection
+  t009 you=R opp=P L cum=-3 | act=0 ch=-1 g= random_no_detection
+  t010 you=R opp=S W cum=-2 | act=0 ch=-1 g= random_no_detection
+  t011 you=P opp=R W cum=-1 | act=0 ch=-1 g= random_no_detection
+  t012 you=S opp=P W cum=+0 | act=0 ch=-1 g= random_no_detection
+  t013 you=R opp=P L cum=-1 | act=0 ch=-1 g= random_no_detection
+  t014 you=P opp=P D cum=-1 | act=0 ch=-1 g= random_no_detection
+  t015 you=S opp=S D cum=-1 | act=0 ch=-1 g= random_no_detection
+  t016 you=P opp=S L cum=-2 | act=0 ch=-1 g= random_no_detection
+  t017 you=R opp=P L cum=-3 | act=0 ch=-1 g= random_no_detection
+  t018 you=P opp=P D cum=-3 | act=0 ch=-1 g= random_no_detection
+  t019 you=R opp=R D cum=-3 | act=1 ch=2 g=1.00 exploit
+  t020 you=S opp=P W cum=-2 | act=0 ch=-1 g= random_no_detection
+  ok: 20/20 payoff/round=-0.100 W/L/D=6/8/6 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_rps_v1_pilot\haiku\haiku_rpsproteus_informed_t1p0_s9033_20261114-002044.csv
+[haiku s9034 minimalist T=1.0] seed=1599513300 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_rps_v1_pilot\haiku\haiku_rpsproteus_minimalist_t1p0_s9034_20261114-002119.csv
+  t001 you=R opp=P L cum=-1 | act=0 ch=-1 g= random_no_detection
+  t002 you=S opp=R L cum=-2 | act=0 ch=-1 g= random_no_detection
+  t003 you=R opp=S W cum=-1 | act=0 ch=-1 g= random_no_detection
+  t004 you=P opp=P D cum=-1 | act=0 ch=-1 g= random_no_detection
+  t005 you=P opp=R W cum=+0 | act=0 ch=-1 g= random_no_detection
+  t006 you=R opp=R D cum=+0 | act=0 ch=-1 g= random_no_detection
+  t007 you=P opp=S L cum=-1 | act=0 ch=-1 g= random_no_detection
+  t008 you=P opp=P D cum=-1 | act=0 ch=-1 g= random_no_detection
+  t009 you=P opp=P D cum=-1 | act=0 ch=-1 g= random_no_detection
+  t010 you=S opp=S D cum=-1 | act=0 ch=-1 g= random_no_detection
+  t011 you=R opp=R D cum=-1 | act=0 ch=-1 g= random_no_detection
+  t012 you=P opp=P D cum=-1 | act=0 ch=-1 g= random_no_detection
+  t013 you=P opp=P D cum=-1 | act=0 ch=-1 g= random_no_detection
+  t014 you=S opp=P W cum=+0 | act=0 ch=-1 g= random_no_detection
+  t015 you=S opp=S D cum=+0 | act=0 ch=-1 g= random_no_detection
+  t016 you=R opp=S W cum=+1 | act=0 ch=-1 g= random_no_detection
+  t017 you=S opp=P W cum=+2 | act=0 ch=-1 g= random_no_detection
+  t018 you=S opp=P W cum=+3 | act=0 ch=-1 g= random_no_detection
+  t019 you=S opp=P W cum=+4 | act=0 ch=-1 g= random_no_detection
+  t020 you=S opp=P W cum=+5 | act=0 ch=-1 g= random_no_detection
+  ok: 20/20 payoff/round=+0.250 W/L/D=8/3/9 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_rps_v1_pilot\haiku\haiku_rpsproteus_minimalist_t1p0_s9034_20261114-002119.csv
+=== GPT-5.4 [OpenAI] temp seq A, prompt seq B
+[gpt54 s9051 informed T=1.0] seed=1232998649 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_rps_v1_pilot\gpt54\gpt54_rpsproteus_informed_t1p0_s9051_20261114-002202.csv
+  t001 you=S opp=S D cum=+0 | act=0 ch=-1 g= random_no_detection
+  t002 you=S opp=R L cum=-1 | act=0 ch=-1 g= random_no_detection
+  t003 you=S opp=S D cum=-1 | act=0 ch=-1 g= random_no_detection
+  t004 you=S opp=S D cum=-1 | act=0 ch=-1 g= random_no_detection
+  t005 you=S opp=R L cum=-2 | act=1 ch=0 g=1.00 exploit
+  t006 you=R opp=R D cum=-2 | act=2 ch=0 g=1.00 exploit
+  t007 you=S opp=S D cum=-2 | act=0 ch=-1 g= random_no_detection
+  t008 you=S opp=R L cum=-3 | act=1 ch=0 g=0.86 exploit
+  t009 you=P opp=R W cum=-2 | act=1 ch=0 g=0.88 exploit
+  t010 you=R opp=R D cum=-2 | act=1 ch=0 g=0.67 exploit
+  t011 you=S opp=R L cum=-3 | act=0 ch=-1 g= random_no_detection
+  t012 you=R opp=R D cum=-3 | act=1 ch=0 g=0.64 exploit
+  t013 you=S opp=P W cum=-2 | act=0 ch=-1 g= random_no_detection
+  t014 you=S opp=R L cum=-3 | act=1 ch=0 g=0.62 exploit
+  t015 you=S opp=R L cum=-4 | act=1 ch=0 g=0.64 exploit
+  t016 you=R opp=R D cum=-4 | act=1 ch=0 g=0.67 exploit
+  t017 you=S opp=R L cum=-5 | act=1 ch=0 g=0.62 exploit
+  t018 you=S opp=R L cum=-6 | act=1 ch=0 g=0.65 exploit
+  t019 you=S opp=R L cum=-7 | act=1 ch=0 g=0.67 exploit
+  t020 you=P opp=R W cum=-6 | act=2 ch=0 g=0.68 exploit
+  ok: 20/20 payoff/round=-0.300 W/L/D=3/9/8 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_rps_v1_pilot\gpt54\gpt54_rpsproteus_informed_t1p0_s9051_20261114-002202.csv
+[gpt54 s9052 minimalist T=1.0] seed=1232998649 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_rps_v1_pilot\gpt54\gpt54_rpsproteus_minimalist_t1p0_s9052_20261114-002218.csv
+  t001 you=P opp=S L cum=-1 | act=0 ch=-1 g= random_no_detection
+  t002 you=S opp=R L cum=-2 | act=0 ch=-1 g= random_no_detection
+  t003 you=P opp=S L cum=-3 | act=0 ch=-1 g= random_no_detection
+  t004 you=R opp=S W cum=-2 | act=0 ch=-1 g= random_no_detection
+  t005 you=R opp=S W cum=-1 | act=0 ch=-1 g= random_no_detection
+  t006 you=R opp=S W cum=+0 | act=0 ch=-1 g= random_no_detection
+  t007 you=R opp=S W cum=+1 | act=0 ch=-1 g= random_no_detection
+  t008 you=R opp=S W cum=+2 | act=0 ch=-1 g= random_no_detection
+  t009 you=R opp=P L cum=+1 | act=2 ch=1 g=1.00 exploit
+  t010 you=S opp=P W cum=+2 | act=2 ch=1 g=1.00 exploit
+  t011 you=S opp=R L cum=+1 | act=0 ch=-1 g= random_no_detection
+  t012 you=P opp=R W cum=+2 | act=0 ch=-1 g= random_no_detection
+  t013 you=P opp=P D cum=+2 | act=0 ch=-1 g= random_no_detection
+  t014 you=S opp=P W cum=+3 | act=0 ch=-1 g= random_no_detection
+  t015 you=S opp=R L cum=+2 | act=0 ch=-1 g= random_no_detection
+  t016 you=P opp=R W cum=+3 | act=0 ch=-1 g= random_no_detection
+  t017 you=P opp=P D cum=+3 | act=0 ch=-1 g= random_no_detection
+  t018 you=S opp=R L cum=+2 | act=0 ch=-1 g= random_no_detection
+  t019 you=S opp=R L cum=+1 | act=0 ch=-1 g= random_no_detection
+  t020 you=P opp=R W cum=+2 | act=0 ch=-1 g= random_no_detection
+  ok: 20/20 payoff/round=+0.100 W/L/D=10/8/2 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_rps_v1_pilot\gpt54\gpt54_rpsproteus_minimalist_t1p0_s9052_20261114-002218.csv
+=== GPT-5.4-mini [OpenAI] temp seq B, prompt seq A
+[gpt54mini s9065 informed T=1.0] seed=169840981 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_rps_v1_pilot\gpt54mini\gpt54mini_rpsproteus_informed_t1p0_s9065_20261114-002242.csv
+  t001 you=P opp=S L cum=-1 | act=0 ch=-1 g= random_no_detection
+  t002 you=R opp=P L cum=-2 | act=0 ch=-1 g= random_no_detection
+  t003 you=S opp=P W cum=-1 | act=0 ch=-1 g= random_no_detection
+  t004 you=S opp=R L cum=-2 | act=0 ch=-1 g= random_no_detection
+  t005 you=S opp=R L cum=-3 | act=0 ch=-1 g= random_no_detection
+  t006 you=R opp=R D cum=-3 | act=0 ch=-1 g= random_no_detection
+  t007 you=P opp=P D cum=-3 | act=0 ch=-1 g= random_no_detection
+  t008 you=P opp=S L cum=-4 | act=0 ch=-1 g= random_no_detection
+  t009 you=P opp=R W cum=-3 | act=0 ch=-1 g= random_no_detection
+  t010 you=S opp=R L cum=-4 | act=0 ch=-1 g= random_no_detection
+  t011 you=S opp=R L cum=-5 | act=0 ch=-1 g= random_no_detection
+  t012 you=R opp=S W cum=-4 | act=0 ch=-1 g= random_no_detection
+  t013 you=R opp=R D cum=-4 | act=0 ch=-1 g= random_no_detection
+  t014 you=S opp=R L cum=-5 | act=0 ch=-1 g= random_no_detection
+  t015 you=S opp=P W cum=-4 | act=0 ch=-1 g= random_no_detection
+  t016 you=P opp=P D cum=-4 | act=0 ch=-1 g= random_no_detection
+  t017 you=P opp=R W cum=-3 | act=0 ch=-1 g= random_no_detection
+  t018 you=S opp=P W cum=-2 | act=0 ch=-1 g= random_no_detection
+  t019 you=R opp=R D cum=-2 | act=0 ch=-1 g= random_no_detection
+  t020 you=R opp=R D cum=-2 | act=0 ch=-1 g= random_no_detection
+  ok: 20/20 payoff/round=-0.100 W/L/D=6/8/6 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_rps_v1_pilot\gpt54mini\gpt54mini_rpsproteus_informed_t1p0_s9065_20261114-002242.csv
+[gpt54mini s9066 minimalist T=1.0] seed=169840981 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_rps_v1_pilot\gpt54mini\gpt54mini_rpsproteus_minimalist_t1p0_s9066_20261114-002259.csv
+  t001 you=R opp=S W cum=+1 | act=0 ch=-1 g= random_no_detection
+  t002 you=P opp=P D cum=+1 | act=0 ch=-1 g= random_no_detection
+  t003 you=S opp=P W cum=+2 | act=0 ch=-1 g= random_no_detection
+  t004 you=S opp=R L cum=+1 | act=0 ch=-1 g= random_no_detection
+  t005 you=P opp=R W cum=+2 | act=0 ch=-1 g= random_no_detection
+  t006 you=S opp=R L cum=+1 | act=0 ch=-1 g= random_no_detection
+  t007 you=R opp=P L cum=+0 | act=0 ch=-1 g= random_no_detection
+  t008 you=R opp=S W cum=+1 | act=0 ch=-1 g= random_no_detection
+  t009 you=P opp=R W cum=+2 | act=0 ch=-1 g= random_no_detection
+  t010 you=P opp=R W cum=+3 | act=0 ch=-1 g= random_no_detection
+  t011 you=P opp=R W cum=+4 | act=0 ch=-1 g= random_no_detection
+  t012 you=P opp=S L cum=+3 | act=0 ch=-1 g= random_no_detection
+  t013 you=R opp=R D cum=+3 | act=0 ch=-1 g= random_no_detection
+  t014 you=P opp=R W cum=+4 | act=0 ch=-1 g= random_no_detection
+  t015 you=P opp=P D cum=+4 | act=0 ch=-1 g= random_no_detection
+  t016 you=S opp=P W cum=+5 | act=0 ch=-1 g= random_no_detection
+  t017 you=R opp=R D cum=+5 | act=0 ch=-1 g= random_no_detection
+  t018 you=P opp=P D cum=+5 | act=0 ch=-1 g= random_no_detection
+  t019 you=S opp=R L cum=+4 | act=0 ch=-1 g= random_no_detection
+  t020 you=P opp=R W cum=+5 | act=0 ch=-1 g= random_no_detection
+  ok: 20/20 payoff/round=+0.250 W/L/D=10/5/5 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_rps_v1_pilot\gpt54mini\gpt54mini_rpsproteus_minimalist_t1p0_s9066_20261114-002259.csv
+=== Gemini 3.1 Flash Lite [Google] temp seq B, prompt seq B
+[gemini31fl s9081 minimalist T=1.0] seed=1007852732 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_rps_v1_pilot\gemini31fl\gemini31fl_rpsproteus_minimalist_t1p0_s9081_20261114-002314.csv
+  t001 you=P opp=R W cum=+1 | act=0 ch=-1 g= random_no_detection
+  t002 you=P opp=P D cum=+1 | act=0 ch=-1 g= random_no_detection
+  t003 you=S opp=R L cum=+0 | act=0 ch=-1 g= random_no_detection
+  t004 you=P opp=P D cum=+0 | act=0 ch=-1 g= random_no_detection
+  t005 you=P opp=S L cum=-1 | act=0 ch=-1 g= random_no_detection
+  t006 you=R opp=S W cum=+0 | act=0 ch=-1 g= random_no_detection
+  t007 you=R opp=R D cum=+0 | act=0 ch=-1 g= random_no_detection
+  t008 you=P opp=R W cum=+1 | act=0 ch=-1 g= random_no_detection
+  t009 you=P opp=P D cum=+1 | act=0 ch=-1 g= random_no_detection
+  t010 you=S opp=P W cum=+2 | act=0 ch=-1 g= random_no_detection
+  t011 you=S opp=R L cum=+1 | act=0 ch=-1 g= random_no_detection
+  t012 you=P opp=S L cum=+0 | act=0 ch=-1 g= random_no_detection
+  t013 you=R opp=S W cum=+1 | act=0 ch=-1 g= random_no_detection
+  t014 you=R opp=P L cum=+0 | act=0 ch=-1 g= random_no_detection
+  t015 you=S opp=S D cum=+0 | act=0 ch=-1 g= random_no_detection
+  t016 you=R opp=S W cum=+1 | act=0 ch=-1 g= random_no_detection
+  t017 you=R opp=R D cum=+1 | act=0 ch=-1 g= random_no_detection
+  t018 you=P opp=P D cum=+1 | act=0 ch=-1 g= random_no_detection
+  t019 you=S opp=R L cum=+0 | act=0 ch=-1 g= random_no_detection
+  t020 you=P opp=R W cum=+1 | act=0 ch=-1 g= random_no_detection
+  ok: 20/20 payoff/round=+0.050 W/L/D=7/6/7 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_rps_v1_pilot\gemini31fl\gemini31fl_rpsproteus_minimalist_t1p0_s9081_20261114-002314.csv
+[gemini31fl s9082 informed T=1.0] seed=1007852732 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_rps_v1_pilot\gemini31fl\gemini31fl_rpsproteus_informed_t1p0_s9082_20261114-002330.csv
+  t001 you=S opp=R L cum=-1 | act=0 ch=-1 g= random_no_detection
+  t002 you=S opp=P W cum=+0 | act=0 ch=-1 g= random_no_detection
+  t003 you=R opp=R D cum=+0 | act=0 ch=-1 g= random_no_detection
+  t004 you=R opp=P L cum=-1 | act=0 ch=-1 g= random_no_detection
+  t005 you=S opp=S D cum=-1 | act=0 ch=-1 g= random_no_detection
+  t006 you=P opp=S L cum=-2 | act=0 ch=-1 g= random_no_detection
+  t007 you=R opp=R D cum=-2 | act=0 ch=-1 g= random_no_detection
+  t008 you=S opp=R L cum=-3 | act=0 ch=-1 g= random_no_detection
+  t009 you=P opp=P D cum=-3 | act=0 ch=-1 g= random_no_detection
+  t010 you=S opp=P W cum=-2 | act=0 ch=-1 g= random_no_detection
+  t011 you=R opp=R D cum=-2 | act=0 ch=-1 g= random_no_detection
+  t012 you=P opp=S L cum=-3 | act=0 ch=-1 g= random_no_detection
+  t013 you=S opp=S D cum=-3 | act=0 ch=-1 g= random_no_detection
+  t014 you=R opp=P L cum=-4 | act=0 ch=-1 g= random_no_detection
+  t015 you=R opp=S W cum=-3 | act=0 ch=-1 g= random_no_detection
+  t016 you=S opp=S D cum=-3 | act=0 ch=-1 g= random_no_detection
+  t017 you=P opp=R W cum=-2 | act=0 ch=-1 g= random_no_detection
+  t018 you=R opp=P L cum=-3 | act=0 ch=-1 g= random_no_detection
+  t019 you=S opp=R L cum=-4 | act=0 ch=-1 g= random_no_detection
+  t020 you=S opp=R L cum=-5 | act=0 ch=-1 g= random_no_detection
+  ok: 20/20 payoff/round=-0.250 W/L/D=4/9/7 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_rps_v1_pilot\gemini31fl\gemini31fl_rpsproteus_informed_t1p0_s9082_20261114-002330.csv
+=== Gemini 3 Flash Preview [Google] temp seq A, prompt seq A
+[gemini3fp s9099 minimalist T=1.0] seed=1068807953 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_rps_v1_pilot\gemini3fp\gemini3fp_rpsproteus_minimalist_t1p0_s9099_20261114-002346.csv
+  t001 you=R opp=S W cum=+1 | act=0 ch=-1 g= random_no_detection
+  t002 you=R opp=R D cum=+1 | act=0 ch=-1 g= random_no_detection
+  t003 you=P opp=S L cum=+0 | act=0 ch=-1 g= random_no_detection
+  t004 you=R opp=P L cum=-1 | act=0 ch=-1 g= random_no_detection
+  t005 you=S opp=P W cum=+0 | act=0 ch=-1 g= random_no_detection
+  t006 you=S opp=R L cum=-1 | act=0 ch=-1 g= random_no_detection
+  t007 you=P opp=P D cum=-1 | act=0 ch=-1 g= random_no_detection
+  t008 you=S opp=P W cum=+0 | act=0 ch=-1 g= random_no_detection
+  t009 you=S opp=R L cum=-1 | act=0 ch=-1 g= random_no_detection
+  t010 you=P opp=R W cum=+0 | act=0 ch=-1 g= random_no_detection
+  t011 you=P opp=R W cum=+1 | act=0 ch=-1 g= random_no_detection
+  t012 you=P opp=R W cum=+2 | act=0 ch=-1 g= random_no_detection
+  t013 you=P opp=S L cum=+1 | act=0 ch=-1 g= random_no_detection
+  t014 you=R opp=S W cum=+2 | act=0 ch=-1 g= random_no_detection
+  t015 you=R opp=P L cum=+1 | act=0 ch=-1 g= random_no_detection
+  t016 you=S opp=R L cum=+0 | act=0 ch=-1 g= random_no_detection
+  t017 you=P opp=S L cum=-1 | act=0 ch=-1 g= random_no_detection
+  t018 you=R opp=P L cum=-2 | act=0 ch=-1 g= random_no_detection
+  t019 you=S opp=R L cum=-3 | act=0 ch=-1 g= random_no_detection
+  t020 you=P opp=P D cum=-3 | act=0 ch=-1 g= random_no_detection
+  ok: 20/20 payoff/round=-0.150 W/L/D=7/10/3 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_rps_v1_pilot\gemini3fp\gemini3fp_rpsproteus_minimalist_t1p0_s9099_20261114-002346.csv
+[gemini3fp s9100 informed T=1.0] seed=1068807953 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_rps_v1_pilot\gemini3fp\gemini3fp_rpsproteus_informed_t1p0_s9100_20261114-002409.csv
+  t001 you=S opp=S D cum=+0 | act=0 ch=-1 g= random_no_detection
+  t002 you=P opp=R W cum=+1 | act=0 ch=-1 g= random_no_detection
+  t003 you=R opp=S W cum=+2 | act=0 ch=-1 g= random_no_detection
+  t004 you=S opp=P W cum=+3 | act=0 ch=-1 g= random_no_detection
+  t005 you=R opp=P L cum=+2 | act=0 ch=-1 g= random_no_detection
+  t006 you=S opp=R L cum=+1 | act=0 ch=-1 g= random_no_detection
+  t007 you=S opp=P W cum=+2 | act=0 ch=-1 g= random_no_detection
+  t008 you=S opp=P W cum=+3 | act=0 ch=-1 g= random_no_detection
+  t009 you=S opp=R L cum=+2 | act=0 ch=-1 g= random_no_detection
+  t010 you=P opp=R W cum=+3 | act=0 ch=-1 g= random_no_detection
+  t011 you=R opp=R D cum=+3 | act=0 ch=-1 g= random_no_detection
+  t012 you=P opp=R W cum=+4 | act=0 ch=-1 g= random_no_detection
+  t013 you=S opp=S D cum=+4 | act=0 ch=-1 g= random_no_detection
+  t014 you=S opp=S D cum=+4 | act=0 ch=-1 g= random_no_detection
+  t015 you=R opp=P L cum=+3 | act=0 ch=-1 g= random_no_detection
+  t016 you=S opp=R L cum=+2 | act=0 ch=-1 g= random_no_detection
+  t017 you=P opp=S L cum=+1 | act=0 ch=-1 g= random_no_detection
+  t018 you=S opp=P W cum=+2 | act=0 ch=-1 g= random_no_detection
+  t019 you=P opp=R W cum=+3 | act=0 ch=-1 g= random_no_detection
+  t020 you=S opp=P W cum=+4 | act=0 ch=-1 g= random_no_detection
+  ok: 20/20 payoff/round=+0.200 W/L/D=10/6/4 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_rps_v1_pilot\gemini3fp\gemini3fp_rpsproteus_informed_t1p0_s9100_20261114-002409.csv
+
+DONE run_id=864905b4-c7ae-40a7-a71e-3988082b1789 ran=14 skipped=0 stopped=[] -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_rps_v1_pilot

@@ -1,0 +1,40 @@
+{
+  "package": "PACA-TA",
+  "version": "v4.0",
+  "date": "2026-07-16",
+  "codebook_version": "PACA-TA v4.0 (2026-07-16)",
+  "audit_id_prefix": "PACA4-",
+  "n": 150,
+  "strata": 81,
+  "sessions": 21,
+  "seeds": {
+    "sample": 20260716,
+    "order_A": 20260716001,
+    "order_B": 20260716002,
+    "third_order": 20260716003
+  },
+  "max_weight": 42.5,
+  "n_eff_overall": 124.47168318619391,
+  "source_workbook_path": "Protean_NoPeek_Dataset.xlsx",
+  "source_workbook_note": "Trace pool is derived solely from the Main_Trials sheet. The master on disk hashes as source_workbook_sha256 below; the pre-Counter master (SHA-256 1258beaf4a67e4f70cf031c1ba8dfdffae8747c9e1b5f507b6d1a29b4b8bb892) has identical Main_Trials, so the sample reproduces from either. pool_sha256 is the version-independent anchor.",
+  "hashes": {
+    "source_workbook_sha256": "8ccc2bc1fc2e72b63af152a499c42430ad6ef106857d90f232ebbcdc08332aaa",
+    "pool_sha256": "0307fbfed38a3c92d7e19e056cc263837b2fc669669c5a3ef125be73197f39a9",
+    "key": "6c876221fd5129087eb64762f8a3b9b71a42afcd96ca58abcc420d7586f2e893",
+    "items": "950a5cb8cc08a2be07beb3f1e123ceaef54c7cf8d9ce090af011db95b0ed1e32",
+    "package_files": {
+      "audit150v3_sample.py": "546ee4936d2bc3e980771d374c4c1f0d4b5ef6fd7b6a30491e65be57b8fa9c69",
+      "audit150v3_workbooks.py": "79dded3e8c9b5758cd6f41b036ca518f6f7b81af2f63e2d152bff80aca6db43e",
+      "build_third_coder.py": "9b57eb366b8353cfd5ed05f530380f16ec18ed63d4fa4a1762b4457432b280b9",
+      "freeze_manifest.py": "f03c89369f258759fcf777969fe890df911d181301ff87d107458ebdd350312c",
+      "AUDIT_SPEC.md": "6d782998f4063291a7d7bdcfa1ac92668d35a5036a836ff0a93db3352994aa84",
+      "coder_orders.json": "021ceaa312ef41d6fa20fc240eb07b8155d906b9bc64a43180dc190979147069",
+      "audit150_key_SEALED.csv": "6c876221fd5129087eb64762f8a3b9b71a42afcd96ca58abcc420d7586f2e893",
+      "audit150_items.csv": "950a5cb8cc08a2be07beb3f1e123ceaef54c7cf8d9ce090af011db95b0ed1e32",
+      "PACA_Trace_Audit_v4_n150_Coder_A.xlsx": "f630c478455fbc18894291e372aa740a69781c3660fa2c1f7e3256e11efd1fff",
+      "PACA_Trace_Audit_v4_n150_Coder_B.xlsx": "d7f37887619d873e66273ac5496d53bfda5b5e2d899301693d1d49b70d56d76d",
+      "PACA_Trace_Audit_v4_n150_Admin_Key.xlsx": "eef0b5801d29964969a1861d3b30fa7f81a89340b7c1d91f2bf4c92b780f0673"
+    }
+  },
+  "frozen": true
+}

@@ -1,0 +1,24 @@
+SHA-256: da1e6844dde73ea58f51707156923f1d97e9a6f7db1fc756a896f27baa1e0de3
+eligible rows: 4179  |  primary n: 3969
+
+UNCONDITIONAL (reproduces published Table B1?)
+  alternation_diagnosis     1472/1838  = 80.1%
+  diagnosis_plus_intent     1471/1834  = 80.2%
+  asserted_coin             1529/1901  = 80.4%
+  all_eligible              3349/4179  = 80.1%
+
+PRIMARY CONDITIONAL MODELS (trials 12-200)
+  alternation_diagnosis    n=3969 present=1773  OR=0.468 [0.323, 0.677]  p0=84.0% p1=73.0%  AME=-11.0pp [-16.4, -5.7]  p=0.0003601
+  diagnosis_plus_intent    n=3969 present=1769  OR=0.490 [0.342, 0.701]  p0=83.8% p1=73.5%  AME=-10.4pp [-15.6, -5.2]  p=0.0005017
+  asserted_coin            n=3969 present=1815  OR=1.442 [1.228, 1.693]  p0=77.5% p1=82.7%  AME=+5.3pp [+3.0, +7.5]  p=0.0001212
+
+MODEL-STRATIFIED
+  Claude Opus 4.8      alternation_diagnosis    present=  26 OR=0.143 [0.044, 0.464]  AME=-35.1pp
+  Claude Opus 4.8      diagnosis_plus_intent    present=  26 OR=0.143 [0.044, 0.464]  AME=-35.1pp
+  Claude Opus 4.8      asserted_coin            present= 572 OR=1.850 [1.506, 2.272]  AME=+9.6pp
+  Claude Sonnet 4.6    alternation_diagnosis    present= 567 OR=0.363 [0.230, 0.573]  AME=-10.1pp
+  Claude Sonnet 4.6    diagnosis_plus_intent    present= 563 OR=0.399 [0.257, 0.621]  AME=-9.2pp
+  Claude Sonnet 4.6    asserted_coin            present= 154 OR=1.179 [0.823, 1.689]  AME=+1.6pp
+  Claude Haiku 4.5     alternation_diagnosis    present=1180 OR=0.889 [0.572, 1.383]  AME=-1.5pp
+  Claude Haiku 4.5     diagnosis_plus_intent    present=1180 OR=0.889 [0.572, 1.383]  AME=-1.5pp
+  Claude Haiku 4.5     asserted_coin            present=1089 OR=1.384 [0.894, 2.142]  AME=+4.4pp

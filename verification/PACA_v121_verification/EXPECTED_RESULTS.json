@@ -1,0 +1,385 @@
+{
+  "_meta": {
+    "source": "analysis_v121/verify_core.py",
+    "frozen_manuscript_sha256": "e4fbada2691536a02f03c2edc31b1ae3a61a19d2b85a8d64e611edc3371e3e13",
+    "note": "full-precision canonical + manuscript-rounded + tolerance. Deterministic unless flagged."
+  },
+  "claims": {
+    "INT-01": {
+      "canonical": 98,
+      "displayed": 98,
+      "rounding": "integer",
+      "stochastic": false,
+      "tolerance": 1e-06
+    },
+    "INT-02": {
+      "canonical": 19600,
+      "displayed": 19600,
+      "rounding": "integer",
+      "stochastic": false,
+      "tolerance": 1e-06
+    },
+    "INT-03": {
+      "canonical": 238,
+      "displayed": 238,
+      "rounding": "integer",
+      "stochastic": false,
+      "tolerance": 1e-06
+    },
+    "INT-04": {
+      "canonical": 47600,
+      "displayed": 47600,
+      "rounding": "integer",
+      "stochastic": false,
+      "tolerance": 1e-06
+    },
+    "INT-05": {
+      "canonical": 56,
+      "displayed": 56,
+      "rounding": "integer",
+      "stochastic": false,
+      "tolerance": 1e-06
+    },
+    "INT-06": {
+      "canonical": 11200,
+      "displayed": 11200,
+      "rounding": "integer",
+      "stochastic": false,
+      "tolerance": 1e-06
+    },
+    "MAIN-01": {
+      "canonical": -0.109,
+      "displayed": -0.109,
+      "rounding": "3dp, no leading zero",
+      "stochastic": false,
+      "tolerance": 1e-06
+    },
+    "MAIN-02": {
+      "canonical": -2.778,
+      "displayed": null,
+      "rounding": "t 2dp; p 3dp",
+      "stochastic": false,
+      "tolerance": 1e-06
+    },
+    "MAIN-02p": {
+      "canonical": 0.0321,
+      "displayed": null,
+      "rounding": "",
+      "stochastic": false,
+      "tolerance": 1e-06
+    },
+    "MAIN-03": {
+      "canonical": [
+        2.0,
+        0.0469
+      ],
+      "displayed": null,
+      "rounding": "exact",
+      "stochastic": false,
+      "tolerance": 1e-06
+    },
+    "MAIN-04": {
+      "canonical": 0.125,
+      "displayed": 0.125,
+      "rounding": "3dp",
+      "stochastic": false,
+      "tolerance": 1e-06
+    },
+    "MAIN-05": {
+      "canonical": [
+        -0.205,
+        -0.013
+      ],
+      "displayed": null,
+      "rounding": "3dp",
+      "stochastic": false,
+      "tolerance": 1e-06
+    },
+    "MAIN-06": {
+      "canonical": 6,
+      "displayed": 6,
+      "rounding": "integer",
+      "stochastic": false,
+      "tolerance": 1e-06
+    },
+    "MAIN-07": {
+      "canonical": {
+        "Opus 4.8": -0.0386,
+        "Sonnet 4.6": -0.2579,
+        "Haiku 4.5": -0.2171,
+        "GPT-5.4": -0.11,
+        "GPT-5.4-mini": -0.0714,
+        "Gemini 3.1 FL": -0.115,
+        "Gemini 3 FP": 0.0471
+      },
+      "displayed": {
+        "Opus 4.8": -0.039,
+        "Sonnet 4.6": -0.258,
+        "Haiku 4.5": -0.217,
+        "GPT-5.4": -0.11,
+        "GPT-5.4-mini": -0.071,
+        "Gemini 3.1 FL": -0.115,
+        "Gemini 3 FP": 0.047
+      },
+      "rounding": "3dp",
+      "stochastic": false,
+      "tolerance": 1e-06
+    },
+    "MAIN-08": {
+      "canonical": {
+        "Opus 4.8": -0.121,
+        "Sonnet 4.6": -0.084,
+        "Haiku 4.5": -0.091,
+        "GPT-5.4": -0.109,
+        "GPT-5.4-mini": -0.115,
+        "Gemini 3.1 FL": -0.108,
+        "Gemini 3 FP": -0.135
+      },
+      "displayed": null,
+      "rounding": "3dp",
+      "stochastic": false,
+      "tolerance": 1e-06
+    },
+    "MAIN-09": {
+      "canonical": {
+        "Anthropic": -0.062,
+        "OpenAI": -0.116,
+        "Google": -0.139
+      },
+      "displayed": null,
+      "rounding": "3dp",
+      "stochastic": false,
+      "tolerance": 1e-06
+    },
+    "REP-01": {
+      "canonical": -0.139,
+      "displayed": -0.139,
+      "rounding": "3dp",
+      "stochastic": false,
+      "tolerance": 1e-06
+    },
+    "REP-02": {
+      "canonical": -2.925,
+      "displayed": -2.93,
+      "rounding": "2dp",
+      "stochastic": false,
+      "tolerance": 1e-06
+    },
+    "REP-03": {
+      "canonical": 0.0265,
+      "displayed": 0.027,
+      "rounding": "3dp",
+      "stochastic": false,
+      "tolerance": 1e-06
+    },
+    "REP-04": {
+      "canonical": [
+        -0.255,
+        -0.023
+      ],
+      "displayed": [
+        -0.255,
+        -0.023
+      ],
+      "rounding": "3dp",
+      "stochastic": false,
+      "tolerance": 1e-06
+    },
+    "REP-05": {
+      "canonical": 6,
+      "displayed": 6,
+      "rounding": "integer",
+      "stochastic": false,
+      "tolerance": 1e-06
+    },
+    "REP-06": {
+      "canonical": 3,
+      "displayed": 3,
+      "rounding": "integer",
+      "stochastic": false,
+      "tolerance": 1e-06
+    },
+    "REP-07": {
+      "canonical": {
+        "Claude Haiku 4.5": -0.275,
+        "Claude Opus 4.8": -0.12,
+        "Claude Sonnet 4.6": -0.275,
+        "GPT-5.4": -0.2125,
+        "GPT-5.4-mini": -0.0562,
+        "Gemini 3 Flash Preview": 0.0688,
+        "Gemini 3.1 Flash Lite": -0.1
+      },
+      "displayed": null,
+      "rounding": "3dp",
+      "stochastic": false,
+      "tolerance": 1e-06
+    },
+    "TRACE-01": {
+      "canonical": {
+        "n": 3969,
+        "OR": 0.4679,
+        "OR_ci": [
+          0.3233,
+          0.6771
+        ],
+        "p0": 84.04,
+        "p1": 73.02,
+        "ame_pp": -11.02,
+        "p": 0.00036013140646663425
+      },
+      "displayed": null,
+      "rounding": "OR 3dp",
+      "stochastic": false,
+      "tolerance": 1e-06
+    },
+    "TRACE-02": {
+      "canonical": {
+        "n": 3969,
+        "OR": 0.4897,
+        "OR_ci": [
+          0.3418,
+          0.7014
+        ],
+        "p0": 83.83,
+        "p1": 73.45,
+        "ame_pp": -10.37,
+        "p": 0.0005016665650950012
+      },
+      "displayed": null,
+      "rounding": "3dp",
+      "stochastic": false,
+      "tolerance": 1e-06
+    },
+    "TRACE-03": {
+      "canonical": {
+        "n": 3969,
+        "OR": 1.4418,
+        "OR_ci": [
+          1.228,
+          1.693
+        ],
+        "p0": 77.46,
+        "p1": 82.72,
+        "ame_pp": 5.26,
+        "p": 0.00012120645240168682
+      },
+      "displayed": null,
+      "rounding": "3dp",
+      "stochastic": false,
+      "tolerance": 1e-06
+    },
+    "AUDIT-Q1-P": {
+      "canonical": {
+        "precision": 0.8649,
+        "ci": [
+          0.7628,
+          0.9438
+        ]
+      },
+      "displayed": {
+        "precision": 0.865,
+        "ci": [
+          0.763,
+          0.944
+        ]
+      },
+      "rounding": "3dp / pct",
+      "stochastic": true,
+      "tolerance": 0.01
+    },
+    "AUDIT-Q1-R": {
+      "canonical": 1.0,
+      "displayed": 1.0,
+      "rounding": "3dp",
+      "stochastic": false,
+      "tolerance": 1e-06
+    },
+    "AUDIT-Q1-K": {
+      "canonical": 0.9726,
+      "displayed": 0.97,
+      "rounding": "2dp",
+      "stochastic": false,
+      "tolerance": 1e-06
+    },
+    "AUDIT-Q2-P": {
+      "canonical": {
+        "precision": 0.8646,
+        "ci": [
+          0.7624,
+          0.9437
+        ]
+      },
+      "displayed": {
+        "precision": 0.865,
+        "ci": [
+          0.762,
+          0.944
+        ]
+      },
+      "rounding": "3dp / pct",
+      "stochastic": true,
+      "tolerance": 0.01
+    },
+    "AUDIT-Q2-R": {
+      "canonical": 0.9994,
+      "displayed": 0.999,
+      "rounding": "3dp",
+      "stochastic": false,
+      "tolerance": 1e-06
+    },
+    "AUDIT-Q2-K": {
+      "canonical": 0.931,
+      "displayed": 0.93,
+      "rounding": "2dp",
+      "stochastic": false,
+      "tolerance": 1e-06
+    },
+    "AUDIT-Q3-P": {
+      "canonical": {
+        "precision": 0.8018,
+        "ci": [
+          0.6929,
+          0.9009
+        ]
+      },
+      "displayed": {
+        "precision": 0.802,
+        "ci": [
+          0.694,
+          0.902
+        ]
+      },
+      "rounding": "3dp / pct",
+      "stochastic": true,
+      "tolerance": 0.01
+    },
+    "AUDIT-Q3-R": {
+      "canonical": 0.9382,
+      "displayed": 0.938,
+      "rounding": "3dp",
+      "stochastic": false,
+      "tolerance": 1e-06
+    },
+    "AUDIT-Q3-K": {
+      "canonical": 0.6406,
+      "displayed": 0.64,
+      "rounding": "2dp",
+      "stochastic": false,
+      "tolerance": 1e-06
+    },
+    "CAL-01": {
+      "canonical": 0.730769,
+      "displayed": 0.730769,
+      "rounding": "pct 73%",
+      "stochastic": false,
+      "tolerance": 1e-06
+    },
+    "CAL-02": {
+      "canonical": 0.0289592743,
+      "displayed": 0.0289592743,
+      "rounding": "3dp -> .029",
+      "stochastic": false,
+      "tolerance": 1e-06
+    }
+  }
+}

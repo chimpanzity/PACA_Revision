@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use these materials, please cite the manuscript and the archived DOIs."
+title: "Dodging Proteus: data and analysis code"
+authors:
+  - family-names: Martin
+    given-names: Christopher Flynn
+    orcid: "https://orcid.org/0000-0002-6510-4594"
+license: MIT
+version: 1.0.0
+repository-code: "https://github.com/chimpanzity/dodging-proteus"
+date-released: 2026-08-03
+preferred-citation:
+  type: article
+  title: "Dodging Proteus: Prescribing unexploitable play made language models more exploitable in a closed-loop matching pennies assay"
+  authors:
+    - family-names: Martin
+      given-names: Christopher Flynn
+      orcid: "https://orcid.org/0000-0002-6510-4594"
+  year: 2026
+  publisher:
+    name: "Zenodo"
+  notes: "Preprint, not peer reviewed. Zenodo preprint, published 4 August 2026."
+  doi: "10.5281/zenodo.21781962"

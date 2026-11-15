@@ -1,0 +1,18 @@
+(1) Deviance explained (share of null deviance)
+  bias alone 0.055 | |z| alone 0.507 | both 0.719
+  unique: bias 0.212, |z| 0.664; shared -0.158
+  Shapley split: bias 0.134, |z| 0.586  ->  |z| share 81.4%, bias share 18.6%
+  |z| share, stratified session bootstrap 95% interval: [74.3%, 88.1%]
+  |z| share leaving one model out: Opus 81%, Sonnet 58%, Haiku 75%, GPT-5.4 92%, GPT-5.4-mini 80%, Gemini 88%, Gemini 83%
+
+(2) Decomposition of the informed-minus-minimal change in win rate (percentage points)
+               observed  predicted  via_bias  via_runsz
+model                                                  
+Opus 4.8           -3.9      -10.5      -3.5       -7.0
+Sonnet 4.6        -25.8      -23.5       0.1      -23.6
+Haiku 4.5         -21.7      -18.3      -0.6      -17.8
+GPT-5.4           -11.0       -5.6     -10.8        5.2
+GPT-5.4-mini       -7.1       -5.9      -7.1        1.2
+Gemini 3.1 FL     -11.5      -12.3     -10.9       -1.4
+Gemini 3 FP         4.7        0.8      -0.7        1.5
+  mean over models: observed -10.9 pp, predicted -10.8 pp = bias -4.8 pp + |runs z| -6.0 pp (56% via |runs z|)

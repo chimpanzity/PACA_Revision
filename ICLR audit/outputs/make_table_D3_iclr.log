@@ -1,0 +1,19 @@
+Specification: seven-predictor
+Contemporaneous Proteus term significant (p < .05) in 9 of 98 sessions (binomial expectation under the null 4.9; P(X >= 9) = 0.057).
+Model        Frame        Own  Opp  Out  Cur   Lag-1   Table D3 (ICLR)           match
+Opus 4.8     minimalist   7/7  7/7  2/7  1/7   +1.26   7/7 7/7 2/7 1/7 +1.26      PASS
+Opus 4.8     informed     7/7  1/7  1/7  1/7   -3.68   7/7 1/7 1/7 1/7 -3.68      PASS   [separated fits: 1]
+Sonnet 4.6   minimalist   2/7  7/7  3/7  0/7   +0.38   2/7 7/7 3/7 0/7 +0.38      PASS
+Sonnet 4.6   informed     7/7  1/7  1/7  1/7   -5.35   7/7 1/7 1/7 1/7 -5.35      PASS   [separated fits: 3]
+Haiku 4.5    minimalist   5/7  7/7  0/7  0/7   +0.08   5/7 7/7 0/7 0/7 +0.08      PASS
+Haiku 4.5    informed     7/7  2/7  0/7  0/7   -3.40   7/7 2/7 0/7 0/7 -3.40      PASS
+GPT-5.4      minimalist   5/7  7/7  0/7  1/7   +0.66   5/7 7/7 0/7 1/7 +0.66      PASS
+GPT-5.4      informed     0/7  0/7  0/7  0/7   +0.04   0/7 0/7 0/7 0/7 +0.04      PASS
+GPT-5.4-mini minimalist   4/7  7/7  1/7  1/7   +0.34   4/7 7/7 1/7 1/7 +0.34      PASS
+GPT-5.4-mini informed     1/7  1/7  2/7  0/7   -0.31   1/7 1/7 2/7 0/7 -0.31      PASS
+Gemini 3.1 FLminimalist   3/7  7/7  0/7  2/7   +0.71   3/7 7/7 0/7 2/7 +0.71      PASS
+Gemini 3.1 FLinformed     6/7  4/7  3/7  1/7   -1.79   6/7 4/7 3/7 1/7 -1.79      PASS   [separated fits: 1]
+Gemini 3 FP  minimalist   6/7  7/7  0/7  1/7   +1.41   6/7 7/7 0/7 1/7 +1.41      PASS
+Gemini 3 FP  informed     5/7  1/7  0/7  0/7   -1.06   5/7 1/7 0/7 0/7 -1.06      PASS
+
+PASS 14/14: Table D3 reproduced

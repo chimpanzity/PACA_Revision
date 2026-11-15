@@ -1,0 +1,458 @@
+schema_version,client_version,prompt_version,parser_version,harness_commit,run_id,session_id,session_index,request_id,collected_utc,trial_utc,model,model_group,model_display,served_model,provider,generation_id,prompt_mode,opponent,binomial_tail,temperature,top_p,reasoning_config,max_tokens,desc_window,compact_window,master_seed,session_seed,n_trials,openai_lib_version,python_version,os_platform,command_line,session_started_utc,max_tokens_ceiling,escalate_on_truncation,on_truncation,trial,total_trial,subject_choice,computer_choice,subject_win,opp_action_type,opp_ranval,predicted_subject_side,winning_channel,winning_channel_bias,n_channels_active,n0_sign,n1_sign,n2_sign,n3_sign,n4_sign,n5_sign,n6_sign,n7_sign,n8_sign,n0_bside,n1_bside,n2_bside,n3_bside,n4_bside,n5_bside,n6_bside,n7_bside,n8_bside,n0_bsideprob,n1_bsideprob,n2_bsideprob,n3_bsideprob,n4_bsideprob,n5_bsideprob,n6_bsideprob,n7_bsideprob,n8_bsideprob,choice_source,finish_reason,truncated,max_tokens_used,latency_ms,retries_used,error_message,prompt_tokens,completion_tokens,reasoning_tokens,total_tokens,response_chars,response_text,system_prompt_sha256,user_prompt_sha256,user_prompt_text,history_choices,history_cr,study,protocol_version,opponent_version,harness_dirty,legacy_code_identical,legacy_files_sha256,family,system_fingerprint,condition_code,role,payoff_rule,block_id,block_position,within_block_position,within_model_position,global_session_order,order_sequence_id,block_seed,temperature_param_status,config_sha256,schedule_sha256,attempt_number,session_completion_status,invalid_response,machine,output_file,computer_win,cum_wins,counteraction_target,predicted_choice_probability,history_computer_choices,parse_last_line_choice,parse_agrees_last_line,native_finish_reason,n_attempts,attempts_json
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,0f937c06-5a85-42b6-a11a-d7309fca2ace,9036,c16eb9d3-4aa5-4f7a-894a-65f89bb91789,2026-11-15T02:55:32.510548+00:00,2026-11-15T02:55:31.526581+00:00,anthropic/claude-haiku-4.5,haiku,Claude Haiku 4.5,anthropic/claude-haiku-4.5,Amazon Bedrock,gen-1794711333-0s1jIfeVtRV7v6dQjBkS,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,274004356,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only haiku --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:55:31.526099+00:00,80000,True,abort,1,1,T,S,0,random_no_detection,0.8524595823,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,983,0,,195,62,0,257,250,"I need to choose between TRIANGLE and STAR with equal probability, as if flipping a fair coin. Since this is the first round and there's no history to exploit, I'll simply make a random choice.
+
+Let me go with TRIANGLE for this first round.
+
+TRIANGLE",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,c17faf00eedb5de2eeb3784dd857e800c2ca369831d95ce8a1770e57e6813d5c,"No previous rounds yet.
+
+Your action:",,,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,MI,matcher,subject_win = int(subject_choice == computer_choice),3,1,4,4,36,rot2,273504356,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,haiku_roleproteus_MI_t0p0_s9036_20261114-215531.csv,1,0,,,,T,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":62,""latency_ms"":983,""provider"":""Amazon Bedrock""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,0f937c06-5a85-42b6-a11a-d7309fca2ace,9036,3ec03d9d-8fca-48ff-80b0-481b9c2d0cac,2026-11-15T02:55:34.166825+00:00,2026-11-15T02:55:32.510690+00:00,anthropic/claude-haiku-4.5,haiku,Claude Haiku 4.5,anthropic/claude-haiku-4.5,Amazon Bedrock,gen-1794711334-JGlwbA0QDo8XL2WjgbRs,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,274004356,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only haiku --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:55:31.526099+00:00,80000,True,abort,2,2,S,S,1,random_no_detection,0.5192093504,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1655,0,,247,139,0,386,579,"I need to choose randomly between TRIANGLE and STAR with 50/50 probability, independent of my previous choice.
+
+My last choice was TRIANGLE, and the circle landed on STAR (I lost that round). However, this doesn't change my strategy - I must maintain randomness to avoid exploitation.
+
+The opponent will try to predict my next move based on patterns. If I alternate, they'll exploit that. If I repeat, they'll exploit that. The only defense is true randomness.
+
+I'll choose STAR this round (not because of the previous outcome, but as part of maintaining 50/50 randomness).
+
+STAR",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,6ea1846318a41f370063752db01955ae5288493bb280e87c62710b2f8e60f0ce,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 1 choice:     T
+Blue circle landed on:  S
+
+Your action:",T,T0,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,MI,matcher,subject_win = int(subject_choice == computer_choice),3,1,4,4,36,rot2,273504356,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,haiku_roleproteus_MI_t0p0_s9036_20261114-215531.csv,0,1,,,S,S,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":139,""latency_ms"":1655,""provider"":""Amazon Bedrock""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,0f937c06-5a85-42b6-a11a-d7309fca2ace,9036,db68db81-7760-4e0c-841e-0af7de849209,2026-11-15T02:55:35.838009+00:00,2026-11-15T02:55:34.167548+00:00,anthropic/claude-haiku-4.5,haiku,Claude Haiku 4.5,anthropic/claude-haiku-4.5,Amazon Bedrock,gen-1794711335-wpT7YqKAxPcC2K29Vz6B,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,274004356,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only haiku --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:55:31.526099+00:00,80000,True,abort,3,3,S,T,0,random_no_detection,0.4709018449,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1670,0,,262,162,0,424,632,"I need to choose randomly between TRIANGLE and STAR with 50/50 probability, independent of previous choices.
+
+Looking at the history:
+- Round 1: I chose TRIANGLE, circle landed on STAR (I lost)
+- Round 2: I chose STAR, circle landed on STAR (I won)
+
+The opponent is trying to exploit any patterns in my choices. My previous two choices were TRIANGLE then STAR, which could look like alternation. If I continue alternating, the opponent will predict TRIANGLE and land on STAR.
+
+However, I must not fall into predictable patterns. I should flip a mental coin and choose randomly.
+
+Thinking of a random choice: I'll go with STAR.
+
+STAR",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,b75057d4483d346cc624c57a69eb1c8399c072308c0d2b34285a65ad55ef1632,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 2 choices:    T S
+Blue circle landed on:  S S
+
+Your action:",TS,T0S1,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,MI,matcher,subject_win = int(subject_choice == computer_choice),3,1,4,4,36,rot2,273504356,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,haiku_roleproteus_MI_t0p0_s9036_20261114-215531.csv,1,1,,,SS,S,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":162,""latency_ms"":1670,""provider"":""Amazon Bedrock""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,0f937c06-5a85-42b6-a11a-d7309fca2ace,9036,eacbf6fa-b946-493d-97b7-5d32ebc2edf7,2026-11-15T02:55:37.548630+00:00,2026-11-15T02:55:35.838126+00:00,anthropic/claude-haiku-4.5,haiku,Claude Haiku 4.5,anthropic/claude-haiku-4.5,Amazon Bedrock,gen-1794711337-ZrDRNctl4YzViSpn5WLC,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,274004356,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only haiku --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:55:31.526099+00:00,80000,True,abort,4,4,T,T,1,random_no_detection,0.2763245863,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1710,0,,277,158,0,435,607,"I need to choose randomly between TRIANGLE and STAR with 50/50 probability, independent of my previous choices.
+
+Looking at my recent history:
+- Last 3 choices: T, S, S
+- Results: S, S, T
+
+The opponent is trying to exploit any patterns in my choices. I should not:
+- Alternate predictably
+- Repeat the same choice too many times
+- Follow any detectable pattern
+
+Since I need to maintain a 50/50 random strategy, I'll flip a mental coin. My previous three choices were T, S, S - but this shouldn't influence my next choice at all if I'm playing optimally.
+
+Choosing randomly with equal probability:
+
+TRIANGLE",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,9c5af81edbba9f00027c318c50bb1f9930cc1aab22246302c22ef57c694d3612,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 3 choices:    T S S
+Blue circle landed on:  S S T
+
+Your action:",TSS,T0S1S0,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,MI,matcher,subject_win = int(subject_choice == computer_choice),3,1,4,4,36,rot2,273504356,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,haiku_roleproteus_MI_t0p0_s9036_20261114-215531.csv,0,2,,,SST,T,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":158,""latency_ms"":1710,""provider"":""Amazon Bedrock""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,0f937c06-5a85-42b6-a11a-d7309fca2ace,9036,f1e25282-b1c0-4e60-b57e-ede1b29df647,2026-11-15T02:55:39.122624+00:00,2026-11-15T02:55:37.549058+00:00,anthropic/claude-haiku-4.5,haiku,Claude Haiku 4.5,anthropic/claude-haiku-4.5,Amazon Bedrock,gen-1794711339-eYaTqVVJgVrFEFGrPjSg,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,274004356,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only haiku --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:55:31.526099+00:00,80000,True,abort,5,5,T,S,0,random_no_detection,0.8168688496,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1573,0,,292,143,0,435,597,"I need to choose randomly between TRIANGLE and STAR with 50/50 probability, treating each choice as independent.
+
+Looking at my recent choices: T S S T
+The opponent's circle landed on: S S T T
+
+I can see the opponent is trying to exploit any patterns in my choices. My last four choices show some structure (T S S T), but I must not let this influence my next decision.
+
+To avoid exploitation, I need to flip a mental coin and choose with equal probability, regardless of:
+- My previous choices
+- Where the circle landed
+- Any apparent patterns
+
+Choosing randomly with 50/50 probability:
+
+TRIANGLE",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,336f60d850221d14c3a6c4e8b6878c0d08ca4bac3d804bd477db17a9ec570185,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 4 choices:    T S S T
+Blue circle landed on:  S S T T
+
+Your action:",TSST,T0S1S0T1,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,MI,matcher,subject_win = int(subject_choice == computer_choice),3,1,4,4,36,rot2,273504356,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,haiku_roleproteus_MI_t0p0_s9036_20261114-215531.csv,1,2,,,SSTT,T,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":143,""latency_ms"":1573,""provider"":""Amazon Bedrock""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,0f937c06-5a85-42b6-a11a-d7309fca2ace,9036,eca331d4-8a72-4560-bace-beb6d73170df,2026-11-15T02:55:40.903034+00:00,2026-11-15T02:55:39.122762+00:00,anthropic/claude-haiku-4.5,haiku,Claude Haiku 4.5,anthropic/claude-haiku-4.5,Amazon Bedrock,gen-1794711340-8kcX5C3hYESyKj1f6GQe,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,274004356,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only haiku --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:55:31.526099+00:00,80000,True,abort,6,6,S,S,1,random_no_detection,0.8852037092,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1779,0,,307,147,0,454,598,"I need to choose randomly between TRIANGLE and STAR with 50/50 probability, independent of all previous choices.
+
+Looking at my recent history:
+- Last 5 choices: T S S T T
+- Circle landed on: S S T T S
+
+I can see some patterns emerging (like the recent T T sequence), but the key to not being exploited is to ignore these patterns entirely and make a truly random choice.
+
+The opponent is trying to detect any bias or pattern in my choices. Whether I've chosen more triangles or stars recently is irrelevant - I must treat each choice as independent.
+
+Flipping a mental coin for this round...
+
+STAR",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,759650b5fa52b4a0f2da6ee24b7b580bc8c5651640fd096c88834930cfbd901f,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 5 choices:    T S S T T
+Blue circle landed on:  S S T T S
+
+Your action:",TSSTT,T0S1S0T1T0,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,MI,matcher,subject_win = int(subject_choice == computer_choice),3,1,4,4,36,rot2,273504356,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,haiku_roleproteus_MI_t0p0_s9036_20261114-215531.csv,0,3,,,SSTTS,S,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":147,""latency_ms"":1779,""provider"":""Amazon Bedrock""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,0f937c06-5a85-42b6-a11a-d7309fca2ace,9036,facf0c2f-bd02-431d-86ac-18b735d5a1a4,2026-11-15T02:55:42.374124+00:00,2026-11-15T02:55:40.903674+00:00,anthropic/claude-haiku-4.5,haiku,Claude Haiku 4.5,anthropic/claude-haiku-4.5,Amazon Bedrock,gen-1794711342-2xXqk3uGZuVBjuwCBEA4,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,274004356,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only haiku --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:55:31.526099+00:00,80000,True,abort,7,7,T,T,1,random_no_detection,0.3891031143,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1469,0,,309,116,0,425,498,"I need to choose randomly between TRIANGLE and STAR with 50/50 probability, regardless of previous outcomes.
+
+Looking at my recent choices: T S S T T S
+The opponent will try to exploit any patterns they detect.
+
+My last choice was STAR. To avoid predictability, I should not alternate or repeat in any detectable pattern. I need to make a truly random choice as if flipping a fair coin.
+
+Since I must choose with equal probability and independence from all previous choices, I'll go with:
+
+TRIANGLE",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,720bfe0cdfa6a0877fbc5f0a758fc4b175b1d5f7b904c5a610a36195ff6c9a9a,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 6 choices:    T S S T T S
+Blue circle landed on:  S S T T S S
+
+Your action:",TSSTTS,T0S1S0T1T0S1,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,MI,matcher,subject_win = int(subject_choice == computer_choice),3,1,4,4,36,rot2,273504356,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,haiku_roleproteus_MI_t0p0_s9036_20261114-215531.csv,0,4,,,SSTTSS,T,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":116,""latency_ms"":1469,""provider"":""Amazon Bedrock""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,0f937c06-5a85-42b6-a11a-d7309fca2ace,9036,9287b8fd-a980-40ca-93b2-44405fa018ba,2026-11-15T02:55:43.652328+00:00,2026-11-15T02:55:42.374405+00:00,anthropic/claude-haiku-4.5,haiku,Claude Haiku 4.5,anthropic/claude-haiku-4.5,Amazon Bedrock,gen-1794711344-YsjkLjVU991CKchcokBr,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,274004356,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only haiku --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:55:31.526099+00:00,80000,True,abort,8,8,S,T,0,random_no_detection,0.2630447767,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1277,0,,311,87,0,398,358,"I need to choose randomly between TRIANGLE and STAR with 50/50 probability, independent of all previous choices.
+
+Looking at my recent choices: T S S T T S T
+The opponent has been analyzing patterns, but the key to not being exploited is to make each choice completely random and independent.
+
+I'll flip a mental coin for this round. My choice will be:
+
+STAR",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,fd273724fdc6f1e7c3a721dd63041c7a89899ffe9d4001b22a73cbc21975dcb2,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 7 choices:    T S S T T S T
+Blue circle landed on:  S S T T S S T
+
+Your action:",TSSTTST,T0S1S0T1T0S1T1,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,MI,matcher,subject_win = int(subject_choice == computer_choice),3,1,4,4,36,rot2,273504356,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,haiku_roleproteus_MI_t0p0_s9036_20261114-215531.csv,1,4,,,SSTTSST,S,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":87,""latency_ms"":1277,""provider"":""Amazon Bedrock""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,0f937c06-5a85-42b6-a11a-d7309fca2ace,9036,0116ad8c-9be3-410f-9de2-52c594d60ecd,2026-11-15T02:55:45.192749+00:00,2026-11-15T02:55:43.652441+00:00,anthropic/claude-haiku-4.5,haiku,Claude Haiku 4.5,anthropic/claude-haiku-4.5,Amazon Bedrock,gen-1794711345-7QyHBnrAxbD54pgDeFS3,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,274004356,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only haiku --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:55:31.526099+00:00,80000,True,abort,9,9,S,S,1,random_no_detection,0.8703501398,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1540,0,,313,138,0,451,575,"I need to choose randomly between TRIANGLE and STAR with 50/50 probability, independent of all previous choices.
+
+Looking at my recent choices: T S S T T S T S
+The opponent is trying to exploit any patterns I might have.
+
+Let me verify I'm not falling into a pattern:
+- Not alternating consistently
+- Not repeating the same choice
+- Need to maintain true randomness
+
+Since this is a game where the optimal strategy is to randomize equally, I'll make my choice as if flipping a fair coin, treating this decision as completely independent from history.
+
+I'll choose STAR.
+
+STAR",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,1bdc8189b7c56a6647c568b9282f581bb227aac235e5c0db6304f15a2c253fb1,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 8 choices:    T S S T T S T S
+Blue circle landed on:  S S T T S S T T
+
+Your action:",TSSTTSTS,T0S1S0T1T0S1T1S0,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,MI,matcher,subject_win = int(subject_choice == computer_choice),3,1,4,4,36,rot2,273504356,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,haiku_roleproteus_MI_t0p0_s9036_20261114-215531.csv,0,5,,,SSTTSSTT,S,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":138,""latency_ms"":1540,""provider"":""Amazon Bedrock""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,0f937c06-5a85-42b6-a11a-d7309fca2ace,9036,fc717a9f-e0f8-4285-b128-743c2169c558,2026-11-15T02:55:46.912394+00:00,2026-11-15T02:55:45.192861+00:00,anthropic/claude-haiku-4.5,haiku,Claude Haiku 4.5,anthropic/claude-haiku-4.5,Amazon Bedrock,gen-1794711347-BwjVtzG6yQEqx7deOQ48,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,274004356,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only haiku --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:55:31.526099+00:00,80000,True,abort,10,10,S,S,1,random_no_detection,0.9671507444,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1719,0,,315,166,0,481,649,"I need to choose randomly between TRIANGLE and STAR with 50/50 probability, independent of all previous choices.
+
+Looking at my recent history:
+- Last 9 choices: T S S T T S T S S
+- Circle landed on: S S T T S S T T S
+
+I can see some patterns in the data, but the key insight is that to avoid exploitation, I must NOT rely on any pattern. The opponent is specifically looking for patterns to exploit.
+
+My previous choices show some clustering (like S S, T T), but I should ignore this completely. Each choice must be independent and random.
+
+I'll make a random 50/50 choice now, treating this as a fair coin flip with no dependence on history.
+
+STAR",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,f611639d97d52eb6dcbe10df111dcbe3018eefaa6b271251a48e5aa62739c68d,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 9 choices:    T S S T T S T S S
+Blue circle landed on:  S S T T S S T T S
+
+Your action:",TSSTTSTSS,T0S1S0T1T0S1T1S0S1,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,MI,matcher,subject_win = int(subject_choice == computer_choice),3,1,4,4,36,rot2,273504356,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,haiku_roleproteus_MI_t0p0_s9036_20261114-215531.csv,0,6,,,SSTTSSTTS,S,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":166,""latency_ms"":1719,""provider"":""Amazon Bedrock""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,0f937c06-5a85-42b6-a11a-d7309fca2ace,9036,a0f6dad1-8b0b-43e2-b595-6ec34058d01e,2026-11-15T02:55:49.228362+00:00,2026-11-15T02:55:46.912816+00:00,anthropic/claude-haiku-4.5,haiku,Claude Haiku 4.5,anthropic/claude-haiku-4.5,Amazon Bedrock,gen-1794711348-NfcXGXyoqC890pkD7ULD,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,274004356,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only haiku --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:55:31.526099+00:00,80000,True,abort,11,11,T,S,0,random_no_detection,0.9734252883,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,2314,0,,317,236,0,553,928,"I need to make a choice that's independent of my previous choices and truly random, like a fair coin flip.
+
+Looking at my recent history:
+- Last 10 choices: T S S T T S T S S S
+- I've chosen STAR 6 times and TRIANGLE 4 times in the last 10 rounds
+
+The opponent is trying to exploit any patterns in my choices. To avoid exploitation, I should:
+1. Not alternate predictably
+2. Not repeat the same choice too many times
+3. Maintain a 50/50 distribution over time
+4. Make each choice independently
+
+Since I've been choosing STAR slightly more frequently (6 vs 4), and I just chose STAR in the most recent round, I should be mindful not to create a pattern. However, the key is that each choice should be independent and random.
+
+Flipping a mental coin for this round: I'll choose TRIANGLE to help balance my distribution back toward 50/50, but more importantly, because this is my independent random choice for this trial.
+
+TRIANGLE",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,c5a053be2d0148629001b6368ce52346e50463178177d31e8d526168e24e53c8,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 10 choices:   T S S T T S T S S S
+Blue circle landed on:  S S T T S S T T S S
+
+Your action:",TSSTTSTSSS,T0S1S0T1T0S1T1S0S1S1,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,MI,matcher,subject_win = int(subject_choice == computer_choice),3,1,4,4,36,rot2,273504356,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,haiku_roleproteus_MI_t0p0_s9036_20261114-215531.csv,1,6,,,SSTTSSTTSS,T,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":236,""latency_ms"":2314,""provider"":""Amazon Bedrock""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,0f937c06-5a85-42b6-a11a-d7309fca2ace,9036,c51cfc5f-68b2-4a93-abc0-159641d5bdd9,2026-11-15T02:55:50.946368+00:00,2026-11-15T02:55:49.228813+00:00,anthropic/claude-haiku-4.5,haiku,Claude Haiku 4.5,anthropic/claude-haiku-4.5,Amazon Bedrock,gen-1794711351-KoedWtaeJ4Jnhtw4G78M,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,274004356,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only haiku --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:55:31.526099+00:00,80000,True,abort,12,12,S,S,1,random_no_detection,0.9249762110,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1716,0,,319,174,0,493,673,"I need to choose randomly between TRIANGLE and STAR with 50/50 probability, independent of all previous choices.
+
+Looking at my recent history:
+- Last 11 choices: T S S T T S T S S S T
+- Circle landed on: S S T T S S T T S S S
+
+The opponent is trying to exploit any patterns in my choices. I can see some clustering (multiple S's in a row), but I must not let this influence my next choice.
+
+The key to winning at matching pennies is to be completely unpredictable - each choice must be independent and random. My previous choices don't matter, and the circle's previous landings don't matter for determining my optimal strategy.
+
+I'll make a random 50/50 choice now.
+
+STAR",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,d640fc59ee817ba97c38db9f2a49e799ba4ff8bd0df4dcf89dde0a07f53f1236,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 11 choices:   T S S T T S T S S S T
+Blue circle landed on:  S S T T S S T T S S S
+
+Your action:",TSSTTSTSSST,T0S1S0T1T0S1T1S0S1S1T0,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,MI,matcher,subject_win = int(subject_choice == computer_choice),3,1,4,4,36,rot2,273504356,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,haiku_roleproteus_MI_t0p0_s9036_20261114-215531.csv,0,7,,,SSTTSSTTSSS,S,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":174,""latency_ms"":1717,""provider"":""Amazon Bedrock""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,0f937c06-5a85-42b6-a11a-d7309fca2ace,9036,84530f5e-04e1-4493-bbc1-47c5a166f830,2026-11-15T02:55:52.788212+00:00,2026-11-15T02:55:50.946736+00:00,anthropic/claude-haiku-4.5,haiku,Claude Haiku 4.5,anthropic/claude-haiku-4.5,Amazon Bedrock,gen-1794711352-cXNxPTCGHfANlUE1oVAT,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,274004356,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only haiku --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:55:31.526099+00:00,80000,True,abort,13,13,T,T,1,random_no_detection,0.4498023027,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1840,0,,321,151,0,472,677,"I need to choose randomly between TRIANGLE and STAR with 50/50 probability, independent of all previous choices.
+
+Looking at my recent history, I've chosen STAR quite frequently in the last few rounds (the most recent choice was STAR). However, this doesn't matter - I must not fall into patterns or let past choices influence my decision.
+
+The opponent is trying to exploit any patterns in my choices. If I alternate, repeat, or show any bias, they will detect it and exploit it. The only way to prevent exploitation is to randomize truly.
+
+I'll flip a mental coin: choosing TRIANGLE this round to maintain balance and avoid the appearance of favoring STAR recently.
+
+TRIANGLE",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,c0d66d5759ba4fef87be428dd6fd4a28ecff4e4c465e04f4d30bbc7f2d0dcc03,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 12 choices:   T S S T T S T S S S T S
+Blue circle landed on:  S S T T S S T T S S S S
+
+Your action:",TSSTTSTSSSTS,T0S1S0T1T0S1T1S0S1S1T0S1,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,MI,matcher,subject_win = int(subject_choice == computer_choice),3,1,4,4,36,rot2,273504356,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,haiku_roleproteus_MI_t0p0_s9036_20261114-215531.csv,0,8,,,SSTTSSTTSSSS,T,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":151,""latency_ms"":1840,""provider"":""Amazon Bedrock""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,0f937c06-5a85-42b6-a11a-d7309fca2ace,9036,89651aec-fe23-459a-8568-33cc143247e7,2026-11-15T02:55:54.401177+00:00,2026-11-15T02:55:52.788653+00:00,anthropic/claude-haiku-4.5,haiku,Claude Haiku 4.5,anthropic/claude-haiku-4.5,Amazon Bedrock,gen-1794711354-ICjHSTt3tHTmQ2OBIxvk,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,274004356,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only haiku --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:55:31.526099+00:00,80000,True,abort,14,14,T,S,0,random_no_detection,0.6552279298,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1611,0,,323,128,0,451,560,"I need to choose randomly between TRIANGLE and STAR with 50/50 probability, independent of all previous choices.
+
+Looking at my recent history, I can see some patterns emerging (like clustering of STARs), but I must not let these influence my decision. The opponent is specifically looking for patterns to exploit - if I repeat, alternate, or show any bias, they will exploit it.
+
+The key to winning at matching pennies is true randomization. Each choice must be independent.
+
+I'll use a mental coin flip for this round: I'm going to choose TRIANGLE.
+
+TRIANGLE",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,0e8b37f7fd79e233be4a9040e1730daf97c33c4cf78668947035d036cb600e10,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 13 choices:   T S S T T S T S S S T S T
+Blue circle landed on:  S S T T S S T T S S S S T
+
+Your action:",TSSTTSTSSSTST,T0S1S0T1T0S1T1S0S1S1T0S1T1,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,MI,matcher,subject_win = int(subject_choice == computer_choice),3,1,4,4,36,rot2,273504356,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,haiku_roleproteus_MI_t0p0_s9036_20261114-215531.csv,1,8,,,SSTTSSTTSSSST,T,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":128,""latency_ms"":1611,""provider"":""Amazon Bedrock""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,0f937c06-5a85-42b6-a11a-d7309fca2ace,9036,58f5f779-f171-49be-9446-dbd81914d8ab,2026-11-15T02:55:56.607423+00:00,2026-11-15T02:55:54.401621+00:00,anthropic/claude-haiku-4.5,haiku,Claude Haiku 4.5,anthropic/claude-haiku-4.5,Amazon Bedrock,gen-1794711356-k9cNtkQJ3LaExfzaDITx,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,274004356,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only haiku --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:55:31.526099+00:00,80000,True,abort,15,15,S,T,0,random_no_detection,0.0220220633,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,2205,0,,325,191,0,516,722,"I need to make a choice that's independent of my previous choices and truly random, as the opponent is analyzing patterns to exploit me.
+
+Let me think about this:
+- My recent choices show: T S S T T S T S S S T S T T
+- The opponent is trying to predict what I'll choose and land on the opposite
+- To avoid exploitation, I must choose with 50/50 probability, independent of history
+
+Looking at my last 5 choices: S, T, T, S, T - there's no clear pattern I should continue or avoid. The key is to make a genuinely random choice, not based on:
+  - Alternation (which I might be tempted to do)
+  - Repetition of recent choices
+  - Any perceived pattern
+
+I'll make an independent random choice as if flipping a fair coin.
+
+STAR",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,db6b4837eed1f65c12b6796d80a9b22ed6be50eb13032a02944bde3c5849d961,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 14 choices:   T S S T T S T S S S T S T T
+Blue circle landed on:  S S T T S S T T S S S S T S
+
+Your action:",TSSTTSTSSSTSTT,T0S1S0T1T0S1T1S0S1S1T0S1T1T0,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,MI,matcher,subject_win = int(subject_choice == computer_choice),3,1,4,4,36,rot2,273504356,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,haiku_roleproteus_MI_t0p0_s9036_20261114-215531.csv,1,8,,,SSTTSSTTSSSSTS,S,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":191,""latency_ms"":2205,""provider"":""Amazon Bedrock""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,0f937c06-5a85-42b6-a11a-d7309fca2ace,9036,030f3418-d824-434b-8fda-cd9cf62768f4,2026-11-15T02:55:58.376930+00:00,2026-11-15T02:55:56.607872+00:00,anthropic/claude-haiku-4.5,haiku,Claude Haiku 4.5,anthropic/claude-haiku-4.5,Amazon Bedrock,gen-1794711358-g1YnLNwA75I4YEmECmUn,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,274004356,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only haiku --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:55:31.526099+00:00,80000,True,abort,16,16,T,T,1,random_no_detection,0.4620767769,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1768,0,,327,185,0,512,709,"I need to choose randomly between TRIANGLE and STAR with 50/50 probability, independent of all previous choices.
+
+Looking at my recent history:
+- Last 15 choices: T S S T T S T S S S T S T T S
+- This shows various patterns, but I must not let these influence my next choice
+
+The opponent is trying to exploit any patterns in my behavior. The key to winning at matching pennies is to be completely unpredictable - each choice must be independent.
+
+I will not:
+- Alternate (last was S, so don't automatically choose T)
+- Repeat (last was S, so don't automatically choose S)
+- Follow any detected pattern
+- Base my choice on recent frequency
+
+I'll make a random 50/50 choice as if flipping a fair coin.
+
+TRIANGLE",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,6ccfb60f61938d0d971ba06a8394714aae2ff8f5bec2dcbbb0374e48d8318598,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 15 choices:   T S S T T S T S S S T S T T S
+Blue circle landed on:  S S T T S S T T S S S S T S T
+
+Your action:",TSSTTSTSSSTSTTS,T0S1S0T1T0S1T1S0S1S1T0S1T1T0S0,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,MI,matcher,subject_win = int(subject_choice == computer_choice),3,1,4,4,36,rot2,273504356,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,haiku_roleproteus_MI_t0p0_s9036_20261114-215531.csv,0,9,,,SSTTSSTTSSSSTST,T,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":185,""latency_ms"":1768,""provider"":""Amazon Bedrock""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,0f937c06-5a85-42b6-a11a-d7309fca2ace,9036,d19c2068-94f0-4657-b8eb-139cbe73a6a9,2026-11-15T02:56:00.602037+00:00,2026-11-15T02:55:58.377174+00:00,anthropic/claude-haiku-4.5,haiku,Claude Haiku 4.5,anthropic/claude-haiku-4.5,Amazon Bedrock,gen-1794711360-27Om3v1A1WJwgbqvZ6Ph,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,274004356,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only haiku --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:55:31.526099+00:00,80000,True,abort,17,17,S,T,0,random_no_detection,0.1568854194,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,2224,0,,329,234,0,563,842,"I need to choose randomly between TRIANGLE and STAR with 50/50 probability, independent of all previous choices.
+
+Looking at my recent history, I can see:
+- Last 5 choices: S, T, T, S, T
+- The opponent has been exploiting patterns by landing opposite to what I choose
+
+The key insight is that to avoid exploitation, I must NOT:
+- Alternate predictably
+- Repeat too much
+- Follow any detectable pattern
+
+My last choice was TRIANGLE. The opponent will expect me to either:
+1. Switch to STAR (if they think I'm alternating)
+2. Stay with TRIANGLE (if they think I'm repeating)
+
+Since I need to be truly random and unpredictable, I should flip a mental coin. Looking at my last 16 choices (T S S T T S T S S S T S T T S T), I've chosen each roughly equally, which is good.
+
+For this round, I'll choose based on randomness: I'll go with STAR.
+
+STAR",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,834318516fa2ab282881312cfe5f8906f7e5635e1aebed8b28d14b6944c671de,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 16 choices:   T S S T T S T S S S T S T T S T
+Blue circle landed on:  S S T T S S T T S S S S T S T T
+
+Your action:",TSSTTSTSSSTSTTST,T0S1S0T1T0S1T1S0S1S1T0S1T1T0S0T1,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,MI,matcher,subject_win = int(subject_choice == computer_choice),3,1,4,4,36,rot2,273504356,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,haiku_roleproteus_MI_t0p0_s9036_20261114-215531.csv,1,9,,,SSTTSSTTSSSSTSTT,S,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":234,""latency_ms"":2224,""provider"":""Amazon Bedrock""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,0f937c06-5a85-42b6-a11a-d7309fca2ace,9036,a5b95ae9-ae3f-4b03-bc3c-dd9a9bead191,2026-11-15T02:56:02.189716+00:00,2026-11-15T02:56:00.602248+00:00,anthropic/claude-haiku-4.5,haiku,Claude Haiku 4.5,anthropic/claude-haiku-4.5,Amazon Bedrock,gen-1794711362-sGA55KcTjrDhkz8pyPtG,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,274004356,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only haiku --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:55:31.526099+00:00,80000,True,abort,18,18,S,S,1,random_no_detection,0.8151817564,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1586,0,,331,140,0,471,589,"I need to choose randomly between TRIANGLE and STAR with 50/50 probability, regardless of previous outcomes.
+
+Looking at my recent choices: T S S T T S T S S S T S T T S T S
+
+The key insight is that I must NOT fall into patterns. The opponent is trying to exploit any predictability in my choices. Even though I might see patterns in the results, I should not adjust my strategy based on them - that would create exploitable patterns.
+
+I'll make a random choice as if flipping a fair coin. Since I need to maintain true randomness and independence from previous choices, I'll choose:
+
+STAR",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,8fe40b07000f9765960703727cfb928da20522d9529d177b3013c8ada32b06fd,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 17 choices:   T S S T T S T S S S T S T T S T S
+Blue circle landed on:  S S T T S S T T S S S S T S T T T
+
+Your action:",TSSTTSTSSSTSTTSTS,T0S1S0T1T0S1T1S0S1S1T0S1T1T0S0T1S0,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,MI,matcher,subject_win = int(subject_choice == computer_choice),3,1,4,4,36,rot2,273504356,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,haiku_roleproteus_MI_t0p0_s9036_20261114-215531.csv,0,10,,,SSTTSSTTSSSSTSTTT,S,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":140,""latency_ms"":1586,""provider"":""Amazon Bedrock""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,0f937c06-5a85-42b6-a11a-d7309fca2ace,9036,4023978e-d883-414e-bab3-873bcb531c06,2026-11-15T02:56:08.314200+00:00,2026-11-15T02:56:02.190143+00:00,anthropic/claude-haiku-4.5,haiku,Claude Haiku 4.5,anthropic/claude-haiku-4.5,Amazon Bedrock,gen-1794711364-OPj7MeOUUz6dii3LBdAP,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,274004356,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only haiku --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:55:31.526099+00:00,80000,True,abort,19,19,S,T,0,random_no_detection,0.4566039025,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,6123,0,,333,200,0,533,757,"I need to choose randomly between TRIANGLE and STAR with 50/50 probability, independent of all previous choices.
+
+Looking at my recent history:
+- Last 5 rounds: T, S, T, S, S
+- Last 18 choices: T S S T T S T S S S T S T T S T S S
+
+The opponent is trying to exploit any patterns in my choices. I can see there's some alternation and clustering, but I must not fall into predictable patterns.
+
+The key to winning at matching pennies is to be truly random - each choice should be independent of what came before. I should not:
+- Alternate too regularly
+- Repeat too much
+- React to recent outcomes
+- Follow any discernible pattern
+
+Since I need to make a 50/50 random choice right now, I'll choose based on randomization rather than any pattern analysis.
+
+STAR",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,6cde9bd16a98c31816ce05a8a10660d62b3cbd44d0d36698f6f443dc6e7efb9b,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 18 choices:   T S S T T S T S S S T S T T S T S S
+Blue circle landed on:  S S T T S S T T S S S S T S T T T S
+
+Your action:",TSSTTSTSSSTSTTSTSS,T0S1S0T1T0S1T1S0S1S1T0S1T1T0S0T1S0S1,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,MI,matcher,subject_win = int(subject_choice == computer_choice),3,1,4,4,36,rot2,273504356,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,haiku_roleproteus_MI_t0p0_s9036_20261114-215531.csv,1,10,,,SSTTSSTTSSSSTSTTTS,S,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":200,""latency_ms"":6123,""provider"":""Amazon Bedrock""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,0f937c06-5a85-42b6-a11a-d7309fca2ace,9036,c87938ec-3415-404a-b7f0-f210e9985817,2026-11-15T02:56:10.105675+00:00,2026-11-15T02:56:08.314321+00:00,anthropic/claude-haiku-4.5,haiku,Claude Haiku 4.5,anthropic/claude-haiku-4.5,Amazon Bedrock,gen-1794711370-DkwhxHXrlh8OP7kWXlyK,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,274004356,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only haiku --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:55:31.526099+00:00,80000,True,abort,20,20,T,S,0,random_no_detection,0.5571225654,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1790,0,,335,168,0,503,681,"I need to choose randomly between TRIANGLE and STAR with 50/50 probability, independent of all previous choices.
+
+Looking at my recent history:
+- Last 5 choices: STAR, STAR, STAR, TRIANGLE, STAR
+- I've been choosing STAR more frequently recently (4 out of last 5)
+
+However, this is exactly the kind of pattern the opponent exploits. To maintain an unpredictable strategy, I must not let recent choices influence my decision. Each choice should be like a fair coin flip.
+
+The opponent is trying to predict my next move based on patterns. My best defense is to ensure no exploitable pattern exists by randomizing truly.
+
+Thinking of this as a fair coin flip for this round:
+
+TRIANGLE",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,53f4b441e72bd68df2f7488312342861d3bd8ac4b1d0c07ae04dc3157b2c95a6,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 19 choices:   T S S T T S T S S S T S T T S T S S S
+Blue circle landed on:  S S T T S S T T S S S S T S T T T S T
+
+Your action:",TSSTTSTSSSTSTTSTSSS,T0S1S0T1T0S1T1S0S1S1T0S1T1T0S0T1S0S1S0,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,MI,matcher,subject_win = int(subject_choice == computer_choice),3,1,4,4,36,rot2,273504356,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,haiku_roleproteus_MI_t0p0_s9036_20261114-215531.csv,1,10,,,SSTTSSTTSSSSTSTTTST,T,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":168,""latency_ms"":1790,""provider"":""Amazon Bedrock""}]"

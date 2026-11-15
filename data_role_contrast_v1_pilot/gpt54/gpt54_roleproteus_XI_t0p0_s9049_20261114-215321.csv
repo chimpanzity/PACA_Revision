@@ -1,0 +1,240 @@
+schema_version,client_version,prompt_version,parser_version,harness_commit,run_id,session_id,session_index,request_id,collected_utc,trial_utc,model,model_group,model_display,served_model,provider,generation_id,prompt_mode,opponent,binomial_tail,temperature,top_p,reasoning_config,max_tokens,desc_window,compact_window,master_seed,session_seed,n_trials,openai_lib_version,python_version,os_platform,command_line,session_started_utc,max_tokens_ceiling,escalate_on_truncation,on_truncation,trial,total_trial,subject_choice,computer_choice,subject_win,opp_action_type,opp_ranval,predicted_subject_side,winning_channel,winning_channel_bias,n_channels_active,n0_sign,n1_sign,n2_sign,n3_sign,n4_sign,n5_sign,n6_sign,n7_sign,n8_sign,n0_bside,n1_bside,n2_bside,n3_bside,n4_bside,n5_bside,n6_bside,n7_bside,n8_bside,n0_bsideprob,n1_bsideprob,n2_bsideprob,n3_bsideprob,n4_bsideprob,n5_bsideprob,n6_bsideprob,n7_bsideprob,n8_bsideprob,choice_source,finish_reason,truncated,max_tokens_used,latency_ms,retries_used,error_message,prompt_tokens,completion_tokens,reasoning_tokens,total_tokens,response_chars,response_text,system_prompt_sha256,user_prompt_sha256,user_prompt_text,history_choices,history_cr,study,protocol_version,opponent_version,harness_dirty,legacy_code_identical,legacy_files_sha256,family,system_fingerprint,condition_code,role,payoff_rule,block_id,block_position,within_block_position,within_model_position,global_session_order,order_sequence_id,block_seed,temperature_param_status,config_sha256,schedule_sha256,attempt_number,session_completion_status,invalid_response,machine,output_file,computer_win,cum_wins,counteraction_target,predicted_choice_probability,history_computer_choices,parse_last_line_choice,parse_agrees_last_line,native_finish_reason,n_attempts,attempts_json
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,daa2e8dc-c245-4a46-aa4a-be550002882b,9049,3e3bb206-5aa2-4bba-ac5f-8b65f3685e06,2026-11-15T02:53:22.608028+00:00,2026-11-15T02:53:21.094404+00:00,openai/gpt-5.4,gpt54,GPT-5.4,openai/gpt-5.4,OpenAI,gen-1794711203-W1ImtXOpCaTixhLFFrD3,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,299342767,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only gpt54 --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:53:21.053636+00:00,80000,True,abort,1,1,S,S,0,random_no_detection,0.7897972166,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1513,0,,183,5,0,188,4,STAR,6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,c17faf00eedb5de2eeb3784dd857e800c2ca369831d95ce8a1770e57e6813d5c,"No previous rounds yet.
+
+Your action:",,,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",OpenAI,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),4,1,1,1,49,rot3,298842767,not_applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,gpt54_roleproteus_XI_t0p0_s9049_20261114-215321.csv,1,0,,,,S,True,completed,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":5,""latency_ms"":1513,""provider"":""OpenAI""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,daa2e8dc-c245-4a46-aa4a-be550002882b,9049,bf7b1cd9-017f-42dd-987b-04bd7e96ab23,2026-11-15T02:53:23.436585+00:00,2026-11-15T02:53:22.608199+00:00,openai/gpt-5.4,gpt54,GPT-5.4,openai/gpt-5.4,OpenAI,gen-1794711204-e0tHlhxpvIH30Ua0BVuJ,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,299342767,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only gpt54 --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:53:21.053636+00:00,80000,True,abort,2,2,T,S,1,random_no_detection,0.8738873386,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,828,0,,230,7,0,237,8,TRIANGLE,6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,bdd2c73ceefc90083c0082e85903c9924769fbabf1538382ff790a8409c7ccda,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 1 choice:     S
+Blue circle landed on:  S
+
+Your action:",S,S0,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",OpenAI,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),4,1,1,1,49,rot3,298842767,not_applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,gpt54_roleproteus_XI_t0p0_s9049_20261114-215321.csv,0,1,,,S,T,True,completed,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":7,""latency_ms"":828,""provider"":""OpenAI""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,daa2e8dc-c245-4a46-aa4a-be550002882b,9049,32f9c40c-674b-4fd7-9c95-fbe8f6bdd24d,2026-11-15T02:53:24.342777+00:00,2026-11-15T02:53:23.437100+00:00,openai/gpt-5.4,gpt54,GPT-5.4,openai/gpt-5.4,OpenAI,gen-1794711205-oWAmg0U8sitM6lpQHYWN,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,299342767,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only gpt54 --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:53:21.053636+00:00,80000,True,abort,3,3,T,T,0,random_no_detection,0.0764790917,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,905,0,,244,7,0,251,8,TRIANGLE,6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,897f707952f8aac7089909eea1cd4a089748f06d93bf44e1a3b65783510d64ea,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 2 choices:    S T
+Blue circle landed on:  S S
+
+Your action:",ST,S0T1,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",OpenAI,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),4,1,1,1,49,rot3,298842767,not_applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,gpt54_roleproteus_XI_t0p0_s9049_20261114-215321.csv,1,1,,,SS,T,True,completed,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":7,""latency_ms"":905,""provider"":""OpenAI""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,daa2e8dc-c245-4a46-aa4a-be550002882b,9049,f9740fd1-7560-4c41-a757-a3019f9ae6ec,2026-11-15T02:53:25.398364+00:00,2026-11-15T02:53:24.343826+00:00,openai/gpt-5.4,gpt54,GPT-5.4,openai/gpt-5.4,OpenAI,gen-1794711206-zahs7f1m8O6je0bHShJk,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,299342767,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only gpt54 --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:53:21.053636+00:00,80000,True,abort,4,4,S,S,0,random_no_detection,0.9639793066,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1054,0,,259,6,0,265,6,"STAR
+
+",6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,5e3e00f65be666fa23d8f1f4b411600ae67cbe13645f9e12d4eb9395ce12fae6,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 3 choices:    S T T
+Blue circle landed on:  S S T
+
+Your action:",STT,S0T1T0,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",OpenAI,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),4,1,1,1,49,rot3,298842767,not_applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,gpt54_roleproteus_XI_t0p0_s9049_20261114-215321.csv,1,1,,,SST,S,True,completed,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":6,""latency_ms"":1054,""provider"":""OpenAI""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,daa2e8dc-c245-4a46-aa4a-be550002882b,9049,e3b4d15c-dc4d-4911-ba9e-e0add0436623,2026-11-15T02:53:26.462023+00:00,2026-11-15T02:53:25.398538+00:00,openai/gpt-5.4,gpt54,GPT-5.4,openai/gpt-5.4,OpenAI,gen-1794711207-boRNOSdx2khT9SaItVMS,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,299342767,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only gpt54 --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:53:21.053636+00:00,80000,True,abort,5,5,T,S,1,random_no_detection,0.7712605204,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1063,0,,272,7,0,279,8,TRIANGLE,6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,f584c64b68f63acdbf8c1e0e604e3d67d90fa5563ecc5dda77d81b611bc22c90,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 4 choices:    S T T S
+Blue circle landed on:  S S T S
+
+Your action:",STTS,S0T1T0S0,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",OpenAI,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),4,1,1,1,49,rot3,298842767,not_applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,gpt54_roleproteus_XI_t0p0_s9049_20261114-215321.csv,0,2,,,SSTS,T,True,completed,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":7,""latency_ms"":1063,""provider"":""OpenAI""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,daa2e8dc-c245-4a46-aa4a-be550002882b,9049,9e10ad4e-c2be-4ac4-b83e-ae16e0776b3f,2026-11-15T02:53:27.422554+00:00,2026-11-15T02:53:26.462387+00:00,openai/gpt-5.4,gpt54,GPT-5.4,openai/gpt-5.4,OpenAI,gen-1794711208-SYBFMYSwLbR7q3Gh9mIS,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,299342767,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only gpt54 --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:53:21.053636+00:00,80000,True,abort,6,6,S,S,0,random_no_detection,0.6639853602,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,959,0,,286,6,0,292,6,"STAR
+
+",6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,632409113fd355c2d4d79d832dfa56a6d9e4d589f4eeeec54b6bfcc2b496fcde,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 5 choices:    S T T S T
+Blue circle landed on:  S S T S S
+
+Your action:",STTST,S0T1T0S0T1,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",OpenAI,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),4,1,1,1,49,rot3,298842767,not_applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,gpt54_roleproteus_XI_t0p0_s9049_20261114-215321.csv,1,2,,,SSTSS,S,True,completed,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":6,""latency_ms"":959,""provider"":""OpenAI""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,daa2e8dc-c245-4a46-aa4a-be550002882b,9049,b757e27e-77d1-43e5-a8c6-825ff0adac51,2026-11-15T02:53:28.477823+00:00,2026-11-15T02:53:27.422715+00:00,openai/gpt-5.4,gpt54,GPT-5.4,openai/gpt-5.4,OpenAI,gen-1794711209-ER6ewDj0TVQrSF98mn0t,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,299342767,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only gpt54 --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:53:21.053636+00:00,80000,True,abort,7,7,S,S,0,random_no_detection,0.8709815417,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1054,0,,288,6,0,294,6,"STAR
+
+",6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,0778a0b6f1381c469d77b920441a46d1765ee40aba74098932fcf78c645637e9,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 6 choices:    S T T S T S
+Blue circle landed on:  S S T S S S
+
+Your action:",STTSTS,S0T1T0S0T1S0,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",OpenAI,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),4,1,1,1,49,rot3,298842767,not_applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,gpt54_roleproteus_XI_t0p0_s9049_20261114-215321.csv,1,2,,,SSTSSS,S,True,completed,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":6,""latency_ms"":1054,""provider"":""OpenAI""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,daa2e8dc-c245-4a46-aa4a-be550002882b,9049,c88c8382-b586-4ef2-bd95-d35d8db1eb48,2026-11-15T02:53:29.472741+00:00,2026-11-15T02:53:28.477988+00:00,openai/gpt-5.4,gpt54,GPT-5.4,openai/gpt-5.4,OpenAI,gen-1794711210-QEVYyXBwruiFGBkPGhiC,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,299342767,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only gpt54 --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:53:21.053636+00:00,80000,True,abort,8,8,S,T,1,random_no_detection,0.4729549635,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,994,0,,289,6,0,295,6,"STAR
+
+",6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,150d8ea709bbde44247c29cd95804df671526936bf2e10faffee5ed851ff896b,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 7 choices:    S T T S T S S
+Blue circle landed on:  S S T S S S S
+
+Your action:",STTSTSS,S0T1T0S0T1S0S0,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",OpenAI,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),4,1,1,1,49,rot3,298842767,not_applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,gpt54_roleproteus_XI_t0p0_s9049_20261114-215321.csv,0,3,,,SSTSSSS,S,True,completed,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":6,""latency_ms"":994,""provider"":""OpenAI""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,daa2e8dc-c245-4a46-aa4a-be550002882b,9049,9062b243-f67c-4fca-a071-15155f5781f7,2026-11-15T02:53:30.377577+00:00,2026-11-15T02:53:29.472891+00:00,openai/gpt-5.4,gpt54,GPT-5.4,openai/gpt-5.4,OpenAI,gen-1794711211-J7WczeQrwsZ3ztcDLxSh,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,299342767,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only gpt54 --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:53:21.053636+00:00,80000,True,abort,9,9,S,S,0,random_no_detection,0.9363632519,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,904,0,,290,6,0,296,6,"STAR
+
+",6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,3cf964a2a94f44b392049b54172565ba3a426f1c3e2870c9fa008f74804068a8,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 8 choices:    S T T S T S S S
+Blue circle landed on:  S S T S S S S T
+
+Your action:",STTSTSSS,S0T1T0S0T1S0S0S1,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",OpenAI,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),4,1,1,1,49,rot3,298842767,not_applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,gpt54_roleproteus_XI_t0p0_s9049_20261114-215321.csv,1,3,,,SSTSSSST,S,True,completed,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":6,""latency_ms"":904,""provider"":""OpenAI""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,daa2e8dc-c245-4a46-aa4a-be550002882b,9049,231ce6bb-b4d9-4ab2-a05e-a9121083523f,2026-11-15T02:53:31.298968+00:00,2026-11-15T02:53:30.377998+00:00,openai/gpt-5.4,gpt54,GPT-5.4,openai/gpt-5.4,OpenAI,gen-1794711212-13PVP6QSbwdZomftKFrZ,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,299342767,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only gpt54 --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:53:21.053636+00:00,80000,True,abort,10,10,S,T,1,random_no_detection,0.2332273503,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,920,0,,292,6,0,298,6,"STAR
+
+",6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,6a02a6ba529e6b67f9f15ab3985425c3fe3b9d3994681ead525f59bbc0d898bc,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 9 choices:    S T T S T S S S S
+Blue circle landed on:  S S T S S S S T S
+
+Your action:",STTSTSSSS,S0T1T0S0T1S0S0S1S0,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",OpenAI,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),4,1,1,1,49,rot3,298842767,not_applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,gpt54_roleproteus_XI_t0p0_s9049_20261114-215321.csv,0,4,,,SSTSSSSTS,S,True,completed,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":6,""latency_ms"":920,""provider"":""OpenAI""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,daa2e8dc-c245-4a46-aa4a-be550002882b,9049,d7849afc-bed2-489c-ae7e-83517fc36b9a,2026-11-15T02:53:32.055314+00:00,2026-11-15T02:53:31.299082+00:00,openai/gpt-5.4,gpt54,GPT-5.4,openai/gpt-5.4,OpenAI,gen-1794711213-eIXUUuqiaem5gy4h84Dg,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,299342767,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only gpt54 --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:53:21.053636+00:00,80000,True,abort,11,11,T,S,1,random_no_detection,0.5753341141,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,756,0,,294,7,0,301,8,TRIANGLE,6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,6797a059dc8ce288c909df323cb42365b6abaa0f47bfe21ce5e1e9d29d4668e6,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 10 choices:   S T T S T S S S S S
+Blue circle landed on:  S S T S S S S T S T
+
+Your action:",STTSTSSSSS,S0T1T0S0T1S0S0S1S0S1,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",OpenAI,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),4,1,1,1,49,rot3,298842767,not_applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,gpt54_roleproteus_XI_t0p0_s9049_20261114-215321.csv,0,5,,,SSTSSSSTST,T,True,completed,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":7,""latency_ms"":756,""provider"":""OpenAI""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,daa2e8dc-c245-4a46-aa4a-be550002882b,9049,42ccbbf5-deca-4aa3-b034-0592857807d8,2026-11-15T02:53:32.811544+00:00,2026-11-15T02:53:32.055472+00:00,openai/gpt-5.4,gpt54,GPT-5.4,openai/gpt-5.4,OpenAI,gen-1794711213-xAwetbcvhcOAaZzr8Jak,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,299342767,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only gpt54 --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:53:21.053636+00:00,80000,True,abort,12,12,S,S,0,random_no_detection,0.6925035410,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,755,0,,297,5,0,302,4,STAR,6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,f703d988d32e09587ae5588f5448c12354a73c7f8dbbb0be47486e3459df5454,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 11 choices:   S T T S T S S S S S T
+Blue circle landed on:  S S T S S S S T S T S
+
+Your action:",STTSTSSSSST,S0T1T0S0T1S0S0S1S0S1T1,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",OpenAI,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),4,1,1,1,49,rot3,298842767,not_applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,gpt54_roleproteus_XI_t0p0_s9049_20261114-215321.csv,1,5,,,SSTSSSSTSTS,S,True,completed,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":5,""latency_ms"":755,""provider"":""OpenAI""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,daa2e8dc-c245-4a46-aa4a-be550002882b,9049,7606c79d-9ae4-4578-ac1f-4c5f0e292375,2026-11-15T02:53:33.761028+00:00,2026-11-15T02:53:32.811709+00:00,openai/gpt-5.4,gpt54,GPT-5.4,openai/gpt-5.4,OpenAI,gen-1794711214-6JYyOJAo83Sq7HpMaBFv,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,299342767,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only gpt54 --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:53:21.053636+00:00,80000,True,abort,13,13,T,T,0,random_no_detection,0.4520242162,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,949,0,,299,7,0,306,8,TRIANGLE,6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,631c8344e6f494142a961f37f3b6ff1eed1ed3fbf74bb5a86cd1cfe1a6c43620,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 12 choices:   S T T S T S S S S S T S
+Blue circle landed on:  S S T S S S S T S T S S
+
+Your action:",STTSTSSSSSTS,S0T1T0S0T1S0S0S1S0S1T1S0,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",OpenAI,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),4,1,1,1,49,rot3,298842767,not_applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,gpt54_roleproteus_XI_t0p0_s9049_20261114-215321.csv,1,5,,,SSTSSSSTSTSS,T,True,completed,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":7,""latency_ms"":949,""provider"":""OpenAI""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,daa2e8dc-c245-4a46-aa4a-be550002882b,9049,cad7b0a3-9ad9-41d1-b4ed-6717cebd49c6,2026-11-15T02:53:34.588547+00:00,2026-11-15T02:53:33.761133+00:00,openai/gpt-5.4,gpt54,GPT-5.4,openai/gpt-5.4,OpenAI,gen-1794711215-apeG320jcnJm4UaaJpac,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,299342767,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only gpt54 --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:53:21.053636+00:00,80000,True,abort,14,14,T,T,0,random_no_detection,0.1730681292,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,827,0,,302,7,0,309,8,TRIANGLE,6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,ddc44226c7c95245d25bc9437dd086b9e97fe7cc70b4827ccff98ba606792331,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 13 choices:   S T T S T S S S S S T S T
+Blue circle landed on:  S S T S S S S T S T S S T
+
+Your action:",STTSTSSSSSTST,S0T1T0S0T1S0S0S1S0S1T1S0T0,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",OpenAI,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),4,1,1,1,49,rot3,298842767,not_applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,gpt54_roleproteus_XI_t0p0_s9049_20261114-215321.csv,1,5,,,SSTSSSSTSTSST,T,True,completed,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":7,""latency_ms"":827,""provider"":""OpenAI""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,daa2e8dc-c245-4a46-aa4a-be550002882b,9049,a4e8623a-0d72-4624-9430-96c2d26229e6,2026-11-15T02:53:35.649135+00:00,2026-11-15T02:53:34.588841+00:00,openai/gpt-5.4,gpt54,GPT-5.4,openai/gpt-5.4,OpenAI,gen-1794711216-OxWmjBplhxJsEmzEqdOt,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,299342767,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only gpt54 --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:53:21.053636+00:00,80000,True,abort,15,15,S,S,0,random_no_detection,0.9694786448,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1059,0,,306,6,0,312,6,"STAR
+
+",6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,e68c49429347777fc7cf326f55bb248818280e5b18e889186292dc7d25ec114b,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 14 choices:   S T T S T S S S S S T S T T
+Blue circle landed on:  S S T S S S S T S T S S T T
+
+Your action:",STTSTSSSSSTSTT,S0T1T0S0T1S0S0S1S0S1T1S0T0T0,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",OpenAI,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),4,1,1,1,49,rot3,298842767,not_applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,gpt54_roleproteus_XI_t0p0_s9049_20261114-215321.csv,1,5,,,SSTSSSSTSTSSTT,S,True,completed,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":6,""latency_ms"":1059,""provider"":""OpenAI""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,daa2e8dc-c245-4a46-aa4a-be550002882b,9049,941a1bb0-badc-4f6a-a57e-09191426e9ac,2026-11-15T02:53:36.464495+00:00,2026-11-15T02:53:35.649919+00:00,openai/gpt-5.4,gpt54,GPT-5.4,openai/gpt-5.4,OpenAI,gen-1794711217-LUWpFDCRe4TPcunxaZtM,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,299342767,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only gpt54 --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:53:21.053636+00:00,80000,True,abort,16,16,S,S,0,random_no_detection,0.5696154121,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,813,0,,307,5,0,312,4,STAR,6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,64da64b6cc5d5a5a6b0ca9fb47bc6990101ab5db9d37ee46ae0ffc0acff7585d,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 15 choices:   S T T S T S S S S S T S T T S
+Blue circle landed on:  S S T S S S S T S T S S T T S
+
+Your action:",STTSTSSSSSTSTTS,S0T1T0S0T1S0S0S1S0S1T1S0T0T0S0,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",OpenAI,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),4,1,1,1,49,rot3,298842767,not_applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,gpt54_roleproteus_XI_t0p0_s9049_20261114-215321.csv,1,5,,,SSTSSSSTSTSSTTS,S,True,completed,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":5,""latency_ms"":813,""provider"":""OpenAI""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,daa2e8dc-c245-4a46-aa4a-be550002882b,9049,a89e9290-2892-4f5e-b5af-95a91b3c4291,2026-11-15T02:53:37.334387+00:00,2026-11-15T02:53:36.464878+00:00,openai/gpt-5.4,gpt54,GPT-5.4,openai/gpt-5.4,OpenAI,gen-1794711218-CRblRcXe3skv45oex2hd,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,299342767,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only gpt54 --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:53:21.053636+00:00,80000,True,abort,17,17,T,S,1,random_no_detection,0.9215532294,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,868,0,,308,7,0,315,8,TRIANGLE,6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,8966c087436ba7d416fd9d5eb0079842fcb76182d29fcbe13b7b34efb628adaa,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 16 choices:   S T T S T S S S S S T S T T S S
+Blue circle landed on:  S S T S S S S T S T S S T T S S
+
+Your action:",STTSTSSSSSTSTTSS,S0T1T0S0T1S0S0S1S0S1T1S0T0T0S0S0,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",OpenAI,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),4,1,1,1,49,rot3,298842767,not_applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,gpt54_roleproteus_XI_t0p0_s9049_20261114-215321.csv,0,6,,,SSTSSSSTSTSSTTSS,T,True,completed,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":7,""latency_ms"":868,""provider"":""OpenAI""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,daa2e8dc-c245-4a46-aa4a-be550002882b,9049,8190c68c-67e9-4715-9ef3-03cafd1742f5,2026-11-15T02:53:38.363101+00:00,2026-11-15T02:53:37.334579+00:00,openai/gpt-5.4,gpt54,GPT-5.4,openai/gpt-5.4,OpenAI,gen-1794711219-lgXZPWagijhtYumG4mtl,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,299342767,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only gpt54 --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:53:21.053636+00:00,80000,True,abort,18,18,S,S,0,random_no_detection,0.9129793907,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1028,0,,311,6,0,317,6,"STAR
+
+",6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,e816effdee42d025606a5277648063e3d46fd5a7ad5bffb1a37ef3a28ac5a2b0,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 17 choices:   S T T S T S S S S S T S T T S S T
+Blue circle landed on:  S S T S S S S T S T S S T T S S S
+
+Your action:",STTSTSSSSSTSTTSST,S0T1T0S0T1S0S0S1S0S1T1S0T0T0S0S0T1,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",OpenAI,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),4,1,1,1,49,rot3,298842767,not_applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,gpt54_roleproteus_XI_t0p0_s9049_20261114-215321.csv,1,6,,,SSTSSSSTSTSSTTSSS,S,True,completed,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":6,""latency_ms"":1028,""provider"":""OpenAI""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,daa2e8dc-c245-4a46-aa4a-be550002882b,9049,0bbe194b-83bb-45a8-b2b3-344907e75968,2026-11-15T02:53:39.252789+00:00,2026-11-15T02:53:38.363323+00:00,openai/gpt-5.4,gpt54,GPT-5.4,openai/gpt-5.4,OpenAI,gen-1794711220-7k3l4TSX0VtTss4uDzOC,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,299342767,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only gpt54 --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:53:21.053636+00:00,80000,True,abort,19,19,S,T,1,random_no_detection,0.3162372843,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,888,0,,311,5,0,316,4,STAR,6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,ef142e466e677a51a5d762ca348fa721de6117117a55f270f0548e0859ed67d5,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 18 choices:   S T T S T S S S S S T S T T S S T S
+Blue circle landed on:  S S T S S S S T S T S S T T S S S S
+
+Your action:",STTSTSSSSSTSTTSSTS,S0T1T0S0T1S0S0S1S0S1T1S0T0T0S0S0T1S0,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",OpenAI,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),4,1,1,1,49,rot3,298842767,not_applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,gpt54_roleproteus_XI_t0p0_s9049_20261114-215321.csv,0,7,,,SSTSSSSTSTSSTTSSSS,S,True,completed,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":5,""latency_ms"":888,""provider"":""OpenAI""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,daa2e8dc-c245-4a46-aa4a-be550002882b,9049,221b5382-4d6e-4f2c-ad4e-c0221b3fd6d8,2026-11-15T02:53:40.202178+00:00,2026-11-15T02:53:39.253207+00:00,openai/gpt-5.4,gpt54,GPT-5.4,openai/gpt-5.4,OpenAI,gen-1794711221-4ijAFWuKHeFp0AubuDzk,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,299342767,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only gpt54 --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:53:21.053636+00:00,80000,True,abort,20,20,S,T,1,random_no_detection,0.4698571764,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,948,0,,312,6,0,318,6,"STAR
+
+",6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,370343dc6e54d225693cc49907642c5f5dfdfb2159c07fdf49b0b50fd756259c,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 19 choices:   S T T S T S S S S S T S T T S S T S S
+Blue circle landed on:  S S T S S S S T S T S S T T S S S S T
+
+Your action:",STTSTSSSSSTSTTSSTSS,S0T1T0S0T1S0S0S1S0S1T1S0T0T0S0S0T1S0S1,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",OpenAI,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),4,1,1,1,49,rot3,298842767,not_applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,gpt54_roleproteus_XI_t0p0_s9049_20261114-215321.csv,0,8,,,SSTSSSSTSTSSTTSSSST,S,True,completed,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":6,""latency_ms"":948,""provider"":""OpenAI""}]"

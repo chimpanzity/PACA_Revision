@@ -1,0 +1,9 @@
+{
+  "subsample_seed": 20260716,
+  "order_A_seed": 20260716001,
+  "order_B_seed": 20260716002,
+  "calib_seed": 20260716777,
+  "n": 150,
+  "strata": 81,
+  "reconstruction_ok": true
+}

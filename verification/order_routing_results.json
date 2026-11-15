@@ -1,0 +1,133 @@
+{
+  "source": "/sessions/inspiring-eloquent-volta/mnt/uploads/Protean_NoPeek_Dataset.xlsx",
+  "sha256": "1258beaf4a67e4f70cf031c1ba8dfdffae8747c9e1b5f507b6d1a29b4b8bb892",
+  "checkpoint_and_routing": {
+    "Claude Haiku 4.5": {
+      "n_served_model_ids": 1,
+      "served_model": "anthropic/claude-4.5-haiku-20251001",
+      "identical_across_conditions": true,
+      "providers_minimalist": [
+        "Amazon Bedrock"
+      ],
+      "providers_informed": [
+        "Amazon Bedrock"
+      ],
+      "provider_sets_identical": true
+    },
+    "Claude Opus 4.8": {
+      "n_served_model_ids": 1,
+      "served_model": "anthropic/claude-4.8-opus-20260528",
+      "identical_across_conditions": true,
+      "providers_minimalist": [
+        "Anthropic"
+      ],
+      "providers_informed": [
+        "Amazon Bedrock",
+        "Anthropic"
+      ],
+      "provider_sets_identical": false
+    },
+    "Claude Sonnet 4.6": {
+      "n_served_model_ids": 1,
+      "served_model": "anthropic/claude-4.6-sonnet-20260217",
+      "identical_across_conditions": true,
+      "providers_minimalist": [
+        "Amazon Bedrock",
+        "Anthropic"
+      ],
+      "providers_informed": [
+        "Amazon Bedrock",
+        "Anthropic",
+        "Google"
+      ],
+      "provider_sets_identical": false
+    },
+    "GPT-5.4": {
+      "n_served_model_ids": 1,
+      "served_model": "openai/gpt-5.4-20260305",
+      "identical_across_conditions": true,
+      "providers_minimalist": [
+        "Azure",
+        "OpenAI"
+      ],
+      "providers_informed": [
+        "OpenAI"
+      ],
+      "provider_sets_identical": false
+    },
+    "GPT-5.4-mini": {
+      "n_served_model_ids": 1,
+      "served_model": "openai/gpt-5.4-mini-20260317",
+      "identical_across_conditions": true,
+      "providers_minimalist": [
+        "Azure",
+        "OpenAI"
+      ],
+      "providers_informed": [
+        "OpenAI"
+      ],
+      "provider_sets_identical": false
+    },
+    "Gemini 3 Flash Preview": {
+      "n_served_model_ids": 1,
+      "served_model": "google/gemini-3-flash-preview-20251217",
+      "identical_across_conditions": true,
+      "providers_minimalist": [
+        "Google",
+        "Google AI Studio"
+      ],
+      "providers_informed": [
+        "Google",
+        "Google AI Studio"
+      ],
+      "provider_sets_identical": true
+    },
+    "Gemini 3.1 Flash Lite": {
+      "n_served_model_ids": 1,
+      "served_model": "google/gemini-3.1-flash-lite-20260507",
+      "identical_across_conditions": true,
+      "providers_minimalist": [
+        "Google",
+        "Google AI Studio"
+      ],
+      "providers_informed": [
+        "Google",
+        "Google AI Studio"
+      ],
+      "provider_sets_identical": true
+    }
+  },
+  "all_models_single_checkpoint": true,
+  "models_with_identical_provider_sets": [
+    "Claude Haiku 4.5",
+    "Gemini 3 Flash Preview",
+    "Gemini 3.1 Flash Lite"
+  ],
+  "frame_effect": {
+    "per_model": {
+      "Claude Haiku 4.5": -0.2171,
+      "Claude Opus 4.8": -0.0386,
+      "Claude Sonnet 4.6": -0.2579,
+      "GPT-5.4": -0.11,
+      "GPT-5.4-mini": -0.0714,
+      "Gemini 3 Flash Preview": 0.0471,
+      "Gemini 3.1 Flash Lite": -0.115
+    },
+    "mean": -0.109,
+    "mean_routing_constant_subset": -0.095,
+    "n_routing_constant": 3
+  },
+  "within_condition_order_trend": {
+    "minimalist": {
+      "r": -0.095,
+      "p": 0.518,
+      "n_sessions": 49
+    },
+    "informed": {
+      "r": 0.172,
+      "p": 0.238,
+      "n_sessions": 49
+    }
+  },
+  "within_condition_drift_mean_abs": 0.0354
+}

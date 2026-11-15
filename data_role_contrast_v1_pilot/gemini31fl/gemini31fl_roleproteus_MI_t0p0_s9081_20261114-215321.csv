@@ -1,0 +1,262 @@
+schema_version,client_version,prompt_version,parser_version,harness_commit,run_id,session_id,session_index,request_id,collected_utc,trial_utc,model,model_group,model_display,served_model,provider,generation_id,prompt_mode,opponent,binomial_tail,temperature,top_p,reasoning_config,max_tokens,desc_window,compact_window,master_seed,session_seed,n_trials,openai_lib_version,python_version,os_platform,command_line,session_started_utc,max_tokens_ceiling,escalate_on_truncation,on_truncation,trial,total_trial,subject_choice,computer_choice,subject_win,opp_action_type,opp_ranval,predicted_subject_side,winning_channel,winning_channel_bias,n_channels_active,n0_sign,n1_sign,n2_sign,n3_sign,n4_sign,n5_sign,n6_sign,n7_sign,n8_sign,n0_bside,n1_bside,n2_bside,n3_bside,n4_bside,n5_bside,n6_bside,n7_bside,n8_bside,n0_bsideprob,n1_bsideprob,n2_bsideprob,n3_bsideprob,n4_bsideprob,n5_bsideprob,n6_bsideprob,n7_bsideprob,n8_bsideprob,choice_source,finish_reason,truncated,max_tokens_used,latency_ms,retries_used,error_message,prompt_tokens,completion_tokens,reasoning_tokens,total_tokens,response_chars,response_text,system_prompt_sha256,user_prompt_sha256,user_prompt_text,history_choices,history_cr,study,protocol_version,opponent_version,harness_dirty,legacy_code_identical,legacy_files_sha256,family,system_fingerprint,condition_code,role,payoff_rule,block_id,block_position,within_block_position,within_model_position,global_session_order,order_sequence_id,block_seed,temperature_param_status,config_sha256,schedule_sha256,attempt_number,session_completion_status,invalid_response,machine,output_file,computer_win,cum_wins,counteraction_target,predicted_choice_probability,history_computer_choices,parse_last_line_choice,parse_agrees_last_line,native_finish_reason,n_attempts,attempts_json
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,7392af22-56d3-48d6-aac8-7dadf98cd470,9081,3e56e2a7-cf6b-4a4b-860e-a93b7f33b116,2026-11-15T02:53:22.634690+00:00,2026-11-15T02:53:21.131977+00:00,google/gemini-3.1-flash-lite,gemini31fl,Gemini 3.1 Flash Lite,google/gemini-3.1-flash-lite,Google,gen-1794711203-7Mt4uWF4ziPldqjSJgAn,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,253339795,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only gemini31fl --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:53:21.063493+00:00,80000,True,abort,1,1,T,T,1,random_no_detection,0.4657450783,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1502,0,,180,30,0,210,165,"To ensure my choices remain unpredictable and immune to exploitation, I will use a random process to select between the two options with equal probability.
+
+TRIANGLE",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,c17faf00eedb5de2eeb3784dd857e800c2ca369831d95ce8a1770e57e6813d5c,"No previous rounds yet.
+
+Your action:",,,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Google,,MI,matcher,subject_win = int(subject_choice == computer_choice),2,1,1,1,81,rot1,252839795,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,gemini31fl_roleproteus_MI_t0p0_s9081_20261114-215321.csv,0,1,,,,T,True,STOP,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":30,""latency_ms"":1502,""provider"":""Google""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,7392af22-56d3-48d6-aac8-7dadf98cd470,9081,4dbafd3b-bcbb-4222-b0ef-07e3407e1bc9,2026-11-15T02:53:23.436062+00:00,2026-11-15T02:53:22.634864+00:00,google/gemini-3.1-flash-lite,gemini31fl,Gemini 3.1 Flash Lite,google/gemini-3.1-flash-lite,Google,gen-1794711204-pUfryS01xiqk8gaLAYKl,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,253339795,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only gemini31fl --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:53:21.063493+00:00,80000,True,abort,2,2,S,T,0,random_no_detection,0.1640806538,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,800,0,,232,33,0,265,176,"To ensure my choices remain unpredictable and cannot be exploited by the opponent, I am using a random process to select between TRIANGLE and STAR with equal probability.
+
+STAR",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,5e1bd5387a1b1b97798e16c24e594fd9ee164924f2d96373997e8942adf40a8a,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 1 choice:     T
+Blue circle landed on:  T
+
+Your action:",T,T1,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Google,,MI,matcher,subject_win = int(subject_choice == computer_choice),2,1,1,1,81,rot1,252839795,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,gemini31fl_roleproteus_MI_t0p0_s9081_20261114-215321.csv,1,1,,,T,S,True,STOP,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":33,""latency_ms"":800,""provider"":""Google""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,7392af22-56d3-48d6-aac8-7dadf98cd470,9081,aa3d2cea-80e9-4395-978d-7e2165937b98,2026-11-15T02:53:24.371429+00:00,2026-11-15T02:53:23.436645+00:00,google/gemini-3.1-flash-lite,gemini31fl,Gemini 3.1 Flash Lite,google/gemini-3.1-flash-lite,Google,gen-1794711205-vhItemCt8rPOpiogjSNm,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,253339795,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only gemini31fl --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:53:21.063493+00:00,80000,True,abort,3,3,S,S,1,random_no_detection,0.8889061416,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,934,0,,246,32,0,278,157,"To maintain a 50/50 distribution and ensure my choices remain unpredictable and independent of previous outcomes, I am selecting my next move randomly.
+
+STAR",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,4ccada7cdbc06c8a00e3ac8110ec4e3ab98e18c1062ded26010bd4b00b0fb1ac,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 2 choices:    T S
+Blue circle landed on:  T T
+
+Your action:",TS,T1S0,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Google,,MI,matcher,subject_win = int(subject_choice == computer_choice),2,1,1,1,81,rot1,252839795,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,gemini31fl_roleproteus_MI_t0p0_s9081_20261114-215321.csv,0,2,,,TT,S,True,STOP,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":32,""latency_ms"":934,""provider"":""Google""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,7392af22-56d3-48d6-aac8-7dadf98cd470,9081,310b3130-fe9e-4114-8637-8a4b58db00c4,2026-11-15T02:53:25.225594+00:00,2026-11-15T02:53:24.371562+00:00,google/gemini-3.1-flash-lite,gemini31fl,Gemini 3.1 Flash Lite,google/gemini-3.1-flash-lite,Google,gen-1794711206-Lr2WpXsk335uaVciTCdz,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,253339795,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only gemini31fl --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:53:21.063493+00:00,80000,True,abort,4,4,S,T,0,random_no_detection,0.4313538835,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,853,0,,259,29,0,288,136,"To maintain a 50/50 distribution and ensure my choices remain independent and unpredictable, I am selecting my next move randomly.
+
+STAR",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,a40c1d554689a920ee4849965b52ea5bb9121a6c0dd7937828b4ad1ea77bdb1e,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 3 choices:    T S S
+Blue circle landed on:  T T S
+
+Your action:",TSS,T1S0S1,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Google,,MI,matcher,subject_win = int(subject_choice == computer_choice),2,1,1,1,81,rot1,252839795,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,gemini31fl_roleproteus_MI_t0p0_s9081_20261114-215321.csv,1,2,,,TTS,S,True,STOP,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":29,""latency_ms"":853,""provider"":""Google""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,7392af22-56d3-48d6-aac8-7dadf98cd470,9081,336ee328-ab58-44d2-87e8-c109e8926bc1,2026-11-15T02:53:26.029397+00:00,2026-11-15T02:53:25.226002+00:00,google/gemini-3.1-flash-lite,gemini31fl,Gemini 3.1 Flash Lite,google/gemini-3.1-flash-lite,Google,gen-1794711207-to5PKS8PkI1uZWlkl1dU,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,253339795,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only gemini31fl --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:53:21.063493+00:00,80000,True,abort,5,5,S,T,0,random_no_detection,0.0673738041,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,802,0,,273,32,0,305,158,"To maintain a 50/50 distribution and ensure my choices remain unpredictable and independent of previous outcomes, I will use a random selection process.
+
+STAR",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,bcaeeeb4d968d61752183e876b8a09c2de250b0e925d0bb753dad5df7fe2748e,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 4 choices:    T S S S
+Blue circle landed on:  T T S T
+
+Your action:",TSSS,T1S0S1S0,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Google,,MI,matcher,subject_win = int(subject_choice == computer_choice),2,1,1,1,81,rot1,252839795,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,gemini31fl_roleproteus_MI_t0p0_s9081_20261114-215321.csv,1,2,,,TTST,S,True,STOP,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":32,""latency_ms"":802,""provider"":""Google""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,7392af22-56d3-48d6-aac8-7dadf98cd470,9081,d0431b05-eb8f-4556-9789-172b1bbae731,2026-11-15T02:53:26.937657+00:00,2026-11-15T02:53:26.029855+00:00,google/gemini-3.1-flash-lite,gemini31fl,Gemini 3.1 Flash Lite,google/gemini-3.1-flash-lite,Google,gen-1794711207-0wzyBNpaVKC6Toz3WRKV,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,253339795,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only gemini31fl --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:53:21.063493+00:00,80000,True,abort,6,6,S,S,1,random_no_detection,0.9978297704,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,907,0,,287,32,0,319,152,"To maintain a 50/50 distribution and ensure my choices remain independent and unpredictable, I am using a random selection process for this round.
+
+STAR",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,a3ff7bfb1a6bc638986c5b6042e940949fb04bc595fdb090bb28495555f90dc3,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 5 choices:    T S S S S
+Blue circle landed on:  T T S T T
+
+Your action:",TSSSS,T1S0S1S0S0,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Google,,MI,matcher,subject_win = int(subject_choice == computer_choice),2,1,1,1,81,rot1,252839795,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,gemini31fl_roleproteus_MI_t0p0_s9081_20261114-215321.csv,0,3,,,TTSTT,S,True,STOP,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":32,""latency_ms"":907,""provider"":""Google""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,7392af22-56d3-48d6-aac8-7dadf98cd470,9081,71e9fd7d-572e-4c63-8e07-9f380e48bb9c,2026-11-15T02:53:27.727990+00:00,2026-11-15T02:53:26.938426+00:00,google/gemini-3.1-flash-lite,gemini31fl,Gemini 3.1 Flash Lite,google/gemini-3.1-flash-lite,Google,gen-1794711208-j74T1DyEdgh9wDEl3uF6,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,253339795,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only gemini31fl --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:53:21.063493+00:00,80000,True,abort,7,7,S,S,1,random_no_detection,0.5406770925,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,789,0,,287,28,0,315,130,"To maintain a 50/50 distribution and ensure my choices remain independent and unpredictable, I will select my move randomly.
+
+STAR",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,590b9bfb4b317c95cd28cc9003c5aeef2ee1a49576cf1a1f5c657a62d507b293,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 6 choices:    T S S S S S
+Blue circle landed on:  T T S T T S
+
+Your action:",TSSSSS,T1S0S1S0S0S1,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Google,,MI,matcher,subject_win = int(subject_choice == computer_choice),2,1,1,1,81,rot1,252839795,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,gemini31fl_roleproteus_MI_t0p0_s9081_20261114-215321.csv,0,4,,,TTSTTS,S,True,STOP,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":28,""latency_ms"":789,""provider"":""Google""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,7392af22-56d3-48d6-aac8-7dadf98cd470,9081,e90d03de-b5d5-425c-b586-52c72bd0aa04,2026-11-15T02:53:28.613626+00:00,2026-11-15T02:53:27.728103+00:00,google/gemini-3.1-flash-lite,gemini31fl,Gemini 3.1 Flash Lite,google/gemini-3.1-flash-lite,Google,gen-1794711209-Zksw9FPvLR85GPjOCKeL,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,253339795,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only gemini31fl --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:53:21.063493+00:00,80000,True,abort,8,8,S,T,0,random_no_detection,0.0607484249,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,885,0,,288,32,0,320,158,"To maintain a 50/50 distribution and ensure my choices remain unpredictable and independent of previous outcomes, I am using a random selection process.
+
+STAR",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,55b66b8975f96631bbdb6c1490003e2dda7a4ab8265b6193bb5a95ca454cc37b,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 7 choices:    T S S S S S S
+Blue circle landed on:  T T S T T S S
+
+Your action:",TSSSSSS,T1S0S1S0S0S1S1,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Google,,MI,matcher,subject_win = int(subject_choice == computer_choice),2,1,1,1,81,rot1,252839795,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,gemini31fl_roleproteus_MI_t0p0_s9081_20261114-215321.csv,1,4,,,TTSTTSS,S,True,STOP,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":32,""latency_ms"":885,""provider"":""Google""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,7392af22-56d3-48d6-aac8-7dadf98cd470,9081,546947c8-fbf2-4814-8a6d-28273bbd6425,2026-11-15T02:53:29.483527+00:00,2026-11-15T02:53:28.613775+00:00,google/gemini-3.1-flash-lite,gemini31fl,Gemini 3.1 Flash Lite,google/gemini-3.1-flash-lite,Google,gen-1794711210-rqvQSTBDlg16u66BnxLz,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,253339795,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only gemini31fl --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:53:21.063493+00:00,80000,True,abort,9,9,T,T,1,exploit,0.6387888944,S,1,100.0000,1,False,True,False,False,False,False,False,False,False,,Star,,,,,,,,,100.0000,,,,,,,,model,stop,False,20000,869,0,,291,30,0,321,138,"To maintain a 50/50 probability and ensure my choices remain independent and unpredictable, I will select my next move randomly.
+
+TRIANGLE",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,954d2fc3e31238baad51a1d21b08e35dd39b7e43fbdf91faf73d8d48e450b625,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 8 choices:    T S S S S S S S
+Blue circle landed on:  T T S T T S S T
+
+Your action:",TSSSSSSS,T1S0S1S0S0S1S1S0,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Google,,MI,matcher,subject_win = int(subject_choice == computer_choice),2,1,1,1,81,rot1,252839795,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,gemini31fl_roleproteus_MI_t0p0_s9081_20261114-215321.csv,0,5,T,1.000000,TTSTTSST,T,True,STOP,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":30,""latency_ms"":869,""provider"":""Google""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,7392af22-56d3-48d6-aac8-7dadf98cd470,9081,4509728d-5ddd-4fd3-957a-963c2d945299,2026-11-15T02:53:30.333057+00:00,2026-11-15T02:53:29.483753+00:00,google/gemini-3.1-flash-lite,gemini31fl,Gemini 3.1 Flash Lite,google/gemini-3.1-flash-lite,Google,gen-1794711211-RNcYgN2IL1DSA3b06QmJ,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,253339795,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only gemini31fl --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:53:21.063493+00:00,80000,True,abort,10,10,S,S,1,random_no_detection,0.5905926394,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,848,0,,294,32,0,326,157,"To maintain a 50/50 probability and ensure my choices remain unpredictable and independent of previous outcomes, I am using a random selection process.
+
+STAR",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,ab1d7d06615aa96574075bfda7d94346365a07bbcb11568d4ba25bd66d3db908,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 9 choices:    T S S S S S S S T
+Blue circle landed on:  T T S T T S S T T
+
+Your action:",TSSSSSSST,T1S0S1S0S0S1S1S0T1,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Google,,MI,matcher,subject_win = int(subject_choice == computer_choice),2,1,1,1,81,rot1,252839795,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,gemini31fl_roleproteus_MI_t0p0_s9081_20261114-215321.csv,0,6,,,TTSTTSSTT,S,True,STOP,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":32,""latency_ms"":848,""provider"":""Google""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,7392af22-56d3-48d6-aac8-7dadf98cd470,9081,92144f61-f3e1-4a1b-a7b8-b8cee7b6b157,2026-11-15T02:53:31.185792+00:00,2026-11-15T02:53:30.333613+00:00,google/gemini-3.1-flash-lite,gemini31fl,Gemini 3.1 Flash Lite,google/gemini-3.1-flash-lite,Google,gen-1794711212-IFnWj04Un3Sw3we6OipI,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,253339795,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only gemini31fl --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:53:21.063493+00:00,80000,True,abort,11,11,S,T,0,random_no_detection,0.3481107828,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,851,0,,296,32,0,328,157,"To maintain a 50/50 distribution and ensure my choices remain unpredictable and independent of previous outcomes, I am selecting my next move randomly.
+
+STAR",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,677034780a74ce1dbfda88205f81f759d0375a2eea080772e8b482dd92a8aa9f,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 10 choices:   T S S S S S S S T S
+Blue circle landed on:  T T S T T S S T T S
+
+Your action:",TSSSSSSSTS,T1S0S1S0S0S1S1S0T1S1,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Google,,MI,matcher,subject_win = int(subject_choice == computer_choice),2,1,1,1,81,rot1,252839795,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,gemini31fl_roleproteus_MI_t0p0_s9081_20261114-215321.csv,1,6,,,TTSTTSSTTS,S,True,STOP,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":32,""latency_ms"":851,""provider"":""Google""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,7392af22-56d3-48d6-aac8-7dadf98cd470,9081,1caa9633-a914-417b-b4d1-f8c4f6b816ef,2026-11-15T02:53:31.992510+00:00,2026-11-15T02:53:31.185969+00:00,google/gemini-3.1-flash-lite,gemini31fl,Gemini 3.1 Flash Lite,google/gemini-3.1-flash-lite,Google,gen-1794711212-nFaerhpsU9MoHHOxTYqb,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,253339795,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only gemini31fl --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:53:21.063493+00:00,80000,True,abort,12,12,S,S,1,random_no_detection,0.9825163099,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,806,0,,299,32,0,331,152,"To maintain a 50/50 distribution and ensure my choices remain independent and unpredictable, I am using a random selection process for this round.
+
+STAR",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,79871f736dcf30389466c80a6289fa61196f666e0fc7301fd1c17b62902f9753,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 11 choices:   T S S S S S S S T S S
+Blue circle landed on:  T T S T T S S T T S T
+
+Your action:",TSSSSSSSTSS,T1S0S1S0S0S1S1S0T1S1S0,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Google,,MI,matcher,subject_win = int(subject_choice == computer_choice),2,1,1,1,81,rot1,252839795,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,gemini31fl_roleproteus_MI_t0p0_s9081_20261114-215321.csv,0,7,,,TTSTTSSTTST,S,True,STOP,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":32,""latency_ms"":806,""provider"":""Google""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,7392af22-56d3-48d6-aac8-7dadf98cd470,9081,39b9e7f5-a87b-4ffd-8509-97803ca4daf6,2026-11-15T02:53:32.750145+00:00,2026-11-15T02:53:31.992777+00:00,google/gemini-3.1-flash-lite,gemini31fl,Gemini 3.1 Flash Lite,google/gemini-3.1-flash-lite,Google,gen-1794711213-j6GULNVRAnUJih9zW7YW,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,253339795,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only gemini31fl --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:53:21.063493+00:00,80000,True,abort,13,13,S,T,0,exploit,0.1481065666,S,1,88.8889,2,True,True,False,False,False,False,False,False,False,Star,Star,,,,,,,,83.3333,88.8889,,,,,,,,model,stop,False,20000,756,0,,301,40,0,341,199,"To ensure my choices remain unpredictable and independent, I am using a random selection process to maintain a 50/50 distribution between TRIANGLE and STAR, preventing any exploitable patterns.
+
+STAR",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,63ef187d24da20cd3acc6ba96c416385e1ff07dad5ff13a6a50904ed0d3cb79d,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 12 choices:   T S S S S S S S T S S S
+Blue circle landed on:  T T S T T S S T T S T S
+
+Your action:",TSSSSSSSTSSS,T1S0S1S0S0S1S1S0T1S1S0S1,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Google,,MI,matcher,subject_win = int(subject_choice == computer_choice),2,1,1,1,81,rot1,252839795,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,gemini31fl_roleproteus_MI_t0p0_s9081_20261114-215321.csv,1,7,T,0.888889,TTSTTSSTTSTS,S,True,STOP,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":40,""latency_ms"":756,""provider"":""Google""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,7392af22-56d3-48d6-aac8-7dadf98cd470,9081,0694716c-5cd5-4ef2-8d55-64e00d66ef2b,2026-11-15T02:53:33.498396+00:00,2026-11-15T02:53:32.750866+00:00,google/gemini-3.1-flash-lite,gemini31fl,Gemini 3.1 Flash Lite,google/gemini-3.1-flash-lite,Google,gen-1794711214-PeRB3SyOnOw7d29NHDMe,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,253339795,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only gemini31fl --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:53:21.063493+00:00,80000,True,abort,14,14,S,T,0,exploit,0.5426586434,S,1,90.0000,2,True,True,False,False,False,False,False,False,False,Star,Star,,,,,,,,84.6154,90.0000,,,,,,,,model,stop,False,20000,746,0,,303,29,0,332,136,"To maintain a 50/50 distribution and ensure my choices remain independent and unpredictable, I am selecting my next move randomly.
+
+STAR",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,4acb39fa265e7d4da651de5454806f9d81561c2e9ec443a2b9abedd8fad514fb,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 13 choices:   T S S S S S S S T S S S S
+Blue circle landed on:  T T S T T S S T T S T S T
+
+Your action:",TSSSSSSSTSSSS,T1S0S1S0S0S1S1S0T1S1S0S1S0,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Google,,MI,matcher,subject_win = int(subject_choice == computer_choice),2,1,1,1,81,rot1,252839795,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,gemini31fl_roleproteus_MI_t0p0_s9081_20261114-215321.csv,1,7,T,0.900000,TTSTTSSTTSTST,S,True,STOP,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":29,""latency_ms"":746,""provider"":""Google""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,7392af22-56d3-48d6-aac8-7dadf98cd470,9081,efc8288d-603d-427c-a51c-125533d2b83c,2026-11-15T02:53:34.196703+00:00,2026-11-15T02:53:33.498555+00:00,google/gemini-3.1-flash-lite,gemini31fl,Gemini 3.1 Flash Lite,google/gemini-3.1-flash-lite,Google,gen-1794711215-UfT9GHcNhTGoPPPTzXNz,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,253339795,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only gemini31fl --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:53:21.063493+00:00,80000,True,abort,15,15,T,T,1,exploit,0.5853724032,S,1,90.9091,3,True,True,True,False,False,False,False,False,False,Star,Star,Star,,,,,,,85.7143,90.9091,88.8889,,,,,,,model,stop,False,20000,697,0,,304,33,0,337,156,"To maintain a 50/50 distribution and ensure my choices remain independent and unpredictable, I am using a random selection process for this round.
+
+TRIANGLE",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,92e2005667f8ae3dd03205c8acdaeb1f3cbf44bb4f2a67abde7c17cafc4002ee,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 14 choices:   T S S S S S S S T S S S S S
+Blue circle landed on:  T T S T T S S T T S T S T T
+
+Your action:",TSSSSSSSTSSSSS,T1S0S1S0S0S1S1S0T1S1S0S1S0S0,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Google,,MI,matcher,subject_win = int(subject_choice == computer_choice),2,1,1,1,81,rot1,252839795,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,gemini31fl_roleproteus_MI_t0p0_s9081_20261114-215321.csv,0,8,T,0.909091,TTSTTSSTTSTSTT,T,True,STOP,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":33,""latency_ms"":697,""provider"":""Google""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,7392af22-56d3-48d6-aac8-7dadf98cd470,9081,5805a593-a158-4544-8d5e-3eeff067a6f9,2026-11-15T02:53:35.219975+00:00,2026-11-15T02:53:34.197209+00:00,google/gemini-3.1-flash-lite,gemini31fl,Gemini 3.1 Flash Lite,google/gemini-3.1-flash-lite,Google,gen-1794711216-JNcg8RX8UADipD4iUTrL,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,253339795,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only gemini31fl --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:53:21.063493+00:00,80000,True,abort,16,16,T,T,1,exploit,0.6851649688,S,0,80.0000,1,True,False,False,False,False,False,False,False,False,Star,,,,,,,,,80.0000,,,,,,,,,model,stop,False,20000,1022,0,,308,33,0,341,171,"To ensure my choices remain unpredictable and cannot be exploited by the opponent, I am generating my move using a random process equivalent to a fair coin flip.
+
+TRIANGLE",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,0794c4842543e68c7dffdbe1b24a51716f7b77429a0548abe33c09e05682f7b3,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 15 choices:   T S S S S S S S T S S S S S T
+Blue circle landed on:  T T S T T S S T T S T S T T T
+
+Your action:",TSSSSSSSTSSSSST,T1S0S1S0S0S1S1S0T1S1S0S1S0S0T1,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Google,,MI,matcher,subject_win = int(subject_choice == computer_choice),2,1,1,1,81,rot1,252839795,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,gemini31fl_roleproteus_MI_t0p0_s9081_20261114-215321.csv,0,9,T,0.800000,TTSTTSSTTSTSTTT,T,True,STOP,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":33,""latency_ms"":1022,""provider"":""Google""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,7392af22-56d3-48d6-aac8-7dadf98cd470,9081,b08582cf-a590-4103-bf22-598cadb8b201,2026-11-15T02:53:36.198997+00:00,2026-11-15T02:53:35.220321+00:00,google/gemini-3.1-flash-lite,gemini31fl,Gemini 3.1 Flash Lite,google/gemini-3.1-flash-lite,Google,gen-1794711217-47KPIXeJzrpZ5epNymve,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,253339795,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only gemini31fl --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:53:21.063493+00:00,80000,True,abort,17,17,T,T,1,random_no_detection,0.1387183913,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,978,0,,311,33,0,344,156,"To maintain a 50/50 distribution and ensure my choices remain independent and unpredictable, I will use a random selection process for this round.
+
+TRIANGLE",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,67578e9a1a04cf85a286f65ab2dc986ad77e2ee30d93df4fc88cdc4b40e88a96,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 16 choices:   T S S S S S S S T S S S S S T T
+Blue circle landed on:  T T S T T S S T T S T S T T T T
+
+Your action:",TSSSSSSSTSSSSSTT,T1S0S1S0S0S1S1S0T1S1S0S1S0S0T1T1,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Google,,MI,matcher,subject_win = int(subject_choice == computer_choice),2,1,1,1,81,rot1,252839795,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,gemini31fl_roleproteus_MI_t0p0_s9081_20261114-215321.csv,0,10,,,TTSTTSSTTSTSTTTT,T,True,STOP,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":33,""latency_ms"":978,""provider"":""Google""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,7392af22-56d3-48d6-aac8-7dadf98cd470,9081,6d27c928-6ac9-459b-8ac7-7b78659a21d4,2026-11-15T02:53:37.127949+00:00,2026-11-15T02:53:36.199290+00:00,google/gemini-3.1-flash-lite,gemini31fl,Gemini 3.1 Flash Lite,google/gemini-3.1-flash-lite,Google,gen-1794711218-MHMPJSwsy5kbqgh9OEe7,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,253339795,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only gemini31fl --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:53:21.063493+00:00,80000,True,abort,18,18,S,T,0,random_no_detection,0.4415788875,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,928,0,,315,34,0,349,162,"To ensure my choices remain unpredictable and independent, I am using a random selection process to maintain a 50/50 distribution between TRIANGLE and STAR.
+
+STAR",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,7b5cb83f6ade9e544bed3a89fed0f5dea4567389c8a876338fd769737c9b313d,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 17 choices:   T S S S S S S S T S S S S S T T T
+Blue circle landed on:  T T S T T S S T T S T S T T T T T
+
+Your action:",TSSSSSSSTSSSSSTTT,T1S0S1S0S0S1S1S0T1S1S0S1S0S0T1T1T1,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Google,,MI,matcher,subject_win = int(subject_choice == computer_choice),2,1,1,1,81,rot1,252839795,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,gemini31fl_roleproteus_MI_t0p0_s9081_20261114-215321.csv,1,10,,,TTSTTSSTTSTSTTTTT,S,True,STOP,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":34,""latency_ms"":928,""provider"":""Google""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,7392af22-56d3-48d6-aac8-7dadf98cd470,9081,8ac4f21e-1707-4dec-9833-7215ad4e8a2b,2026-11-15T02:53:38.106325+00:00,2026-11-15T02:53:37.128164+00:00,google/gemini-3.1-flash-lite,gemini31fl,Gemini 3.1 Flash Lite,google/gemini-3.1-flash-lite,Google,gen-1794711218-llxhTmSrHjHzzBJ4S9RW,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,253339795,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only gemini31fl --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:53:21.063493+00:00,80000,True,abort,19,19,S,T,0,exploit,0.7616267236,S,1,83.3333,1,False,True,False,False,False,False,False,False,False,,Star,,,,,,,,,83.3333,,,,,,,,model,stop,False,20000,977,0,,317,29,0,346,136,"To maintain a 50/50 distribution and ensure my choices remain independent and unpredictable, I am selecting my next move randomly.
+
+STAR",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,cdfb0e2a8401f9e7c3932931de39a41bab676f95944a9d6cea13a09906127c9e,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 18 choices:   T S S S S S S S T S S S S S T T T S
+Blue circle landed on:  T T S T T S S T T S T S T T T T T T
+
+Your action:",TSSSSSSSTSSSSSTTTS,T1S0S1S0S0S1S1S0T1S1S0S1S0S0T1T1T1S0,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Google,,MI,matcher,subject_win = int(subject_choice == computer_choice),2,1,1,1,81,rot1,252839795,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,gemini31fl_roleproteus_MI_t0p0_s9081_20261114-215321.csv,1,10,T,0.833333,TTSTTSSTTSTSTTTTTT,S,True,STOP,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":29,""latency_ms"":977,""provider"":""Google""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,7392af22-56d3-48d6-aac8-7dadf98cd470,9081,86904dc5-d84b-4123-a7c1-88398132f036,2026-11-15T02:53:39.075648+00:00,2026-11-15T02:53:38.106581+00:00,google/gemini-3.1-flash-lite,gemini31fl,Gemini 3.1 Flash Lite,google/gemini-3.1-flash-lite,Google,gen-1794711219-7GnyByrMyAQ8Kwydcsfy,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,253339795,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only gemini31fl --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:53:21.063493+00:00,80000,True,abort,20,20,S,S,1,mercy,0.8524128324,S,1,84.6154,1,False,True,False,False,False,False,False,False,False,,Star,,,,,,,,,84.6154,,,,,,,,model,stop,False,20000,968,0,,319,32,0,351,158,"To maintain a 50/50 distribution and ensure my choices remain unpredictable and independent of previous outcomes, I will use a random selection process.
+
+STAR",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,cd7ff2a6a49dca5418144e80f2a5756470fb1d8aa8716acf79ada16eaf90ebb2,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 19 choices:   T S S S S S S S T S S S S S T T T S S
+Blue circle landed on:  T T S T T S S T T S T S T T T T T T T
+
+Your action:",TSSSSSSSTSSSSSTTTSS,T1S0S1S0S0S1S1S0T1S1S0S1S0S0T1T1T1S0S0,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Google,,MI,matcher,subject_win = int(subject_choice == computer_choice),2,1,1,1,81,rot1,252839795,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,gemini31fl_roleproteus_MI_t0p0_s9081_20261114-215321.csv,0,11,T,0.846154,TTSTTSSTTSTSTTTTTTT,S,True,STOP,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":32,""latency_ms"":968,""provider"":""Google""}]"

@@ -1,0 +1,15 @@
+main trials: 19600  sessions: 98  models: 7
+fixed effects: intercept = -0.1755   informed = -0.4738   OR = 0.6227
+random effects: model intercept SD = 0.1243, model slope SD = 0.4222, corr = -0.730; session SD = 0.0287
+profile 95% CI: beta [-0.8417, -0.1066]   OR [0.4310, 0.8989]
+manuscript: beta = -0.474, OR = 0.623, OR CI [0.432, 0.899]
+PASS (coefficient and OR exact to 3 dp; profile bounds within 0.0015)
+
+R cross-check:
+# library(lme4)
+# d <- read.csv("data/trials_compact.csv"); d <- d[d$dataset == "main", ]
+# d$informed <- as.integer(d$prompt_mode == "informed")
+# m <- glmer(subject_win ~ informed + (1 + informed | model_group) + (1 | session_id),
+#            data = d, family = binomial, control = glmerControl(optimizer = "bobyqa"))
+# summary(m); exp(fixef(m)["informed"]); exp(confint(m, parm = "informed", method = "profile"))
+

@@ -1,0 +1,195 @@
+{
+  "_provenance": {
+    "workbook": "Protean_NoPeek_Dataset.xlsx",
+    "workbook_sha256": "8ccc2bc1fc2e72b63af152a499c42430ad6ef106857d90f232ebbcdc08332aaa"
+  },
+  "count.main_sessions": 98,
+  "count.main_trials": 19600,
+  "count.supp_sessions": 238,
+  "count.supp_trials": 47600,
+  "count.counter_sessions": 56,
+  "count.counter_trials": 11200,
+  "main.per_model_diff": {
+    "Opus 4.8": -0.0386,
+    "Sonnet 4.6": -0.2579,
+    "Haiku 4.5": -0.2171,
+    "GPT-5.4": -0.11,
+    "GPT-5.4-mini": -0.0714,
+    "Gemini 3.1 FL": -0.115,
+    "Gemini 3 FP": 0.0471
+  },
+  "main.pooled_mean_diff": -0.10897959183673468,
+  "main.n_negative": 6,
+  "main.paired_t": -2.777857991280408,
+  "main.paired_t_p": 0.03208763546093377,
+  "main.ci95": [
+    -0.204975663498891,
+    -0.012983520174578378
+  ],
+  "main.wilcoxon_W": 2.0,
+  "main.wilcoxon_p_exact": 0.046875,
+  "main.sign_test_p_exact": 0.125,
+  "main.sign_n_used": 7,
+  "main.LOMO_means": {
+    "Opus 4.8": -0.12071428571428572,
+    "Sonnet 4.6": -0.08416666666666667,
+    "Haiku 4.5": -0.09095238095238097,
+    "GPT-5.4": -0.10880952380952381,
+    "GPT-5.4-mini": -0.11523809523809524,
+    "Gemini 3.1 FL": -0.10797619047619046,
+    "Gemini 3 FP": -0.13499999999999998
+  },
+  "main.LOFO_means": {
+    "Anthropic": -0.0623214285714286,
+    "OpenAI": -0.1162857142857143,
+    "Google": -0.13899999999999996
+  },
+  "rep.per_model_effect": {
+    "Claude Haiku 4.5": -0.275,
+    "Claude Opus 4.8": -0.12,
+    "Claude Sonnet 4.6": -0.275,
+    "GPT-5.4": -0.2125,
+    "GPT-5.4-mini": -0.0562,
+    "Gemini 3 Flash Preview": 0.0688,
+    "Gemini 3.1 Flash Lite": -0.1
+  },
+  "rep.pooled_mean": -0.1385714285714286,
+  "rep.t": -2.9247085109867372,
+  "rep.p": 0.026468621089827157,
+  "rep.ci95": [
+    -0.25450505735111206,
+    -0.022637799791745114
+  ],
+  "rep.n_negative": 6,
+  "rep.holm": {
+    "Claude Sonnet 4.6": {
+      "p": 0.0002,
+      "holm": 0.0011,
+      "sig_05": true
+    },
+    "GPT-5.4": {
+      "p": 0.0023,
+      "holm": 0.0138,
+      "sig_05": true
+    },
+    "Claude Opus 4.8": {
+      "p": 0.007,
+      "holm": 0.0352,
+      "sig_05": true
+    },
+    "GPT-5.4-mini": {
+      "p": 0.0133,
+      "holm": 0.0534,
+      "sig_05": false
+    },
+    "Claude Haiku 4.5": {
+      "p": 0.0292,
+      "holm": 0.0875,
+      "sig_05": false
+    },
+    "Gemini 3.1 Flash Lite": {
+      "p": 0.0438,
+      "holm": 0.0877,
+      "sig_05": false
+    },
+    "Gemini 3 Flash Preview": {
+      "p": 0.0987,
+      "holm": 0.0987,
+      "sig_05": false
+    }
+  },
+  "rep.holm_n_sig": 3,
+  "audit.precision_recall": {
+    "alternation_diagnosis": {
+      "precision": 0.8649,
+      "precision_ci": [
+        0.7628,
+        0.9438
+      ],
+      "recall": 1.0,
+      "n": 150
+    },
+    "diagnosis_plus_intent": {
+      "precision": 0.8646,
+      "precision_ci": [
+        0.7624,
+        0.9437
+      ],
+      "recall": 0.9994,
+      "n": 150
+    },
+    "asserted_coin": {
+      "precision": 0.8018,
+      "precision_ci": [
+        0.6929,
+        0.9009
+      ],
+      "recall": 0.9382,
+      "n": 150
+    }
+  },
+  "audit.kappa_3way": {
+    "alternation_diagnosis": {
+      "kappa": 0.9726,
+      "pct_agree": 0.9867,
+      "n": 150
+    },
+    "diagnosis_plus_intent": {
+      "kappa": 0.931,
+      "pct_agree": 0.9667,
+      "n": 150
+    },
+    "asserted_coin": {
+      "kappa": 0.6406,
+      "pct_agree": 0.84,
+      "n": 150
+    }
+  },
+  "fig2.successes": 19,
+  "fig2.n": 26,
+  "fig2.prop": 0.7307692307692307,
+  "fig2.binom_p_exact": 0.028959274291992188,
+  "trace.eligible_rows": 4179,
+  "trace.primary": {
+    "alternation_diagnosis": {
+      "n": 3969,
+      "OR": 0.4679,
+      "OR_ci": [
+        0.3233,
+        0.6771
+      ],
+      "p0": 84.04,
+      "p1": 73.02,
+      "ame_pp": -11.02,
+      "p": 0.00036013140646663425
+    },
+    "diagnosis_plus_intent": {
+      "n": 3969,
+      "OR": 0.4897,
+      "OR_ci": [
+        0.3418,
+        0.7014
+      ],
+      "p0": 83.83,
+      "p1": 73.45,
+      "ame_pp": -10.37,
+      "p": 0.0005016665650950012
+    },
+    "asserted_coin": {
+      "n": 3969,
+      "OR": 1.4418,
+      "OR_ci": [
+        1.228,
+        1.693
+      ],
+      "p0": 77.46,
+      "p1": 82.72,
+      "ame_pp": 5.26,
+      "p": 0.00012120645240168682
+    }
+  },
+  "_note.trace": "values from frozen verify_trace output; to be re-run under analysis_v121",
+  "_deferred": [
+    "GLMM (framing fixed effect; random intercept + condition slope for model; random intercept for session) and its interval \u2014 deferred per author instruction."
+  ]
+}

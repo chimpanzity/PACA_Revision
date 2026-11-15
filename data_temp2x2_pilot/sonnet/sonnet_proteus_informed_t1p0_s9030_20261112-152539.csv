@@ -1,0 +1,266 @@
+schema_version,client_version,prompt_version,parser_version,harness_commit,run_id,session_id,session_index,request_id,collected_utc,trial_utc,model,model_group,model_display,served_model,provider,generation_id,prompt_mode,opponent,binomial_tail,temperature,top_p,reasoning_config,max_tokens,desc_window,compact_window,master_seed,session_seed,n_trials,openai_lib_version,python_version,os_platform,command_line,session_started_utc,max_tokens_ceiling,escalate_on_truncation,on_truncation,trial,total_trial,subject_choice,computer_choice,subject_win,opp_action_type,opp_ranval,predicted_subject_side,winning_channel,winning_channel_bias,n_channels_active,n0_sign,n1_sign,n2_sign,n3_sign,n4_sign,n5_sign,n6_sign,n7_sign,n8_sign,n0_bside,n1_bside,n2_bside,n3_bside,n4_bside,n5_bside,n6_bside,n7_bside,n8_bside,n0_bsideprob,n1_bsideprob,n2_bsideprob,n3_bsideprob,n4_bsideprob,n5_bsideprob,n6_bsideprob,n7_bsideprob,n8_bsideprob,choice_source,finish_reason,truncated,max_tokens_used,latency_ms,retries_used,error_message,prompt_tokens,completion_tokens,reasoning_tokens,total_tokens,response_chars,response_text,system_prompt_sha256,user_prompt_sha256,user_prompt_text,history_choices,history_cr
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,eeb9e0eb-8c27-4487-9448-e1e2e021fd75,9030,531fc975-8429-4347-890f-c6f0025b434b,2026-11-12T20:25:40.724884+00:00,2026-11-12T20:25:40.024908+00:00,anthropic/claude-sonnet-4.6,sonnet,Claude Sonnet 4.6,anthropic/claude-sonnet-4.6,Claude Platform on AWS,gen-1794515139-TM6Ifczxj7LiC6jI07fE,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612015,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model anthropic/claude-sonnet-4.6 --model-group sonnet --model-display Claude Sonnet 4.6 --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9030 --session-seed 20261612015 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:25:40.010080+00:00,80000,True,abort,1,1,T,T,1,random_no_detection,0.417360,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,699,0,,196,5,0,201,8,TRIANGLE,c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,c17faf00eedb5de2eeb3784dd857e800c2ca369831d95ce8a1770e57e6813d5c,"No previous rounds yet.
+
+Your action:",,
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,eeb9e0eb-8c27-4487-9448-e1e2e021fd75,9030,c3ea6029-a0f9-406f-ab4e-bdb3726548e0,2026-11-12T20:25:41.932100+00:00,2026-11-12T20:25:40.725152+00:00,anthropic/claude-sonnet-4.6,sonnet,Claude Sonnet 4.6,anthropic/claude-sonnet-4.6,Claude Platform on AWS,gen-1794515140-khFGpqNfGCkDuUGOARfb,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612015,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model anthropic/claude-sonnet-4.6 --model-group sonnet --model-display Claude Sonnet 4.6 --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9030 --session-seed 20261612015 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:25:40.010080+00:00,80000,True,abort,2,2,S,S,1,random_no_detection,0.983997,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1206,0,,248,28,0,276,96,"Looking at this, I just need to make a random 50/50 choice independent of previous rounds.
+
+STAR",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,5e1bd5387a1b1b97798e16c24e594fd9ee164924f2d96373997e8942adf40a8a,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 1 choice:     T
+Blue circle landed on:  T
+
+Your action:",T,T1
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,eeb9e0eb-8c27-4487-9448-e1e2e021fd75,9030,3aa4d12d-be2f-4bee-8d5d-6b2b115ccbc0,2026-11-12T20:25:42.511334+00:00,2026-11-12T20:25:41.932524+00:00,anthropic/claude-sonnet-4.6,sonnet,Claude Sonnet 4.6,anthropic/claude-sonnet-4.6,Claude Platform on AWS,gen-1794515141-LxfQ4cFdzhUruqt0qKbO,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612015,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model anthropic/claude-sonnet-4.6 --model-group sonnet --model-display Claude Sonnet 4.6 --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9030 --session-seed 20261612015 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:25:40.010080+00:00,80000,True,abort,3,3,T,T,1,random_no_detection,0.403976,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,578,0,,263,5,0,268,8,TRIANGLE,c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,71b2c4e4fecb9d880afc2cebbf3519d46cbca8fbe3f820512da450f3afdfd303,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 2 choices:    T S
+Blue circle landed on:  T S
+
+Your action:",TS,T1S1
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,eeb9e0eb-8c27-4487-9448-e1e2e021fd75,9030,28ecb73a-b374-47b1-aa31-6040f418d290,2026-11-12T20:25:43.617921+00:00,2026-11-12T20:25:42.511871+00:00,anthropic/claude-sonnet-4.6,sonnet,Claude Sonnet 4.6,anthropic/claude-sonnet-4.6,Claude Platform on AWS,gen-1794515141-ExgLIy2HFX5LXV7pd0mn,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612015,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model anthropic/claude-sonnet-4.6 --model-group sonnet --model-display Claude Sonnet 4.6 --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9030 --session-seed 20261612015 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:25:40.010080+00:00,80000,True,abort,4,4,S,S,1,random_no_detection,0.585344,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1105,0,,278,23,0,301,91,"Looking at this, I need to make a truly random choice independent of previous rounds.
+
+STAR",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,54e69a56a05e8d337f40c8fbbf526baa676145476150091c70329cacfc1380de,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 3 choices:    T S T
+Blue circle landed on:  T S T
+
+Your action:",TST,T1S1T1
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,eeb9e0eb-8c27-4487-9448-e1e2e021fd75,9030,4dc45e03-e3e7-457b-8418-39686da1ed90,2026-11-12T20:25:45.702949+00:00,2026-11-12T20:25:43.618371+00:00,anthropic/claude-sonnet-4.6,sonnet,Claude Sonnet 4.6,anthropic/claude-sonnet-4.6,Claude Platform on AWS,gen-1794515143-H5Ys76SZB95QpufAJxdu,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612015,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model anthropic/claude-sonnet-4.6 --model-group sonnet --model-display Claude Sonnet 4.6 --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9030 --session-seed 20261612015 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:25:40.010080+00:00,80000,True,abort,5,5,T,T,1,random_no_detection,0.068439,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,2084,0,,293,59,0,352,238,"Looking at my choices: T S T S - that's a perfect alternating pattern. An exploitative opponent would predict I'll choose T next and land on T.
+
+However, I need to choose randomly regardless of patterns. I'll flip a mental coin.
+
+TRIANGLE",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,15a268d01fdcbb975d89a4f3938cf3f1e71b8b1c625a271c1504763aaa03d225,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 4 choices:    T S T S
+Blue circle landed on:  T S T S
+
+Your action:",TSTS,T1S1T1S1
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,eeb9e0eb-8c27-4487-9448-e1e2e021fd75,9030,39e6f246-a5a8-435e-9747-ec5f5968c03f,2026-11-12T20:25:48.275039+00:00,2026-11-12T20:25:45.703387+00:00,anthropic/claude-sonnet-4.6,sonnet,Claude Sonnet 4.6,anthropic/claude-sonnet-4.6,Claude Platform on AWS,gen-1794515145-AFIXWcVGxcd0CVx2Y42P,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612015,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model anthropic/claude-sonnet-4.6 --model-group sonnet --model-display Claude Sonnet 4.6 --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9030 --session-seed 20261612015 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:25:40.010080+00:00,80000,True,abort,6,6,T,S,0,random_no_detection,0.776813,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,2571,0,,308,80,0,388,345,"Looking at my history, I've been alternating T S T S T, which is a very obvious pattern. The opponent has been matching me perfectly, suggesting they've detected this pattern and are exploiting it. They likely expect me to continue with STAR next.
+
+I need to make a truly random choice. Using an independent mental coin flip: TRIANGLE.
+
+TRIANGLE",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,0ba4ba3d77eea524ff630534a3c4c9e60dbe50c2516bfcb1b0a5cacf6decb603,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 5 choices:    T S T S T
+Blue circle landed on:  T S T S T
+
+Your action:",TSTST,T1S1T1S1T1
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,eeb9e0eb-8c27-4487-9448-e1e2e021fd75,9030,9a545089-cdc6-40fe-86f7-15ef516e2646,2026-11-12T20:25:49.494154+00:00,2026-11-12T20:25:48.275470+00:00,anthropic/claude-sonnet-4.6,sonnet,Claude Sonnet 4.6,anthropic/claude-sonnet-4.6,Claude Platform on AWS,gen-1794515147-ADPbJmu359Zm7YbXljQg,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612015,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model anthropic/claude-sonnet-4.6 --model-group sonnet --model-display Claude Sonnet 4.6 --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9030 --session-seed 20261612015 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:25:40.010080+00:00,80000,True,abort,7,7,S,T,0,random_no_detection,0.386071,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1218,0,,310,27,0,337,91,"Looking at this, I need to make a random 50/50 choice independent of previous rounds.
+
+STAR",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,54c0a9d2a0d22ac8b1dfe97846127f5abb2d2f797b90dadec57fb3be0a35f4a9,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 6 choices:    T S T S T T
+Blue circle landed on:  T S T S T S
+
+Your action:",TSTSTT,T1S1T1S1T1T0
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,eeb9e0eb-8c27-4487-9448-e1e2e021fd75,9030,c429ec04-7563-4cc1-a833-659570aa637e,2026-11-12T20:25:50.446868+00:00,2026-11-12T20:25:49.494550+00:00,anthropic/claude-sonnet-4.6,sonnet,Claude Sonnet 4.6,anthropic/claude-sonnet-4.6,Claude Platform on AWS,gen-1794515148-WXFAvI4mMGkYFPbZbnlB,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612015,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model anthropic/claude-sonnet-4.6 --model-group sonnet --model-display Claude Sonnet 4.6 --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9030 --session-seed 20261612015 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:25:40.010080+00:00,80000,True,abort,8,8,T,T,1,random_no_detection,0.129791,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,951,0,,312,19,0,331,73,"I need to make a random choice, independent of previous rounds.
+
+TRIANGLE",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,c4388805ffa96bdf91b82d7e8f4168e4c6f3c0701338327e886662ba6c427d45,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 7 choices:    T S T S T T S
+Blue circle landed on:  T S T S T S T
+
+Your action:",TSTSTTS,T1S1T1S1T1T0S0
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,eeb9e0eb-8c27-4487-9448-e1e2e021fd75,9030,b450caa1-be8d-4cab-b742-986cdbd1f6ca,2026-11-12T20:25:51.708706+00:00,2026-11-12T20:25:50.447477+00:00,anthropic/claude-sonnet-4.6,sonnet,Claude Sonnet 4.6,anthropic/claude-sonnet-4.6,Claude Platform on AWS,gen-1794515149-FxCeC8zlJSHNZsyBLoOV,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612015,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model anthropic/claude-sonnet-4.6 --model-group sonnet --model-display Claude Sonnet 4.6 --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9030 --session-seed 20261612015 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:25:40.010080+00:00,80000,True,abort,9,9,S,S,1,random_no_detection,0.579645,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1260,0,,314,27,0,341,91,"Looking at my choices, I need to make a random 50/50 decision independent of history.
+
+STAR",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,ba3b15279c38006391aa9fffc113462c554495a7cc395a3af91ce7c861a1b91d,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 8 choices:    T S T S T T S T
+Blue circle landed on:  T S T S T S T T
+
+Your action:",TSTSTTST,T1S1T1S1T1T0S0T1
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,eeb9e0eb-8c27-4487-9448-e1e2e021fd75,9030,cc0fd0ba-b6db-4810-9984-c6f110210606,2026-11-12T20:25:52.844608+00:00,2026-11-12T20:25:51.709556+00:00,anthropic/claude-sonnet-4.6,sonnet,Claude Sonnet 4.6,anthropic/claude-sonnet-4.6,Claude Platform on AWS,gen-1794515151-8pMolUaYrvX40x3oNllw,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612015,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model anthropic/claude-sonnet-4.6 --model-group sonnet --model-display Claude Sonnet 4.6 --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9030 --session-seed 20261612015 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:25:40.010080+00:00,80000,True,abort,10,10,T,S,0,random_no_detection,0.627384,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1134,0,,316,25,0,341,85,"Looking at this, I need to make a random, independent choice. I'll go with:
+
+TRIANGLE",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,1b3dfc0ccc8a3c14d2c39e53b26469dea58783d5e3a9edd10704f9d83b5b9300,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 9 choices:    T S T S T T S T S
+Blue circle landed on:  T S T S T S T T S
+
+Your action:",TSTSTTSTS,T1S1T1S1T1T0S0T1S1
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,eeb9e0eb-8c27-4487-9448-e1e2e021fd75,9030,885b3ab7-0f1f-4715-a64f-a576445b17ca,2026-11-12T20:25:53.974378+00:00,2026-11-12T20:25:52.845049+00:00,anthropic/claude-sonnet-4.6,sonnet,Claude Sonnet 4.6,anthropic/claude-sonnet-4.6,Claude Platform on AWS,gen-1794515152-ELh7QVuCMscmkqOhddUm,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612015,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model anthropic/claude-sonnet-4.6 --model-group sonnet --model-display Claude Sonnet 4.6 --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9030 --session-seed 20261612015 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:25:40.010080+00:00,80000,True,abort,11,11,S,S,1,random_no_detection,0.627792,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1128,0,,318,22,0,340,85,"Looking at this, I need to make a random choice independent of previous rounds.
+
+STAR",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,b9f7bc446aae1bd6f8b8f425f168b0c1e9d7678503c84a9647f62b8f184ad115,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 10 choices:   T S T S T T S T S T
+Blue circle landed on:  T S T S T S T T S S
+
+Your action:",TSTSTTSTST,T1S1T1S1T1T0S0T1S1T0
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,eeb9e0eb-8c27-4487-9448-e1e2e021fd75,9030,2693ef31-6a08-4d3b-9183-9b076c1eca21,2026-11-12T20:25:55.216668+00:00,2026-11-12T20:25:53.974519+00:00,anthropic/claude-sonnet-4.6,sonnet,Claude Sonnet 4.6,anthropic/claude-sonnet-4.6,Claude Platform on AWS,gen-1794515153-iUgriDv7SQ9US3BYgltY,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612015,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model anthropic/claude-sonnet-4.6 --model-group sonnet --model-display Claude Sonnet 4.6 --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9030 --session-seed 20261612015 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:25:40.010080+00:00,80000,True,abort,12,12,T,T,1,random_no_detection,0.239035,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1241,0,,320,25,0,345,85,"Looking at my recent choices, I need to make an independent 50/50 decision.
+
+TRIANGLE",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,1c0208d546e11f3c3d12f61176f06a433be5cc4d943a1a79f7647b13397b5e1f,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 11 choices:   T S T S T T S T S T S
+Blue circle landed on:  T S T S T S T T S S S
+
+Your action:",TSTSTTSTSTS,T1S1T1S1T1T0S0T1S1T0S1
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,eeb9e0eb-8c27-4487-9448-e1e2e021fd75,9030,2c055049-72a7-49e9-877c-b698acf870b7,2026-11-12T20:25:56.289758+00:00,2026-11-12T20:25:55.217117+00:00,anthropic/claude-sonnet-4.6,sonnet,Claude Sonnet 4.6,anthropic/claude-sonnet-4.6,Claude Platform on AWS,gen-1794515154-e2aKtvl2IWd4SExrmSfY,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612015,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model anthropic/claude-sonnet-4.6 --model-group sonnet --model-display Claude Sonnet 4.6 --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9030 --session-seed 20261612015 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:25:40.010080+00:00,80000,True,abort,13,13,S,T,0,random_no_detection,0.244498,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1072,0,,322,19,0,341,69,"I need to make a random choice, independent of previous rounds.
+
+STAR",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,ead42e7e38b27b546cf7ff972f6b7b254646cb81f0e8d8522bb2609d3892bd86,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 12 choices:   T S T S T T S T S T S T
+Blue circle landed on:  T S T S T S T T S S S T
+
+Your action:",TSTSTTSTSTST,T1S1T1S1T1T0S0T1S1T0S1T1
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,eeb9e0eb-8c27-4487-9448-e1e2e021fd75,9030,a069f4c3-56b1-40cb-900c-ca7a0fad1847,2026-11-12T20:25:57.410406+00:00,2026-11-12T20:25:56.290186+00:00,anthropic/claude-sonnet-4.6,sonnet,Claude Sonnet 4.6,anthropic/claude-sonnet-4.6,Claude Platform on AWS,gen-1794515155-TZBsvPB31ThZ6mU80sZR,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612015,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model anthropic/claude-sonnet-4.6 --model-group sonnet --model-display Claude Sonnet 4.6 --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9030 --session-seed 20261612015 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:25:40.010080+00:00,80000,True,abort,14,14,T,S,0,random_no_detection,0.780909,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1119,0,,324,28,0,352,93,"Looking at my last 13 choices, I need to avoid patterns. I'll make a random choice.
+
+TRIANGLE",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,1682ef2e5966e72650c3b81193b2055f25260423f27eff27eb4546e24c873a12,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 13 choices:   T S T S T T S T S T S T S
+Blue circle landed on:  T S T S T S T T S S S T T
+
+Your action:",TSTSTTSTSTSTS,T1S1T1S1T1T0S0T1S1T0S1T1S0
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,eeb9e0eb-8c27-4487-9448-e1e2e021fd75,9030,877264c0-f1e3-411d-ab8d-c13e70744cf3,2026-11-12T20:25:58.583512+00:00,2026-11-12T20:25:57.410834+00:00,anthropic/claude-sonnet-4.6,sonnet,Claude Sonnet 4.6,anthropic/claude-sonnet-4.6,Claude Platform on AWS,gen-1794515156-dm2gkuERFkWE58GUxqVn,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612015,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model anthropic/claude-sonnet-4.6 --model-group sonnet --model-display Claude Sonnet 4.6 --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9030 --session-seed 20261612015 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:25:40.010080+00:00,80000,True,abort,15,15,S,S,1,random_no_detection,0.765422,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1172,0,,326,25,0,351,81,"Looking at my recent choices, I need to make an independent 50/50 decision.
+
+STAR",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,43d21354db41cbfb1b688bbf851fdb651b0d825c6711550a60a31292fd1478d1,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 14 choices:   T S T S T T S T S T S T S T
+Blue circle landed on:  T S T S T S T T S S S T T S
+
+Your action:",TSTSTTSTSTSTST,T1S1T1S1T1T0S0T1S1T0S1T1S0T0
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,eeb9e0eb-8c27-4487-9448-e1e2e021fd75,9030,7ba1ae14-684c-48e8-a790-202924cf5de5,2026-11-12T20:25:59.449038+00:00,2026-11-12T20:25:58.583957+00:00,anthropic/claude-sonnet-4.6,sonnet,Claude Sonnet 4.6,anthropic/claude-sonnet-4.6,Claude Platform on AWS,gen-1794515158-PBClMH7eG24JN03sMAUn,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612015,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model anthropic/claude-sonnet-4.6 --model-group sonnet --model-display Claude Sonnet 4.6 --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9030 --session-seed 20261612015 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:25:40.010080+00:00,80000,True,abort,16,16,T,S,0,exploit,0.111708,T,1,100.0000,2,False,True,True,False,False,False,False,False,False,,Triangle,Triangle,,,,,,,,100.0000,100.0000,,,,,,,model,stop,False,20000,864,0,,328,19,0,347,73,"I need to make a random choice, independent of previous rounds.
+
+TRIANGLE",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,7fecae8bd73cf62d2b4f20e23b78163217cddd3d0072f38ce5ad0c29ce9cd5d5,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 15 choices:   T S T S T T S T S T S T S T S
+Blue circle landed on:  T S T S T S T T S S S T T S S
+
+Your action:",TSTSTTSTSTSTSTS,T1S1T1S1T1T0S0T1S1T0S1T1S0T0S1
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,eeb9e0eb-8c27-4487-9448-e1e2e021fd75,9030,d51a475c-a46a-4673-9bcd-2f31e236456f,2026-11-12T20:26:02.801483+00:00,2026-11-12T20:25:59.449464+00:00,anthropic/claude-sonnet-4.6,sonnet,Claude Sonnet 4.6,anthropic/claude-sonnet-4.6,Claude Platform on AWS,gen-1794515158-X59JlaKJxxCN5uANKqRW,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612015,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model anthropic/claude-sonnet-4.6 --model-group sonnet --model-display Claude Sonnet 4.6 --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9030 --session-seed 20261612015 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:25:40.010080+00:00,80000,True,abort,17,17,S,T,0,random_no_detection,0.464443,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,3351,0,,330,117,0,447,474,"Looking at my last 16 choices, I see a strong alternating pattern (T S T S T T S T S T S T S T S T). An exploitative opponent would notice this and predict my next choice.
+
+The last choice was T, so the alternating pattern would suggest S next. The opponent would predict S and land on T. So I should choose T... but that's exactly the kind of reasoning that creates exploitable patterns.
+
+I need to make a genuinely random choice, independent of all previous choices.
+
+STAR",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,0d8a20879ac991954b7dd49c48967a3eeb44457ff46abb48194befc98abdbafc,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 16 choices:   T S T S T T S T S T S T S T S T
+Blue circle landed on:  T S T S T S T T S S S T T S S S
+
+Your action:",TSTSTTSTSTSTSTST,T1S1T1S1T1T0S0T1S1T0S1T1S0T0S1T0
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,eeb9e0eb-8c27-4487-9448-e1e2e021fd75,9030,59b00b38-1240-4d84-b604-c53c1d1e72bd,2026-11-12T20:26:03.735305+00:00,2026-11-12T20:26:02.801908+00:00,anthropic/claude-sonnet-4.6,sonnet,Claude Sonnet 4.6,anthropic/claude-sonnet-4.6,Claude Platform on AWS,gen-1794515162-Xvz6fSZVF1cTn0GglLbG,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612015,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model anthropic/claude-sonnet-4.6 --model-group sonnet --model-display Claude Sonnet 4.6 --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9030 --session-seed 20261612015 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:25:40.010080+00:00,80000,True,abort,18,18,T,S,0,exploit,0.711160,T,1,100.0000,2,False,True,True,False,False,False,False,False,False,,Triangle,Triangle,,,,,,,,100.0000,100.0000,,,,,,,model,stop,False,20000,932,0,,332,21,0,353,78,"Looking at the history, I need to make a random, independent choice.
+
+TRIANGLE",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,63c5911939bece572dc5a49d41b8b50ee773c32036b1cd61a9fe73aa0e1beada,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 17 choices:   T S T S T T S T S T S T S T S T S
+Blue circle landed on:  T S T S T S T T S S S T T S S S T
+
+Your action:",TSTSTTSTSTSTSTSTS,T1S1T1S1T1T0S0T1S1T0S1T1S0T0S1T0S0
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,eeb9e0eb-8c27-4487-9448-e1e2e021fd75,9030,49e11028-aa8f-4f0b-9de0-2b0b4ea43a33,2026-11-12T20:26:04.827326+00:00,2026-11-12T20:26:03.735869+00:00,anthropic/claude-sonnet-4.6,sonnet,Claude Sonnet 4.6,anthropic/claude-sonnet-4.6,Claude Platform on AWS,gen-1794515163-aLT47wUdxyFkkOSRLPaL,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612015,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model anthropic/claude-sonnet-4.6 --model-group sonnet --model-display Claude Sonnet 4.6 --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9030 --session-seed 20261612015 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:25:40.010080+00:00,80000,True,abort,19,19,S,T,0,exploit,0.487856,S,1,88.8889,1,False,True,False,False,False,False,False,False,False,,Star,,,,,,,,,88.8889,,,,,,,,model,stop,False,20000,1090,0,,334,25,0,359,81,"Looking at this, I need to make a random, independent choice. I'll go with:
+
+STAR",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,41d3467eda48935f407f5cdeaf6373150e6a59850d03a7e7850b1c086f1fa9b0,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 18 choices:   T S T S T T S T S T S T S T S T S T
+Blue circle landed on:  T S T S T S T T S S S T T S S S T S
+
+Your action:",TSTSTTSTSTSTSTSTST,T1S1T1S1T1T0S0T1S1T0S1T1S0T0S1T0S0T0
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,eeb9e0eb-8c27-4487-9448-e1e2e021fd75,9030,f872f441-dcff-4da5-9e02-701f19d33765,2026-11-12T20:26:05.962999+00:00,2026-11-12T20:26:04.827781+00:00,anthropic/claude-sonnet-4.6,sonnet,Claude Sonnet 4.6,anthropic/claude-sonnet-4.6,Claude Platform on AWS,gen-1794515164-8gaLo7bshQPv3Z297au8,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612015,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model anthropic/claude-sonnet-4.6 --model-group sonnet --model-display Claude Sonnet 4.6 --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9030 --session-seed 20261612015 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:25:40.010080+00:00,80000,True,abort,20,20,T,S,0,exploit,0.920425,T,1,100.0000,4,False,True,True,True,True,False,False,False,False,,Triangle,Triangle,Triangle,Triangle,,,,,,100.0000,100.0000,100.0000,100.0000,,,,,model,stop,False,20000,1134,0,,336,27,0,363,94,"Looking at this, I need to make a random, independent choice. I'll go with TRIANGLE.
+
+TRIANGLE",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,5199def57febc2d4d3176cac030ae2d88f315213367b83cc3d80433eeb619cbd,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 19 choices:   T S T S T T S T S T S T S T S T S T S
+Blue circle landed on:  T S T S T S T T S S S T T S S S T S T
+
+Your action:",TSTSTTSTSTSTSTSTSTS,T1S1T1S1T1T0S0T1S1T0S1T1S0T0S1T0S0T0S0

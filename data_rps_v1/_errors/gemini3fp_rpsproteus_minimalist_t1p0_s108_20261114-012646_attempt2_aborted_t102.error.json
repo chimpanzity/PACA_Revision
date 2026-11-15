@@ -1,0 +1,37 @@
+{
+ "session": {
+  "model": "Gemini 3 Flash Preview",
+  "slug": "google/gemini-3-flash-preview",
+  "group": "gemini3fp",
+  "family": "Google",
+  "master_seed": 20261113,
+  "session_index": 108,
+  "within_model_position": 12,
+  "stream_pair": 6,
+  "pair_id": 54,
+  "temperature": 1.0,
+  "pair_within_temp": 3,
+  "position_in_pair": 2,
+  "condition": "minimalist",
+  "informed_first": 1,
+  "session_seed": 985966045
+ },
+ "run_id": "94b26332-705e-4eed-bc20-e2b91cc9f958",
+ "session_id": "51d2670f-2658-49b0-88b1-d095e4469cbb",
+ "trial": 102,
+ "status": "parse_fail",
+ "error": "no ROCK/PAPER/SCISSORS found (finish_reason=stop)",
+ "finish_reason": "stop",
+ "response_text": "",
+ "attempts": [
+  {
+   "max_tokens": 20000,
+   "attempt": 0,
+   "finish_reason": "stop",
+   "completion_tokens": 0,
+   "latency_ms": 1533,
+   "provider": "Google"
+  }
+ ],
+ "provider": "Google"
+}

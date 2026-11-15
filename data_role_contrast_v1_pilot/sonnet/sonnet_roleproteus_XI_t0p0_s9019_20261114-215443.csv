@@ -1,0 +1,256 @@
+schema_version,client_version,prompt_version,parser_version,harness_commit,run_id,session_id,session_index,request_id,collected_utc,trial_utc,model,model_group,model_display,served_model,provider,generation_id,prompt_mode,opponent,binomial_tail,temperature,top_p,reasoning_config,max_tokens,desc_window,compact_window,master_seed,session_seed,n_trials,openai_lib_version,python_version,os_platform,command_line,session_started_utc,max_tokens_ceiling,escalate_on_truncation,on_truncation,trial,total_trial,subject_choice,computer_choice,subject_win,opp_action_type,opp_ranval,predicted_subject_side,winning_channel,winning_channel_bias,n_channels_active,n0_sign,n1_sign,n2_sign,n3_sign,n4_sign,n5_sign,n6_sign,n7_sign,n8_sign,n0_bside,n1_bside,n2_bside,n3_bside,n4_bside,n5_bside,n6_bside,n7_bside,n8_bside,n0_bsideprob,n1_bsideprob,n2_bsideprob,n3_bsideprob,n4_bsideprob,n5_bsideprob,n6_bsideprob,n7_bsideprob,n8_bsideprob,choice_source,finish_reason,truncated,max_tokens_used,latency_ms,retries_used,error_message,prompt_tokens,completion_tokens,reasoning_tokens,total_tokens,response_chars,response_text,system_prompt_sha256,user_prompt_sha256,user_prompt_text,history_choices,history_cr,study,protocol_version,opponent_version,harness_dirty,legacy_code_identical,legacy_files_sha256,family,system_fingerprint,condition_code,role,payoff_rule,block_id,block_position,within_block_position,within_model_position,global_session_order,order_sequence_id,block_seed,temperature_param_status,config_sha256,schedule_sha256,attempt_number,session_completion_status,invalid_response,machine,output_file,computer_win,cum_wins,counteraction_target,predicted_choice_probability,history_computer_choices,parse_last_line_choice,parse_agrees_last_line,native_finish_reason,n_attempts,attempts_json
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,71edc6ad-d614-40e8-a996-658d5b2acc6f,9019,abd95567-8077-4003-abda-b7c95dc5eeb6,2026-11-15T02:54:44.192225+00:00,2026-11-15T02:54:43.140008+00:00,anthropic/claude-sonnet-4.6,sonnet,Claude Sonnet 4.6,anthropic/claude-sonnet-4.6,Claude Platform on AWS,gen-1794711285-fMkW8WmUUmmHoXBHMw2G,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,919554393,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only sonnet --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:54:43.139486+00:00,80000,True,abort,1,1,T,S,1,random_no_detection,0.6116422885,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1052,0,,197,5,0,202,8,TRIANGLE,6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,c17faf00eedb5de2eeb3784dd857e800c2ca369831d95ce8a1770e57e6813d5c,"No previous rounds yet.
+
+Your action:",,,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),2,1,3,3,19,rot1,919054393,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,sonnet_roleproteus_XI_t0p0_s9019_20261114-215443.csv,0,1,,,,T,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":5,""latency_ms"":1052,""provider"":""Claude Platform on AWS""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,71edc6ad-d614-40e8-a996-658d5b2acc6f,9019,923336ad-3cff-49b8-9563-4ae39d92afe1,2026-11-15T02:54:44.917649+00:00,2026-11-15T02:54:44.192356+00:00,anthropic/claude-sonnet-4.6,sonnet,Claude Sonnet 4.6,anthropic/claude-sonnet-4.6,Claude Platform on AWS,gen-1794711286-lZLzBNQhBBZ5o4DAxwWn,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,919554393,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only sonnet --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:54:43.139486+00:00,80000,True,abort,2,2,S,S,0,random_no_detection,0.8292788473,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,725,0,,249,5,0,254,4,STAR,6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,6ea1846318a41f370063752db01955ae5288493bb280e87c62710b2f8e60f0ce,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 1 choice:     T
+Blue circle landed on:  S
+
+Your action:",T,T1,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),2,1,3,3,19,rot1,919054393,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,sonnet_roleproteus_XI_t0p0_s9019_20261114-215443.csv,1,1,,,S,S,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":5,""latency_ms"":725,""provider"":""Claude Platform on AWS""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,71edc6ad-d614-40e8-a996-658d5b2acc6f,9019,ebcfca54-4a80-4031-a3ee-8b5ef4173c2c,2026-11-15T02:54:45.620248+00:00,2026-11-15T02:54:44.917847+00:00,anthropic/claude-sonnet-4.6,sonnet,Claude Sonnet 4.6,anthropic/claude-sonnet-4.6,Claude Platform on AWS,gen-1794711286-vmH5Hty4yBH81FgKxy9B,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,919554393,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only sonnet --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:54:43.139486+00:00,80000,True,abort,3,3,T,S,1,random_no_detection,0.8444963873,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,702,0,,264,5,0,269,8,TRIANGLE,6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,b75057d4483d346cc624c57a69eb1c8399c072308c0d2b34285a65ad55ef1632,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 2 choices:    T S
+Blue circle landed on:  S S
+
+Your action:",TS,T1S0,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),2,1,3,3,19,rot1,919054393,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,sonnet_roleproteus_XI_t0p0_s9019_20261114-215443.csv,0,2,,,SS,T,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":5,""latency_ms"":702,""provider"":""Claude Platform on AWS""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,71edc6ad-d614-40e8-a996-658d5b2acc6f,9019,37175627-03e6-4a35-8cfd-93bf154c6688,2026-11-15T02:54:46.689759+00:00,2026-11-15T02:54:45.620402+00:00,anthropic/claude-sonnet-4.6,sonnet,Claude Sonnet 4.6,anthropic/claude-sonnet-4.6,Claude Platform on AWS,gen-1794711287-FDuwIPRr1GTFZAHIYv5s,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,919554393,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only sonnet --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:54:43.139486+00:00,80000,True,abort,4,4,S,S,0,random_no_detection,0.5695047794,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1068,0,,279,23,0,302,74,"I need to make a random 50/50 choice independent of previous rounds.
+
+STAR",6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,505154fffe0ac68fc46a1ea48c1adc43c8b27cd813ee3685a506529cca35afbd,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 3 choices:    T S T
+Blue circle landed on:  S S S
+
+Your action:",TST,T1S0T1,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),2,1,3,3,19,rot1,919054393,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,sonnet_roleproteus_XI_t0p0_s9019_20261114-215443.csv,1,2,,,SSS,S,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":23,""latency_ms"":1068,""provider"":""Claude Platform on AWS""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,71edc6ad-d614-40e8-a996-658d5b2acc6f,9019,0d3deee7-7f15-4aad-9fa9-21da812f6cff,2026-11-15T02:54:47.742362+00:00,2026-11-15T02:54:46.690511+00:00,anthropic/claude-sonnet-4.6,sonnet,Claude Sonnet 4.6,anthropic/claude-sonnet-4.6,Claude Platform on AWS,gen-1794711288-57spJViCrBvGhR7jvHvc,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,919554393,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only sonnet --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:54:43.139486+00:00,80000,True,abort,5,5,T,S,1,random_no_detection,0.8156450706,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1051,0,,294,26,0,320,87,"Looking at this, I need to make a random 50/50 choice independent of history.
+
+TRIANGLE",6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,b9b909848106d25c0812f6e4f1ff5684c2f9ba109724e47a6c5d09f1325612dc,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 4 choices:    T S T S
+Blue circle landed on:  S S S S
+
+Your action:",TSTS,T1S0T1S0,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),2,1,3,3,19,rot1,919054393,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,sonnet_roleproteus_XI_t0p0_s9019_20261114-215443.csv,0,3,,,SSSS,T,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":26,""latency_ms"":1051,""provider"":""Claude Platform on AWS""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,71edc6ad-d614-40e8-a996-658d5b2acc6f,9019,b42b7cfe-687a-4960-b379-f8e0edbef293,2026-11-15T02:54:49.209187+00:00,2026-11-15T02:54:47.742562+00:00,anthropic/claude-sonnet-4.6,sonnet,Claude Sonnet 4.6,anthropic/claude-sonnet-4.6,Claude Platform on AWS,gen-1794711289-Tpl9VFN45ENAaEQXhYR9,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,919554393,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only sonnet --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:54:43.139486+00:00,80000,True,abort,6,6,T,T,0,random_no_detection,0.3925047012,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1466,0,,309,34,0,343,127,"The circle has landed on STAR every single round regardless of my choice. I need to make an independent 50/50 choice.
+
+TRIANGLE",6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,81d591140a8bd1bec4436814e1313d3ad199ea7d9c5dd3264a592eed62a5194b,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 5 choices:    T S T S T
+Blue circle landed on:  S S S S S
+
+Your action:",TSTST,T1S0T1S0T1,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),2,1,3,3,19,rot1,919054393,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,sonnet_roleproteus_XI_t0p0_s9019_20261114-215443.csv,1,3,,,SSSSS,T,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":34,""latency_ms"":1466,""provider"":""Claude Platform on AWS""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,71edc6ad-d614-40e8-a996-658d5b2acc6f,9019,84235414-d53e-4753-96c8-a1e1eb5834d4,2026-11-15T02:54:50.192861+00:00,2026-11-15T02:54:49.209410+00:00,anthropic/claude-sonnet-4.6,sonnet,Claude Sonnet 4.6,anthropic/claude-sonnet-4.6,Claude Platform on AWS,gen-1794711291-d0uIy6oZGt4uyjp2vYtc,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,919554393,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only sonnet --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:54:43.139486+00:00,80000,True,abort,7,7,S,S,0,random_no_detection,0.5075530088,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,982,0,,311,22,0,333,85,"Looking at this, I need to make a random choice independent of previous rounds.
+
+STAR",6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,676fe69511df30e32979689a75c72af090581525a2115a1321610b6cdfac01e7,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 6 choices:    T S T S T T
+Blue circle landed on:  S S S S S T
+
+Your action:",TSTSTT,T1S0T1S0T1T0,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),2,1,3,3,19,rot1,919054393,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,sonnet_roleproteus_XI_t0p0_s9019_20261114-215443.csv,1,3,,,SSSSST,S,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":22,""latency_ms"":982,""provider"":""Claude Platform on AWS""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,71edc6ad-d614-40e8-a996-658d5b2acc6f,9019,851f21bd-417c-4741-ad83-2bb78b2c8335,2026-11-15T02:54:51.171751+00:00,2026-11-15T02:54:50.193520+00:00,anthropic/claude-sonnet-4.6,sonnet,Claude Sonnet 4.6,anthropic/claude-sonnet-4.6,Claude Platform on AWS,gen-1794711292-c0BNBgPXYyp3kkTkoOpd,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,919554393,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only sonnet --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:54:43.139486+00:00,80000,True,abort,8,8,T,S,1,random_no_detection,0.5001394658,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,977,0,,313,23,0,336,94,"Looking at this, I need to make a random choice independent of all previous choices.
+
+TRIANGLE",6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,a3577c632feeb124cfda275cd0b9d4aa530161b45a103b2f62899c610a3d1403,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 7 choices:    T S T S T T S
+Blue circle landed on:  S S S S S T S
+
+Your action:",TSTSTTS,T1S0T1S0T1T0S0,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),2,1,3,3,19,rot1,919054393,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,sonnet_roleproteus_XI_t0p0_s9019_20261114-215443.csv,0,4,,,SSSSSTS,T,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":23,""latency_ms"":977,""provider"":""Claude Platform on AWS""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,71edc6ad-d614-40e8-a996-658d5b2acc6f,9019,ab97933a-23a1-4ac8-82e9-76572a8cefbd,2026-11-15T02:54:52.318958+00:00,2026-11-15T02:54:51.172159+00:00,anthropic/claude-sonnet-4.6,sonnet,Claude Sonnet 4.6,anthropic/claude-sonnet-4.6,Claude Platform on AWS,gen-1794711292-tb3giJtFpWGScqMjDrOI,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,919554393,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only sonnet --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:54:43.139486+00:00,80000,True,abort,9,9,S,T,1,random_no_detection,0.0448470977,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1146,0,,315,23,0,338,90,"Looking at this, I need to make a random choice independent of all previous choices.
+
+STAR",6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,b4b49c522686e09de515661dbe5a48afc9ae33cc9a91f2bd1b9c957291005fa5,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 8 choices:    T S T S T T S T
+Blue circle landed on:  S S S S S T S S
+
+Your action:",TSTSTTST,T1S0T1S0T1T0S0T1,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),2,1,3,3,19,rot1,919054393,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,sonnet_roleproteus_XI_t0p0_s9019_20261114-215443.csv,0,5,,,SSSSSTSS,S,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":23,""latency_ms"":1146,""provider"":""Claude Platform on AWS""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,71edc6ad-d614-40e8-a996-658d5b2acc6f,9019,63861cc2-7096-4412-9d7f-275a9a5ed5e8,2026-11-15T02:54:53.334486+00:00,2026-11-15T02:54:52.319615+00:00,anthropic/claude-sonnet-4.6,sonnet,Claude Sonnet 4.6,anthropic/claude-sonnet-4.6,Claude Platform on AWS,gen-1794711294-5uB1Ju1GgbbsxJFzbEGR,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,919554393,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only sonnet --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:54:43.139486+00:00,80000,True,abort,10,10,T,S,1,random_no_detection,0.6562880139,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1014,0,,317,23,0,340,94,"Looking at this, I need to make a random choice independent of all previous choices.
+
+TRIANGLE",6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,274cbcb65249d59595d84bac2860dfa040a18e9a119a669dd1d95c665eabf3e2,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 9 choices:    T S T S T T S T S
+Blue circle landed on:  S S S S S T S S T
+
+Your action:",TSTSTTSTS,T1S0T1S0T1T0S0T1S1,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),2,1,3,3,19,rot1,919054393,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,sonnet_roleproteus_XI_t0p0_s9019_20261114-215443.csv,0,6,,,SSSSSTSST,T,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":23,""latency_ms"":1014,""provider"":""Claude Platform on AWS""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,71edc6ad-d614-40e8-a996-658d5b2acc6f,9019,93304ff2-7813-47c1-9ed2-446d546a38c4,2026-11-15T02:54:54.433375+00:00,2026-11-15T02:54:53.334920+00:00,anthropic/claude-sonnet-4.6,sonnet,Claude Sonnet 4.6,anthropic/claude-sonnet-4.6,Claude Platform on AWS,gen-1794711295-l5xRHpdxR4SR4HP5MDSf,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,919554393,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only sonnet --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:54:43.139486+00:00,80000,True,abort,11,11,S,S,0,random_no_detection,0.9036539774,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1097,0,,319,28,0,347,96,"Looking at this, I need to make a random 50/50 choice independent of all previous choices.
+
+STAR",6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,ff149dcbc7f82ea52c5b8c9027ea9a9e8511d178d4b41dfbb443efe2c6ec63db,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 10 choices:   T S T S T T S T S T
+Blue circle landed on:  S S S S S T S S T S
+
+Your action:",TSTSTTSTST,T1S0T1S0T1T0S0T1S1T1,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),2,1,3,3,19,rot1,919054393,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,sonnet_roleproteus_XI_t0p0_s9019_20261114-215443.csv,1,6,,,SSSSSTSSTS,S,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":28,""latency_ms"":1097,""provider"":""Claude Platform on AWS""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,71edc6ad-d614-40e8-a996-658d5b2acc6f,9019,569d3e35-81fc-4d32-b033-9291a3f2a55a,2026-11-15T02:54:55.536817+00:00,2026-11-15T02:54:54.433893+00:00,anthropic/claude-sonnet-4.6,sonnet,Claude Sonnet 4.6,anthropic/claude-sonnet-4.6,Claude Platform on AWS,gen-1794711296-BtREgNMPmJnNcd25arMA,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,919554393,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only sonnet --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:54:43.139486+00:00,80000,True,abort,12,12,T,T,0,random_no_detection,0.2140882634,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1102,0,,321,23,0,344,94,"Looking at this, I need to make a random choice independent of all previous choices.
+
+TRIANGLE",6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,e282d031f39b22bff3062b5d2d72971f6c5c1704074b43b603465273d759d76b,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 11 choices:   T S T S T T S T S T S
+Blue circle landed on:  S S S S S T S S T S S
+
+Your action:",TSTSTTSTSTS,T1S0T1S0T1T0S0T1S1T1S0,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),2,1,3,3,19,rot1,919054393,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,sonnet_roleproteus_XI_t0p0_s9019_20261114-215443.csv,1,6,,,SSSSSTSSTSS,T,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":23,""latency_ms"":1102,""provider"":""Claude Platform on AWS""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,71edc6ad-d614-40e8-a996-658d5b2acc6f,9019,6af62139-9a52-4cd3-9ecf-fdb8b4be8cd5,2026-11-15T02:54:56.569985+00:00,2026-11-15T02:54:55.537346+00:00,anthropic/claude-sonnet-4.6,sonnet,Claude Sonnet 4.6,anthropic/claude-sonnet-4.6,Claude Platform on AWS,gen-1794711297-Aww7jyTQtWgxQJGoqYeC,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,919554393,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only sonnet --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:54:43.139486+00:00,80000,True,abort,13,13,S,S,0,random_no_detection,0.6491753281,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1031,0,,323,22,0,345,85,"Looking at this, I need to make a random choice independent of previous rounds.
+
+STAR",6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,02e98cb82ccb1cf0b2225aac5a7919c8f5333b3cdf6baa66d6470a682fa24c68,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 12 choices:   T S T S T T S T S T S T
+Blue circle landed on:  S S S S S T S S T S S T
+
+Your action:",TSTSTTSTSTST,T1S0T1S0T1T0S0T1S1T1S0T0,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),2,1,3,3,19,rot1,919054393,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,sonnet_roleproteus_XI_t0p0_s9019_20261114-215443.csv,1,6,,,SSSSSTSSTSST,S,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":22,""latency_ms"":1031,""provider"":""Claude Platform on AWS""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,71edc6ad-d614-40e8-a996-658d5b2acc6f,9019,5ed39105-b86a-4c24-9a26-34e7a6ce2b0b,2026-11-15T02:54:57.530549+00:00,2026-11-15T02:54:56.570384+00:00,anthropic/claude-sonnet-4.6,sonnet,Claude Sonnet 4.6,anthropic/claude-sonnet-4.6,Claude Platform on AWS,gen-1794711298-KGgzN10ElagimVj7yE0n,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,919554393,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only sonnet --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:54:43.139486+00:00,80000,True,abort,14,14,T,S,1,random_no_detection,0.5669596109,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,959,0,,325,22,0,347,89,"Looking at this, I need to make a random choice independent of previous rounds.
+
+TRIANGLE",6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,0afe1a391e910259d0cd1d2a83a15672a7f7f0f93e3e9e5524559c9ccda7812c,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 13 choices:   T S T S T T S T S T S T S
+Blue circle landed on:  S S S S S T S S T S S T S
+
+Your action:",TSTSTTSTSTSTS,T1S0T1S0T1T0S0T1S1T1S0T0S0,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),2,1,3,3,19,rot1,919054393,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,sonnet_roleproteus_XI_t0p0_s9019_20261114-215443.csv,0,7,,,SSSSSTSSTSSTS,T,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":22,""latency_ms"":959,""provider"":""Claude Platform on AWS""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,71edc6ad-d614-40e8-a996-658d5b2acc6f,9019,2ff4c3ca-edf3-49f0-87be-4a2b84e46ac3,2026-11-15T02:54:58.518886+00:00,2026-11-15T02:54:57.530782+00:00,anthropic/claude-sonnet-4.6,sonnet,Claude Sonnet 4.6,anthropic/claude-sonnet-4.6,Claude Platform on AWS,gen-1794711299-l9JFCvfgEp32jC8fB8m7,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,919554393,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only sonnet --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:54:43.139486+00:00,80000,True,abort,15,15,S,T,1,random_no_detection,0.4064137767,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,987,0,,327,23,0,350,90,"Looking at this, I need to make a random choice independent of all previous choices.
+
+STAR",6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,00604521ec842795a8ef5ad30920c6d453ebd0c17a6875011e01bd8368550bf9,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 14 choices:   T S T S T T S T S T S T S T
+Blue circle landed on:  S S S S S T S S T S S T S S
+
+Your action:",TSTSTTSTSTSTST,T1S0T1S0T1T0S0T1S1T1S0T0S0T1,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),2,1,3,3,19,rot1,919054393,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,sonnet_roleproteus_XI_t0p0_s9019_20261114-215443.csv,0,8,,,SSSSSTSSTSSTSS,S,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":23,""latency_ms"":987,""provider"":""Claude Platform on AWS""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,71edc6ad-d614-40e8-a996-658d5b2acc6f,9019,dac1cf53-ee80-4616-9f3d-ae06962e93a3,2026-11-15T02:54:59.522649+00:00,2026-11-15T02:54:58.519308+00:00,anthropic/claude-sonnet-4.6,sonnet,Claude Sonnet 4.6,anthropic/claude-sonnet-4.6,Claude Platform on AWS,gen-1794711300-rtMUkbd5s3EjARa1g6RO,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,919554393,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only sonnet --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:54:43.139486+00:00,80000,True,abort,16,16,T,T,0,exploit,0.6940681205,T,1,100.0000,2,False,True,True,False,False,False,False,False,False,,Triangle,Triangle,,,,,,,,100.0000,100.0000,,,,,,,model,stop,False,20000,1002,0,,329,23,0,352,94,"Looking at this, I need to make a random choice independent of all previous choices.
+
+TRIANGLE",6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,f5904f088a8a0fc53411fab7f9eead89e4d39040b2db2ad6e209b6ef24a4e3dc,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 15 choices:   T S T S T T S T S T S T S T S
+Blue circle landed on:  S S S S S T S S T S S T S S T
+
+Your action:",TSTSTTSTSTSTSTS,T1S0T1S0T1T0S0T1S1T1S0T0S0T1S1,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),2,1,3,3,19,rot1,919054393,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,sonnet_roleproteus_XI_t0p0_s9019_20261114-215443.csv,1,8,T,1.000000,SSSSSTSSTSSTSST,T,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":23,""latency_ms"":1002,""provider"":""Claude Platform on AWS""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,71edc6ad-d614-40e8-a996-658d5b2acc6f,9019,695b3107-4d40-4b03-a202-4e58c95560ce,2026-11-15T02:55:00.622857+00:00,2026-11-15T02:54:59.522761+00:00,anthropic/claude-sonnet-4.6,sonnet,Claude Sonnet 4.6,anthropic/claude-sonnet-4.6,Claude Platform on AWS,gen-1794711301-v05IClo73mirLrPdgyVW,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,919554393,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only sonnet --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:54:43.139486+00:00,80000,True,abort,17,17,S,T,1,random_no_detection,0.3211217403,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1099,0,,331,23,0,354,90,"Looking at this, I need to make a random choice independent of all previous choices.
+
+STAR",6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,4295705ea03fa817fc2c512f602b479851686fabb0d0e8f12825a8f02338dbd9,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 16 choices:   T S T S T T S T S T S T S T S T
+Blue circle landed on:  S S S S S T S S T S S T S S T T
+
+Your action:",TSTSTTSTSTSTSTST,T1S0T1S0T1T0S0T1S1T1S0T0S0T1S1T0,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),2,1,3,3,19,rot1,919054393,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,sonnet_roleproteus_XI_t0p0_s9019_20261114-215443.csv,0,9,,,SSSSSTSSTSSTSSTT,S,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":23,""latency_ms"":1099,""provider"":""Claude Platform on AWS""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,71edc6ad-d614-40e8-a996-658d5b2acc6f,9019,b9ae03bc-34a2-415b-bf8d-fc6946742582,2026-11-15T02:55:01.603235+00:00,2026-11-15T02:55:00.623052+00:00,anthropic/claude-sonnet-4.6,sonnet,Claude Sonnet 4.6,anthropic/claude-sonnet-4.6,Claude Platform on AWS,gen-1794711302-XxXXLgV5h8cM0ZFGrXYX,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,919554393,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only sonnet --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:54:43.139486+00:00,80000,True,abort,18,18,T,T,0,exploit,0.9107099285,T,1,100.0000,2,False,True,True,False,False,False,False,False,False,,Triangle,Triangle,,,,,,,,100.0000,100.0000,,,,,,,model,stop,False,20000,979,0,,333,23,0,356,94,"Looking at this, I need to make a random choice independent of all previous choices.
+
+TRIANGLE",6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,bf51df9f6825266232ea2c50621565564ed179d6b3faded5e7f170c46bd4a1b3,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 17 choices:   T S T S T T S T S T S T S T S T S
+Blue circle landed on:  S S S S S T S S T S S T S S T T T
+
+Your action:",TSTSTTSTSTSTSTSTS,T1S0T1S0T1T0S0T1S1T1S0T0S0T1S1T0S1,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),2,1,3,3,19,rot1,919054393,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,sonnet_roleproteus_XI_t0p0_s9019_20261114-215443.csv,1,9,T,1.000000,SSSSSTSSTSSTSSTTT,T,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":23,""latency_ms"":979,""provider"":""Claude Platform on AWS""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,71edc6ad-d614-40e8-a996-658d5b2acc6f,9019,5bd8f100-7a10-4282-869b-912938509b0e,2026-11-15T02:55:02.698803+00:00,2026-11-15T02:55:01.603656+00:00,anthropic/claude-sonnet-4.6,sonnet,Claude Sonnet 4.6,anthropic/claude-sonnet-4.6,Claude Platform on AWS,gen-1794711303-5NWWwjKCJZUx2NMRVhJb,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,919554393,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only sonnet --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:54:43.139486+00:00,80000,True,abort,19,19,S,S,0,exploit,0.3369346840,S,1,88.8889,1,False,True,False,False,False,False,False,False,False,,Star,,,,,,,,,88.8889,,,,,,,,model,stop,False,20000,1094,0,,335,23,0,358,91,"Looking at this as a coin flip decision - I need to choose randomly without patterns.
+
+STAR",6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,7ae9d8af5209289605bec168834de2cf9197212417c621cdee7973882a4f2e95,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 18 choices:   T S T S T T S T S T S T S T S T S T
+Blue circle landed on:  S S S S S T S S T S S T S S T T T T
+
+Your action:",TSTSTTSTSTSTSTSTST,T1S0T1S0T1T0S0T1S1T1S0T0S0T1S1T0S1T0,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),2,1,3,3,19,rot1,919054393,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,sonnet_roleproteus_XI_t0p0_s9019_20261114-215443.csv,1,9,S,0.888889,SSSSSTSSTSSTSSTTTT,S,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":23,""latency_ms"":1094,""provider"":""Claude Platform on AWS""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,71edc6ad-d614-40e8-a996-658d5b2acc6f,9019,88aea47e-2f8d-4e59-8bf1-586137a35d28,2026-11-15T02:55:03.704434+00:00,2026-11-15T02:55:02.699245+00:00,anthropic/claude-sonnet-4.6,sonnet,Claude Sonnet 4.6,anthropic/claude-sonnet-4.6,Claude Platform on AWS,gen-1794711304-mSSQu4Rutiwyqx7IHHfY,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,919554393,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only sonnet --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:54:43.139486+00:00,80000,True,abort,20,20,T,T,0,exploit,0.5661802326,T,1,100.0000,4,False,True,True,True,True,False,False,False,False,,Triangle,Triangle,Triangle,Triangle,,,,,,100.0000,100.0000,100.0000,100.0000,,,,,model,stop,False,20000,1004,0,,337,22,0,359,89,"Looking at this, I need to make a random choice independent of previous rounds.
+
+TRIANGLE",6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,0fca073c6c32f8be80cdec5e72d569c43fd8b0dcf77d6b8206112dfe15cc4879,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 19 choices:   T S T S T T S T S T S T S T S T S T S
+Blue circle landed on:  S S S S S T S S T S S T S S T T T T S
+
+Your action:",TSTSTTSTSTSTSTSTSTS,T1S0T1S0T1T0S0T1S1T1S0T0S0T1S1T0S1T0S0,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),2,1,3,3,19,rot1,919054393,applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,sonnet_roleproteus_XI_t0p0_s9019_20261114-215443.csv,1,9,T,1.000000,SSSSSTSSTSSTSSTTTTS,T,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":22,""latency_ms"":1004,""provider"":""Claude Platform on AWS""}]"

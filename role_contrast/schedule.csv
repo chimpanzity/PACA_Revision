@@ -1,0 +1,113 @@
+session_index,global_session_order,model,group,family,order_sequence_id,within_model_position,block_id,block_position,within_block_position,condition_code,role,prompt_mode,block_seed,session_seed
+1,1,Claude Opus 4.8,opus,Anthropic,rot0,1,1,1,1,MM,matcher,minimalist,2011414197,2011414197
+2,2,Claude Opus 4.8,opus,Anthropic,rot0,2,1,1,2,MI,matcher,informed,2011414197,2011414197
+3,3,Claude Opus 4.8,opus,Anthropic,rot0,3,1,1,3,XM,mismatcher,minimalist,2011414197,2011414197
+4,4,Claude Opus 4.8,opus,Anthropic,rot0,4,1,1,4,XI,mismatcher,informed,2011414197,2011414197
+5,5,Claude Opus 4.8,opus,Anthropic,rot0,5,2,2,1,MI,matcher,informed,1055148528,1055148528
+6,6,Claude Opus 4.8,opus,Anthropic,rot0,6,2,2,2,MM,matcher,minimalist,1055148528,1055148528
+7,7,Claude Opus 4.8,opus,Anthropic,rot0,7,2,2,3,XI,mismatcher,informed,1055148528,1055148528
+8,8,Claude Opus 4.8,opus,Anthropic,rot0,8,2,2,4,XM,mismatcher,minimalist,1055148528,1055148528
+9,9,Claude Opus 4.8,opus,Anthropic,rot0,9,3,3,1,XM,mismatcher,minimalist,1943000869,1943000869
+10,10,Claude Opus 4.8,opus,Anthropic,rot0,10,3,3,2,XI,mismatcher,informed,1943000869,1943000869
+11,11,Claude Opus 4.8,opus,Anthropic,rot0,11,3,3,3,MM,matcher,minimalist,1943000869,1943000869
+12,12,Claude Opus 4.8,opus,Anthropic,rot0,12,3,3,4,MI,matcher,informed,1943000869,1943000869
+13,13,Claude Opus 4.8,opus,Anthropic,rot0,13,4,4,1,XI,mismatcher,informed,1088797853,1088797853
+14,14,Claude Opus 4.8,opus,Anthropic,rot0,14,4,4,2,XM,mismatcher,minimalist,1088797853,1088797853
+15,15,Claude Opus 4.8,opus,Anthropic,rot0,15,4,4,3,MI,matcher,informed,1088797853,1088797853
+16,16,Claude Opus 4.8,opus,Anthropic,rot0,16,4,4,4,MM,matcher,minimalist,1088797853,1088797853
+17,17,Claude Sonnet 4.6,sonnet,Anthropic,rot1,1,2,1,1,MI,matcher,informed,919054393,919054393
+18,18,Claude Sonnet 4.6,sonnet,Anthropic,rot1,2,2,1,2,MM,matcher,minimalist,919054393,919054393
+19,19,Claude Sonnet 4.6,sonnet,Anthropic,rot1,3,2,1,3,XI,mismatcher,informed,919054393,919054393
+20,20,Claude Sonnet 4.6,sonnet,Anthropic,rot1,4,2,1,4,XM,mismatcher,minimalist,919054393,919054393
+21,21,Claude Sonnet 4.6,sonnet,Anthropic,rot1,5,3,2,1,XM,mismatcher,minimalist,1492632706,1492632706
+22,22,Claude Sonnet 4.6,sonnet,Anthropic,rot1,6,3,2,2,XI,mismatcher,informed,1492632706,1492632706
+23,23,Claude Sonnet 4.6,sonnet,Anthropic,rot1,7,3,2,3,MM,matcher,minimalist,1492632706,1492632706
+24,24,Claude Sonnet 4.6,sonnet,Anthropic,rot1,8,3,2,4,MI,matcher,informed,1492632706,1492632706
+25,25,Claude Sonnet 4.6,sonnet,Anthropic,rot1,9,4,3,1,XI,mismatcher,informed,2008687775,2008687775
+26,26,Claude Sonnet 4.6,sonnet,Anthropic,rot1,10,4,3,2,XM,mismatcher,minimalist,2008687775,2008687775
+27,27,Claude Sonnet 4.6,sonnet,Anthropic,rot1,11,4,3,3,MI,matcher,informed,2008687775,2008687775
+28,28,Claude Sonnet 4.6,sonnet,Anthropic,rot1,12,4,3,4,MM,matcher,minimalist,2008687775,2008687775
+29,29,Claude Sonnet 4.6,sonnet,Anthropic,rot1,13,1,4,1,MM,matcher,minimalist,520851047,520851047
+30,30,Claude Sonnet 4.6,sonnet,Anthropic,rot1,14,1,4,2,MI,matcher,informed,520851047,520851047
+31,31,Claude Sonnet 4.6,sonnet,Anthropic,rot1,15,1,4,3,XM,mismatcher,minimalist,520851047,520851047
+32,32,Claude Sonnet 4.6,sonnet,Anthropic,rot1,16,1,4,4,XI,mismatcher,informed,520851047,520851047
+33,33,Claude Haiku 4.5,haiku,Anthropic,rot2,1,3,1,1,XM,mismatcher,minimalist,273504356,273504356
+34,34,Claude Haiku 4.5,haiku,Anthropic,rot2,2,3,1,2,XI,mismatcher,informed,273504356,273504356
+35,35,Claude Haiku 4.5,haiku,Anthropic,rot2,3,3,1,3,MM,matcher,minimalist,273504356,273504356
+36,36,Claude Haiku 4.5,haiku,Anthropic,rot2,4,3,1,4,MI,matcher,informed,273504356,273504356
+37,37,Claude Haiku 4.5,haiku,Anthropic,rot2,5,4,2,1,XI,mismatcher,informed,810865156,810865156
+38,38,Claude Haiku 4.5,haiku,Anthropic,rot2,6,4,2,2,XM,mismatcher,minimalist,810865156,810865156
+39,39,Claude Haiku 4.5,haiku,Anthropic,rot2,7,4,2,3,MI,matcher,informed,810865156,810865156
+40,40,Claude Haiku 4.5,haiku,Anthropic,rot2,8,4,2,4,MM,matcher,minimalist,810865156,810865156
+41,41,Claude Haiku 4.5,haiku,Anthropic,rot2,9,1,3,1,MM,matcher,minimalist,1738515853,1738515853
+42,42,Claude Haiku 4.5,haiku,Anthropic,rot2,10,1,3,2,MI,matcher,informed,1738515853,1738515853
+43,43,Claude Haiku 4.5,haiku,Anthropic,rot2,11,1,3,3,XM,mismatcher,minimalist,1738515853,1738515853
+44,44,Claude Haiku 4.5,haiku,Anthropic,rot2,12,1,3,4,XI,mismatcher,informed,1738515853,1738515853
+45,45,Claude Haiku 4.5,haiku,Anthropic,rot2,13,2,4,1,MI,matcher,informed,1994275929,1994275929
+46,46,Claude Haiku 4.5,haiku,Anthropic,rot2,14,2,4,2,MM,matcher,minimalist,1994275929,1994275929
+47,47,Claude Haiku 4.5,haiku,Anthropic,rot2,15,2,4,3,XI,mismatcher,informed,1994275929,1994275929
+48,48,Claude Haiku 4.5,haiku,Anthropic,rot2,16,2,4,4,XM,mismatcher,minimalist,1994275929,1994275929
+49,49,GPT-5.4,gpt54,OpenAI,rot3,1,4,1,1,XI,mismatcher,informed,298842767,298842767
+50,50,GPT-5.4,gpt54,OpenAI,rot3,2,4,1,2,XM,mismatcher,minimalist,298842767,298842767
+51,51,GPT-5.4,gpt54,OpenAI,rot3,3,4,1,3,MI,matcher,informed,298842767,298842767
+52,52,GPT-5.4,gpt54,OpenAI,rot3,4,4,1,4,MM,matcher,minimalist,298842767,298842767
+53,53,GPT-5.4,gpt54,OpenAI,rot3,5,1,2,1,MM,matcher,minimalist,449103746,449103746
+54,54,GPT-5.4,gpt54,OpenAI,rot3,6,1,2,2,MI,matcher,informed,449103746,449103746
+55,55,GPT-5.4,gpt54,OpenAI,rot3,7,1,2,3,XM,mismatcher,minimalist,449103746,449103746
+56,56,GPT-5.4,gpt54,OpenAI,rot3,8,1,2,4,XI,mismatcher,informed,449103746,449103746
+57,57,GPT-5.4,gpt54,OpenAI,rot3,9,2,3,1,MI,matcher,informed,590676399,590676399
+58,58,GPT-5.4,gpt54,OpenAI,rot3,10,2,3,2,MM,matcher,minimalist,590676399,590676399
+59,59,GPT-5.4,gpt54,OpenAI,rot3,11,2,3,3,XI,mismatcher,informed,590676399,590676399
+60,60,GPT-5.4,gpt54,OpenAI,rot3,12,2,3,4,XM,mismatcher,minimalist,590676399,590676399
+61,61,GPT-5.4,gpt54,OpenAI,rot3,13,3,4,1,XM,mismatcher,minimalist,638885444,638885444
+62,62,GPT-5.4,gpt54,OpenAI,rot3,14,3,4,2,XI,mismatcher,informed,638885444,638885444
+63,63,GPT-5.4,gpt54,OpenAI,rot3,15,3,4,3,MM,matcher,minimalist,638885444,638885444
+64,64,GPT-5.4,gpt54,OpenAI,rot3,16,3,4,4,MI,matcher,informed,638885444,638885444
+65,65,GPT-5.4-mini,gpt54mini,OpenAI,rot0,1,1,1,1,MM,matcher,minimalist,534187971,534187971
+66,66,GPT-5.4-mini,gpt54mini,OpenAI,rot0,2,1,1,2,MI,matcher,informed,534187971,534187971
+67,67,GPT-5.4-mini,gpt54mini,OpenAI,rot0,3,1,1,3,XM,mismatcher,minimalist,534187971,534187971
+68,68,GPT-5.4-mini,gpt54mini,OpenAI,rot0,4,1,1,4,XI,mismatcher,informed,534187971,534187971
+69,69,GPT-5.4-mini,gpt54mini,OpenAI,rot0,5,2,2,1,MI,matcher,informed,88571236,88571236
+70,70,GPT-5.4-mini,gpt54mini,OpenAI,rot0,6,2,2,2,MM,matcher,minimalist,88571236,88571236
+71,71,GPT-5.4-mini,gpt54mini,OpenAI,rot0,7,2,2,3,XI,mismatcher,informed,88571236,88571236
+72,72,GPT-5.4-mini,gpt54mini,OpenAI,rot0,8,2,2,4,XM,mismatcher,minimalist,88571236,88571236
+73,73,GPT-5.4-mini,gpt54mini,OpenAI,rot0,9,3,3,1,XM,mismatcher,minimalist,559556845,559556845
+74,74,GPT-5.4-mini,gpt54mini,OpenAI,rot0,10,3,3,2,XI,mismatcher,informed,559556845,559556845
+75,75,GPT-5.4-mini,gpt54mini,OpenAI,rot0,11,3,3,3,MM,matcher,minimalist,559556845,559556845
+76,76,GPT-5.4-mini,gpt54mini,OpenAI,rot0,12,3,3,4,MI,matcher,informed,559556845,559556845
+77,77,GPT-5.4-mini,gpt54mini,OpenAI,rot0,13,4,4,1,XI,mismatcher,informed,411605747,411605747
+78,78,GPT-5.4-mini,gpt54mini,OpenAI,rot0,14,4,4,2,XM,mismatcher,minimalist,411605747,411605747
+79,79,GPT-5.4-mini,gpt54mini,OpenAI,rot0,15,4,4,3,MI,matcher,informed,411605747,411605747
+80,80,GPT-5.4-mini,gpt54mini,OpenAI,rot0,16,4,4,4,MM,matcher,minimalist,411605747,411605747
+81,81,Gemini 3.1 Flash Lite,gemini31fl,Google,rot1,1,2,1,1,MI,matcher,informed,252839795,252839795
+82,82,Gemini 3.1 Flash Lite,gemini31fl,Google,rot1,2,2,1,2,MM,matcher,minimalist,252839795,252839795
+83,83,Gemini 3.1 Flash Lite,gemini31fl,Google,rot1,3,2,1,3,XI,mismatcher,informed,252839795,252839795
+84,84,Gemini 3.1 Flash Lite,gemini31fl,Google,rot1,4,2,1,4,XM,mismatcher,minimalist,252839795,252839795
+85,85,Gemini 3.1 Flash Lite,gemini31fl,Google,rot1,5,3,2,1,XM,mismatcher,minimalist,1718585566,1718585566
+86,86,Gemini 3.1 Flash Lite,gemini31fl,Google,rot1,6,3,2,2,XI,mismatcher,informed,1718585566,1718585566
+87,87,Gemini 3.1 Flash Lite,gemini31fl,Google,rot1,7,3,2,3,MM,matcher,minimalist,1718585566,1718585566
+88,88,Gemini 3.1 Flash Lite,gemini31fl,Google,rot1,8,3,2,4,MI,matcher,informed,1718585566,1718585566
+89,89,Gemini 3.1 Flash Lite,gemini31fl,Google,rot1,9,4,3,1,XI,mismatcher,informed,116626319,116626319
+90,90,Gemini 3.1 Flash Lite,gemini31fl,Google,rot1,10,4,3,2,XM,mismatcher,minimalist,116626319,116626319
+91,91,Gemini 3.1 Flash Lite,gemini31fl,Google,rot1,11,4,3,3,MI,matcher,informed,116626319,116626319
+92,92,Gemini 3.1 Flash Lite,gemini31fl,Google,rot1,12,4,3,4,MM,matcher,minimalist,116626319,116626319
+93,93,Gemini 3.1 Flash Lite,gemini31fl,Google,rot1,13,1,4,1,MM,matcher,minimalist,757502304,757502304
+94,94,Gemini 3.1 Flash Lite,gemini31fl,Google,rot1,14,1,4,2,MI,matcher,informed,757502304,757502304
+95,95,Gemini 3.1 Flash Lite,gemini31fl,Google,rot1,15,1,4,3,XM,mismatcher,minimalist,757502304,757502304
+96,96,Gemini 3.1 Flash Lite,gemini31fl,Google,rot1,16,1,4,4,XI,mismatcher,informed,757502304,757502304
+97,97,Gemini 3 Flash Preview,gemini3fp,Google,rot2,1,3,1,1,XM,mismatcher,minimalist,1348870813,1348870813
+98,98,Gemini 3 Flash Preview,gemini3fp,Google,rot2,2,3,1,2,XI,mismatcher,informed,1348870813,1348870813
+99,99,Gemini 3 Flash Preview,gemini3fp,Google,rot2,3,3,1,3,MM,matcher,minimalist,1348870813,1348870813
+100,100,Gemini 3 Flash Preview,gemini3fp,Google,rot2,4,3,1,4,MI,matcher,informed,1348870813,1348870813
+101,101,Gemini 3 Flash Preview,gemini3fp,Google,rot2,5,4,2,1,XI,mismatcher,informed,2082050654,2082050654
+102,102,Gemini 3 Flash Preview,gemini3fp,Google,rot2,6,4,2,2,XM,mismatcher,minimalist,2082050654,2082050654
+103,103,Gemini 3 Flash Preview,gemini3fp,Google,rot2,7,4,2,3,MI,matcher,informed,2082050654,2082050654
+104,104,Gemini 3 Flash Preview,gemini3fp,Google,rot2,8,4,2,4,MM,matcher,minimalist,2082050654,2082050654
+105,105,Gemini 3 Flash Preview,gemini3fp,Google,rot2,9,1,3,1,MM,matcher,minimalist,1883620301,1883620301
+106,106,Gemini 3 Flash Preview,gemini3fp,Google,rot2,10,1,3,2,MI,matcher,informed,1883620301,1883620301
+107,107,Gemini 3 Flash Preview,gemini3fp,Google,rot2,11,1,3,3,XM,mismatcher,minimalist,1883620301,1883620301
+108,108,Gemini 3 Flash Preview,gemini3fp,Google,rot2,12,1,3,4,XI,mismatcher,informed,1883620301,1883620301
+109,109,Gemini 3 Flash Preview,gemini3fp,Google,rot2,13,2,4,1,MI,matcher,informed,1910548521,1910548521
+110,110,Gemini 3 Flash Preview,gemini3fp,Google,rot2,14,2,4,2,MM,matcher,minimalist,1910548521,1910548521
+111,111,Gemini 3 Flash Preview,gemini3fp,Google,rot2,15,2,4,3,XI,mismatcher,informed,1910548521,1910548521
+112,112,Gemini 3 Flash Preview,gemini3fp,Google,rot2,16,2,4,4,XM,mismatcher,minimalist,1910548521,1910548521

@@ -1,0 +1,25 @@
+\begin{table}[htbp]
+\centering
+\caption{Rock--paper--scissors against Proteus: payoff and choice structure by model and prompt at requested temperature 1.}
+\label{tab:rps}
+\footnotesize
+\setlength{\tabcolsep}{3.6pt}
+\begin{tabular}{@{}lrrrrrrrrrr@{}}
+\toprule
+ & \multicolumn{2}{c}{Payoff per round} & \multicolumn{2}{c}{Informed $-$ minimal} & \multicolumn{2}{c}{Marginal bias} & \multicolumn{2}{c}{Excess MI} & \multicolumn{2}{c}{Repeat rate} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}\cmidrule(lr){8-9}\cmidrule(l){10-11}
+Model & Min. & Inf. & $T=1$ & $T=0$ & Min. & Inf. & Min. & Inf. & Min. & Inf. \\
+\midrule
+Sonnet 4.6 & $-.049$ & $-.494$ & $-.445$ & $-.473$ & $.028$ & $.011$ & $.043$ & $.562$ & $.45$ & $.01$ \\
+Haiku 4.5 & $-.159$ & $-.181$ & $-.023$ & $+.060$ & $.041$ & $.067$ & $.023$ & $.230$ & $.30$ & $.11$ \\
+Gemini 3.1 FL & $-.626$ & $-.100$ & $+.526$ & $+.571$ & $.024$ & $.128$ & $.356$ & $.146$ & $.17$ & $.18$ \\
+GPT-5.4 & $-.480$ & $-.375$ & $+.105$ & $+.191$ & $.039$ & $.365$ & $.158$ & $.040$ & $.23$ & $.48$ \\
+GPT-5.4-mini & $-.083$ & $-.010$ & $+.073$ & $+.070$ & $.090$ & $.101$ & $.069$ & $.016$ & $.21$ & $.28$ \\
+Opus 4.8 & $-.136$ & $-.326$ & $-.190$ & $-.478$ & $.038$ & $.015$ & $.088$ & $.479$ & $.50$ & $.02$ \\
+Gemini 3 FP & $-.330$ & $-.186$ & $+.144$ & $+.035$ & $.039$ & $.262$ & $.070$ & $.045$ & $.25$ & $.34$ \\
+\midrule
+Mean & $-.266$ & $-.239$ & $+.027$ & $-.003$ & $.043$ & $.136$ & $.115$ & $.217$ & $.30$ & $.20$ \\
+\bottomrule
+\end{tabular}
+\par\smallskip\begin{minipage}{\linewidth}\footnotesize Cells are means of four 200-round sessions; models are in the order of Figure~\ref{fig:results}. Payoff is $+1$ for a win, $-1$ for a loss, and $0$ for a tie, so independent uniform play earns 0 in expectation. Differences are means of four within-pair differences at each requested temperature $T$, and the bottom row averages over the seven models; the 95\% confidence intervals of the mean differences, from $t(6)$, are [$-.251$, $+.305$] at $T=1$ and [$-.346$, $+.339$] at $T=0$. Marginal bias is the total-variation distance between the action frequencies and $(1/3, 1/3, 1/3)$, which with three actions equals the largest deviation of any frequency from $1/3$. Excess MI is the mutual information between consecutive actions, in bits, minus its mean under independent uniform play. Under independent uniform play a four-session mean falls in $[.021, .062]$ for marginal bias and $[-.008, +.012]$ for excess MI with 95\% probability, and the repeat rate is $1/3$.\end{minipage}
+\end{table}

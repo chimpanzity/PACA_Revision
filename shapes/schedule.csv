@@ -1,0 +1,113 @@
+session_index,model,group,family,within_model_position,stream_pair,pair_id,temperature,pair_within_temp,position_in_pair,condition,informed_first,session_seed
+1,Claude Opus 4.8,opus,Anthropic,1,1,1,0.0,1,1,informed,1,128257120
+2,Claude Opus 4.8,opus,Anthropic,2,1,1,0.0,1,2,minimalist,1,128257120
+3,Claude Opus 4.8,opus,Anthropic,3,2,2,1.0,1,1,minimalist,0,1855332306
+4,Claude Opus 4.8,opus,Anthropic,4,2,2,1.0,1,2,informed,0,1855332306
+5,Claude Opus 4.8,opus,Anthropic,5,3,3,1.0,2,1,minimalist,0,767162397
+6,Claude Opus 4.8,opus,Anthropic,6,3,3,1.0,2,2,informed,0,767162397
+7,Claude Opus 4.8,opus,Anthropic,7,4,4,0.0,2,1,informed,1,1117151113
+8,Claude Opus 4.8,opus,Anthropic,8,4,4,0.0,2,2,minimalist,1,1117151113
+9,Claude Opus 4.8,opus,Anthropic,9,5,5,0.0,3,1,minimalist,0,1161870051
+10,Claude Opus 4.8,opus,Anthropic,10,5,5,0.0,3,2,informed,0,1161870051
+11,Claude Opus 4.8,opus,Anthropic,11,6,6,1.0,3,1,informed,1,1095625057
+12,Claude Opus 4.8,opus,Anthropic,12,6,6,1.0,3,2,minimalist,1,1095625057
+13,Claude Opus 4.8,opus,Anthropic,13,7,7,1.0,4,1,informed,1,1126063228
+14,Claude Opus 4.8,opus,Anthropic,14,7,7,1.0,4,2,minimalist,1,1126063228
+15,Claude Opus 4.8,opus,Anthropic,15,8,8,0.0,4,1,minimalist,0,2080397494
+16,Claude Opus 4.8,opus,Anthropic,16,8,8,0.0,4,2,informed,0,2080397494
+17,Claude Sonnet 4.6,sonnet,Anthropic,1,1,9,1.0,1,1,minimalist,0,622458622
+18,Claude Sonnet 4.6,sonnet,Anthropic,2,1,9,1.0,1,2,informed,0,622458622
+19,Claude Sonnet 4.6,sonnet,Anthropic,3,2,10,0.0,1,1,informed,1,1167926026
+20,Claude Sonnet 4.6,sonnet,Anthropic,4,2,10,0.0,1,2,minimalist,1,1167926026
+21,Claude Sonnet 4.6,sonnet,Anthropic,5,3,11,0.0,2,1,informed,1,1455377779
+22,Claude Sonnet 4.6,sonnet,Anthropic,6,3,11,0.0,2,2,minimalist,1,1455377779
+23,Claude Sonnet 4.6,sonnet,Anthropic,7,4,12,1.0,2,1,minimalist,0,229320195
+24,Claude Sonnet 4.6,sonnet,Anthropic,8,4,12,1.0,2,2,informed,0,229320195
+25,Claude Sonnet 4.6,sonnet,Anthropic,9,5,13,1.0,3,1,informed,1,336184362
+26,Claude Sonnet 4.6,sonnet,Anthropic,10,5,13,1.0,3,2,minimalist,1,336184362
+27,Claude Sonnet 4.6,sonnet,Anthropic,11,6,14,0.0,3,1,minimalist,0,1345148873
+28,Claude Sonnet 4.6,sonnet,Anthropic,12,6,14,0.0,3,2,informed,0,1345148873
+29,Claude Sonnet 4.6,sonnet,Anthropic,13,7,15,0.0,4,1,minimalist,0,1241885353
+30,Claude Sonnet 4.6,sonnet,Anthropic,14,7,15,0.0,4,2,informed,0,1241885353
+31,Claude Sonnet 4.6,sonnet,Anthropic,15,8,16,1.0,4,1,informed,1,1665542353
+32,Claude Sonnet 4.6,sonnet,Anthropic,16,8,16,1.0,4,2,minimalist,1,1665542353
+33,Claude Haiku 4.5,haiku,Anthropic,1,1,17,1.0,1,1,informed,1,1599013300
+34,Claude Haiku 4.5,haiku,Anthropic,2,1,17,1.0,1,2,minimalist,1,1599013300
+35,Claude Haiku 4.5,haiku,Anthropic,3,2,18,0.0,1,1,minimalist,0,796021516
+36,Claude Haiku 4.5,haiku,Anthropic,4,2,18,0.0,1,2,informed,0,796021516
+37,Claude Haiku 4.5,haiku,Anthropic,5,3,19,0.0,2,1,minimalist,0,1366308588
+38,Claude Haiku 4.5,haiku,Anthropic,6,3,19,0.0,2,2,informed,0,1366308588
+39,Claude Haiku 4.5,haiku,Anthropic,7,4,20,1.0,2,1,informed,1,797453730
+40,Claude Haiku 4.5,haiku,Anthropic,8,4,20,1.0,2,2,minimalist,1,797453730
+41,Claude Haiku 4.5,haiku,Anthropic,9,5,21,1.0,3,1,minimalist,0,1558588567
+42,Claude Haiku 4.5,haiku,Anthropic,10,5,21,1.0,3,2,informed,0,1558588567
+43,Claude Haiku 4.5,haiku,Anthropic,11,6,22,0.0,3,1,informed,1,762644768
+44,Claude Haiku 4.5,haiku,Anthropic,12,6,22,0.0,3,2,minimalist,1,762644768
+45,Claude Haiku 4.5,haiku,Anthropic,13,7,23,0.0,4,1,informed,1,2047694925
+46,Claude Haiku 4.5,haiku,Anthropic,14,7,23,0.0,4,2,minimalist,1,2047694925
+47,Claude Haiku 4.5,haiku,Anthropic,15,8,24,1.0,4,1,minimalist,0,640105881
+48,Claude Haiku 4.5,haiku,Anthropic,16,8,24,1.0,4,2,informed,0,640105881
+49,GPT-5.4,gpt54,OpenAI,1,1,25,0.0,1,1,minimalist,0,573898407
+50,GPT-5.4,gpt54,OpenAI,2,1,25,0.0,1,2,informed,0,573898407
+51,GPT-5.4,gpt54,OpenAI,3,2,26,1.0,1,1,informed,1,1232498649
+52,GPT-5.4,gpt54,OpenAI,4,2,26,1.0,1,2,minimalist,1,1232498649
+53,GPT-5.4,gpt54,OpenAI,5,3,27,1.0,2,1,informed,1,1552748275
+54,GPT-5.4,gpt54,OpenAI,6,3,27,1.0,2,2,minimalist,1,1552748275
+55,GPT-5.4,gpt54,OpenAI,7,4,28,0.0,2,1,minimalist,0,434872894
+56,GPT-5.4,gpt54,OpenAI,8,4,28,0.0,2,2,informed,0,434872894
+57,GPT-5.4,gpt54,OpenAI,9,5,29,0.0,3,1,informed,1,561552410
+58,GPT-5.4,gpt54,OpenAI,10,5,29,0.0,3,2,minimalist,1,561552410
+59,GPT-5.4,gpt54,OpenAI,11,6,30,1.0,3,1,minimalist,0,358122640
+60,GPT-5.4,gpt54,OpenAI,12,6,30,1.0,3,2,informed,0,358122640
+61,GPT-5.4,gpt54,OpenAI,13,7,31,1.0,4,1,minimalist,0,1212747370
+62,GPT-5.4,gpt54,OpenAI,14,7,31,1.0,4,2,informed,0,1212747370
+63,GPT-5.4,gpt54,OpenAI,15,8,32,0.0,4,1,informed,1,1293991460
+64,GPT-5.4,gpt54,OpenAI,16,8,32,0.0,4,2,minimalist,1,1293991460
+65,GPT-5.4-mini,gpt54mini,OpenAI,1,1,33,1.0,1,1,informed,1,169340981
+66,GPT-5.4-mini,gpt54mini,OpenAI,2,1,33,1.0,1,2,minimalist,1,169340981
+67,GPT-5.4-mini,gpt54mini,OpenAI,3,2,34,0.0,1,1,minimalist,0,1051179105
+68,GPT-5.4-mini,gpt54mini,OpenAI,4,2,34,0.0,1,2,informed,0,1051179105
+69,GPT-5.4-mini,gpt54mini,OpenAI,5,3,35,0.0,2,1,minimalist,0,1885756567
+70,GPT-5.4-mini,gpt54mini,OpenAI,6,3,35,0.0,2,2,informed,0,1885756567
+71,GPT-5.4-mini,gpt54mini,OpenAI,7,4,36,1.0,2,1,informed,1,677463035
+72,GPT-5.4-mini,gpt54mini,OpenAI,8,4,36,1.0,2,2,minimalist,1,677463035
+73,GPT-5.4-mini,gpt54mini,OpenAI,9,5,37,1.0,3,1,minimalist,0,80756469
+74,GPT-5.4-mini,gpt54mini,OpenAI,10,5,37,1.0,3,2,informed,0,80756469
+75,GPT-5.4-mini,gpt54mini,OpenAI,11,6,38,0.0,3,1,informed,1,1936193586
+76,GPT-5.4-mini,gpt54mini,OpenAI,12,6,38,0.0,3,2,minimalist,1,1936193586
+77,GPT-5.4-mini,gpt54mini,OpenAI,13,7,39,0.0,4,1,informed,1,589327106
+78,GPT-5.4-mini,gpt54mini,OpenAI,14,7,39,0.0,4,2,minimalist,1,589327106
+79,GPT-5.4-mini,gpt54mini,OpenAI,15,8,40,1.0,4,1,minimalist,0,1436521166
+80,GPT-5.4-mini,gpt54mini,OpenAI,16,8,40,1.0,4,2,informed,0,1436521166
+81,Gemini 3.1 Flash Lite,gemini31fl,Google,1,1,41,1.0,1,1,minimalist,0,1007352732
+82,Gemini 3.1 Flash Lite,gemini31fl,Google,2,1,41,1.0,1,2,informed,0,1007352732
+83,Gemini 3.1 Flash Lite,gemini31fl,Google,3,2,42,0.0,1,1,informed,1,582186978
+84,Gemini 3.1 Flash Lite,gemini31fl,Google,4,2,42,0.0,1,2,minimalist,1,582186978
+85,Gemini 3.1 Flash Lite,gemini31fl,Google,5,3,43,0.0,2,1,informed,1,835905938
+86,Gemini 3.1 Flash Lite,gemini31fl,Google,6,3,43,0.0,2,2,minimalist,1,835905938
+87,Gemini 3.1 Flash Lite,gemini31fl,Google,7,4,44,1.0,2,1,minimalist,0,1782009041
+88,Gemini 3.1 Flash Lite,gemini31fl,Google,8,4,44,1.0,2,2,informed,0,1782009041
+89,Gemini 3.1 Flash Lite,gemini31fl,Google,9,5,45,1.0,3,1,informed,1,1584039564
+90,Gemini 3.1 Flash Lite,gemini31fl,Google,10,5,45,1.0,3,2,minimalist,1,1584039564
+91,Gemini 3.1 Flash Lite,gemini31fl,Google,11,6,46,0.0,3,1,minimalist,0,1218807203
+92,Gemini 3.1 Flash Lite,gemini31fl,Google,12,6,46,0.0,3,2,informed,0,1218807203
+93,Gemini 3.1 Flash Lite,gemini31fl,Google,13,7,47,0.0,4,1,minimalist,0,25409722
+94,Gemini 3.1 Flash Lite,gemini31fl,Google,14,7,47,0.0,4,2,informed,0,25409722
+95,Gemini 3.1 Flash Lite,gemini31fl,Google,15,8,48,1.0,4,1,informed,1,1453763563
+96,Gemini 3.1 Flash Lite,gemini31fl,Google,16,8,48,1.0,4,2,minimalist,1,1453763563
+97,Gemini 3 Flash Preview,gemini3fp,Google,1,1,49,0.0,1,1,informed,1,848412460
+98,Gemini 3 Flash Preview,gemini3fp,Google,2,1,49,0.0,1,2,minimalist,1,848412460
+99,Gemini 3 Flash Preview,gemini3fp,Google,3,2,50,1.0,1,1,minimalist,0,1068307953
+100,Gemini 3 Flash Preview,gemini3fp,Google,4,2,50,1.0,1,2,informed,0,1068307953
+101,Gemini 3 Flash Preview,gemini3fp,Google,5,3,51,1.0,2,1,minimalist,0,1754605009
+102,Gemini 3 Flash Preview,gemini3fp,Google,6,3,51,1.0,2,2,informed,0,1754605009
+103,Gemini 3 Flash Preview,gemini3fp,Google,7,4,52,0.0,2,1,informed,1,1081519107
+104,Gemini 3 Flash Preview,gemini3fp,Google,8,4,52,0.0,2,2,minimalist,1,1081519107
+105,Gemini 3 Flash Preview,gemini3fp,Google,9,5,53,0.0,3,1,minimalist,0,797841968
+106,Gemini 3 Flash Preview,gemini3fp,Google,10,5,53,0.0,3,2,informed,0,797841968
+107,Gemini 3 Flash Preview,gemini3fp,Google,11,6,54,1.0,3,1,informed,1,985966045
+108,Gemini 3 Flash Preview,gemini3fp,Google,12,6,54,1.0,3,2,minimalist,1,985966045
+109,Gemini 3 Flash Preview,gemini3fp,Google,13,7,55,1.0,4,1,informed,1,847196833
+110,Gemini 3 Flash Preview,gemini3fp,Google,14,7,55,1.0,4,2,minimalist,1,847196833
+111,Gemini 3 Flash Preview,gemini3fp,Google,15,8,56,0.0,4,1,minimalist,0,2029922653
+112,Gemini 3 Flash Preview,gemini3fp,Google,16,8,56,0.0,4,2,informed,0,2029922653

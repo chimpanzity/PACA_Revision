@@ -1,0 +1,222 @@
+schema_version,client_version,prompt_version,parser_version,harness_commit,run_id,session_id,session_index,request_id,collected_utc,trial_utc,model,model_group,model_display,served_model,provider,generation_id,prompt_mode,opponent,binomial_tail,temperature,top_p,reasoning_config,max_tokens,desc_window,compact_window,master_seed,session_seed,n_trials,openai_lib_version,python_version,os_platform,command_line,session_started_utc,max_tokens_ceiling,escalate_on_truncation,on_truncation,trial,total_trial,subject_choice,computer_choice,subject_win,opp_action_type,opp_ranval,predicted_subject_side,winning_channel,winning_channel_bias,n_channels_active,n0_sign,n1_sign,n2_sign,n3_sign,n4_sign,n5_sign,n6_sign,n7_sign,n8_sign,n0_bside,n1_bside,n2_bside,n3_bside,n4_bside,n5_bside,n6_bside,n7_bside,n8_bside,n0_bsideprob,n1_bsideprob,n2_bsideprob,n3_bsideprob,n4_bsideprob,n5_bsideprob,n6_bsideprob,n7_bsideprob,n8_bsideprob,choice_source,finish_reason,truncated,max_tokens_used,latency_ms,retries_used,error_message,prompt_tokens,completion_tokens,reasoning_tokens,total_tokens,response_chars,response_text,system_prompt_sha256,user_prompt_sha256,user_prompt_text,history_choices,history_cr
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,313142eb-0cf6-4329-8c0c-e30994b85ed5,9114,1e29da37-7eee-46e9-991e-f6e8cf736d41,2026-11-12T20:28:53.112850+00:00,2026-11-12T20:28:52.190800+00:00,openai/gpt-5.4-mini,gpt54mini,GPT-5.4-mini,openai/gpt-5.4-mini,OpenAI,gen-1794515331-Az0VAcJ6rUOl17903Dc5,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612057,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model openai/gpt-5.4-mini --model-group gpt54mini --model-display GPT-5.4-mini --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9114 --session-seed 20261612057 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:28:52.175415+00:00,80000,True,abort,1,1,T,T,1,random_no_detection,0.347475,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,921,0,,182,13,0,195,8,TRIANGLE,c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,c17faf00eedb5de2eeb3784dd857e800c2ca369831d95ce8a1770e57e6813d5c,"No previous rounds yet.
+
+Your action:",,
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,313142eb-0cf6-4329-8c0c-e30994b85ed5,9114,13be66e9-de49-49a9-9fae-27f66a8eb202,2026-11-12T20:28:54.159490+00:00,2026-11-12T20:28:53.113026+00:00,openai/gpt-5.4-mini,gpt54mini,GPT-5.4-mini,openai/gpt-5.4-mini,OpenAI,gen-1794515332-FQ7dGy7MGbpHJhWjy79V,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612057,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model openai/gpt-5.4-mini --model-group gpt54mini --model-display GPT-5.4-mini --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9114 --session-seed 20261612057 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:28:52.175415+00:00,80000,True,abort,2,2,S,S,1,random_no_detection,0.966700,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1046,0,,231,11,0,242,4,STAR,c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,5e1bd5387a1b1b97798e16c24e594fd9ee164924f2d96373997e8942adf40a8a,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 1 choice:     T
+Blue circle landed on:  T
+
+Your action:",T,T1
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,313142eb-0cf6-4329-8c0c-e30994b85ed5,9114,1a253594-44e6-4bbf-97b3-de088e0f143c,2026-11-12T20:28:55.042513+00:00,2026-11-12T20:28:54.159909+00:00,openai/gpt-5.4-mini,gpt54mini,GPT-5.4-mini,openai/gpt-5.4-mini,OpenAI,gen-1794515333-muhNFSlX2I2zHJVKQp82,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612057,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model openai/gpt-5.4-mini --model-group gpt54mini --model-display GPT-5.4-mini --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9114 --session-seed 20261612057 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:28:52.175415+00:00,80000,True,abort,3,3,S,T,0,random_no_detection,0.442650,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,882,0,,244,5,0,249,4,STAR,c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,71b2c4e4fecb9d880afc2cebbf3519d46cbca8fbe3f820512da450f3afdfd303,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 2 choices:    T S
+Blue circle landed on:  T S
+
+Your action:",TS,T1S1
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,313142eb-0cf6-4329-8c0c-e30994b85ed5,9114,c45b4026-caa9-4a1e-896b-2ae27e60bf56,2026-11-12T20:28:56.074516+00:00,2026-11-12T20:28:55.042963+00:00,openai/gpt-5.4-mini,gpt54mini,GPT-5.4-mini,openai/gpt-5.4-mini,OpenAI,gen-1794515334-Y8Idx0aBHMcHXzN8B2S1,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612057,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model openai/gpt-5.4-mini --model-group gpt54mini --model-display GPT-5.4-mini --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9114 --session-seed 20261612057 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:28:52.175415+00:00,80000,True,abort,4,4,S,T,0,random_no_detection,0.450165,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1031,0,,258,11,0,269,4,STAR,c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,ff17c0af152d23248e5736e500eb33d3f341ab216e69664a6a01c767c8443349,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 3 choices:    T S S
+Blue circle landed on:  T S T
+
+Your action:",TSS,T1S1S0
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,313142eb-0cf6-4329-8c0c-e30994b85ed5,9114,9b64be41-0e24-43f6-8518-ea34838b7f2c,2026-11-12T20:28:56.953759+00:00,2026-11-12T20:28:56.074953+00:00,openai/gpt-5.4-mini,gpt54mini,GPT-5.4-mini,openai/gpt-5.4-mini,OpenAI,gen-1794515335-W2KMx64PXpRtpoCuK0Xn,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612057,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model openai/gpt-5.4-mini --model-group gpt54mini --model-display GPT-5.4-mini --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9114 --session-seed 20261612057 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:28:52.175415+00:00,80000,True,abort,5,5,S,T,0,random_no_detection,0.200557,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,878,0,,272,11,0,283,4,STAR,c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,0f53e7daf0ef38e641c4e249d7d715c42d0adb39caad7494012cbb55fc773e0f,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 4 choices:    T S S S
+Blue circle landed on:  T S T T
+
+Your action:",TSSS,T1S1S0S0
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,313142eb-0cf6-4329-8c0c-e30994b85ed5,9114,7314fd5d-16be-4472-9b38-859909fb93f5,2026-11-12T20:28:57.913530+00:00,2026-11-12T20:28:56.954184+00:00,openai/gpt-5.4-mini,gpt54mini,GPT-5.4-mini,openai/gpt-5.4-mini,OpenAI,gen-1794515336-54tFHmyKFVG6ZiYNw6Tn,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612057,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model openai/gpt-5.4-mini --model-group gpt54mini --model-display GPT-5.4-mini --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9114 --session-seed 20261612057 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:28:52.175415+00:00,80000,True,abort,6,6,S,T,0,random_no_detection,0.284016,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,958,0,,286,11,0,297,4,STAR,c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,ecec64507a5df8fa13fb4442d2c3a2843cb75184e1a984bdce3a246e040852ad,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 5 choices:    T S S S S
+Blue circle landed on:  T S T T T
+
+Your action:",TSSSS,T1S1S0S0S0
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,313142eb-0cf6-4329-8c0c-e30994b85ed5,9114,9c8fb2cd-36f1-4b0c-914f-0eebaddb104c,2026-11-12T20:28:58.685519+00:00,2026-11-12T20:28:57.913927+00:00,openai/gpt-5.4-mini,gpt54mini,GPT-5.4-mini,openai/gpt-5.4-mini,OpenAI,gen-1794515337-Xx3qzh6HAkdUmdfJGSSL,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612057,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model openai/gpt-5.4-mini --model-group gpt54mini --model-display GPT-5.4-mini --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9114 --session-seed 20261612057 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:28:52.175415+00:00,80000,True,abort,7,7,S,S,1,random_no_detection,0.854470,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,771,0,,287,11,0,298,4,STAR,c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,3c4d48335218490ef9719a9c978fa6a329952eb217fbfeef525278f0b4360689,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 6 choices:    T S S S S S
+Blue circle landed on:  T S T T T T
+
+Your action:",TSSSSS,T1S1S0S0S0S0
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,313142eb-0cf6-4329-8c0c-e30994b85ed5,9114,014ccab9-8e0c-479c-ab81-ca5aa5633bb1,2026-11-12T20:28:59.491287+00:00,2026-11-12T20:28:58.685939+00:00,openai/gpt-5.4-mini,gpt54mini,GPT-5.4-mini,openai/gpt-5.4-mini,OpenAI,gen-1794515338-0MOxMWbzYe6oADmgQkB8,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612057,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model openai/gpt-5.4-mini --model-group gpt54mini --model-display GPT-5.4-mini --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9114 --session-seed 20261612057 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:28:52.175415+00:00,80000,True,abort,8,8,T,T,1,random_no_detection,0.442434,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,804,0,,289,13,0,302,8,TRIANGLE,c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,e780408257981571ce2ae5a786330a4a21ab5db15da29e0bb56788ec6f7aad4d,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 7 choices:    T S S S S S S
+Blue circle landed on:  T S T T T T S
+
+Your action:",TSSSSSS,T1S1S0S0S0S0S1
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,313142eb-0cf6-4329-8c0c-e30994b85ed5,9114,2692da9c-d582-4e72-8740-e3f648202ff2,2026-11-12T20:29:00.321622+00:00,2026-11-12T20:28:59.491469+00:00,openai/gpt-5.4-mini,gpt54mini,GPT-5.4-mini,openai/gpt-5.4-mini,OpenAI,gen-1794515338-ztOLrxdgojBoht2zHCMC,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612057,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model openai/gpt-5.4-mini --model-group gpt54mini --model-display GPT-5.4-mini --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9114 --session-seed 20261612057 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:28:52.175415+00:00,80000,True,abort,9,9,T,S,0,random_no_detection,0.982035,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,829,0,,292,13,0,305,8,TRIANGLE,c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,dade985c0d8e51094350cb1127460364d65397eb18f0958c6dcf816d87e03cb8,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 8 choices:    T S S S S S S T
+Blue circle landed on:  T S T T T T S T
+
+Your action:",TSSSSSST,T1S1S0S0S0S0S1T1
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,313142eb-0cf6-4329-8c0c-e30994b85ed5,9114,1f8f00ec-d534-463c-b5b5-ee35c94ede14,2026-11-12T20:29:01.171453+00:00,2026-11-12T20:29:00.321976+00:00,openai/gpt-5.4-mini,gpt54mini,GPT-5.4-mini,openai/gpt-5.4-mini,OpenAI,gen-1794515339-6unx8aYWkGbe8p8ztLFT,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612057,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model openai/gpt-5.4-mini --model-group gpt54mini --model-display GPT-5.4-mini --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9114 --session-seed 20261612057 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:28:52.175415+00:00,80000,True,abort,10,10,S,T,0,random_no_detection,0.493751,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,849,0,,294,11,0,305,4,STAR,c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,93a0b57a75f2005a0c29573c84f1a0efcca24177841b003185611a68e8c640d4,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 9 choices:    T S S S S S S T T
+Blue circle landed on:  T S T T T T S T S
+
+Your action:",TSSSSSSTT,T1S1S0S0S0S0S1T1T0
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,313142eb-0cf6-4329-8c0c-e30994b85ed5,9114,d15c87b9-415b-4621-a846-6fb2a84f4404,2026-11-12T20:29:02.037890+00:00,2026-11-12T20:29:01.171773+00:00,openai/gpt-5.4-mini,gpt54mini,GPT-5.4-mini,openai/gpt-5.4-mini,OpenAI,gen-1794515340-sPka52bDQBtRXOKRcDc0,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612057,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model openai/gpt-5.4-mini --model-group gpt54mini --model-display GPT-5.4-mini --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9114 --session-seed 20261612057 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:28:52.175415+00:00,80000,True,abort,11,11,S,S,1,random_no_detection,0.707967,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,865,0,,296,11,0,307,4,STAR,c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,53cb868f6db5593da568efac4395f286fa4f2f9ea67c1945525c492039637dba,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 10 choices:   T S S S S S S T T S
+Blue circle landed on:  T S T T T T S T S T
+
+Your action:",TSSSSSSTTS,T1S1S0S0S0S0S1T1T0S0
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,313142eb-0cf6-4329-8c0c-e30994b85ed5,9114,bddb5c43-2985-47e9-9017-1f1889a84310,2026-11-12T20:29:02.789354+00:00,2026-11-12T20:29:02.038316+00:00,openai/gpt-5.4-mini,gpt54mini,GPT-5.4-mini,openai/gpt-5.4-mini,OpenAI,gen-1794515341-kkzjB6C30mq9xLFibLnG,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612057,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model openai/gpt-5.4-mini --model-group gpt54mini --model-display GPT-5.4-mini --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9114 --session-seed 20261612057 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:28:52.175415+00:00,80000,True,abort,12,12,S,S,1,random_no_detection,0.930880,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,750,0,,297,11,0,308,4,STAR,c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,7206a21698b150dbae93b8278340ca3b645e07f1c9584812a9ec24c0f3185a45,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 11 choices:   T S S S S S S T T S S
+Blue circle landed on:  T S T T T T S T S T S
+
+Your action:",TSSSSSSTTSS,T1S1S0S0S0S0S1T1T0S0S1
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,313142eb-0cf6-4329-8c0c-e30994b85ed5,9114,6a66c990-9a7c-4cf7-b908-12a3627b0aa3,2026-11-12T20:29:03.745511+00:00,2026-11-12T20:29:02.789680+00:00,openai/gpt-5.4-mini,gpt54mini,GPT-5.4-mini,openai/gpt-5.4-mini,OpenAI,gen-1794515342-i2hU8wRP43R8g0QOU99H,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612057,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model openai/gpt-5.4-mini --model-group gpt54mini --model-display GPT-5.4-mini --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9114 --session-seed 20261612057 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:28:52.175415+00:00,80000,True,abort,13,13,S,S,1,random_no_detection,0.503884,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,955,0,,299,11,0,310,4,STAR,c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,a4e8028e9df6b9ac0fa644556923e0b35c215b0adb3713f642fcdb2941ba3f30,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 12 choices:   T S S S S S S T T S S S
+Blue circle landed on:  T S T T T T S T S T S S
+
+Your action:",TSSSSSSTTSSS,T1S1S0S0S0S0S1T1T0S0S1S1
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,313142eb-0cf6-4329-8c0c-e30994b85ed5,9114,03a9b652-0705-4f38-bae3-8b2559e0f616,2026-11-12T20:29:04.510928+00:00,2026-11-12T20:29:03.745925+00:00,openai/gpt-5.4-mini,gpt54mini,GPT-5.4-mini,openai/gpt-5.4-mini,OpenAI,gen-1794515343-4zFvdSlTtOEV7tH2N3nz,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612057,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model openai/gpt-5.4-mini --model-group gpt54mini --model-display GPT-5.4-mini --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9114 --session-seed 20261612057 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:28:52.175415+00:00,80000,True,abort,14,14,S,T,0,exploit,0.526027,S,1,88.8889,1,False,True,False,False,False,False,False,False,False,,Star,,,,,,,,,88.8889,,,,,,,,model,stop,False,20000,764,0,,299,11,0,310,4,STAR,c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,d7154034e93ce46e0e32d6054e4250b787662e04490ccea66584b86f5bcd896d,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 13 choices:   T S S S S S S T T S S S S
+Blue circle landed on:  T S T T T T S T S T S S S
+
+Your action:",TSSSSSSTTSSSS,T1S1S0S0S0S0S1T1T0S0S1S1S1
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,313142eb-0cf6-4329-8c0c-e30994b85ed5,9114,8c13ccad-35e8-4cdd-8c7d-7e4912e4ce18,2026-11-12T20:29:05.633992+00:00,2026-11-12T20:29:04.511384+00:00,openai/gpt-5.4-mini,gpt54mini,GPT-5.4-mini,openai/gpt-5.4-mini,OpenAI,gen-1794515343-39AH0jG4HBx14EoE7izE,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612057,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model openai/gpt-5.4-mini --model-group gpt54mini --model-display GPT-5.4-mini --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9114 --session-seed 20261612057 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:28:52.175415+00:00,80000,True,abort,15,15,T,S,0,mercy,0.991725,S,1,90.0000,1,False,True,False,False,False,False,False,False,False,,Star,,,,,,,,,90.0000,,,,,,,,model,stop,False,20000,1122,0,,301,13,0,314,8,TRIANGLE,c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,b33fda35a27a344a0609834005d2569665372b2bee7218afae1ca23cfdb4c23f,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 14 choices:   T S S S S S S T T S S S S S
+Blue circle landed on:  T S T T T T S T S T S S S T
+
+Your action:",TSSSSSSTTSSSSS,T1S1S0S0S0S0S1T1T0S0S1S1S1S0
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,313142eb-0cf6-4329-8c0c-e30994b85ed5,9114,13844785-9701-43dc-98eb-22318d79ed54,2026-11-12T20:29:06.449458+00:00,2026-11-12T20:29:05.634419+00:00,openai/gpt-5.4-mini,gpt54mini,GPT-5.4-mini,openai/gpt-5.4-mini,OpenAI,gen-1794515345-3mzYj9ZZpPin3e1jWSEZ,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612057,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model openai/gpt-5.4-mini --model-group gpt54mini --model-display GPT-5.4-mini --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9114 --session-seed 20261612057 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:28:52.175415+00:00,80000,True,abort,16,16,S,S,1,random_no_detection,0.507475,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,814,0,,303,11,0,314,4,STAR,c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,860c23f91b5629025d3cde44b15c475b5cb3a5cd756279a680cbcf364bc01ba8,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 15 choices:   T S S S S S S T T S S S S S T
+Blue circle landed on:  T S T T T T S T S T S S S T S
+
+Your action:",TSSSSSSTTSSSSST,T1S1S0S0S0S0S1T1T0S0S1S1S1S0T0
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,313142eb-0cf6-4329-8c0c-e30994b85ed5,9114,f05cbff6-416e-46b3-bbe3-5ad929a3d5ec,2026-11-12T20:29:07.351498+00:00,2026-11-12T20:29:06.449871+00:00,openai/gpt-5.4-mini,gpt54mini,GPT-5.4-mini,openai/gpt-5.4-mini,OpenAI,gen-1794515345-UmSzDujw2VoYMhnDhFkR,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612057,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model openai/gpt-5.4-mini --model-group gpt54mini --model-display GPT-5.4-mini --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9114 --session-seed 20261612057 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:28:52.175415+00:00,80000,True,abort,17,17,S,T,0,random_no_detection,0.465115,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,901,0,,305,11,0,316,4,STAR,c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,f3b3b951668bfebd8ab35c6e5ca2f4d7046848f6d42ace4d7c5d2c2b7f1d7c25,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 16 choices:   T S S S S S S T T S S S S S T S
+Blue circle landed on:  T S T T T T S T S T S S S T S S
+
+Your action:",TSSSSSSTTSSSSSTS,T1S1S0S0S0S0S1T1T0S0S1S1S1S0T0S1
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,313142eb-0cf6-4329-8c0c-e30994b85ed5,9114,8dc7ee61-7046-4ed4-9153-e8be1269ceaf,2026-11-12T20:29:08.168266+00:00,2026-11-12T20:29:07.351933+00:00,openai/gpt-5.4-mini,gpt54mini,GPT-5.4-mini,openai/gpt-5.4-mini,OpenAI,gen-1794515346-dhufoLArVZgYGotpmXX7,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612057,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model openai/gpt-5.4-mini --model-group gpt54mini --model-display GPT-5.4-mini --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9114 --session-seed 20261612057 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:28:52.175415+00:00,80000,True,abort,18,18,S,T,0,exploit,0.411803,S,1,83.3333,2,True,True,False,False,False,False,False,False,False,Star,Star,,,,,,,,76.4706,83.3333,,,,,,,,model,stop,False,20000,815,0,,308,11,0,319,4,STAR,c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,af32b9308c0e510e56759266a9fc26f7c8258677f9a298ab7d1b52577ae1462e,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 17 choices:   T S S S S S S T T S S S S S T S S
+Blue circle landed on:  T S T T T T S T S T S S S T S S T
+
+Your action:",TSSSSSSTTSSSSSTSS,T1S1S0S0S0S0S1T1T0S0S1S1S1S0T0S1S0
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,313142eb-0cf6-4329-8c0c-e30994b85ed5,9114,6a5c38fa-e064-4aa0-9864-46b15e82ea87,2026-11-12T20:29:09.119913+00:00,2026-11-12T20:29:08.168372+00:00,openai/gpt-5.4-mini,gpt54mini,GPT-5.4-mini,openai/gpt-5.4-mini,OpenAI,gen-1794515347-TwUzOfablNEKo9k6DGGG,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612057,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model openai/gpt-5.4-mini --model-group gpt54mini --model-display GPT-5.4-mini --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9114 --session-seed 20261612057 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:28:52.175415+00:00,80000,True,abort,19,19,T,T,1,exploit,0.598707,S,1,84.6154,2,True,True,False,False,False,False,False,False,False,Star,Star,,,,,,,,77.7778,84.6154,,,,,,,,model,stop,False,20000,951,0,,311,13,0,324,8,TRIANGLE,c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,deed0d96139d1a9bea6817f2efe771103cf05fa7db3c3fa1afa72ad42781cb32,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 18 choices:   T S S S S S S T T S S S S S T S S S
+Blue circle landed on:  T S T T T T S T S T S S S T S S T T
+
+Your action:",TSSSSSSTTSSSSSTSSS,T1S1S0S0S0S0S1T1T0S0S1S1S1S0T0S1S0S0
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,313142eb-0cf6-4329-8c0c-e30994b85ed5,9114,60c5d116-65f6-4498-b7fd-1ba177a87ec5,2026-11-12T20:29:10.177264+00:00,2026-11-12T20:29:09.120032+00:00,openai/gpt-5.4-mini,gpt54mini,GPT-5.4-mini,openai/gpt-5.4-mini,OpenAI,gen-1794515348-t8AtZs6MA6e2vrLS9u6W,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612057,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model openai/gpt-5.4-mini --model-group gpt54mini --model-display GPT-5.4-mini --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9114 --session-seed 20261612057 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:28:52.175415+00:00,80000,True,abort,20,20,S,T,0,random_no_detection,0.375287,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1057,0,,314,11,0,325,4,STAR,c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,8c0d476f495259d382b64b22e97182802db104952150e22d7fb5519aa206ae4a,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 19 choices:   T S S S S S S T T S S S S S T S S S T
+Blue circle landed on:  T S T T T T S T S T S S S T S S T T T
+
+Your action:",TSSSSSSTTSSSSSTSSST,T1S1S0S0S0S0S1T1T0S0S1S1S1S0T0S1S0S0T1

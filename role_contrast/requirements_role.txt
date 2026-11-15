@@ -1,0 +1,7 @@
+# PACA role-contrast v1 environment (project .venv, Python 3.14). Collection needs only openai;
+# calibration, tests and analysis need numpy/pandas/scipy; plots need matplotlib.
+openai==2.44.0
+numpy==2.5.4
+pandas==3.1.1
+scipy==1.18.1
+matplotlib==3.11.2

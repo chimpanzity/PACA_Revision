@@ -1,0 +1,40 @@
+n = 98 sessions; corr(bias, |z|) = -0.294; SD bias = 0.083; SD |z| = 3.06
+
+=== A: win ~ bias + |runs z|
+    dispersion (Pearson X2/df) = 1.85; deviance explained = 0.719; df_resid = 95
+  bias      b = -2.1334 | quasi SE = 0.2535, t = -8.42, p = 4e-13, 95% CI [-2.637, -1.630] | cluster(cell) SE = 0.3940, p = 6.2e-08
+  absz      b = -0.1052 | quasi SE = 0.0072, t = -14.65, p = 4.1e-26, 95% CI [-0.119, -0.091] | cluster(cell) SE = 0.0196, p = 8.6e-08
+
+=== D: over-alternation (z>0) and streakiness (z<0) entered separately
+    dispersion (Pearson X2/df) = 1.83; deviance explained = 0.724; df_resid = 94
+  bias      b = -1.9572 | quasi SE = 0.2849, t = -6.87, p = 6.9e-10, 95% CI [-2.523, -1.392] | cluster(cell) SE = 0.4239, p = 3.9e-06
+  zpos      b = -0.1033 | quasi SE = 0.0073, t = -14.13, p = 5.5e-25, 95% CI [-0.118, -0.089] | cluster(cell) SE = 0.0180, p = 1e-08
+  zneg      b = -0.0844 | quasi SE = 0.0171, t = -4.93, p = 3.5e-06, 95% CI [-0.118, -0.050] | cluster(cell) SE = 0.0182, p = 3.6e-06
+
+=== B: within model (model fixed effects)
+    dispersion (Pearson X2/df) = 1.44; deviance explained = 0.795; df_resid = 89
+  bias      b = -2.3061 | quasi SE = 0.2682, t = -8.60, p = 2.5e-13, 95% CI [-2.839, -1.773] | cluster(cell) SE = 0.3049, p = 4e-14
+  absz      b = -0.1062 | quasi SE = 0.0074, t = -14.45, p = 4.6e-25, 95% CI [-0.121, -0.092] | cluster(cell) SE = 0.0098, p = 2.6e-27
+
+=== F0: framing only
+    dispersion (Pearson X2/df) = 3.89; deviance explained = 0.388; df_resid = 96
+  informed  b = -0.4555 | quasi SE = 0.0579, t = -7.87, p = 5.4e-12, 95% CI [-0.570, -0.341] | cluster(cell) SE = 0.1408, p = 0.0012
+
+=== C: framing + bias + |runs z|
+    dispersion (Pearson X2/df) = 1.86; deviance explained = 0.719; df_resid = 94
+  informed  b = -0.0205 | quasi SE = 0.0698, t = -0.29, p = 0.77, 95% CI [-0.159, +0.118] | cluster(cell) SE = 0.0690, p = 0.77
+  bias      b = -2.0399 | quasi SE = 0.4078, t = -5.00, p = 2.6e-06, 95% CI [-2.850, -1.230] | cluster(cell) SE = 0.4527, p = 6.6e-06
+  absz      b = -0.1031 | quasi SE = 0.0101, t = -10.17, p = 7.9e-17, 95% CI [-0.123, -0.083] | cluster(cell) SE = 0.0196, p = 1.3e-07
+
+Odds ratios (model A):
+  per +0.10 marginal bias : 0.808
+  per +1 |runs z|         : 0.900
+  per +1 SD bias (0.083) : 0.838
+  per +1 SD |z| (3.06)   : 0.725
+  framing OR alone = 0.634; adjusted for bias and |z| = 0.980
+
+Predicted win rate (model A):
+  bias = 0.000, |z| =  0.0  ->  0.532
+  bias = 0.240, |z| =  0.0  ->  0.405
+  bias = 0.000, |z| = 10.0  ->  0.284
+  bias = 0.024, |z| = 10.4  ->  0.265

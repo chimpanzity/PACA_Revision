@@ -1,0 +1,560 @@
+{
+  "assignment_seed": 20260713,
+  "master_seed": 20260713,
+  "trials_per_session": 200,
+  "temperature": 0.0,
+  "sessions_per_model": 8,
+  "n_models": 7,
+  "total_sessions": 56,
+  "total_trials": 11200,
+  "sequences": {
+    "A": [
+      "I",
+      "M",
+      "M",
+      "I",
+      "M",
+      "I",
+      "I",
+      "M"
+    ],
+    "B": [
+      "M",
+      "I",
+      "I",
+      "M",
+      "I",
+      "M",
+      "M",
+      "I"
+    ]
+  },
+  "output_dir": "data_counterbalanced",
+  "notes": [
+    "Four adjacent M/I pairs per model: exactly two MI and two IM.",
+    "Condition orthogonal to serial position within every model (linear and quadratic).",
+    "Proteus seed is PAIRED within each adjacent pair (both sessions of a pair share it).",
+    "Session seeds are DETERMINISTIC: master_seed*1000 + model_ordinal*10 + pair.",
+    "Prompts, Proteus, temperature, windows, logging identical to the main study."
+  ],
+  "models": [
+    {
+      "model": "Claude Opus 4.8",
+      "family": "Anthropic",
+      "slug": "anthropic/claude-opus-4.8",
+      "group": "opus",
+      "sequence": "B",
+      "sequence_string": "MIIMIMMI",
+      "sessions": [
+        {
+          "session_index": 1,
+          "within_model_position": 1,
+          "pair": 1,
+          "position_in_pair": 1,
+          "condition": "minimalist",
+          "session_seed": 20260713001
+        },
+        {
+          "session_index": 2,
+          "within_model_position": 2,
+          "pair": 1,
+          "position_in_pair": 2,
+          "condition": "informed",
+          "session_seed": 20260713001
+        },
+        {
+          "session_index": 3,
+          "within_model_position": 3,
+          "pair": 2,
+          "position_in_pair": 1,
+          "condition": "informed",
+          "session_seed": 20260713002
+        },
+        {
+          "session_index": 4,
+          "within_model_position": 4,
+          "pair": 2,
+          "position_in_pair": 2,
+          "condition": "minimalist",
+          "session_seed": 20260713002
+        },
+        {
+          "session_index": 5,
+          "within_model_position": 5,
+          "pair": 3,
+          "position_in_pair": 1,
+          "condition": "informed",
+          "session_seed": 20260713003
+        },
+        {
+          "session_index": 6,
+          "within_model_position": 6,
+          "pair": 3,
+          "position_in_pair": 2,
+          "condition": "minimalist",
+          "session_seed": 20260713003
+        },
+        {
+          "session_index": 7,
+          "within_model_position": 7,
+          "pair": 4,
+          "position_in_pair": 1,
+          "condition": "minimalist",
+          "session_seed": 20260713004
+        },
+        {
+          "session_index": 8,
+          "within_model_position": 8,
+          "pair": 4,
+          "position_in_pair": 2,
+          "condition": "informed",
+          "session_seed": 20260713004
+        }
+      ]
+    },
+    {
+      "model": "Claude Sonnet 4.6",
+      "family": "Anthropic",
+      "slug": "anthropic/claude-sonnet-4.6",
+      "group": "sonnet",
+      "sequence": "B",
+      "sequence_string": "MIIMIMMI",
+      "sessions": [
+        {
+          "session_index": 9,
+          "within_model_position": 1,
+          "pair": 1,
+          "position_in_pair": 1,
+          "condition": "minimalist",
+          "session_seed": 20260713011
+        },
+        {
+          "session_index": 10,
+          "within_model_position": 2,
+          "pair": 1,
+          "position_in_pair": 2,
+          "condition": "informed",
+          "session_seed": 20260713011
+        },
+        {
+          "session_index": 11,
+          "within_model_position": 3,
+          "pair": 2,
+          "position_in_pair": 1,
+          "condition": "informed",
+          "session_seed": 20260713012
+        },
+        {
+          "session_index": 12,
+          "within_model_position": 4,
+          "pair": 2,
+          "position_in_pair": 2,
+          "condition": "minimalist",
+          "session_seed": 20260713012
+        },
+        {
+          "session_index": 13,
+          "within_model_position": 5,
+          "pair": 3,
+          "position_in_pair": 1,
+          "condition": "informed",
+          "session_seed": 20260713013
+        },
+        {
+          "session_index": 14,
+          "within_model_position": 6,
+          "pair": 3,
+          "position_in_pair": 2,
+          "condition": "minimalist",
+          "session_seed": 20260713013
+        },
+        {
+          "session_index": 15,
+          "within_model_position": 7,
+          "pair": 4,
+          "position_in_pair": 1,
+          "condition": "minimalist",
+          "session_seed": 20260713014
+        },
+        {
+          "session_index": 16,
+          "within_model_position": 8,
+          "pair": 4,
+          "position_in_pair": 2,
+          "condition": "informed",
+          "session_seed": 20260713014
+        }
+      ]
+    },
+    {
+      "model": "Claude Haiku 4.5",
+      "family": "Anthropic",
+      "slug": "anthropic/claude-haiku-4.5",
+      "group": "haiku",
+      "sequence": "A",
+      "sequence_string": "IMMIMIIM",
+      "sessions": [
+        {
+          "session_index": 17,
+          "within_model_position": 1,
+          "pair": 1,
+          "position_in_pair": 1,
+          "condition": "informed",
+          "session_seed": 20260713021
+        },
+        {
+          "session_index": 18,
+          "within_model_position": 2,
+          "pair": 1,
+          "position_in_pair": 2,
+          "condition": "minimalist",
+          "session_seed": 20260713021
+        },
+        {
+          "session_index": 19,
+          "within_model_position": 3,
+          "pair": 2,
+          "position_in_pair": 1,
+          "condition": "minimalist",
+          "session_seed": 20260713022
+        },
+        {
+          "session_index": 20,
+          "within_model_position": 4,
+          "pair": 2,
+          "position_in_pair": 2,
+          "condition": "informed",
+          "session_seed": 20260713022
+        },
+        {
+          "session_index": 21,
+          "within_model_position": 5,
+          "pair": 3,
+          "position_in_pair": 1,
+          "condition": "minimalist",
+          "session_seed": 20260713023
+        },
+        {
+          "session_index": 22,
+          "within_model_position": 6,
+          "pair": 3,
+          "position_in_pair": 2,
+          "condition": "informed",
+          "session_seed": 20260713023
+        },
+        {
+          "session_index": 23,
+          "within_model_position": 7,
+          "pair": 4,
+          "position_in_pair": 1,
+          "condition": "informed",
+          "session_seed": 20260713024
+        },
+        {
+          "session_index": 24,
+          "within_model_position": 8,
+          "pair": 4,
+          "position_in_pair": 2,
+          "condition": "minimalist",
+          "session_seed": 20260713024
+        }
+      ]
+    },
+    {
+      "model": "GPT-5.4",
+      "family": "OpenAI",
+      "slug": "openai/gpt-5.4",
+      "group": "gpt54",
+      "sequence": "A",
+      "sequence_string": "IMMIMIIM",
+      "sessions": [
+        {
+          "session_index": 25,
+          "within_model_position": 1,
+          "pair": 1,
+          "position_in_pair": 1,
+          "condition": "informed",
+          "session_seed": 20260713031
+        },
+        {
+          "session_index": 26,
+          "within_model_position": 2,
+          "pair": 1,
+          "position_in_pair": 2,
+          "condition": "minimalist",
+          "session_seed": 20260713031
+        },
+        {
+          "session_index": 27,
+          "within_model_position": 3,
+          "pair": 2,
+          "position_in_pair": 1,
+          "condition": "minimalist",
+          "session_seed": 20260713032
+        },
+        {
+          "session_index": 28,
+          "within_model_position": 4,
+          "pair": 2,
+          "position_in_pair": 2,
+          "condition": "informed",
+          "session_seed": 20260713032
+        },
+        {
+          "session_index": 29,
+          "within_model_position": 5,
+          "pair": 3,
+          "position_in_pair": 1,
+          "condition": "minimalist",
+          "session_seed": 20260713033
+        },
+        {
+          "session_index": 30,
+          "within_model_position": 6,
+          "pair": 3,
+          "position_in_pair": 2,
+          "condition": "informed",
+          "session_seed": 20260713033
+        },
+        {
+          "session_index": 31,
+          "within_model_position": 7,
+          "pair": 4,
+          "position_in_pair": 1,
+          "condition": "informed",
+          "session_seed": 20260713034
+        },
+        {
+          "session_index": 32,
+          "within_model_position": 8,
+          "pair": 4,
+          "position_in_pair": 2,
+          "condition": "minimalist",
+          "session_seed": 20260713034
+        }
+      ]
+    },
+    {
+      "model": "GPT-5.4-mini",
+      "family": "OpenAI",
+      "slug": "openai/gpt-5.4-mini",
+      "group": "gpt54mini",
+      "sequence": "B",
+      "sequence_string": "MIIMIMMI",
+      "sessions": [
+        {
+          "session_index": 33,
+          "within_model_position": 1,
+          "pair": 1,
+          "position_in_pair": 1,
+          "condition": "minimalist",
+          "session_seed": 20260713041
+        },
+        {
+          "session_index": 34,
+          "within_model_position": 2,
+          "pair": 1,
+          "position_in_pair": 2,
+          "condition": "informed",
+          "session_seed": 20260713041
+        },
+        {
+          "session_index": 35,
+          "within_model_position": 3,
+          "pair": 2,
+          "position_in_pair": 1,
+          "condition": "informed",
+          "session_seed": 20260713042
+        },
+        {
+          "session_index": 36,
+          "within_model_position": 4,
+          "pair": 2,
+          "position_in_pair": 2,
+          "condition": "minimalist",
+          "session_seed": 20260713042
+        },
+        {
+          "session_index": 37,
+          "within_model_position": 5,
+          "pair": 3,
+          "position_in_pair": 1,
+          "condition": "informed",
+          "session_seed": 20260713043
+        },
+        {
+          "session_index": 38,
+          "within_model_position": 6,
+          "pair": 3,
+          "position_in_pair": 2,
+          "condition": "minimalist",
+          "session_seed": 20260713043
+        },
+        {
+          "session_index": 39,
+          "within_model_position": 7,
+          "pair": 4,
+          "position_in_pair": 1,
+          "condition": "minimalist",
+          "session_seed": 20260713044
+        },
+        {
+          "session_index": 40,
+          "within_model_position": 8,
+          "pair": 4,
+          "position_in_pair": 2,
+          "condition": "informed",
+          "session_seed": 20260713044
+        }
+      ]
+    },
+    {
+      "model": "Gemini 3.1 Flash Lite",
+      "family": "Google",
+      "slug": "google/gemini-3.1-flash-lite",
+      "group": "gemini31fl",
+      "sequence": "A",
+      "sequence_string": "IMMIMIIM",
+      "sessions": [
+        {
+          "session_index": 41,
+          "within_model_position": 1,
+          "pair": 1,
+          "position_in_pair": 1,
+          "condition": "informed",
+          "session_seed": 20260713051
+        },
+        {
+          "session_index": 42,
+          "within_model_position": 2,
+          "pair": 1,
+          "position_in_pair": 2,
+          "condition": "minimalist",
+          "session_seed": 20260713051
+        },
+        {
+          "session_index": 43,
+          "within_model_position": 3,
+          "pair": 2,
+          "position_in_pair": 1,
+          "condition": "minimalist",
+          "session_seed": 20260713052
+        },
+        {
+          "session_index": 44,
+          "within_model_position": 4,
+          "pair": 2,
+          "position_in_pair": 2,
+          "condition": "informed",
+          "session_seed": 20260713052
+        },
+        {
+          "session_index": 45,
+          "within_model_position": 5,
+          "pair": 3,
+          "position_in_pair": 1,
+          "condition": "minimalist",
+          "session_seed": 20260713053
+        },
+        {
+          "session_index": 46,
+          "within_model_position": 6,
+          "pair": 3,
+          "position_in_pair": 2,
+          "condition": "informed",
+          "session_seed": 20260713053
+        },
+        {
+          "session_index": 47,
+          "within_model_position": 7,
+          "pair": 4,
+          "position_in_pair": 1,
+          "condition": "informed",
+          "session_seed": 20260713054
+        },
+        {
+          "session_index": 48,
+          "within_model_position": 8,
+          "pair": 4,
+          "position_in_pair": 2,
+          "condition": "minimalist",
+          "session_seed": 20260713054
+        }
+      ]
+    },
+    {
+      "model": "Gemini 3 Flash Preview",
+      "family": "Google",
+      "slug": "google/gemini-3-flash-preview",
+      "group": "gemini3fp",
+      "sequence": "B",
+      "sequence_string": "MIIMIMMI",
+      "sessions": [
+        {
+          "session_index": 49,
+          "within_model_position": 1,
+          "pair": 1,
+          "position_in_pair": 1,
+          "condition": "minimalist",
+          "session_seed": 20260713061
+        },
+        {
+          "session_index": 50,
+          "within_model_position": 2,
+          "pair": 1,
+          "position_in_pair": 2,
+          "condition": "informed",
+          "session_seed": 20260713061
+        },
+        {
+          "session_index": 51,
+          "within_model_position": 3,
+          "pair": 2,
+          "position_in_pair": 1,
+          "condition": "informed",
+          "session_seed": 20260713062
+        },
+        {
+          "session_index": 52,
+          "within_model_position": 4,
+          "pair": 2,
+          "position_in_pair": 2,
+          "condition": "minimalist",
+          "session_seed": 20260713062
+        },
+        {
+          "session_index": 53,
+          "within_model_position": 5,
+          "pair": 3,
+          "position_in_pair": 1,
+          "condition": "informed",
+          "session_seed": 20260713063
+        },
+        {
+          "session_index": 54,
+          "within_model_position": 6,
+          "pair": 3,
+          "position_in_pair": 2,
+          "condition": "minimalist",
+          "session_seed": 20260713063
+        },
+        {
+          "session_index": 55,
+          "within_model_position": 7,
+          "pair": 4,
+          "position_in_pair": 1,
+          "condition": "minimalist",
+          "session_seed": 20260713064
+        },
+        {
+          "session_index": 56,
+          "within_model_position": 8,
+          "pair": 4,
+          "position_in_pair": 2,
+          "condition": "informed",
+          "session_seed": 20260713064
+        }
+      ]
+    }
+  ]
+}

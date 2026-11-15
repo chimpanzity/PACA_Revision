@@ -1,0 +1,11 @@
+claim        status  computed vs expected(canonical)
+INT-02       PASS    19600  vs  19600
+MAIN-01      PASS    -0.109  vs  -0.109
+REP-01       PASS    -0.139  vs  -0.139
+AUDIT-Q1-P   PASS    {"precision": 0.8649, "ci": [0.7628, 0.9438]}  vs  {"precision": 0.8649, "ci": [0.7628, 0.9438]}
+AUDIT-Q3-K   PASS    0.6406  vs  0.6406
+CAL-02       PASS    0.0289592743  vs  0.0289592743
+
+PASS 34 / 34 statistics checked.
+trace unconditional (independent recompute): {'eligible': 4179, 'alternation_diagnosis': (1838, np.float64(80.1)), 'diagnosis_plus_intent': (1834, np.float64(80.2)), 'asserted_coin': (1901, np.float64(80.4))}
+wrote my_results.json

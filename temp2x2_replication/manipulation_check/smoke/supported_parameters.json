@@ -1,0 +1,184 @@
+{
+ "label": "MANIPULATION CHECK - not part of the prespecified temp2x2-v1 analysis",
+ "fetched_utc": "2026-11-13T03:03:58+00:00",
+ "source": "GET https://openrouter.ai/api/v1/models",
+ "models": {
+  "anthropic/claude-opus-4.8": {
+   "supported_parameters": [
+    "include_reasoning",
+    "max_completion_tokens",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "stop",
+    "structured_outputs",
+    "tool_choice",
+    "tools",
+    "verbosity"
+   ],
+   "pricing": {
+    "prompt": "0.000005",
+    "completion": "0.000025",
+    "web_search": "0.01",
+    "input_cache_read": "0.0000005",
+    "input_cache_write": "0.00000625",
+    "input_cache_write_1h": "0.00001"
+   }
+  },
+  "anthropic/claude-sonnet-4.6": {
+   "supported_parameters": [
+    "include_reasoning",
+    "max_completion_tokens",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "stop",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_k",
+    "top_p",
+    "verbosity"
+   ],
+   "pricing": {
+    "prompt": "0.000003",
+    "completion": "0.000015",
+    "web_search": "0.01",
+    "input_cache_read": "0.0000003",
+    "input_cache_write": "0.00000375",
+    "input_cache_write_1h": "0.000006"
+   }
+  },
+  "anthropic/claude-haiku-4.5": {
+   "supported_parameters": [
+    "include_reasoning",
+    "max_completion_tokens",
+    "max_tokens",
+    "reasoning",
+    "response_format",
+    "stop",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_k",
+    "top_p"
+   ],
+   "pricing": {
+    "prompt": "0.000001",
+    "completion": "0.000005",
+    "web_search": "0.01",
+    "input_cache_read": "0.0000001",
+    "input_cache_write": "0.00000125",
+    "input_cache_write_1h": "0.000002"
+   }
+  },
+  "openai/gpt-5.4": {
+   "supported_parameters": [
+    "include_reasoning",
+    "max_completion_tokens",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "seed",
+    "structured_outputs",
+    "tool_choice",
+    "tools",
+    "verbosity"
+   ],
+   "pricing": {
+    "prompt": "0.0000025",
+    "completion": "0.000015",
+    "web_search": "0.01",
+    "input_cache_read": "0.00000025",
+    "overrides": [
+     {
+      "min_prompt_tokens": 272000,
+      "prompt": "0.000005",
+      "completion": "0.0000225",
+      "input_cache_read": "0.0000005"
+     }
+    ]
+   }
+  },
+  "openai/gpt-5.4-mini": {
+   "supported_parameters": [
+    "include_reasoning",
+    "max_completion_tokens",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "seed",
+    "structured_outputs",
+    "tool_choice",
+    "tools",
+    "verbosity"
+   ],
+   "pricing": {
+    "prompt": "0.00000075",
+    "completion": "0.0000045",
+    "web_search": "0.01",
+    "input_cache_read": "0.000000075"
+   }
+  },
+  "google/gemini-3.1-flash-lite": {
+   "supported_parameters": [
+    "include_reasoning",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "seed",
+    "stop",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_p"
+   ],
+   "pricing": {
+    "prompt": "0.00000025",
+    "completion": "0.0000015",
+    "image": "0.00000025",
+    "audio": "0.0000005",
+    "input_audio_cache": "0.00000005",
+    "web_search": "0.014",
+    "internal_reasoning": "0.0000015",
+    "input_cache_read": "0.000000025",
+    "input_cache_write": "0.0000000833333333333333"
+   }
+  },
+  "google/gemini-3-flash-preview": {
+   "supported_parameters": [
+    "include_reasoning",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "seed",
+    "stop",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_p"
+   ],
+   "pricing": {
+    "prompt": "0.0000005",
+    "completion": "0.000003",
+    "image": "0.0000005",
+    "audio": "0.000001",
+    "input_audio_cache": "0.0000001",
+    "web_search": "0.014",
+    "internal_reasoning": "0.000003",
+    "input_cache_read": "0.00000005",
+    "input_cache_write": "0.0000000833333333333333"
+   }
+  }
+ }
+}

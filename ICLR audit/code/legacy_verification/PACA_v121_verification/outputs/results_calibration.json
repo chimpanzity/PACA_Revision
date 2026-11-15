@@ -1,0 +1,38 @@
+{
+  "appendix": "A",
+  "opponent_sha_note": "proteus_committed.py vendored; frozen experiment opponent",
+  "null.any_channel_activation_mean_pct": 11.56,
+  "null.any_channel_activation_sd_pct": 13.56,
+  "null.per_channel_fp_rate_pct": {
+    "0_side_bias": 3.606,
+    "1_choice_lag1": 3.38,
+    "2_choice_lag2": 2.778,
+    "3_choice_lag3": 2.071,
+    "4_choice_lag4": 1.268,
+    "5_choicereward_lag1": 2.957,
+    "6_choicereward_lag2": 1.26,
+    "7_choicereward_lag3": 0.097,
+    "8_choicereward_lag4": 0.01
+  },
+  "null.subject_win_mean": 0.5009,
+  "null.opponent_reward_mean": 0.4991,
+  "null.subject_win_se": 0.0011,
+  "null.activation_episode_mean_len": 1.92,
+  "null.n_sessions": 1000,
+  "strength.subject_win_vs_proteus": {
+    "side_bias_.75": 0.3609,
+    "alternate_det": 0.0334,
+    "win_stay_lose_shift": 0.0595
+  },
+  "myopic.subject_win_mean": 0.5017,
+  "myopic.subject_win_se": 0.0039,
+  "feeding.max_subject_win": 0.5742,
+  "feeding.all": [
+    0.5499,
+    0.5742,
+    0.5554,
+    0.554,
+    0.5698,
+    0.5508
+  ]
+}

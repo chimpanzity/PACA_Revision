@@ -1,0 +1,334 @@
+﻿TEMP 2x2 PILOT  c4e385f9-23fe-4864-8b4c-6f8f99f6d89a
+  master seed 20261112 | 7 models | 20 trials | -> data_temp2x2_pilot
+
+=== Claude Opus 4.8  [Anthropic]  order B, first temperature 0.0
+   ->    opus T=1.0 pair1/1 minimalist   session_index 9003  seed 20261612002
+[opus/minimalist/s9003] model=anthropic/claude-opus-4.8 seed=20261612002 -> data_temp2x2_pilot\opus\opus_proteus_minimalist_t1p0_s9003_20261112-152311.csv
+  t001  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t002  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t003  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t004  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t005  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t006  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t007  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t008  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t009  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t010  you=S  circle=T  LOSS  | activ=1ch  pred=S (ch0, bias 88.89)  exploit
+  t011  you=S  circle=S  WIN   | activ=1ch  pred=S (ch0, bias 90.00)  mercy
+  t012  you=T  circle=T  WIN   | activ=3ch  pred=S (ch5, bias 100.00)  exploit
+  t013  you=S  circle=T  LOSS  | activ=1ch  pred=S (ch0, bias 83.33)  exploit
+  t014  you=T  circle=T  WIN   | activ=1ch  pred=S (ch0, bias 84.62)  exploit
+  t015  you=T  circle=T  WIN   | activ=0ch  pred=--  (no detection)
+  t016  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t017  you=T  circle=T  WIN   | activ=0ch  pred=--  (no detection)
+  t018  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t019  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t020  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  ok: completed=20/20 win_rate=0.600 activation=0.250 sources={'model': 20, 'fallback_truncation': 0, 'fallback_parse_fail': 0, 'fallback_api_fail': 0} -> data_temp2x2_pilot\opus\opus_proteus_minimalist_t1p0_s9003_20261112-152311.csv
+   ->    opus T=1.0 pair1/2 informed   session_index 9004  seed 20261612002
+[opus/informed/s9004] model=anthropic/claude-opus-4.8 seed=20261612002 -> data_temp2x2_pilot\opus\opus_proteus_informed_t1p0_s9004_20261112-152340.csv
+  t001  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t002  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t003  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t004  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t005  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t006  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t007  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t008  you=T  circle=T  WIN   | activ=0ch  pred=--  (no detection)
+  t009  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t010  you=T  circle=T  WIN   | activ=0ch  pred=--  (no detection)
+  t011  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t012  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t013  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t014  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t015  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t016  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t017  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t018  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t019  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t020  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  ok: completed=20/20 win_rate=0.550 activation=0.000 sources={'model': 20, 'fallback_truncation': 0, 'fallback_parse_fail': 0, 'fallback_api_fail': 0} -> data_temp2x2_pilot\opus\opus_proteus_informed_t1p0_s9004_20261112-152340.csv
+=== Claude Sonnet 4.6  [Anthropic]  order B, first temperature 1.0
+   ->    sonnet T=1.0 pair1/1 minimalist   session_index 9029  seed 20261612015
+[sonnet/minimalist/s9029] model=anthropic/claude-sonnet-4.6 seed=20261612015 -> data_temp2x2_pilot\sonnet\sonnet_proteus_minimalist_t1p0_s9029_20261112-152408.csv
+  t001  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t002  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t003  you=T  circle=T  WIN   | activ=0ch  pred=--  (no detection)
+  t004  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t005  you=T  circle=T  WIN   | activ=0ch  pred=--  (no detection)
+  t006  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t007  you=T  circle=T  WIN   | activ=0ch  pred=--  (no detection)
+  t008  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t009  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t010  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t011  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t012  you=T  circle=T  WIN   | activ=0ch  pred=--  (no detection)
+  t013  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t014  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t015  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t016  you=T  circle=T  WIN   | activ=0ch  pred=--  (no detection)
+  t017  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t018  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t019  you=T  circle=T  WIN   | activ=0ch  pred=--  (no detection)
+  t020  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  ok: completed=20/20 win_rate=0.550 activation=0.000 sources={'model': 20, 'fallback_truncation': 0, 'fallback_parse_fail': 0, 'fallback_api_fail': 0} -> data_temp2x2_pilot\sonnet\sonnet_proteus_minimalist_t1p0_s9029_20261112-152408.csv
+   ->    sonnet T=1.0 pair1/2 informed   session_index 9030  seed 20261612015
+[sonnet/informed/s9030] model=anthropic/claude-sonnet-4.6 seed=20261612015 -> data_temp2x2_pilot\sonnet\sonnet_proteus_informed_t1p0_s9030_20261112-152539.csv
+  t001  you=T  circle=T  WIN   | activ=0ch  pred=--  (no detection)
+  t002  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t003  you=T  circle=T  WIN   | activ=0ch  pred=--  (no detection)
+  t004  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t005  you=T  circle=T  WIN   | activ=0ch  pred=--  (no detection)
+  t006  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t007  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t008  you=T  circle=T  WIN   | activ=0ch  pred=--  (no detection)
+  t009  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t010  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t011  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t012  you=T  circle=T  WIN   | activ=0ch  pred=--  (no detection)
+  t013  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t014  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t015  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t016  you=T  circle=S  LOSS  | activ=2ch  pred=T (ch1, bias 100.00)  exploit
+  t017  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t018  you=T  circle=S  LOSS  | activ=2ch  pred=T (ch1, bias 100.00)  exploit
+  t019  you=S  circle=T  LOSS  | activ=1ch  pred=S (ch1, bias 88.89)  exploit
+  t020  you=T  circle=S  LOSS  | activ=4ch  pred=T (ch1, bias 100.00)  exploit
+  ok: completed=20/20 win_rate=0.500 activation=0.200 sources={'model': 20, 'fallback_truncation': 0, 'fallback_parse_fail': 0, 'fallback_api_fail': 0} -> data_temp2x2_pilot\sonnet\sonnet_proteus_informed_t1p0_s9030_20261112-152539.csv
+=== Claude Haiku 4.5  [Anthropic]  order A, first temperature 1.0
+   ->    haiku T=1.0 pair1/1 informed   session_index 9057  seed 20261612029
+[haiku/informed/s9057] model=anthropic/claude-haiku-4.5 seed=20261612029 -> data_temp2x2_pilot\haiku\haiku_proteus_informed_t1p0_s9057_20261112-152606.csv
+  t001  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t002  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t003  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t004  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t005  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t006  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t007  you=T  circle=T  WIN   | activ=0ch  pred=--  (no detection)
+  t008  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t009  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t010  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t011  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t012  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t013  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t014  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t015  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t016  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t017  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t018  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t019  you=T  circle=T  WIN   | activ=0ch  pred=--  (no detection)
+  t020  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  ok: completed=20/20 win_rate=0.450 activation=0.000 sources={'model': 20, 'fallback_truncation': 0, 'fallback_parse_fail': 0, 'fallback_api_fail': 0} -> data_temp2x2_pilot\haiku\haiku_proteus_informed_t1p0_s9057_20261112-152606.csv
+   ->    haiku T=1.0 pair1/2 minimalist   session_index 9058  seed 20261612029
+[haiku/minimalist/s9058] model=anthropic/claude-haiku-4.5 seed=20261612029 -> data_temp2x2_pilot\haiku\haiku_proteus_minimalist_t1p0_s9058_20261112-152650.csv
+  t001  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t002  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t003  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t004  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t005  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t006  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t007  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t008  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t009  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t010  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t011  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t012  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t013  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t014  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t015  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t016  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t017  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t018  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t019  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t020  you=S  circle=T  LOSS  | activ=1ch  pred=S (ch3, bias 100.00)  exploit
+  ok: completed=20/20 win_rate=0.500 activation=0.050 sources={'model': 20, 'fallback_truncation': 0, 'fallback_parse_fail': 0, 'fallback_api_fail': 0} -> data_temp2x2_pilot\haiku\haiku_proteus_minimalist_t1p0_s9058_20261112-152650.csv
+=== GPT-5.4  [OpenAI]  order A, first temperature 0.0
+   ->    gpt54 T=1.0 pair1/1 informed   session_index 9087  seed 20261612044
+[gpt54/informed/s9087] model=openai/gpt-5.4 seed=20261612044 -> data_temp2x2_pilot\gpt54\gpt54_proteus_informed_t1p0_s9087_20261112-152735.csv
+  t001  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t002  you=T  circle=T  WIN   | activ=0ch  pred=--  (no detection)
+  t003  you=T  circle=T  WIN   | activ=0ch  pred=--  (no detection)
+  t004  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t005  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t006  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t007  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t008  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t009  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t010  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t011  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t012  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t013  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t014  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t015  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t016  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t017  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t018  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t019  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t020  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  ok: completed=20/20 win_rate=0.350 activation=0.000 sources={'model': 20, 'fallback_truncation': 0, 'fallback_parse_fail': 0, 'fallback_api_fail': 0} -> data_temp2x2_pilot\gpt54\gpt54_proteus_informed_t1p0_s9087_20261112-152735.csv
+   ->    gpt54 T=1.0 pair1/2 minimalist   session_index 9088  seed 20261612044
+[gpt54/minimalist/s9088] model=openai/gpt-5.4 seed=20261612044 -> data_temp2x2_pilot\gpt54\gpt54_proteus_minimalist_t1p0_s9088_20261112-152755.csv
+  t001  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t002  you=T  circle=T  WIN   | activ=0ch  pred=--  (no detection)
+  t003  you=T  circle=T  WIN   | activ=0ch  pred=--  (no detection)
+  t004  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t005  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t006  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t007  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t008  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t009  you=T  circle=T  WIN   | activ=0ch  pred=--  (no detection)
+  t010  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t011  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t012  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t013  you=T  circle=T  WIN   | activ=0ch  pred=--  (no detection)
+  t014  you=T  circle=T  WIN   | activ=0ch  pred=--  (no detection)
+  t015  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t016  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t017  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t018  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t019  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t020  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  ok: completed=20/20 win_rate=0.450 activation=0.000 sources={'model': 20, 'fallback_truncation': 0, 'fallback_parse_fail': 0, 'fallback_api_fail': 0} -> data_temp2x2_pilot\gpt54\gpt54_proteus_minimalist_t1p0_s9088_20261112-152755.csv
+=== GPT-5.4-mini  [OpenAI]  order B, first temperature 1.0
+   ->    gpt54mini T=1.0 pair1/1 minimalist   session_index 9113  seed 20261612057
+[gpt54mini/minimalist/s9113] model=openai/gpt-5.4-mini seed=20261612057 -> data_temp2x2_pilot\gpt54mini\gpt54mini_proteus_minimalist_t1p0_s9113_20261112-152831.csv
+  t001  you=T  circle=T  WIN   | activ=0ch  pred=--  (no detection)
+  t002  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t003  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t004  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t005  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t006  you=T  circle=T  WIN   | activ=0ch  pred=--  (no detection)
+  t007  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t008  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t009  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t010  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t011  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t012  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t013  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t014  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t015  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t016  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t017  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t018  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t019  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t020  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  ok: completed=20/20 win_rate=0.350 activation=0.000 sources={'model': 20, 'fallback_truncation': 0, 'fallback_parse_fail': 0, 'fallback_api_fail': 0} -> data_temp2x2_pilot\gpt54mini\gpt54mini_proteus_minimalist_t1p0_s9113_20261112-152831.csv
+   ->    gpt54mini T=1.0 pair1/2 informed   session_index 9114  seed 20261612057
+[gpt54mini/informed/s9114] model=openai/gpt-5.4-mini seed=20261612057 -> data_temp2x2_pilot\gpt54mini\gpt54mini_proteus_informed_t1p0_s9114_20261112-152852.csv
+  t001  you=T  circle=T  WIN   | activ=0ch  pred=--  (no detection)
+  t002  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t003  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t004  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t005  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t006  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t007  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t008  you=T  circle=T  WIN   | activ=0ch  pred=--  (no detection)
+  t009  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t010  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t011  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t012  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t013  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t014  you=S  circle=T  LOSS  | activ=1ch  pred=S (ch1, bias 88.89)  exploit
+  t015  you=T  circle=S  LOSS  | activ=1ch  pred=S (ch1, bias 90.00)  mercy
+  t016  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t017  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t018  you=S  circle=T  LOSS  | activ=2ch  pred=S (ch1, bias 83.33)  exploit
+  t019  you=T  circle=T  WIN   | activ=2ch  pred=S (ch1, bias 84.62)  exploit
+  t020  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  ok: completed=20/20 win_rate=0.450 activation=0.200 sources={'model': 20, 'fallback_truncation': 0, 'fallback_parse_fail': 0, 'fallback_api_fail': 0} -> data_temp2x2_pilot\gpt54mini\gpt54mini_proteus_informed_t1p0_s9114_20261112-152852.csv
+=== Gemini 3.1 Flash Lite  [Google]  order A, first temperature 1.0
+   ->    gemini31fl T=1.0 pair1/1 informed   session_index 9141  seed 20261612071
+[gemini31fl/informed/s9141] model=google/gemini-3.1-flash-lite seed=20261612071 -> data_temp2x2_pilot\gemini31fl\gemini31fl_proteus_informed_t1p0_s9141_20261112-152911.csv
+  t001  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t002  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t003  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t004  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t005  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t006  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t007  you=T  circle=T  WIN   | activ=0ch  pred=--  (no detection)
+  t008  you=T  circle=T  WIN   | activ=0ch  pred=--  (no detection)
+  t009  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t010  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t011  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t012  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t013  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t014  you=T  circle=T  WIN   | activ=0ch  pred=--  (no detection)
+  t015  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t016  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t017  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t018  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t019  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t020  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  ok: completed=20/20 win_rate=0.450 activation=0.000 sources={'model': 20, 'fallback_truncation': 0, 'fallback_parse_fail': 0, 'fallback_api_fail': 0} -> data_temp2x2_pilot\gemini31fl\gemini31fl_proteus_informed_t1p0_s9141_20261112-152911.csv
+   ->    gemini31fl T=1.0 pair1/2 minimalist   session_index 9142  seed 20261612071
+[gemini31fl/minimalist/s9142] model=google/gemini-3.1-flash-lite seed=20261612071 -> data_temp2x2_pilot\gemini31fl\gemini31fl_proteus_minimalist_t1p0_s9142_20261112-152939.csv
+  t001  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t002  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t003  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t004  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t005  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t006  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t007  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t008  you=T  circle=T  WIN   | activ=0ch  pred=--  (no detection)
+  t009  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t010  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t011  you=T  circle=T  WIN   | activ=0ch  pred=--  (no detection)
+  t012  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t013  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t014  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t015  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t016  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t017  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t018  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t019  you=T  circle=T  WIN   | activ=0ch  pred=--  (no detection)
+  t020  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  ok: completed=20/20 win_rate=0.400 activation=0.000 sources={'model': 20, 'fallback_truncation': 0, 'fallback_parse_fail': 0, 'fallback_api_fail': 0} -> data_temp2x2_pilot\gemini31fl\gemini31fl_proteus_minimalist_t1p0_s9142_20261112-152939.csv
+=== Gemini 3 Flash Preview  [Google]  order B, first temperature 0.0
+   ->    gemini3fp T=1.0 pair1/1 minimalist   session_index 9171  seed 20261612086
+[gemini3fp/minimalist/s9171] model=google/gemini-3-flash-preview seed=20261612086 -> data_temp2x2_pilot\gemini3fp\gemini3fp_proteus_minimalist_t1p0_s9171_20261112-153009.csv
+  t001  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t002  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t003  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t004  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t005  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t006  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t007  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t008  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t009  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t010  you=S  circle=T  LOSS  | activ=1ch  pred=S (ch0, bias 88.89)  exploit
+  t011  you=T  circle=S  LOSS  | activ=1ch  pred=S (ch0, bias 90.00)  mercy
+  t012  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t013  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t014  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t015  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t016  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t017  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t018  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t019  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t020  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  ok: completed=20/20 win_rate=0.250 activation=0.100 sources={'model': 20, 'fallback_truncation': 0, 'fallback_parse_fail': 0, 'fallback_api_fail': 0} -> data_temp2x2_pilot\gemini3fp\gemini3fp_proteus_minimalist_t1p0_s9171_20261112-153009.csv
+   ->    gemini3fp T=1.0 pair1/2 informed   session_index 9172  seed 20261612086
+[gemini3fp/informed/s9172] model=google/gemini-3-flash-preview seed=20261612086 -> data_temp2x2_pilot\gemini3fp\gemini3fp_proteus_informed_t1p0_s9172_20261112-153039.csv
+  t001  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t002  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t003  you=T  circle=T  WIN   | activ=0ch  pred=--  (no detection)
+  t004  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t005  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t006  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t007  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t008  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t009  you=T  circle=T  WIN   | activ=0ch  pred=--  (no detection)
+  t010  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t011  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t012  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t013  you=S  circle=T  LOSS  | activ=0ch  pred=--  (no detection)
+  t014  you=T  circle=S  LOSS  | activ=0ch  pred=--  (no detection)
+  t015  you=T  circle=T  WIN   | activ=0ch  pred=--  (no detection)
+  t016  you=T  circle=T  WIN   | activ=0ch  pred=--  (no detection)
+  t017  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t018  you=T  circle=T  WIN   | activ=0ch  pred=--  (no detection)
+  t019  you=S  circle=S  WIN   | activ=0ch  pred=--  (no detection)
+  t020  you=S  circle=S  WIN   | activ=2ch  pred=T (ch1, bias 100.00)  exploit
+  ok: completed=20/20 win_rate=0.550 activation=0.050 sources={'model': 20, 'fallback_truncation': 0, 'fallback_parse_fail': 0, 'fallback_api_fail': 0} -> data_temp2x2_pilot\gemini3fp\gemini3fp_proteus_informed_t1p0_s9172_20261112-153039.csv
+
+DONE. run_id=c4e385f9-23fe-4864-8b4c-6f8f99f6d89a  ran=14  skipped=0  failed=0  -> data_temp2x2_pilot

@@ -1,0 +1,36 @@
+{
+  "title": "Dodging Proteus: data and analysis code",
+  "description": "Experiment harness, analysis, and independent-verification code, plus lightweight trial-level data, for the preprint \"Dodging Proteus: Prescribing unexploitable play made language models more exploitable in a closed-loop matching pennies assay\" (https://doi.org/10.5281/zenodo.21781962). The full raw session corpus, the compiled workbook, and the reasoning-trace audit package are archived separately on OSF (https://doi.org/10.17605/OSF.IO/FM8SP).",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Martin, Christopher Flynn",
+      "orcid": "0000-0002-6510-4594",
+      "affiliation": "Indianapolis Zoological Society; Indiana University Luddy School of Informatics, Computing, and Engineering"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "matching pennies",
+    "mixed-strategy equilibrium",
+    "large language models",
+    "machine psychology",
+    "sequential dependence",
+    "behavioral game theory"
+  ],
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.21781962",
+      "relation": "isSupplementTo",
+      "scheme": "doi",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.17605/OSF.IO/FM8SP",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "dataset"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+PACA ROLE-CONTRAST v1 PRESPECIFIED ANALYSIS (matching pennies; matcher x mismatcher, minimal x informed)
+
+DATA: 112/112 complete sessions; 0 incomplete/invalid files ignored; 0 duplicates ignored; 0 aborted attempts on record
+      non-model choices in complete sessions: 0; replay failures: 0
+      harness commits: ['6aba7c8']; dirty flags: ['False']; legacy code identical: ['True']
+      system-prompt hashes per condition: {'MI': 1, 'MM': 1, 'XI': 1, 'XM': 1}
+      final-line agreement with parsed choice: 1.0000
+      providers / served / temperature status per model:
+        Gemini 3.1 Flash Lite    providers ['Google']  served ['google/gemini-3.1-flash-lite']  temperature applied
+        Gemini 3 Flash Preview   providers ['Google']  served ['google/gemini-3-flash-preview']  temperature applied
+        GPT-5.4                  providers ['OpenAI']  served ['openai/gpt-5.4']  temperature not_applied
+        GPT-5.4-mini             providers ['OpenAI']  served ['openai/gpt-5.4-mini']  temperature not_applied
+        Claude Haiku 4.5         providers ['Amazon Bedrock', 'Google']  served ['anthropic/claude-haiku-4.5']  temperature applied
+        Claude Opus 4.8          providers ['Claude Platform on AWS']  served ['anthropic/claude-opus-4.8']  temperature not_applied
+        Claude Sonnet 4.6        providers ['Claude Platform on AWS']  served ['anthropic/claude-sonnet-4.6']  temperature applied
+
+CELL MEANS (win rate; mean of 4 sessions)
+condition_code             MM     MI     XM     XI
+model                                             
+Claude Opus 4.8         0.432  0.326  0.462  0.291
+Claude Sonnet 4.6       0.460  0.224  0.478  0.221
+Claude Haiku 4.5        0.470  0.266  0.462  0.328
+GPT-5.4                 0.439  0.311  0.342  0.379
+GPT-5.4-mini            0.444  0.370  0.464  0.393
+Gemini 3.1 Flash Lite   0.458  0.355  0.444  0.215
+Gemini 3 Flash Preview  0.426  0.418  0.452  0.280 
+
+PER-MODEL EFFECTS (mean of within-block differences; blocks per model shown)
+condition_code          d_match  d_mismatch       D  role_min  role_inf  blocks
+model                                                                          
+Claude Opus 4.8         -0.1062     -0.1712 -0.0650    0.0300   -0.0350       4
+Claude Sonnet 4.6       -0.2362     -0.2562 -0.0200    0.0175   -0.0025       4
+Claude Haiku 4.5        -0.2037     -0.1350  0.0687   -0.0075    0.0613       4
+GPT-5.4                 -0.1275      0.0362  0.1638   -0.0962    0.0675       4
+GPT-5.4-mini            -0.0738     -0.0712  0.0025    0.0200    0.0225       4
+Gemini 3.1 Flash Lite   -0.1025     -0.2288 -0.1262   -0.0138   -0.1400       4
+Gemini 3 Flash Preview  -0.0087     -0.1725 -0.1638    0.0263   -0.1375       4 
+
+PRIMARY
+  role x framing interaction D                 mean = -0.0200   95% CI [-0.1242, +0.0842]   t(6) = -0.47, p = 0.6551   Wilcoxon W = 12, p = 0.8125   sign-flip p = 0.6875   negative 4/7
+  (D = [win(XI) - win(XM)] - [win(MI) - win(MM)]; positive = informed effect less negative for mismatchers)
+SECONDARY
+  framing effect, matcher (MI - MM)            mean = -0.1227   95% CI [-0.1939, -0.0515]   t(6) = -4.22, p = 0.0056   Wilcoxon W = 0, p = 0.0156   sign-flip p = 0.0156   negative 7/7
+  framing effect, mismatcher (XI - XM)         mean = -0.1427   95% CI [-0.2345, -0.0508]   t(6) = -3.80, p = 0.0090   Wilcoxon W = 1, p = 0.0312   sign-flip p = 0.0312   negative 6/7
+  role effect, minimal (XM - MM)               mean = -0.0034   95% CI [-0.0443, +0.0375]   t(6) = -0.20, p = 0.8458   Wilcoxon W = 10, p = 0.5781   sign-flip p = 0.9219   negative 3/7
+  role effect, informed (XI - MI)              mean = -0.0234   95% CI [-0.1032, +0.0565]   t(6) = -0.72, p = 0.5004   Wilcoxon W = 11, p = 0.6875   sign-flip p = 0.4844   negative 4/7
+  mean win rate over all 4 cells, minus .50    mean = -0.1211   95% CI [-0.1420, -0.1001]   t(6) = -14.14, p = 0.0000   Wilcoxon W = 0, p = 0.0156   sign-flip p = 0.0156   negative 7/7
+  win rate MM minus .50                        mean = -0.0530   95% CI [-0.0678, -0.0383]   t(6) = -8.79, p = 0.0001   Wilcoxon W = 0, p = 0.0156   sign-flip p = 0.0156   negative 7/7
+  win rate MI minus .50                        mean = -0.1757   95% CI [-0.2359, -0.1156]   t(6) = -7.15, p = 0.0004   Wilcoxon W = 0, p = 0.0156   sign-flip p = 0.0156   negative 7/7
+  win rate XM minus .50                        mean = -0.0564   95% CI [-0.0988, -0.0141]   t(6) = -3.26, p = 0.0172   Wilcoxon W = 0, p = 0.0156   sign-flip p = 0.0156   negative 7/7
+  win rate XI minus .50                        mean = -0.1991   95% CI [-0.2639, -0.1344]   t(6) = -7.52, p = 0.0003   Wilcoxon W = 0, p = 0.0156   sign-flip p = 0.0156   negative 7/7
+  reference (July main study, matcher): minimal .456, informed .347, framing effect -.109; temp2x2 replication T=0: -.136
+
+SIGNATURES PER CELL (session means)
+                          p_T                      abs_bias                         alt                       runs_z                       activation                      no_detection                      exploit_rate                      p_stay_after_win                      p_shift_after_loss                      br_lag1                      mean_completion_tokens                           
+condition_code             MI     MM     XI     XM       MI     MM     XI     XM     MI     MM     XI     XM      MI     MM      XI     XM         MI     MM     XI     XM           MI     MM     XI     XM           MI     MM     XI     XM               MI     MM     XI     XM                 MI     MM     XI     XM      MI     MM     XI     XM                     MI       MM       XI       XM
+model                                                                                                                                                                                                                                                                                                                                                                                                      
+Claude Opus 4.8         0.408  0.486  0.418  0.479    0.092  0.014  0.082  0.021  0.741  0.387  0.784  0.471   7.481 -3.247   8.565 -0.854      0.753  0.634  0.832  0.386        0.248  0.366  0.168  0.614        0.634  0.524  0.728  0.324            0.174  0.770  0.245  0.673              0.703  0.506  0.795  0.595  -4.456  0.741 -4.082 -0.030                 33.719   74.816   35.599  113.114
+Claude Sonnet 4.6       0.526  0.511  0.489  0.456    0.026  0.016  0.011  0.049  0.872  0.467  0.879  0.513  10.501 -0.950  10.655  0.458      0.890  0.364  0.906  0.255        0.110  0.636  0.094  0.745        0.819  0.276  0.825  0.176            0.112  0.399  0.133  0.388              0.866  0.354  0.884  0.423  -6.831  0.552 -4.248 -0.066                 40.331  189.185   44.439  411.300
+Claude Haiku 4.5        0.489  0.518  0.460  0.492    0.011  0.035  0.040  0.010  0.796  0.437  0.781  0.552   8.309 -1.777   8.019  1.393      0.795  0.415  0.850  0.300        0.205  0.585  0.150  0.700        0.700  0.341  0.739  0.245            0.234  0.662  0.251  0.595              0.810  0.525  0.798  0.675  -5.632  0.317 -3.027 -0.549                184.284  268.511  211.031  297.834
+GPT-5.4                 0.204  0.474  0.276  0.489    0.296  0.026  0.224  0.014  0.302  0.372  0.486  0.621  -0.990 -3.650   2.982  3.354      0.896  0.604  0.880  0.821        0.104  0.396  0.120  0.179        0.759  0.460  0.688  0.700            0.520  0.748  0.417  0.780              0.222  0.466  0.428  0.830  -0.924  1.033 -1.323 -0.798                  5.642   20.906    5.802   31.618
+GPT-5.4-mini            0.282  0.452  0.281  0.442    0.218  0.048  0.219  0.058  0.421  0.436  0.426  0.611   0.509 -1.736   0.680  3.316      0.872  0.586  0.869  0.364        0.128  0.414  0.131  0.636        0.736  0.480  0.700  0.282            0.465  0.740  0.428  0.435              0.356  0.576  0.331  0.651  -0.191  0.412 -1.695 -1.169                 11.201   13.234   10.532   14.504
+Gemini 3.1 Flash Lite   0.292  0.478  0.468  0.485    0.208  0.023  0.032  0.015  0.504  0.417  0.867  0.472   3.098 -2.384  10.429 -0.827      0.779  0.365  0.851  0.424        0.221  0.635  0.149  0.576        0.631  0.318  0.788  0.358            0.224  0.581  0.278  0.739              0.356  0.416  0.906  0.636  -1.860  0.732 -6.362  0.117                 32.686   53.412   33.648   63.665
+Gemini 3 Flash Preview  0.534  0.512  0.518  0.476    0.034  0.030  0.018  0.029  0.637  0.374  0.812  0.519   3.880 -3.559   8.749  0.533      0.561  0.711  0.799  0.468        0.439  0.289  0.201  0.532        0.455  0.582  0.722  0.378            0.249  0.798  0.300  0.670              0.554  0.503  0.841  0.674  -1.623  0.945 -3.000 -0.620                 44.631   88.926   46.646  118.076 
+
+SIGNATURE CONTRASTS (model level; informed - minimal within each role, and the role interaction)
+  runs_z MI - MM                               mean = +7.1559   95% CI [+3.6341, +10.6776]   t(6) = 4.97, p = 0.0025   Wilcoxon W = 0, p = 0.0156   sign-flip p = 0.0156   negative 0/7
+  runs_z XI - XM                               mean = +6.1008   95% CI [+1.0728, +11.1288]   t(6) = 2.97, p = 0.0250   Wilcoxon W = 3, p = 0.0781   sign-flip p = 0.0625   negative 2/7
+  runs_z interaction                           mean = -1.0551   95% CI [-4.3118, +2.2017]   t(6) = -0.79, p = 0.4581   Wilcoxon W = 8, p = 0.3750   sign-flip p = 0.4688   negative 5/7
+  runs_z XM - MM                               mean = +3.5251   95% CI [+1.6554, +5.3947]   t(6) = 4.61, p = 0.0036   Wilcoxon W = 0, p = 0.0156   sign-flip p = 0.0156   negative 0/7
+  abs_bias MI - MM                             mean = +0.0991   95% CI [-0.0037, +0.2019]   t(6) = 2.36, p = 0.0564   Wilcoxon W = 3, p = 0.0781   sign-flip p = 0.0781   negative 1/7
+  abs_bias XI - XM                             mean = +0.0616   95% CI [-0.0228, +0.1461]   t(6) = 1.79, p = 0.1245   Wilcoxon W = 5, p = 0.1562   sign-flip p = 0.1406   negative 2/7
+  abs_bias interaction                         mean = -0.0375   95% CI [-0.1002, +0.0252]   t(6) = -1.46, p = 0.1936   Wilcoxon W = 5, p = 0.1562   sign-flip p = 0.1562   negative 6/7
+  abs_bias XM - MM                             mean = +0.0005   95% CI [-0.0166, +0.0176]   t(6) = 0.08, p = 0.9414   Wilcoxon W = 13, p = 0.9375   sign-flip p = 0.9688   negative 4/7
+  alt MI - MM                                  mean = +0.1974   95% CI [+0.0175, +0.3773]   t(6) = 2.68, p = 0.0363   Wilcoxon W = 3, p = 0.0781   sign-flip p = 0.0625   negative 2/7
+  alt XI - XM                                  mean = +0.1825   95% CI [-0.0394, +0.4045]   t(6) = 2.01, p = 0.0909   Wilcoxon W = 3, p = 0.0781   sign-flip p = 0.1094   negative 2/7
+  alt interaction                              mean = -0.0149   95% CI [-0.1596, +0.1298]   t(6) = -0.25, p = 0.8095   Wilcoxon W = 8, p = 0.3750   sign-flip p = 0.8125   negative 5/7
+  alt XM - MM                                  mean = +0.1238   95% CI [+0.0572, +0.1905]   t(6) = 4.55, p = 0.0039   Wilcoxon W = 0, p = 0.0156   sign-flip p = 0.0156   negative 0/7
+  activation MI - MM                           mean = +0.2668   95% CI [+0.0605, +0.4730]   t(6) = 3.17, p = 0.0194   Wilcoxon W = 2, p = 0.0469   sign-flip p = 0.0469   negative 1/7
+  activation XI - XM                           mean = +0.4243   95% CI [+0.2486, +0.6000]   t(6) = 5.91, p = 0.0010   Wilcoxon W = 0, p = 0.0156   sign-flip p = 0.0156   negative 0/7
+  activation interaction                       mean = +0.1575   95% CI [-0.0535, +0.3685]   t(6) = 1.83, p = 0.1176   Wilcoxon W = 5, p = 0.1562   sign-flip p = 0.1406   negative 1/7
+  activation XM - MM                           mean = -0.0945   95% CI [-0.2562, +0.0673]   t(6) = -1.43, p = 0.2029   Wilcoxon W = 5, p = 0.1562   sign-flip p = 0.1875   negative 5/7
+  p_stay_after_win MI - MM                     mean = -0.3887   95% CI [-0.5193, -0.2581]   t(6) = -7.28, p = 0.0003   Wilcoxon W = 0, p = 0.0156   sign-flip p = 0.0156   negative 7/7
+  p_stay_after_win XI - XM                     mean = -0.3180   95% CI [-0.4590, -0.1770]   t(6) = -5.52, p = 0.0015   Wilcoxon W = 0, p = 0.0156   sign-flip p = 0.0156   negative 7/7
+  p_stay_after_win interaction                 mean = +0.0707   95% CI [-0.0680, +0.2093]   t(6) = 1.25, p = 0.2587   Wilcoxon W = 7, p = 0.2969   sign-flip p = 0.2500   negative 2/7
+  p_stay_after_win XM - MM                     mean = -0.0600   95% CI [-0.1935, +0.0735]   t(6) = -1.10, p = 0.3135   Wilcoxon W = 8, p = 0.3750   sign-flip p = 0.3281   negative 5/7
+  p_shift_after_loss MI - MM                   mean = +0.0745   95% CI [-0.1810, +0.3300]   t(6) = 0.71, p = 0.5023   Wilcoxon W = 11, p = 0.6875   sign-flip p = 0.5000   negative 3/7
+  p_shift_after_loss XI - XM                   mean = +0.0714   95% CI [-0.2203, +0.3631]   t(6) = 0.60, p = 0.5711   Wilcoxon W = 11, p = 0.6875   sign-flip p = 0.5469   negative 2/7
+  p_shift_after_loss interaction               mean = -0.0031   95% CI [-0.1660, +0.1598]   t(6) = -0.05, p = 0.9645   Wilcoxon W = 12, p = 0.8125   sign-flip p = 1.0000   negative 4/7
+  p_shift_after_loss XM - MM                   mean = +0.1627   95% CI [+0.0656, +0.2599]   t(6) = 4.10, p = 0.0064   Wilcoxon W = 0, p = 0.0156   sign-flip p = 0.0156   negative 0/7
+
+PREDICTION CONTENT (Appendix J classification; % of rounds / Proteus win % within category; descriptive)
+                                  none_pct  none_proteus_win_pct  side_pct  side_proteus_win_pct  switch_pct  switch_proteus_win_pct  repeat_pct  repeat_proteus_win_pct
+model                  condition                                                                                                                                        
+Claude Opus 4.8        MM             36.6                  50.5       0.9                   NaN         1.1                     NaN        61.4                    61.1
+                       MI             24.8                  54.5      16.5                  80.3        57.0                    69.3         1.8                     NaN
+                       XM             61.4                  51.7       0.8                   NaN         6.1                    65.3        31.8                    55.5
+                       XI             16.8                  51.5       5.2                  88.1        77.2                    74.4         0.8                     NaN
+Claude Sonnet 4.6      MM             63.6                  53.0       2.6                   NaN        11.8                    57.4        22.0                    55.1
+                       MI             11.0                  42.0       0.0                   NaN        88.8                    82.0         0.2                     NaN
+                       XM             74.5                  52.2      12.8                  52.0         8.6                    55.1         4.1                    48.5
+                       XI              9.4                  53.3       0.0                   NaN        90.6                    80.4         0.0                     NaN
+Claude Haiku 4.5       MM             58.5                  49.6       1.6                   NaN         1.0                     NaN        38.9                    59.2
+                       MI             20.5                  53.7       0.0                   NaN        79.4                    78.6         0.1                     NaN
+                       XM             70.0                  52.5       1.1                   NaN        24.1                    57.5         4.8                    55.3
+                       XI             15.0                  52.5       0.0                   NaN        85.0                    69.9         0.0                     NaN
+GPT-5.4                MM             39.6                  54.6       0.1                   NaN         0.1                     NaN        60.1                    57.4
+                       MI             10.4                  48.2      89.1                  71.2         0.0                     NaN         0.5                     NaN
+                       XM             17.9                  54.5       0.0                   NaN        64.5                    68.2        17.6                    68.1
+                       XI             12.0                  44.8      87.4                  64.5         0.6                     NaN         0.0                     NaN
+GPT-5.4-mini           MM             41.4                  48.9      11.0                  53.4         6.4                    62.7        41.2                    61.8
+                       MI             12.8                  45.1      85.5                  65.6         0.0                     NaN         1.8                     NaN
+                       XM             63.6                  50.5       4.5                  44.4        31.8                    61.4         0.1                     NaN
+                       XI             13.1                  50.5      86.6                  62.2         0.2                     NaN         0.0                     NaN
+Gemini 3.1 Flash Lite  MM             63.5                  52.0       0.6                   NaN         1.1                     NaN        34.8                    58.6
+                       MI             22.1                  61.0      70.9                  65.4         6.1                    63.3         0.9                     NaN
+                       XM             57.6                  50.5       0.8                   NaN        11.1                    68.5        30.5                    60.7
+                       XI             14.9                  49.6       0.0                   NaN        85.1                    83.6         0.0                     NaN
+Gemini 3 Flash Preview MM             28.9                  51.1       1.5                   NaN         1.6                     NaN        68.0                    60.5
+                       MI             43.9                  51.9       0.0                   NaN        54.6                    63.2         1.5                     NaN
+                       XM             53.2                  51.9       0.2                   NaN        25.6                    55.1        20.9                    61.7
+                       XI             20.1                  49.1       0.0                   NaN        79.1                    78.0         0.8                     NaN 
+
+  pooled over models:
+    MM none 47.4% (Proteus wins 51.4%)  side 2.6% (Proteus wins 49.0%)  switch 3.3% (Proteus wins 56.8%)  repeat 46.6% (Proteus wins 59.5%)
+    MI none 20.8% (Proteus wins 52.4%)  side 37.4% (Proteus wins 68.4%)  switch 40.8% (Proteus wins 74.5%)  repeat 1.0% (Proteus wins 68.5%)
+    XM none 56.9% (Proteus wins 51.7%)  side 2.9% (Proteus wins 49.7%)  switch 24.6% (Proteus wins 62.8%)  repeat 15.7% (Proteus wins 59.8%)
+    XI none 14.5% (Proteus wins 50.1%)  side 25.6% (Proteus wins 64.1%)  switch 59.7% (Proteus wins 77.3%)  repeat 0.2% (Proteus wins 33.3%)
+
+BROWN-ROSENTHAL (sessions of 4 with block p < .05: own / opponent / outcome; median lag-1 own coefficient)
+                       own          opp          out               lag1                                n         
+condition_code          MI MM XI XM  MI MM XI XM  MI MM XI XM        MI        MM        XI        XM MI MM XI XM
+model                                                                                                            
+Claude Opus 4.8          4  4  4  0   1  4  0  4   2  0  0  1 -3.577446  0.793601 -4.222224 -0.087502  4  4  4  4
+Claude Sonnet 4.6        4  1  4  0   1  4  0  4   0  0  0  0 -4.612342  0.426470 -4.208648 -0.093696  4  4  4  4
+Claude Haiku 4.5         4  2  4  1   0  4  2  4   1  1  2  0 -2.104371  0.233113 -3.053561 -0.535011  4  4  4  4
+GPT-5.4                  1  4  3  1   0  4  0  4   1  0  1  1  0.341805  0.963477 -1.361527 -0.952969  4  4  4  4
+GPT-5.4-mini             1  2  1  3   1  4  0  0   0  1  1  1 -0.177047  0.423591 -0.685410 -0.950127  4  4  4  4
+Gemini 3.1 Flash Lite    4  2  4  2   2  4  4  4   0  1  1  0 -1.663102  0.637297 -5.622081  0.093800  4  4  4  4
+Gemini 3 Flash Preview   4  4  4  2   3  4  1  4   0  0  2  1 -1.610046  0.901218 -2.715223 -0.530589  4  4  4  4 
+
+DESCRIPTIVE
+  win by within-block position 1-4: {1: 0.387, 2: 0.3768, 3: 0.3834, 4: 0.3686}
+  win by block position 1-4:        {1: 0.3675, 2: 0.3848, 3: 0.3766, 4: 0.3868}
+  leave-one-model-out D: Claude Opus 4.8 -0.0125, Claude Sonnet 4.6 -0.0200, Claude Haiku 4.5 -0.0348, GPT-5.4 -0.0506, GPT-5.4-mini -0.0237, Gemini 3.1 Flash Lite -0.0023, Gemini 3 Flash Preview +0.0040
+  D, 4 temperature-applied models              mean = -0.0603   95% CI [-0.2280, +0.1074]   t(3) = -1.14, p = 0.3355   Wilcoxon W = 2, p = 0.3750   sign-flip p = 0.3750   negative 3/4
+  Proteus win % on no-detection rounds: MM 51.4, MI 52.4, XM 51.7, XI 50.1
+
+ACCEPTANCE CHECKS: sessions_112=PASS, four_per_cell=PASS, blocks_complete=PASS, trials_22400=PASS, zero_nonmodel=PASS, replay_ok=PASS, one_hash_per_condition=PASS, legacy_code_identical=PASS, harness_clean=PASS
+-> wrote role_results.json, role_sessions.csv, role_blocks.csv, role_cells.csv, role_prediction_content.csv, role_brown_rosenthal.csv to role_contrast/results

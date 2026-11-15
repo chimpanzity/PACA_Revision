@@ -1,0 +1,49 @@
+PACA-Shapes PILOT  run_id=eab4d2b9-03cc-4b13-ae99-0ba0d2d501d7
+  config sha256 a9ee3bf63d407354  schedule sha256 ecdbcab2dc4963f2  harness d1174f9 (shapes/ has uncommitted changes)  -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_shapes_v1_pilot
+=== GPT-5.4 [OpenAI] temp seq A, prompt seq B
+[gpt54 s9051 informed T=1.0] seed=1232998649 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_shapes_v1_pilot\gpt54\gpt54_shapesproteus_informed_t1p0_s9051_20261114-161604.csv
+  t001 you=R opp=T L cum=-1 | act=0 ch=-1 g= random_no_detection
+  t002 you=S opp=S D cum=-1 | act=0 ch=-1 g= random_no_detection
+  t003 you=S opp=T W cum=+0 | act=0 ch=-1 g= random_no_detection
+  t004 you=T opp=T D cum=+0 | act=0 ch=-1 g= random_no_detection
+  t005 you=S opp=T W cum=+1 | act=0 ch=-1 g= random_no_detection
+  t006 you=T opp=T D cum=+1 | act=0 ch=-1 g= random_no_detection
+  t007 you=R opp=T L cum=+0 | act=0 ch=-1 g= random_no_detection
+  t008 you=R opp=T L cum=-1 | act=0 ch=-1 g= random_no_detection
+  t009 you=T opp=R W cum=+0 | act=0 ch=-1 g= random_no_detection
+  t010 you=R opp=T L cum=-1 | act=0 ch=-1 g= random_no_detection
+  t011 you=S opp=S D cum=-1 | act=0 ch=-1 g= random_no_detection
+  t012 you=S opp=S D cum=-1 | act=0 ch=-1 g= random_no_detection
+  t013 you=S opp=R L cum=-2 | act=0 ch=-1 g= random_no_detection
+  t014 you=R opp=R D cum=-2 | act=0 ch=-1 g= random_no_detection
+  t015 you=S opp=S D cum=-2 | act=0 ch=-1 g= random_no_detection
+  t016 you=R opp=S W cum=-1 | act=0 ch=-1 g= random_no_detection
+  t017 you=R opp=R D cum=-1 | act=0 ch=-1 g= random_no_detection
+  t018 you=R opp=S W cum=+0 | act=0 ch=-1 g= random_no_detection
+  t019 you=R opp=S W cum=+1 | act=0 ch=-1 g= random_no_detection
+  t020 you=T opp=S L cum=+0 | act=0 ch=-1 g= random_no_detection
+  ok: 20/20 payoff/round=+0.000 W/L/D=6/6/8 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_shapes_v1_pilot\gpt54\gpt54_shapesproteus_informed_t1p0_s9051_20261114-161604.csv
+[gpt54 s9052 minimalist T=1.0] seed=1232998649 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_shapes_v1_pilot\gpt54\gpt54_shapesproteus_minimalist_t1p0_s9052_20261114-161624.csv
+  t001 you=S opp=T W cum=+1 | act=0 ch=-1 g= random_no_detection
+  t002 you=S opp=S D cum=+1 | act=0 ch=-1 g= random_no_detection
+  t003 you=R opp=T L cum=+0 | act=0 ch=-1 g= random_no_detection
+  t004 you=S opp=T W cum=+1 | act=0 ch=-1 g= random_no_detection
+  t005 you=S opp=T W cum=+2 | act=0 ch=-1 g= random_no_detection
+  t006 you=S opp=T W cum=+3 | act=0 ch=-1 g= random_no_detection
+  t007 you=S opp=T W cum=+4 | act=0 ch=-1 g= random_no_detection
+  t008 you=S opp=R L cum=+3 | act=2 ch=5 g=1.00 exploit
+  t009 you=T opp=R W cum=+4 | act=1 ch=0 g=0.88 exploit
+  t010 you=T opp=R W cum=+5 | act=1 ch=0 g=0.67 exploit
+  t011 you=T opp=S L cum=+4 | act=0 ch=-1 g= random_no_detection
+  t012 you=R opp=S W cum=+5 | act=0 ch=-1 g= random_no_detection
+  t013 you=S opp=R L cum=+4 | act=0 ch=-1 g= random_no_detection
+  t014 you=T opp=R W cum=+5 | act=0 ch=-1 g= random_no_detection
+  t015 you=R opp=S W cum=+6 | act=0 ch=-1 g= random_no_detection
+  t016 you=R opp=S W cum=+7 | act=0 ch=-1 g= random_no_detection
+  t017 you=R opp=R D cum=+7 | act=0 ch=-1 g= random_no_detection
+  t018 you=S opp=S D cum=+7 | act=0 ch=-1 g= random_no_detection
+  t019 you=R opp=S W cum=+8 | act=0 ch=-1 g= random_no_detection
+  t020 you=R opp=S W cum=+9 | act=0 ch=-1 g= random_no_detection
+  ok: 20/20 payoff/round=+0.450 W/L/D=13/4/3 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_shapes_v1_pilot\gpt54\gpt54_shapesproteus_minimalist_t1p0_s9052_20261114-161624.csv
+
+DONE run_id=eab4d2b9-03cc-4b13-ae99-0ba0d2d501d7 ran=2 skipped=0 stopped=[] -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_shapes_v1_pilot

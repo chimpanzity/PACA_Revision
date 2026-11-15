@@ -1,0 +1,18 @@
+Specification: six-predictor
+Model        Frame        Own  Opp  Out   Lag-1   Table 2 (preprint)        match
+Opus 4.8     minimalist   7/7  7/7  2/7   +1.25   7/7 7/7 2/7 +1.25          PASS
+Opus 4.8     informed     7/7  1/7  1/7   -3.22   7/7 1/7 1/7 -3.22          PASS
+Sonnet 4.6   minimalist   3/7  7/7  3/7   +0.39   3/7 7/7 3/7 +0.39          PASS
+Sonnet 4.6   informed     7/7  1/7  0/7   -5.56   7/7 1/7 0/7 -5.56          PASS   [separated fits: 3]
+Haiku 4.5    minimalist   5/7  7/7  0/7   +0.06   5/7 7/7 0/7 +0.06          PASS
+Haiku 4.5    informed     7/7  2/7  0/7   -3.66   7/7 2/7 0/7 -3.66          PASS
+GPT-5.4      minimalist   5/7  7/7  0/7   +0.58   5/7 7/7 0/7 +0.58          PASS
+GPT-5.4      informed     0/7  0/7  0/7   +0.03   0/7 0/7 0/7 +0.03          PASS
+GPT-5.4-mini minimalist   3/7  7/7  0/7   +0.26   3/7 7/7 0/7 +0.26          PASS
+GPT-5.4-mini informed     1/7  1/7  2/7   -0.31   1/7 1/7 2/7 -0.31          PASS
+Gemini 3.1 FLminimalist   3/7  7/7  0/7   +0.67   3/7 7/7 0/7 +0.67          PASS
+Gemini 3.1 FLinformed     6/7  4/7  2/7   -1.77   6/7 4/7 2/7 -1.77          PASS   [separated fits: 1]
+Gemini 3 FP  minimalist   6/7  7/7  0/7   +1.22   6/7 7/7 0/7 +1.22          PASS
+Gemini 3 FP  informed     7/7  0/7  0/7   -1.06   7/7 0/7 0/7 -1.06          PASS
+
+Preprint Table 2 reproduced in 14/14 cells. Relative to the seven-predictor Table D3, 9 of 14 cells keep identical Own/Opponent/Outcome counts; the largest change in any count is 2 sessions.

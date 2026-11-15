@@ -1,0 +1,70 @@
+DATA: 196/196 complete sessions (0 incomplete files ignored, 0 duplicate complete files ignored)
+      non-model choices (parse/API fallback): 0 trials in 0 sessions
+      served checkpoints:
+        Gemini 3.1 Flash Lite    ['google/gemini-3.1-flash-lite']
+        Gemini 3 Flash Preview   ['google/gemini-3-flash-preview']
+        GPT-5.4                  ['openai/gpt-5.4']
+        GPT-5.4-mini             ['openai/gpt-5.4-mini']
+        Claude Haiku 4.5         ['anthropic/claude-haiku-4.5']
+        Claude Opus 4.8          ['anthropic/claude-opus-4.8']
+        Claude Sonnet 4.6        ['anthropic/claude-sonnet-4.6']
+      distinct system-prompt hashes: {'informed': 1, 'minimalist': 1}
+
+CELL MEANS (win rate)
+temperature                 0.0                 1.0           
+condition              informed minimalist informed minimalist
+model                                                         
+Claude Opus 4.8           0.347      0.439    0.336      0.453
+Claude Sonnet 4.6         0.192      0.489    0.246      0.490
+Claude Haiku 4.5          0.276      0.478    0.363      0.471
+GPT-5.4                   0.287      0.456    0.296      0.467
+GPT-5.4-mini              0.339      0.461    0.340      0.467
+Gemini 3.1 Flash Lite     0.363      0.454    0.455      0.482
+Gemini 3 Flash Preview    0.434      0.411    0.521      0.419 
+
+PER-MODEL FRAMING EFFECT (informed minus minimalist, mean of within-pair differences)
+temperature                D0     D1  interaction
+model                                            
+Claude Opus 4.8        -0.092 -0.116       -0.024
+Claude Sonnet 4.6      -0.296 -0.244        0.053
+Claude Haiku 4.5       -0.202 -0.108        0.094
+GPT-5.4                -0.169 -0.171       -0.003
+GPT-5.4-mini           -0.123 -0.127       -0.004
+Gemini 3.1 Flash Lite  -0.091 -0.027        0.064
+Gemini 3 Flash Preview  0.023  0.101        0.079 
+
+PRIMARY
+  framing effect at temperature 1: mean = -0.0989   95% CI [-0.201, +0.003]   t(6) = -2.38, p = 0.0550   Wilcoxon W = 2, p = 0.0469   negative in 6/7
+SECONDARY
+  framing effect at temperature 0: mean = -0.1358   95% CI [-0.229, -0.043]   t(6) = -3.58, p = 0.0117   Wilcoxon W = 1, p = 0.0312   negative in 6/7
+  interaction (D1 - D0)          : mean = +0.0369   95% CI [-0.006, +0.080]   t(6) = 2.10, p = 0.0810   Wilcoxon W = 6, p = 0.2188   negative in 3/7
+  reference: main study -0.109 (6/7 negative); July counterbalanced replication -0.139 (6/7 negative)
+
+SIGNATURES PER CELL (session means)
+                                     runs_z            abs_bias                 alt            p_triangle           
+condition                          informed minimalist informed minimalist informed minimalist   informed minimalist
+model                  temperature                                                                                  
+Claude Opus 4.8        0.0            6.907     -4.067    0.104      0.029    0.715      0.357      0.396      0.475
+                       1.0            7.490     -3.495    0.106      0.033    0.733      0.377      0.394      0.480
+Claude Sonnet 4.6      0.0           10.841     -0.599    0.017      0.019    0.885      0.480      0.517      0.516
+                       1.0            9.957     -0.257    0.036      0.019    0.851      0.492      0.536      0.519
+Claude Haiku 4.5       0.0            8.469     -2.272    0.029      0.016    0.800      0.421      0.471      0.503
+                       1.0            7.021     -1.139    0.019      0.016    0.750      0.462      0.481      0.507
+GPT-5.4                0.0           -0.630     -1.980    0.314      0.038    0.290      0.429      0.186      0.462
+                       1.0           -1.170     -2.392    0.298      0.039    0.294      0.414      0.202      0.461
+GPT-5.4-mini           0.0            0.223     -2.210    0.270      0.049    0.360      0.419      0.230      0.451
+                       1.0            0.369     -1.721    0.259      0.052    0.376      0.436      0.241      0.448
+Gemini 3.1 Flash Lite  0.0            3.502     -3.199    0.214      0.025    0.512      0.388      0.286      0.481
+                       1.0            2.304     -2.251    0.084      0.016    0.563      0.422      0.416      0.486
+Gemini 3 Flash Preview 0.0            3.615     -3.375    0.026      0.012    0.628      0.383      0.524      0.495
+                       1.0            1.536     -2.955    0.026      0.018    0.555      0.397      0.526      0.482 
+
+  runs_z   informed - minimal, T=0: mean = +7.2328   95% CI [+3.420, +11.046]   t(6) = 4.64, p = 0.0035   Wilcoxon W = 0, p = 0.0156   negative in 0/7
+  runs_z   informed - minimal, T=1: mean = +5.9596   95% CI [+2.383, +9.537]   t(6) = 4.08, p = 0.0065   Wilcoxon W = 0, p = 0.0156   negative in 0/7
+  abs_bias informed - minimal, T=0: mean = +0.1121   95% CI [+0.006, +0.218]   t(6) = 2.59, p = 0.0409   Wilcoxon W = 1, p = 0.0312   negative in 1/7
+  abs_bias informed - minimal, T=1: mean = +0.0909   95% CI [-0.003, +0.185]   t(6) = 2.36, p = 0.0563   Wilcoxon W = 0, p = 0.0156   negative in 0/7
+
+  order check T=0 (informed-first minus informed-second): mean = -0.0083   95% CI [-0.032, +0.016]   t(6) = -0.84, p = 0.4316   Wilcoxon W = 11, p = 0.6875   negative in 5/7
+  order check T=1 (informed-first minus informed-second): mean = -0.0082   95% CI [-0.039, +0.023]   t(6) = -0.65, p = 0.5402   Wilcoxon W = 9, p = 0.4688   negative in 4/7
+
+-> wrote temp2x2_results.json and temp2x2_sessions.csv

@@ -1,0 +1,93 @@
+PACA role-contrast PILOT  run_id=582a90d2-e7d1-4d26-861f-45be2c21d370
+  config sha256 41c9e71ecaff339b  schedule sha256 2fa21c569e145b58  harness ae3ce14 (role_contrast/ has uncommitted changes)  -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_role_contrast_v1_pilot
+=== Claude Haiku 4.5 [Anthropic] block order [3, 4, 1, 2] (rot2), temperature applied
+[haiku s9033 XM block3.1] seed=274004356 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_role_contrast_v1_pilot\haiku\haiku_roleproteus_XM_t0p0_s9033_20261114-215321.csv
+  t001 you=S circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  t002 you=T circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t003 you=T circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t004 you=T circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t005 you=T circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t006 you=S circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  t007 you=T circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t008 you=S circle=T WIN  | act=0 ch=-1 pred=- random_no_detection
+  t009 you=S circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  t010 you=S circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  t011 you=T circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t012 you=T circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t013 you=T circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t014 you=T circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t015 you=T circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t016 you=S circle=T WIN  | act=0 ch=-1 pred=- random_no_detection
+  t017 you=S circle=T WIN  | act=0 ch=-1 pred=- random_no_detection
+  t018 you=T circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t019 you=S circle=T WIN  | act=0 ch=-1 pred=- random_no_detection
+  t020 you=S circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  ok: 20/20 win_rate=0.500 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_role_contrast_v1_pilot\haiku\haiku_roleproteus_XM_t0p0_s9033_20261114-215321.csv
+[haiku s9034 XI block3.2] seed=274004356 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_role_contrast_v1_pilot\haiku\haiku_roleproteus_XI_t0p0_s9034_20261114-215407.csv
+  t001 you=T circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t002 you=S circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  t003 you=S circle=T WIN  | act=0 ch=-1 pred=- random_no_detection
+  t004 you=T circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t005 you=S circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  t006 you=T circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t007 you=S circle=T WIN  | act=0 ch=-1 pred=- random_no_detection
+  t008 you=T circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t009 you=S circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  t010 you=T circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t011 you=S circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  t012 you=T circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t013 you=S circle=T WIN  | act=0 ch=-1 pred=- random_no_detection
+  t014 you=T circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t015 you=S circle=S LOSS | act=1 ch=1 pred=S exploit
+  t016 you=T circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t017 you=S circle=S LOSS | act=2 ch=1 pred=S exploit
+  t018 you=T circle=T LOSS | act=1 ch=3 pred=T exploit
+  t019 you=S circle=S LOSS | act=4 ch=1 pred=S exploit
+  t020 you=T circle=T LOSS | act=3 ch=3 pred=T exploit
+  ok: 20/20 win_rate=0.400 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_role_contrast_v1_pilot\haiku\haiku_roleproteus_XI_t0p0_s9034_20261114-215407.csv
+[haiku s9035 MM block3.3] seed=274004356 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_role_contrast_v1_pilot\haiku\haiku_roleproteus_MM_t0p0_s9035_20261114-215446.csv
+  t001 you=T circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  t002 you=S circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t003 you=S circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t004 you=S circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t005 you=T circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  t006 you=T circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  t007 you=T circle=T WIN  | act=0 ch=-1 pred=- random_no_detection
+  t008 you=S circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t009 you=S circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t010 you=S circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t011 you=T circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  t012 you=T circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  t013 you=S circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t014 you=S circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t015 you=S circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t016 you=S circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t017 you=T circle=T WIN  | act=0 ch=-1 pred=- random_no_detection
+  t018 you=T circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  t019 you=T circle=T WIN  | act=0 ch=-1 pred=- random_no_detection
+  t020 you=S circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  ok: 20/20 win_rate=0.400 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_role_contrast_v1_pilot\haiku\haiku_roleproteus_MM_t0p0_s9035_20261114-215446.csv
+[haiku s9036 MI block3.4] seed=274004356 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_role_contrast_v1_pilot\haiku\haiku_roleproteus_MI_t0p0_s9036_20261114-215531.csv
+  t001 you=T circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  t002 you=S circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t003 you=S circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t004 you=T circle=T WIN  | act=0 ch=-1 pred=- random_no_detection
+  t005 you=T circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  t006 you=S circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t007 you=T circle=T WIN  | act=0 ch=-1 pred=- random_no_detection
+  t008 you=S circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t009 you=S circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t010 you=S circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t011 you=T circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  t012 you=S circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t013 you=T circle=T WIN  | act=0 ch=-1 pred=- random_no_detection
+  t014 you=T circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  t015 you=S circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t016 you=T circle=T WIN  | act=0 ch=-1 pred=- random_no_detection
+  t017 you=S circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t018 you=S circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t019 you=S circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t020 you=T circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  ok: 20/20 win_rate=0.500 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_role_contrast_v1_pilot\haiku\haiku_roleproteus_MI_t0p0_s9036_20261114-215531.csv
+
+DONE run_id=582a90d2-e7d1-4d26-861f-45be2c21d370 ran=4 skipped=0 stopped=[] -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_role_contrast_v1_pilot

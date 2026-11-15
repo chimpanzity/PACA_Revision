@@ -1,0 +1,78 @@
+
+Table D1 (cell means, 3 dp)
+  D1   Opus 4.8 minimalist        PASS     
+  D1   Opus 4.8 informed          PASS     
+  D1   Sonnet 4.6 minimalist      PASS     
+  D1   Sonnet 4.6 informed        PASS     
+  D1   Haiku 4.5 minimalist       PASS     
+  D1   Haiku 4.5 informed         PASS     
+  D1   GPT-5.4 minimalist         PASS     
+  D1   GPT-5.4 informed           PASS     
+  D1   GPT-5.4-mini minimalist    PASS     
+  D1   GPT-5.4-mini informed      PASS     
+  D1   Gemini 3.1 FL minimalist   PASS     
+  D1   Gemini 3.1 FL informed     PASS     
+  D1   Gemini 3 FP minimalist     PASS     
+  D1   Gemini 3 FP informed       PASS     
+
+Table D2 (leave-one-out)
+  D2   Claude Opus 4.8            PASS     
+  D2   Claude Sonnet 4.6          PASS     
+  D2   Claude Haiku 4.5           PASS     
+  D2   GPT-5.4                    PASS     
+  D2   GPT-5.4-mini               PASS     
+  D2   Gemini 3.1 Flash Lite      PASS     
+  D2   Gemini 3 Flash Preview     PASS     
+  D2   Anthropic family           PASS     
+  D2   Google family              BOUNDARY n=5 mean=-0.1390 5/5 p=0.0625 (exact half; printed half-down)
+  D2   OpenAI family              PASS     
+
+Table E1 (ablation: runs z / P(T) / activation)
+  E1   Opus 4.8                   PASS     
+  E1   Sonnet 4.6                 PASS     
+  E1   Haiku 4.5                  PASS     
+  E1   GPT-5.4                    PASS     
+  E1   GPT-5.4-mini               PASS     
+  E1   Gemini 3.1 FL              PASS     
+  E1   Gemini 3 FP                PASS     
+
+Table E2 (relabels: signed marginal and runs z)
+  E2   Opus 4.8                   BOUNDARY ('STAR -0.19', 'DIA +0.11', '~bal', '+7.2 / +9.6 / +9.0') printed ('STAR -0.19', 'DIA +0.10', '~bal', '+7.2 / +9.6 / +9.0')  exact halves: DIA/SQR: 2P-1=+0.1050, TRI/SQR: 2P-1=+0.0050
+  E2   Sonnet 4.6                 PASS     
+  E2   Haiku 4.5                  PASS     
+  E2   GPT-5.4                    PASS     
+  E2   GPT-5.4-mini               PASS     
+  E2   Gemini 3.1 FL              BOUNDARY ('STAR -0.49', 'DIA +0.45', 'TRI +0.10', '+2.7 / +3.8 / +3.4') printed ('STAR -0.49', 'DIA +0.45', 'TRI +0.09', '+2.7 / +3.8 / +3.4')  exact halves: TRI/SQR: 2P-1=+0.0950
+  E2   Gemini 3 FP                BOUNDARY ('STAR -0.05', 'DIA +0.12', 'TRI +0.35', '+3.4 / +1.9 / +1.1') printed ('STAR -0.05', 'DIA +0.11', 'TRI +0.35', '+3.4 / +1.9 / +1.1')  exact halves: DIA/SQR: 2P-1=+0.1150
+
+Table F1 (counterbalanced replication)
+  F1   Opus 4.8                   PASS     
+  F1   Sonnet 4.6                 PASS     
+  F1   Haiku 4.5                  PASS     
+  F1   GPT-5.4                    PASS     
+  F1   GPT-5.4-mini               PASS     
+  F1   Gemini 3.1 FL              PASS     
+  F1   Gemini 3 FP                PASS     
+  F.2  pooled mean and CI         PASS     mean=-0.1386 CI [-0.2545, -0.0226]
+  F.2  pooled t and p             ERRATUM  t(6)=-2.9247 p=0.02647: correct display t = -2.92, p = 0.026; the preprint prints t = -2.93, p = 0.027 (double-rounded from -2.925 / .0265). Appears in Section 3.1 and Appendix F.2.
+  F.2  Holm survivors             PASS     Sonnet 4.6, Opus 4.8, GPT-5.4
+  F.2  Gemini 3 FP all four pairs + PASS     [0.02  0.02  0.135 0.1  ]
+  F.2  within-pair order          PASS     -0.0171 [-0.1147, +0.0805] p=0.682
+  F.2  interaction AS PRINTED     PASS     global-index centring: +0.0051 [+0.0023, +0.0079] p=0.0004  (reproduces the preprint's mis-centred value)
+  F.2  interaction CORRECTED      INFO     within-model centring: +0.0076 [-0.0173, +0.0324] p=0.552  (not detectable; use this in any revision)
+  F.1  order-win correlations     PASS     minimalist: r=-0.095 p=0.52; informed: r=+0.172 p=0.24 (within-model-centred win rate)
+  F.1  mean |last - first|        PASS     0.0354
+
+Table F2 (informed condition: main / replication)
+  F2   Opus 4.8                   BOUNDARY ('.406 / .391', '+7.2 / +7.3', '.685 / .753') printed ('.406 / .391', '+7.2 / +7.3', '.685 / .752')  exact halves: act rep=0.7525
+  F2   Sonnet 4.6                 PASS     
+  F2   Haiku 4.5                  PASS     
+  F2   GPT-5.4                    BOUNDARY ('.261 / .169', '0.0 / +0.1', '.863 / .953') printed ('.261 / .169', '0.0 / +0.1', '.863 / .952')  exact halves: act rep=0.9525
+  F2   GPT-5.4-mini               PASS     
+  F2   Gemini 3.1 FL              PASS     
+  F2   Gemini 3 FP                PASS     
+
+SUMMARY  PASS 53  BOUNDARY 6  ERRATUM 1  FAIL 0  INFO 1
+BOUNDARY = value is an exact rounding half; both printed renderings are correct.
+ERRATUM  = the data reproduce, but the printed number is a rounding slip; corrected value shown.
+PASS

@@ -1,0 +1,262 @@
+schema_version,client_version,prompt_version,parser_version,harness_commit,run_id,session_id,session_index,request_id,collected_utc,trial_utc,model,model_group,model_display,served_model,provider,generation_id,prompt_mode,opponent,binomial_tail,temperature,top_p,reasoning_config,max_tokens,desc_window,compact_window,master_seed,session_seed,n_trials,openai_lib_version,python_version,os_platform,command_line,session_started_utc,max_tokens_ceiling,escalate_on_truncation,on_truncation,trial,total_trial,subject_choice,computer_choice,subject_win,opp_action_type,opp_ranval,predicted_subject_side,winning_channel,winning_channel_bias,n_channels_active,n0_sign,n1_sign,n2_sign,n3_sign,n4_sign,n5_sign,n6_sign,n7_sign,n8_sign,n0_bside,n1_bside,n2_bside,n3_bside,n4_bside,n5_bside,n6_bside,n7_bside,n8_bside,n0_bsideprob,n1_bsideprob,n2_bsideprob,n3_bsideprob,n4_bsideprob,n5_bsideprob,n6_bsideprob,n7_bsideprob,n8_bsideprob,choice_source,finish_reason,truncated,max_tokens_used,latency_ms,retries_used,error_message,prompt_tokens,completion_tokens,reasoning_tokens,total_tokens,response_chars,response_text,system_prompt_sha256,user_prompt_sha256,user_prompt_text,history_choices,history_cr,study,protocol_version,opponent_version,harness_dirty,legacy_code_identical,legacy_files_sha256,family,system_fingerprint,condition_code,role,payoff_rule,block_id,block_position,within_block_position,within_model_position,global_session_order,order_sequence_id,block_seed,temperature_param_status,config_sha256,schedule_sha256,attempt_number,session_completion_status,invalid_response,machine,output_file,computer_win,cum_wins,counteraction_target,predicted_choice_probability,history_computer_choices,parse_last_line_choice,parse_agrees_last_line,native_finish_reason,n_attempts,attempts_json
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,bccbb80f-6987-45eb-b1ad-87ee86b3e015,9004,a9696260-2d46-4553-9446-d5b9906f937d,2026-11-15T02:55:09.233756+00:00,2026-11-15T02:55:07.997063+00:00,anthropic/claude-opus-4.8,opus,Claude Opus 4.8,anthropic/claude-opus-4.8,Claude Platform on AWS,gen-1794711309-laYM27HblbZeIzkPBWij,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,2011914197,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only opus --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:55:07.996573+00:00,80000,True,abort,1,1,S,T,1,random_no_detection,0.1133728193,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1236,0,,286,25,0,311,57,"I'll make my choice randomly to stay unpredictable.
+
+STAR",6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,c17faf00eedb5de2eeb3784dd857e800c2ca369831d95ce8a1770e57e6813d5c,"No previous rounds yet.
+
+Your action:",,,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),1,1,4,4,4,rot0,2011414197,not_applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,opus_roleproteus_XI_t0p0_s9004_20261114-215507.csv,0,1,,,,S,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":25,""latency_ms"":1236,""provider"":""Claude Platform on AWS""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,bccbb80f-6987-45eb-b1ad-87ee86b3e015,9004,c243c494-4b18-437e-adcc-bf91c42fab7b,2026-11-15T02:55:10.793576+00:00,2026-11-15T02:55:09.234292+00:00,anthropic/claude-opus-4.8,opus,Claude Opus 4.8,anthropic/claude-opus-4.8,Claude Platform on AWS,gen-1794711311-u4afqud6zVrt7AFYXV52,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,2011914197,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only opus --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:55:07.996573+00:00,80000,True,abort,2,2,T,S,1,random_no_detection,0.9640610324,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1558,0,,363,34,0,397,83,"I need to pick randomly, independent of history. Flipping my mental coin.
+
+TRIANGLE",6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,a0a64bdb51b3abbfed50a83472c56d2ca3f46b3f41318a1224f69a2827c08b98,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 1 choice:     S
+Blue circle landed on:  T
+
+Your action:",S,S1,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),1,1,4,4,4,rot0,2011414197,not_applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,opus_roleproteus_XI_t0p0_s9004_20261114-215507.csv,0,2,,,T,T,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":34,""latency_ms"":1558,""provider"":""Claude Platform on AWS""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,bccbb80f-6987-45eb-b1ad-87ee86b3e015,9004,6771e6d6-36eb-4ffc-b3b1-32741955ed04,2026-11-15T02:55:12.297913+00:00,2026-11-15T02:55:10.794083+00:00,anthropic/claude-opus-4.8,opus,Claude Opus 4.8,anthropic/claude-opus-4.8,Claude Platform on AWS,gen-1794711312-9sZ5HzMEgFUcB97gcdbs,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,2011914197,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only opus --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:55:07.996573+00:00,80000,True,abort,3,3,S,T,1,random_no_detection,0.2554935961,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1503,0,,388,26,0,414,57,"I need to stay unpredictable. Let me pick randomly.
+
+STAR",6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,82e45ae2803dc18c4de7d086aae7ae1d12085b5e594848923aa58e1119d63ce7,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 2 choices:    S T
+Blue circle landed on:  T S
+
+Your action:",ST,S1T1,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),1,1,4,4,4,rot0,2011414197,not_applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,opus_roleproteus_XI_t0p0_s9004_20261114-215507.csv,0,3,,,TS,S,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":26,""latency_ms"":1503,""provider"":""Claude Platform on AWS""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,bccbb80f-6987-45eb-b1ad-87ee86b3e015,9004,12b4c003-e9e7-4a36-82c5-d788171b0c9c,2026-11-15T02:55:13.640623+00:00,2026-11-15T02:55:12.298269+00:00,anthropic/claude-opus-4.8,opus,Claude Opus 4.8,anthropic/claude-opus-4.8,Claude Platform on AWS,gen-1794711314-rpyET6rVMzJcj81Dyq4k,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,2011914197,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only opus --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:55:07.996573+00:00,80000,True,abort,4,4,S,T,1,random_no_detection,0.4013190768,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1342,0,,413,28,0,441,74,"I need to stay unpredictable. I'll make a random independent choice.
+
+STAR",6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,d45f700fa928324fe95a18ea813da98b9a9f3d6383f28ae09596ea76b734fc34,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 3 choices:    S T S
+Blue circle landed on:  T S T
+
+Your action:",STS,S1T1S1,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),1,1,4,4,4,rot0,2011414197,not_applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,opus_roleproteus_XI_t0p0_s9004_20261114-215507.csv,0,4,,,TST,S,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":28,""latency_ms"":1342,""provider"":""Claude Platform on AWS""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,bccbb80f-6987-45eb-b1ad-87ee86b3e015,9004,24f0b6f6-d8de-4763-b569-8b1cc6bad60e,2026-11-15T02:55:15.040319+00:00,2026-11-15T02:55:13.640752+00:00,anthropic/claude-opus-4.8,opus,Claude Opus 4.8,anthropic/claude-opus-4.8,Claude Platform on AWS,gen-1794711315-nhfNdRuM8PewbRgKyuql,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,2011914197,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only opus --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:55:07.996573+00:00,80000,True,abort,5,5,S,T,1,random_no_detection,0.4587408005,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1399,0,,438,33,0,471,89,"I need to choose randomly, independent of past choices. Let me flip my mental coin.
+
+STAR",6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,c607022658c9f6ccbe2ffbc0ad59db259bde75e5af413bc2c94640301ef78a66,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 4 choices:    S T S S
+Blue circle landed on:  T S T T
+
+Your action:",STSS,S1T1S1S1,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),1,1,4,4,4,rot0,2011414197,not_applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,opus_roleproteus_XI_t0p0_s9004_20261114-215507.csv,0,5,,,TSTT,S,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":33,""latency_ms"":1399,""provider"":""Claude Platform on AWS""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,bccbb80f-6987-45eb-b1ad-87ee86b3e015,9004,16379bff-9b60-4d70-836a-fb04c14451c0,2026-11-15T02:55:16.617162+00:00,2026-11-15T02:55:15.040604+00:00,anthropic/claude-opus-4.8,opus,Claude Opus 4.8,anthropic/claude-opus-4.8,Claude Platform on AWS,gen-1794711316-E3C2lsPyO9AKck3M2U2h,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,2011914197,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only opus --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:55:07.996573+00:00,80000,True,abort,6,6,T,S,1,random_no_detection,0.8469876516,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1576,0,,463,47,0,510,103,"I need to stay unpredictable. I've chosen STAR frequently lately, so I'll flip a mental coin.
+
+TRIANGLE",6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,384239a277202da0249fffb038f0a85ea4a68662a68f9bba4a70f890cbfb324c,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 5 choices:    S T S S S
+Blue circle landed on:  T S T T T
+
+Your action:",STSSS,S1T1S1S1S1,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),1,1,4,4,4,rot0,2011414197,not_applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,opus_roleproteus_XI_t0p0_s9004_20261114-215507.csv,0,6,,,TSTTT,T,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":47,""latency_ms"":1576,""provider"":""Claude Platform on AWS""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,bccbb80f-6987-45eb-b1ad-87ee86b3e015,9004,e9e96d6d-2ba4-41c2-94fc-b4761ea5d96e,2026-11-15T02:55:17.823801+00:00,2026-11-15T02:55:16.617375+00:00,anthropic/claude-opus-4.8,opus,Claude Opus 4.8,anthropic/claude-opus-4.8,Claude Platform on AWS,gen-1794711318-mErIwz3NsOjGRVl6vWm7,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,2011914197,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only opus --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:55:07.996573+00:00,80000,True,abort,7,7,S,S,0,random_no_detection,0.5280942982,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1205,0,,465,27,0,492,66,"I need to pick randomly, 50/50, independent of past choices.
+
+STAR",6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,91a6a7c4fabd81c1e07800f3d763a1df4f7c25d1ae98ccda8995aadb7f5d99b4,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 6 choices:    S T S S S T
+Blue circle landed on:  T S T T T S
+
+Your action:",STSSST,S1T1S1S1S1T1,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),1,1,4,4,4,rot0,2011414197,not_applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,opus_roleproteus_XI_t0p0_s9004_20261114-215507.csv,1,6,,,TSTTTS,S,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":27,""latency_ms"":1205,""provider"":""Claude Platform on AWS""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,bccbb80f-6987-45eb-b1ad-87ee86b3e015,9004,59caa5d3-268b-4a24-b8fb-41da12ca4778,2026-11-15T02:55:19.439598+00:00,2026-11-15T02:55:17.824213+00:00,anthropic/claude-opus-4.8,opus,Claude Opus 4.8,anthropic/claude-opus-4.8,Claude Platform on AWS,gen-1794711319-HUTsnHBeahcBwPup9YgT,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,2011914197,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only opus --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:55:07.996573+00:00,80000,True,abort,8,8,T,S,1,random_no_detection,0.6992495043,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1614,0,,463,37,0,500,98,"I need to choose randomly, independent of past choices. Let me pick without any pattern.
+
+TRIANGLE",6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,5a996f62d8c233200c2cd2b98031787a8be3007ac4a8e9c87cbc2993261a61e2,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 7 choices:    S T S S S T S
+Blue circle landed on:  T S T T T S S
+
+Your action:",STSSSTS,S1T1S1S1S1T1S0,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),1,1,4,4,4,rot0,2011414197,not_applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,opus_roleproteus_XI_t0p0_s9004_20261114-215507.csv,0,7,,,TSTTTSS,T,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":37,""latency_ms"":1614,""provider"":""Claude Platform on AWS""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,bccbb80f-6987-45eb-b1ad-87ee86b3e015,9004,6607600c-48ac-473b-97a8-7619241ec990,2026-11-15T02:55:20.750023+00:00,2026-11-15T02:55:19.440011+00:00,anthropic/claude-opus-4.8,opus,Claude Opus 4.8,anthropic/claude-opus-4.8,Claude Platform on AWS,gen-1794711321-og3EPkv6jMCrVl9csqhZ,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,2011914197,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only opus --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:55:07.996573+00:00,80000,True,abort,9,9,S,T,1,random_no_detection,0.3953577934,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1309,0,,465,32,0,497,85,"I need to choose randomly, independent of history. Let me mentally flip a coin.
+
+STAR",6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,d70bcf7e8c3a6469641fce611ab7b525d4af0de465008fd9ca93f005384a86b2,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 8 choices:    S T S S S T S T
+Blue circle landed on:  T S T T T S S S
+
+Your action:",STSSSTST,S1T1S1S1S1T1S0T1,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),1,1,4,4,4,rot0,2011414197,not_applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,opus_roleproteus_XI_t0p0_s9004_20261114-215507.csv,0,8,,,TSTTTSSS,S,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":32,""latency_ms"":1309,""provider"":""Claude Platform on AWS""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,bccbb80f-6987-45eb-b1ad-87ee86b3e015,9004,4b257e7b-4e36-45ab-a7ff-806f6a65cab7,2026-11-15T02:55:22.126089+00:00,2026-11-15T02:55:20.750433+00:00,anthropic/claude-opus-4.8,opus,Claude Opus 4.8,anthropic/claude-opus-4.8,Claude Platform on AWS,gen-1794711322-EbVnqpkph5MFyIEoQg8i,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,2011914197,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only opus --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:55:07.996573+00:00,80000,True,abort,10,10,S,S,0,random_no_detection,0.9150957826,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1374,0,,467,35,0,502,97,"I need to choose randomly, independent of history. Let me pick based on a mental coin flip.
+
+STAR",6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,7ea00c6935f1bea093d76ce8214cc6dacbb0c2fe7671709b639bf1d8fac04ee4,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 9 choices:    S T S S S T S T S
+Blue circle landed on:  T S T T T S S S T
+
+Your action:",STSSSTSTS,S1T1S1S1S1T1S0T1S1,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),1,1,4,4,4,rot0,2011414197,not_applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,opus_roleproteus_XI_t0p0_s9004_20261114-215507.csv,1,8,,,TSTTTSSST,S,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":35,""latency_ms"":1375,""provider"":""Claude Platform on AWS""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,bccbb80f-6987-45eb-b1ad-87ee86b3e015,9004,729a8d1f-718e-43ce-92d7-e537aeb09f41,2026-11-15T02:55:23.543316+00:00,2026-11-15T02:55:22.126536+00:00,anthropic/claude-opus-4.8,opus,Claude Opus 4.8,anthropic/claude-opus-4.8,Claude Platform on AWS,gen-1794711323-KS9t8o9mD7U0CBYfJFxU,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,2011914197,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only opus --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:55:07.996573+00:00,80000,True,abort,11,11,T,S,1,random_no_detection,0.6791420959,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1416,0,,465,37,0,502,78,"I need to pick randomly, ignoring patterns. Flipping my mental coin.
+
+TRIANGLE",6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,8416f1140607b70748f7ce28151528689ebdc6e7a21f65a495584b9cc618b583,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 10 choices:   S T S S S T S T S S
+Blue circle landed on:  T S T T T S S S T S
+
+Your action:",STSSSTSTSS,S1T1S1S1S1T1S0T1S1S0,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),1,1,4,4,4,rot0,2011414197,not_applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,opus_roleproteus_XI_t0p0_s9004_20261114-215507.csv,0,9,,,TSTTTSSSTS,T,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":37,""latency_ms"":1416,""provider"":""Claude Platform on AWS""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,bccbb80f-6987-45eb-b1ad-87ee86b3e015,9004,436c411d-dee4-4d2c-afa0-e58b9f0ab8e1,2026-11-15T02:55:24.783023+00:00,2026-11-15T02:55:23.543730+00:00,anthropic/claude-opus-4.8,opus,Claude Opus 4.8,anthropic/claude-opus-4.8,Claude Platform on AWS,gen-1794711325-t0AYdpnQG46M3rMHvIdD,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,2011914197,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only opus --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:55:07.996573+00:00,80000,True,abort,12,12,S,S,0,random_no_detection,0.7117093908,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1238,0,,467,29,0,496,73,"I need to pick randomly, independent of history. I'll go with STAR.
+
+STAR",6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,a5f159e0b6187601c04cb92ed2776be0747b256726615eb7f06e9adcc02aef09,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 11 choices:   S T S S S T S T S S T
+Blue circle landed on:  T S T T T S S S T S S
+
+Your action:",STSSSTSTSST,S1T1S1S1S1T1S0T1S1S0T1,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),1,1,4,4,4,rot0,2011414197,not_applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,opus_roleproteus_XI_t0p0_s9004_20261114-215507.csv,1,9,,,TSTTTSSSTSS,S,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":29,""latency_ms"":1238,""provider"":""Claude Platform on AWS""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,bccbb80f-6987-45eb-b1ad-87ee86b3e015,9004,1292020f-f529-4003-9b07-10505b92b15f,2026-11-15T02:55:26.210182+00:00,2026-11-15T02:55:24.783450+00:00,anthropic/claude-opus-4.8,opus,Claude Opus 4.8,anthropic/claude-opus-4.8,Claude Platform on AWS,gen-1794711326-78mq8YcBMhMqeiuXnv3m,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,2011914197,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only opus --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:55:07.996573+00:00,80000,True,abort,13,13,T,S,1,random_no_detection,0.9161286703,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1426,0,,469,38,0,507,79,"I need to pick randomly, ignoring patterns. I'll flip my mental coin.
+
+TRIANGLE",6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,2a9c2b4a00ef967077d310261daa4f8213169246186c588bfd71b449d5856df2,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 12 choices:   S T S S S T S T S S T S
+Blue circle landed on:  T S T T T S S S T S S S
+
+Your action:",STSSSTSTSSTS,S1T1S1S1S1T1S0T1S1S0T1S0,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),1,1,4,4,4,rot0,2011414197,not_applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,opus_roleproteus_XI_t0p0_s9004_20261114-215507.csv,0,10,,,TSTTTSSSTSSS,T,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":38,""latency_ms"":1426,""provider"":""Claude Platform on AWS""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,bccbb80f-6987-45eb-b1ad-87ee86b3e015,9004,1c560224-af26-44dc-88ae-413e9e8d5bc2,2026-11-15T02:55:27.773662+00:00,2026-11-15T02:55:26.210600+00:00,anthropic/claude-opus-4.8,opus,Claude Opus 4.8,anthropic/claude-opus-4.8,Claude Platform on AWS,gen-1794711328-nfHx9dPJFGIyoxmDrcil,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,2011914197,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only opus --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:55:07.996573+00:00,80000,True,abort,14,14,T,T,0,random_no_detection,0.1141488686,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1562,0,,471,38,0,509,95,"I need to choose randomly, like flipping a fair coin, without any detectable pattern.
+
+TRIANGLE",6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,024a58e7b70ec9a9ec2a3757d75602084002017654ec529a2e6eba179eb0f366,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 13 choices:   S T S S S T S T S S T S T
+Blue circle landed on:  T S T T T S S S T S S S S
+
+Your action:",STSSSTSTSSTST,S1T1S1S1S1T1S0T1S1S0T1S0T1,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),1,1,4,4,4,rot0,2011414197,not_applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,opus_roleproteus_XI_t0p0_s9004_20261114-215507.csv,1,10,,,TSTTTSSSTSSSS,T,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":38,""latency_ms"":1562,""provider"":""Claude Platform on AWS""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,bccbb80f-6987-45eb-b1ad-87ee86b3e015,9004,3d224c07-1c7b-4401-9aae-31e12da7d0b0,2026-11-15T02:55:29.221371+00:00,2026-11-15T02:55:27.774188+00:00,anthropic/claude-opus-4.8,opus,Claude Opus 4.8,anthropic/claude-opus-4.8,Claude Platform on AWS,gen-1794711329-eHSqkaKF8SJtVDrqRLdn,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,2011914197,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only opus --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:55:07.996573+00:00,80000,True,abort,15,15,S,T,1,random_no_detection,0.2618484118,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1446,0,,477,33,0,510,89,"I need to choose randomly, independent of past choices. Let me flip my mental coin.
+
+STAR",6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,7a3658f01140147be85a5da12ab346410b93392e99d67c8cce047c3ad551d690,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 14 choices:   S T S S S T S T S S T S T T
+Blue circle landed on:  T S T T T S S S T S S S S T
+
+Your action:",STSSSTSTSSTSTT,S1T1S1S1S1T1S0T1S1S0T1S0T1T0,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),1,1,4,4,4,rot0,2011414197,not_applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,opus_roleproteus_XI_t0p0_s9004_20261114-215507.csv,0,11,,,TSTTTSSSTSSSST,S,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":33,""latency_ms"":1446,""provider"":""Claude Platform on AWS""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,bccbb80f-6987-45eb-b1ad-87ee86b3e015,9004,a238e877-e8a5-4d08-bd00-9d063632845a,2026-11-15T02:55:30.606773+00:00,2026-11-15T02:55:29.221924+00:00,anthropic/claude-opus-4.8,opus,Claude Opus 4.8,anthropic/claude-opus-4.8,Claude Platform on AWS,gen-1794711331-dGLh1VWPRVLNZz72jYvv,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,2011914197,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only opus --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:55:07.996573+00:00,80000,True,abort,16,16,T,T,0,random_no_detection,0.4919316794,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1384,0,,483,29,0,512,65,"I need to pick randomly, 50/50, independent of history.
+
+TRIANGLE",6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,9f3ea228d3cea71610ac6a41da77041807b029f4ae5f95dcc94fd7a9e1b829ca,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 15 choices:   S T S S S T S T S S T S T T S
+Blue circle landed on:  T S T T T S S S T S S S S T T
+
+Your action:",STSSSTSTSSTSTTS,S1T1S1S1S1T1S0T1S1S0T1S0T1T0S1,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),1,1,4,4,4,rot0,2011414197,not_applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,opus_roleproteus_XI_t0p0_s9004_20261114-215507.csv,1,11,,,TSTTTSSSTSSSSTT,T,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":29,""latency_ms"":1384,""provider"":""Claude Platform on AWS""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,bccbb80f-6987-45eb-b1ad-87ee86b3e015,9004,bcad91f9-4018-48d7-a2a6-39c567387890,2026-11-15T02:55:31.979362+00:00,2026-11-15T02:55:30.607246+00:00,anthropic/claude-opus-4.8,opus,Claude Opus 4.8,anthropic/claude-opus-4.8,Claude Platform on AWS,gen-1794711332-V0uTgtZcX58pi5h3o4eq,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,2011914197,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only opus --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:55:07.996573+00:00,80000,True,abort,17,17,S,S,0,random_no_detection,0.5510420988,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1371,0,,489,24,0,513,53,"I need to stay unpredictable, like a coin flip.
+
+STAR",6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,efcd570a3323630ea99903e5b7c0bb8b89c70953368a8f0d9f8334a6a257557b,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 16 choices:   S T S S S T S T S S T S T T S T
+Blue circle landed on:  T S T T T S S S T S S S S T T T
+
+Your action:",STSSSTSTSSTSTTST,S1T1S1S1S1T1S0T1S1S0T1S0T1T0S1T0,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),1,1,4,4,4,rot0,2011414197,not_applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,opus_roleproteus_XI_t0p0_s9004_20261114-215507.csv,1,11,,,TSTTTSSSTSSSSTTT,S,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":24,""latency_ms"":1371,""provider"":""Claude Platform on AWS""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,bccbb80f-6987-45eb-b1ad-87ee86b3e015,9004,f6bdc469-a0b5-464f-9875-78b02564ab69,2026-11-15T02:55:33.140840+00:00,2026-11-15T02:55:31.979947+00:00,anthropic/claude-opus-4.8,opus,Claude Opus 4.8,anthropic/claude-opus-4.8,Claude Platform on AWS,gen-1794711333-8ewLJs9yDN34KE0WDRSC,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,2011914197,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only opus --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:55:07.996573+00:00,80000,True,abort,18,18,S,T,1,random_no_detection,0.2862718903,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1160,0,,491,23,0,514,47,"I'll pick randomly to stay unpredictable.
+
+STAR",6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,1c94eab112039080b983107debb4b7042b55001313eaaaaa2bb620589742fa45,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 17 choices:   S T S S S T S T S S T S T T S T S
+Blue circle landed on:  T S T T T S S S T S S S S T T T S
+
+Your action:",STSSSTSTSSTSTTSTS,S1T1S1S1S1T1S0T1S1S0T1S0T1T0S1T0S0,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),1,1,4,4,4,rot0,2011414197,not_applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,opus_roleproteus_XI_t0p0_s9004_20261114-215507.csv,0,12,,,TSTTTSSSTSSSSTTTS,S,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":23,""latency_ms"":1160,""provider"":""Claude Platform on AWS""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,bccbb80f-6987-45eb-b1ad-87ee86b3e015,9004,0a629ffd-2320-4e0a-b3cf-a8d0ae154026,2026-11-15T02:55:34.379069+00:00,2026-11-15T02:55:33.141281+00:00,anthropic/claude-opus-4.8,opus,Claude Opus 4.8,anthropic/claude-opus-4.8,Claude Platform on AWS,gen-1794711334-tyJToNhy3YaMD9V4tN2z,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,2011914197,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only opus --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:55:07.996573+00:00,80000,True,abort,19,19,T,T,0,random_no_detection,0.1087069132,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1236,0,,493,40,0,533,86,"I need to pick randomly, ignoring patterns. I'll go with a mental coin flip.
+
+TRIANGLE",6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,d762dbc1c02c9b4a5ac73b16f54e97da9f288041721149d7d2c40853686458e0,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 18 choices:   S T S S S T S T S S T S T T S T S S
+Blue circle landed on:  T S T T T S S S T S S S S T T T S T
+
+Your action:",STSSSTSTSSTSTTSTSS,S1T1S1S1S1T1S0T1S1S0T1S0T1T0S1T0S0S1,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),1,1,4,4,4,rot0,2011414197,not_applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,opus_roleproteus_XI_t0p0_s9004_20261114-215507.csv,1,12,,,TSTTTSSSTSSSSTTTST,T,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":40,""latency_ms"":1236,""provider"":""Claude Platform on AWS""}]"
+paca-role-contrast-v1,role-client-v1,paca-role-contrast-v1,parse_choice-v1,ae3ce14,582a90d2-e7d1-4d26-861f-45be2c21d370,bccbb80f-6987-45eb-b1ad-87ee86b3e015,9004,3d4a9a5b-e19b-4eef-88b4-4fecb949a4c5,2026-11-15T02:55:35.858598+00:00,2026-11-15T02:55:34.379613+00:00,anthropic/claude-opus-4.8,opus,Claude Opus 4.8,anthropic/claude-opus-4.8,Claude Platform on AWS,gen-1794711336-6Yvnnp5XuSLE4YAf4uQT,informed,proteus,two_tailed,0.0,,default,20000,5,25,20261114,2011914197,20,2.44.0,3.14.5,Windows-11-10.0.26200-SP0,role_contrast/run_role.py --pilot --only opus --run-id 582a90d2-e7d1-4d26-861f-45be2c21d370,2026-11-15T02:55:07.996573+00:00,80000,True,abort,20,20,S,S,0,random_no_detection,0.5492791451,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1478,0,,495,32,0,527,94,"I need to stay random and unpredictable. Let me just pick without following any pattern.
+
+STAR",6334f297102b074bc7b1a85ced35c04ae19b3ab8d4bec8d29307db77c0ad77f2,54df71a62795ba162646cb60db2a7455438a35681e4883d05851ab091903d400,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 19 choices:   S T S S S T S T S S T S T T S T S S T
+Blue circle landed on:  T S T T T S S S T S S S S T T T S T T
+
+Your action:",STSSSTSTSSTSTTSTSST,S1T1S1S1S1T1S0T1S1S0T1S0T1T0S1T0S0S1T0,paca_role_contrast_v1,paca-role-contrast-v1,role-proteus-v1,True,True,"{""prompts.py"":""254474a88a60fc20577d6201e692743373aad77be104fa410bdc709d7815f3fb"",""protean_committed.py"":""86893d95a49ef12a152db2530c68ca5b437c8ff0eda50c481d39df83de720ca2"",""api_client.py"":""29e032a2abd8c60a1b0dba99aeb806cab985a5abec40e82c94945febba400882""}",Anthropic,,XI,mismatcher,subject_win = int(subject_choice != computer_choice),1,1,4,4,4,rot0,2011414197,not_applied,41c9e71ecaff339ba1c94e9f0288ab04221dec4f6198da4708d2015332de6e1e,2fa21c569e145b58ad5bafa97cd2c587901a475d2a522b98332045f28788a723,1,complete,0,AMD64,opus_roleproteus_XI_t0p0_s9004_20261114-215507.csv,1,12,,,TSTTTSSSTSSSSTTTSTT,S,True,end_turn,1,"[{""max_tokens"":20000,""attempt"":0,""finish_reason"":""stop"",""completion_tokens"":32,""latency_ms"":1478,""provider"":""Claude Platform on AWS""}]"

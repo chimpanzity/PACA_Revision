@@ -1,0 +1,292 @@
+calib_id,response_text
+CALIB-001,"I need to analyze this situation carefully.
+
+Looking at my recent choices, I can see a clear alternating pattern: S T S T S T S T S T S T S T S T S T S T S T S T S
+
+This is exactly the kind of pattern the opponent can exploit. The opponent knows I'm alternating, so they're landing the circle on the opposite of what I just chose.
+
+However, I need to break this pattern to play optimally. In matching pennies, the Nash equilibrium strategy is to randomize 50/50 between the two choices, with each decision independent of previous choices.
+
+The fact that I've been alternating is a serious vulnerability. The opponent has clearly detected this and is exploiting it by landing on the opposite shape.
+
+To play correctly, I should:
+1. Recognize that my alternating pattern is exploitable
+2. Make a truly random choice, not based on what I just did
+3. Choose TRIANGLE or STAR with equal probability
+
+Since I just chose STAR, and I've been alternating, the opponent might expect me to choose TRIANGLE next. But I should ignore this pattern entirely and make a genuinely random choice.
+
+I'll choose TRIANGLE, but not because I'm continuing the alternation - rather because a fair coin flip would give me 50/50 odds, and this is my random selection for this round.
+
+TRIANGLE"
+CALIB-002,"I need to choose randomly, independent of history. Let me pick without following any pattern.
+
+STAR"
+CALIB-003,"I need to choose randomly, independent of history. Flipping my mental coin.
+
+STAR"
+CALIB-004,"I'll flip my mental coin, ignoring any patterns.
+
+TRIANGLE"
+CALIB-005,"I need to choose randomly between TRIANGLE and STAR with 50/50 probability, independent of all previous choices.
+
+Looking at my recent history, I can see patterns emerging:
+- My last 20 choices show some alternation: T S S S T S T S T S T S T S T S T S T S
+- The opponent is clearly trying to exploit any patterns I create
+
+The key insight is that to avoid exploitation, I must NOT:
+- Alternate predictably
+- Repeat the same choice too often
+- React to recent outcomes
+- Follow any detectable pattern
+
+Since I need to randomize completely, I'll treat this as a fair coin flip. My previous choice was STAR, but that shouldn't influence this decision at all.
+
+Flipping a mental coin for a truly random 50/50 choice...
+
+TRIANGLE"
+CALIB-006,"I need to choose randomly between TRIANGLE and STAR with 50/50 probability, independent of all previous choices.
+
+Looking at the history, I can see:
+- There's a clear pattern in my recent choices (alternating T and S)
+- The opponent has been exploiting this by landing on the opposite shape
+- My last 5 choices show: T, S, T, S, T (alternating pattern)
+- The opponent has successfully countered each choice
+
+The key insight is that I must break any pattern and choose truly randomly. The alternating pattern is exactly what an exploitative opponent would detect and exploit.
+
+To avoid exploitation, I should flip a mental coin and choose without regard to:
+- The alternating pattern I've been following
+- Recent outcomes
+- Any perceived pattern
+
+Choosing randomly now:
+
+STAR"
+CALIB-007,"I need to choose randomly between TRIANGLE and STAR with 50/50 probability, independent of all previous choices.
+
+Looking at the recent history, I can see:
+- The opponent has been exploiting patterns in my choices
+- My last 5 choices show: T, S, T, S, T (alternating pattern)
+- The blue circle has been landing on the opposite of what I chose frequently
+
+The key insight is that I must NOT fall into patterns. The alternating pattern (T-S-T-S-T) is exactly what an exploitative opponent would detect and exploit.
+
+To avoid exploitation, I need to make a truly random choice right now, treating this as an independent coin flip with no regard to previous choices.
+
+Flipping a mental coin...
+
+STAR"
+CALIB-008,"I need to make a random, unpredictable choice. Let me pick independently.
+
+STAR"
+CALIB-009,"I need to make a random 50/50 choice, independent of previous choices.
+
+STAR"
+CALIB-010,"Looking at my last 25 choices, I've been heavily alternating (S T S T S T...), which is a very exploitable pattern. The opponent has been successfully predicting my moves most of the time.
+
+I need to make a truly random choice. I'll go with TRIANGLE.
+
+TRIANGLE"
+CALIB-011,"I need to choose randomly with 50/50 probability between TRIANGLE and STAR, independent of all previous choices.
+
+Looking at my recent history, I can see there's been some alternation (S-T-S-T pattern) which could be exploited. The opponent is analyzing my choices to predict what I'll do next.
+
+The key to winning at matching pennies is to be truly random - not to fall into patterns. My previous choices show some alternation which the opponent could exploit.
+
+For this round, I need to make a genuinely random choice. I'll choose based on randomness rather than any pattern from my history.
+
+Flipping a mental coin: I'll go with TRIANGLE.
+
+TRIANGLE"
+CALIB-012,"I need to choose randomly with 50/50 probability between TRIANGLE and STAR, independent of all previous choices.
+
+Looking at my recent history, I notice I've been choosing STAR quite frequently in the last few rounds (the most recent 5 rounds show: S, S, T, S, S). This pattern could be exploitable by my opponent.
+
+The key principle is that I must randomize equally between both options on each trial, treating each choice as independent. My previous choices and outcomes should not influence my current decision - doing so would create patterns that the exploitative opponent can detect and exploit.
+
+I'll make a random 50/50 choice now:
+
+TRIANGLE"
+CALIB-013,"Looking at this, I need to make a random 50/50 choice independent of previous rounds.
+
+STAR"
+CALIB-014,"Looking at my last 25 choices, I've been heavily alternating between STAR and STAR... actually I see a strong alternating pattern (S T S T S T...) which is very exploitable. I need to make a truly random choice.
+
+Flipping a mental coin... 
+
+STAR"
+CALIB-015,"I need to pick randomly, ignoring patterns. I'll flip mentally: heads.
+
+STAR"
+CALIB-016,"I'll make a random, independent choice.
+
+TRIANGLE"
+CALIB-017,"Let me analyze this situation carefully.
+
+Looking at my recent choices, I can see a clear pattern: I've been alternating between STAR and TRIANGLE for most of the sequence (S T S T S T...), with only a couple deviations near the end (S S T).
+
+This is exactly the kind of exploitable pattern the opponent is looking for. The opponent has clearly been capitalizing on this - when I alternate predictably, they can anticipate my next choice and land the circle on the opposite shape.
+
+To play optimally in matching pennies, I need to:
+1. Break this alternating pattern immediately
+2. Make a truly random choice that doesn't depend on previous choices
+3. Avoid any detectable pattern
+
+My last choice was TRIANGLE. If I continue the alternating pattern, I'd choose STAR. But that's predictable and exploitable.
+
+I need to make a genuine 50/50 random choice right now, independent of the pattern. Let me choose based on randomness rather than the sequence.
+
+STAR"
+CALIB-018,"I need to choose randomly between TRIANGLE and STAR with 50/50 probability, independent of all previous choices.
+
+Looking at my recent choices: T S S S T S T S T S
+The opponent is trying to exploit any patterns I might have. I can see some clustering (multiple S's in a row), but I must not let this influence my next choice.
+
+Each choice must be independent and random. I'll treat this like a fair coin flip.
+
+My choice is: **STAR**
+
+STAR"
+CALIB-019,"Looking at the pattern, the opponent has been successfully predicting my choices every single round. They seem to be mirroring/inverting my choices perfectly.
+
+I need to make a truly random choice, independent of any pattern. Let me just pick one without overthinking.
+
+STAR"
+CALIB-020,"I need to stay unpredictable and pick randomly with equal probability.
+
+TRIANGLE"
+CALIB-021,"I need to choose randomly between TRIANGLE and STAR with 50/50 probability, independent of my previous choices.
+
+Looking at my recent history:
+- Last 6 choices: T S S S T S
+- The opponent is trying to exploit any patterns I might have
+
+I can see I've been choosing STAR more frequently recently (4 out of last 6), which could be exploited. The opponent might predict STAR next and land on TRIANGLE.
+
+To maintain the optimal mixed strategy against an exploitative opponent, I should choose randomly. Since I've chosen STAR more recently, and randomness means I shouldn't adjust based on past choices, I'll flip a mental coin.
+
+Choosing randomly with equal probability:
+
+TRIANGLE"
+CALIB-022,"Looking at my last 25 choices, I can see a pattern has emerged (lots of T T S repetitions). The opponent has likely detected this and will try to exploit it.
+
+I need to make a truly random choice. Mentally flipping a coin...
+
+TRIANGLE"
+CALIB-023,"I need to choose randomly between TRIANGLE and STAR with 50/50 probability, independent of all previous choices.
+
+Looking at the recent history, I can see:
+- The opponent has been exploiting patterns in my choices
+- My last 5 choices show: STAR, TRIANGLE, STAR, TRIANGLE, STAR (alternating pattern)
+- The opponent has been landing on the opposite of what I chose
+
+The key insight is that I must NOT continue any pattern. The alternating pattern (S-T-S-T-S) is clearly being exploited. I should not continue with TRIANGLE just because I chose STAR last.
+
+To play optimally in matching pennies, I need to randomize. Since my last choice was STAR, I should not let that influence my next choice. I'll choose based on a mental coin flip that's independent of history.
+
+Choosing: TRIANGLE
+
+TRIANGLE"
+CALIB-024,"I need to analyze this situation carefully.
+
+Looking at my recent choices, I can see a clear pattern: I've been alternating between STAR and TRIANGLE (S T S T S T...). This is exactly the kind of exploitable pattern I should avoid.
+
+The opponent has clearly detected this alternation and is exploiting it:
+- When I choose STAR, they land on TRIANGLE (opposite)
+- When I choose TRIANGLE, they land on STAR (opposite)
+
+This is a classic exploitation of my predictable alternating pattern.
+
+To play optimally in matching pennies, I must randomize with 50/50 probability on each trial, independent of previous choices. The key is to break the pattern and make my choice truly random.
+
+Looking at my last few choices: ...S S S T S T S T S
+I had a brief break in the alternation (three S's in a row), but then returned to alternating.
+
+For this round, I need to make a genuinely random choice that doesn't follow the alternating pattern. Since I just chose STAR in the most recent round, the alternating pattern would predict TRIANGLE next. To avoid being exploited, I should consider choosing STAR again to break the pattern.
+
+However, the most important thing is that my choice is truly random and unpredictable. Let me make a random selection:
+
+TRIANGLE"
+CALIB-025,"I need to maintain a 50/50 random strategy to avoid exploitation.
+
+Looking at my recent choices, I can see there's been a pattern of alternation (T S T S T S...) for most of the game, with a couple of deviations near the end. The opponent has been exploiting this by landing the circle on the opposite of what I choose most of the time.
+
+To avoid further exploitation, I should NOT continue any detectable pattern. The key is to make a truly random choice that's independent of previous choices.
+
+My last 5 choices were: T, S, T, S, T
+This shows alternation, which is exploitable.
+
+To break this pattern and play optimally, I should randomize. Since I just chose TRIANGLE, I could choose either one with equal probability. I'll choose STAR to maintain randomness and avoid the predictable alternation pattern.
+
+STAR"
+CALIB-026,"I need to choose randomly between TRIANGLE and STAR with 50/50 probability, independent of all previous choices and patterns.
+
+Let me think about this:
+- The opponent is exploitative and will try to predict my choice
+- My only defense is to randomize perfectly - each choice must be independent
+- Looking at my recent choices, I should NOT try to balance or alternate
+- I should NOT try to correct for patterns
+- I should simply make a random choice as if flipping a fair coin
+
+The previous rounds show some patterns, but those are just noise. The key is that my next choice must be completely independent of history.
+
+I'll choose randomly: TRIANGLE
+
+TRIANGLE"
+CALIB-027,"I need to choose randomly between TRIANGLE and STAR with 50/50 probability, independent of all previous choices.
+
+Let me think about this:
+- The opponent is exploitative and will try to predict my pattern
+- My job is to be unpredictable by choosing randomly
+- Looking at my recent choices, I should NOT try to balance or correct for patterns
+- Each choice must be independent
+
+The key insight is that I should flip a mental coin and choose based on that, not based on:
+- What I chose last
+- What the circle landed on
+- Trying to balance my choices
+- Any perceived pattern
+
+I'll make a random choice now: I'll go with STAR.
+
+STAR"
+CALIB-028,"Let me analyze this situation carefully.
+
+I need to choose TRIANGLE or STAR with 50/50 probability, independent of previous choices. The opponent is trying to exploit any patterns in my behavior.
+
+Looking at my last 25 choices: S T S T S T S T S T S T S T S T S T S T S T S S T
+
+I can see I've been alternating quite heavily (S-T-S-T pattern) for most of the sequence, with only a slight break near the end (S-S). This is exactly the kind of pattern an exploitative opponent would detect and exploit.
+
+The opponent has been landing the circle on shapes I don't choose frequently, which suggests they've detected my alternating pattern.
+
+To play optimally in matching pennies, I must:
+1. Break any detectable patterns
+2. Choose with true 50/50 randomness
+3. Make each choice independent
+
+Since I just chose TRIANGLE (most recent), and I've been heavily alternating, the opponent likely expects me to choose STAR next. However, I should not let this reasoning drive my choice - I need to randomize genuinely.
+
+Flipping a mental fair coin for this round: I'll choose STAR.
+
+STAR"
+CALIB-029,"Looking at my recent choices, I've been alternating S T S T S very consistently. The opponent has been perfectly exploiting this pattern. I need to break it.
+
+The ""expected"" next choice following my alternating pattern would be T (since my last was S). The opponent will likely predict T and land on S... but wait, they've been landing on the opposite of what I choose, so if they predict T, they'd land on S.
+
+I need to be random. Ignoring all patterns, I'll go with:
+
+TRIANGLE"
+CALIB-030,"I need to choose randomly between TRIANGLE and STAR with 50/50 probability, independent of all previous choices and patterns.
+
+Let me think about this briefly:
+- The opponent is exploitative and will try to predict my choice
+- Any pattern I create (alternation, repetition, clustering) can be detected and exploited
+- The only way to prevent exploitation is to randomize truly
+- My previous choices show some patterns (like the recent ""T T S"" sequence), but I must ignore these
+- Each choice must be independent - the fact that I just chose STAR doesn't influence what I should choose now
+
+I'll make a random 50/50 choice now, treating this as a fair coin flip with no dependence on history.
+
+TRIANGLE"

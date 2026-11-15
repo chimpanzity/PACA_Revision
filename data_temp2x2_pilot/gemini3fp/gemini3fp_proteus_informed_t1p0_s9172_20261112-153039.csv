@@ -1,0 +1,262 @@
+schema_version,client_version,prompt_version,parser_version,harness_commit,run_id,session_id,session_index,request_id,collected_utc,trial_utc,model,model_group,model_display,served_model,provider,generation_id,prompt_mode,opponent,binomial_tail,temperature,top_p,reasoning_config,max_tokens,desc_window,compact_window,master_seed,session_seed,n_trials,openai_lib_version,python_version,os_platform,command_line,session_started_utc,max_tokens_ceiling,escalate_on_truncation,on_truncation,trial,total_trial,subject_choice,computer_choice,subject_win,opp_action_type,opp_ranval,predicted_subject_side,winning_channel,winning_channel_bias,n_channels_active,n0_sign,n1_sign,n2_sign,n3_sign,n4_sign,n5_sign,n6_sign,n7_sign,n8_sign,n0_bside,n1_bside,n2_bside,n3_bside,n4_bside,n5_bside,n6_bside,n7_bside,n8_bside,n0_bsideprob,n1_bsideprob,n2_bsideprob,n3_bsideprob,n4_bsideprob,n5_bsideprob,n6_bsideprob,n7_bsideprob,n8_bsideprob,choice_source,finish_reason,truncated,max_tokens_used,latency_ms,retries_used,error_message,prompt_tokens,completion_tokens,reasoning_tokens,total_tokens,response_chars,response_text,system_prompt_sha256,user_prompt_sha256,user_prompt_text,history_choices,history_cr
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,217f080c-df7d-452c-aeef-2ffdf7622402,9172,d16b24da-6d6e-499f-8069-c10bd590467a,2026-11-12T20:30:40.609263+00:00,2026-11-12T20:30:39.271163+00:00,google/gemini-3-flash-preview,gemini3fp,Gemini 3 Flash Preview,google/gemini-3-flash-preview,Google,gen-1794515438-fJHlLxWRxowhyPE6Mvu9,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612086,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model google/gemini-3-flash-preview --model-group gemini3fp --model-display Gemini 3 Flash Preview --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9172 --session-seed 20261612086 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:30:39.251040+00:00,80000,True,abort,1,1,T,S,0,random_no_detection,0.715059,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1337,0,,180,36,0,216,186,"To maintain a Nash equilibrium and prevent the opponent from exploiting any predictable patterns, I will choose my first action randomly with a 50% probability for each option.
+
+TRIANGLE",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,c17faf00eedb5de2eeb3784dd857e800c2ca369831d95ce8a1770e57e6813d5c,"No previous rounds yet.
+
+Your action:",,
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,217f080c-df7d-452c-aeef-2ffdf7622402,9172,3f6ff228-fb36-49b6-9602-220c6c92b25c,2026-11-12T20:30:42.036027+00:00,2026-11-12T20:30:40.609407+00:00,google/gemini-3-flash-preview,gemini3fp,Gemini 3 Flash Preview,google/gemini-3-flash-preview,Google,gen-1794515440-glmQrE1XPa2dw6rD53uZ,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612086,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model google/gemini-3-flash-preview --model-group gemini3fp --model-display Gemini 3 Flash Preview --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9172 --session-seed 20261612086 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:30:39.251040+00:00,80000,True,abort,2,2,S,T,0,random_no_detection,0.413360,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1426,0,,231,55,0,286,260,"To prevent the opponent from exploiting any potential patterns or reactions to the previous round, I must ensure my choice is determined by a random 50/50 process, independent of the fact that the circle landed on STAR last time or that I chose TRIANGLE.
+
+STAR",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,6ea1846318a41f370063752db01955ae5288493bb280e87c62710b2f8e60f0ce,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 1 choice:     T
+Blue circle landed on:  S
+
+Your action:",T,T0
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,217f080c-df7d-452c-aeef-2ffdf7622402,9172,285151bd-302e-4b69-8925-3a7b1ea46bf0,2026-11-12T20:30:43.523751+00:00,2026-11-12T20:30:42.083668+00:00,google/gemini-3-flash-preview,gemini3fp,Gemini 3 Flash Preview,google/gemini-3-flash-preview,Google,gen-1794515441-NxYpOfAZSuLboL8ghvg1,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612086,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model google/gemini-3-flash-preview --model-group gemini3fp --model-display Gemini 3 Flash Preview --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9172 --session-seed 20261612086 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:30:39.251040+00:00,80000,True,abort,3,3,T,T,1,random_no_detection,0.476569,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1439,0,,245,43,0,288,214,"To remain unpredictable and prevent exploitation by the opponent, I must choose between TRIANGLE and STAR with a 50/50 probability, ensuring my decision is independent of all previous rounds and patterns.
+
+TRIANGLE",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,05bcee752b88edbcbf28c4431b74b5b66f0bebb9c29f160b945e2af5956fb3f4,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 2 choices:    T S
+Blue circle landed on:  S T
+
+Your action:",TS,T0S0
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,217f080c-df7d-452c-aeef-2ffdf7622402,9172,4cb1f1a1-c271-4b2f-8857-110c51b95003,2026-11-12T20:30:44.357834+00:00,2026-11-12T20:30:43.523860+00:00,google/gemini-3-flash-preview,gemini3fp,Gemini 3 Flash Preview,google/gemini-3-flash-preview,Google,gen-1794515443-DCOVNi8SkkMnLDco5lWe,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612086,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model google/gemini-3-flash-preview --model-group gemini3fp --model-display Gemini 3 Flash Preview --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9172 --session-seed 20261612086 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:30:39.251040+00:00,80000,True,abort,4,4,S,S,1,random_no_detection,0.545501,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,833,0,,260,47,0,307,217,"To prevent the opponent from detecting a pattern in my choices and to ensure I am playing as randomly as possible, I will choose my next action based on a 50/50 probability, independent of the previous outcomes.
+
+STAR",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,ba9641ed95c63276dd01ebfcfd4251df394c60faf36330b488482b23137a31b3,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 3 choices:    T S T
+Blue circle landed on:  S T T
+
+Your action:",TST,T0S0T1
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,217f080c-df7d-452c-aeef-2ffdf7622402,9172,191bad69-3460-45c5-9e27-47a0177c5d57,2026-11-12T20:30:45.299047+00:00,2026-11-12T20:30:44.357948+00:00,google/gemini-3-flash-preview,gemini3fp,Gemini 3 Flash Preview,google/gemini-3-flash-preview,Google,gen-1794515443-YWwAcg1D5HctEotXyNqY,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612086,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model google/gemini-3-flash-preview --model-group gemini3fp --model-display Gemini 3 Flash Preview --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9172 --session-seed 20261612086 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:30:39.251040+00:00,80000,True,abort,5,5,T,S,0,random_no_detection,0.886268,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,941,0,,273,57,0,330,251,"To remain unpredictable and prevent the opponent from exploiting patterns like the alternation (T, S, T, S) seen in the previous rounds, I must make a choice that is independent of the past sequence. I will simulate a 50/50 random selection.
+
+TRIANGLE",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,5b25f65ff567d0e004b8c77b23dce1e77229599cadc9d155fdf4ef333a29a207,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 4 choices:    T S T S
+Blue circle landed on:  S T T S
+
+Your action:",TSTS,T0S0T1S1
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,217f080c-df7d-452c-aeef-2ffdf7622402,9172,b6845e3a-bd03-4d54-9038-bbc889df8023,2026-11-12T20:30:46.459901+00:00,2026-11-12T20:30:45.299161+00:00,google/gemini-3-flash-preview,gemini3fp,Gemini 3 Flash Preview,google/gemini-3-flash-preview,Google,gen-1794515444-3dEjyHTT2DqFZcs83cYg,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612086,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model google/gemini-3-flash-preview --model-group gemini3fp --model-display Gemini 3 Flash Preview --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9172 --session-seed 20261612086 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:30:39.251040+00:00,80000,True,abort,6,6,S,S,1,random_no_detection,0.991812,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1160,0,,287,38,0,325,182,"To prevent exploitation by the opponent, I must maintain a 50/50 probability for each choice, ensuring that my current move is independent of all previous outcomes and choices.
+
+STAR",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,ebcbe52cb62ae1cc491feae3f3402eecb52ccb7552249fbb7ae60c08616e52c3,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 5 choices:    T S T S T
+Blue circle landed on:  S T T S S
+
+Your action:",TSTST,T0S0T1S1T0
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,217f080c-df7d-452c-aeef-2ffdf7622402,9172,6759cdaf-a5de-4245-bf1e-a8963ded88e8,2026-11-12T20:30:47.425051+00:00,2026-11-12T20:30:46.460041+00:00,google/gemini-3-flash-preview,gemini3fp,Gemini 3 Flash Preview,google/gemini-3-flash-preview,Google,gen-1794515445-BUgtUCMXdweTdh9bdi9s,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612086,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model google/gemini-3-flash-preview --model-group gemini3fp --model-display Gemini 3 Flash Preview --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9172 --session-seed 20261612086 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:30:39.251040+00:00,80000,True,abort,7,7,T,S,0,random_no_detection,0.983999,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,964,0,,288,48,0,336,231,"To prevent the exploitative opponent from detecting patterns in my choices (such as the recent alternating S-T sequence), I will select my next action randomly, ensuring a 50/50 probability independent of previous rounds.
+
+TRIANGLE",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,386b953a06c917f31fe37de8b51d5c22b27bd7f719a3f61e56c5adc66543119f,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 6 choices:    T S T S T S
+Blue circle landed on:  S T T S S S
+
+Your action:",TSTSTS,T0S0T1S1T0S1
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,217f080c-df7d-452c-aeef-2ffdf7622402,9172,34b9dc1a-2d4d-4c67-ad51-54a4f683bacc,2026-11-12T20:30:48.641669+00:00,2026-11-12T20:30:47.425155+00:00,google/gemini-3-flash-preview,gemini3fp,Gemini 3 Flash Preview,google/gemini-3-flash-preview,Google,gen-1794515446-6Qd9vBbnqyUkDnmrYxNX,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612086,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model google/gemini-3-flash-preview --model-group gemini3fp --model-display Gemini 3 Flash Preview --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9172 --session-seed 20261612086 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:30:39.251040+00:00,80000,True,abort,8,8,T,S,0,random_no_detection,0.922491,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1216,0,,290,40,0,330,197,"To prevent the opponent from detecting a pattern or exploiting my previous choices, I will select my next action randomly, ensuring a 50/50 probability independent of all previous rounds.
+
+TRIANGLE",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,2d037fe2cfd043654127b66329ca0c23a14bcf4b0fca9234ccf6194928d6f4fc,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 7 choices:    T S T S T S T
+Blue circle landed on:  S T T S S S S
+
+Your action:",TSTSTST,T0S0T1S1T0S1T0
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,217f080c-df7d-452c-aeef-2ffdf7622402,9172,b8f739af-3e68-4748-a4bb-222e1e029e4d,2026-11-12T20:30:49.915745+00:00,2026-11-12T20:30:48.641771+00:00,google/gemini-3-flash-preview,gemini3fp,Gemini 3 Flash Preview,google/gemini-3-flash-preview,Google,gen-1794515448-apb8gFIIK0kPCaWXnyCn,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612086,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model google/gemini-3-flash-preview --model-group gemini3fp --model-display Gemini 3 Flash Preview --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9172 --session-seed 20261612086 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:30:39.251040+00:00,80000,True,abort,9,9,T,T,1,random_no_detection,0.365195,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1273,0,,291,37,0,328,185,"To remain unpredictable and prevent the opponent from exploiting a pattern, I will choose my next action randomly, ensuring a 50/50 probability independent of previous rounds.
+
+TRIANGLE",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,366d5a53571f735851345811b324d19ab98a05b0b25e416bb07fe767c883c520,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 8 choices:    T S T S T S T T
+Blue circle landed on:  S T T S S S S S
+
+Your action:",TSTSTSTT,T0S0T1S1T0S1T0T0
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,217f080c-df7d-452c-aeef-2ffdf7622402,9172,f3629098-f211-40a3-9a82-5d57b57d53d1,2026-11-12T20:30:50.684669+00:00,2026-11-12T20:30:49.915947+00:00,google/gemini-3-flash-preview,gemini3fp,Gemini 3 Flash Preview,google/gemini-3-flash-preview,Google,gen-1794515449-4dYqiTIFtkydsvmmChoZ,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612086,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model google/gemini-3-flash-preview --model-group gemini3fp --model-display Gemini 3 Flash Preview --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9172 --session-seed 20261612086 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:30:39.251040+00:00,80000,True,abort,10,10,T,S,0,random_no_detection,0.859976,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,768,0,,295,36,0,331,170,"To maintain a 50/50 probability and remain unpredictable to an exploitative opponent, I will choose my next action randomly, independent of all previous rounds.
+
+TRIANGLE",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,1cece75d663999886ac504499a40e079dd97861115e505c99a66d0f9c72fab3f,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 9 choices:    T S T S T S T T T
+Blue circle landed on:  S T T S S S S S T
+
+Your action:",TSTSTSTTT,T0S0T1S1T0S1T0T0T1
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,217f080c-df7d-452c-aeef-2ffdf7622402,9172,fdbc4a32-2eb7-4799-b2dc-d4093b98696d,2026-11-12T20:30:51.587954+00:00,2026-11-12T20:30:50.684804+00:00,google/gemini-3-flash-preview,gemini3fp,Gemini 3 Flash Preview,google/gemini-3-flash-preview,Google,gen-1794515450-yKFdFxxy47cqdcIc7P8l,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612086,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model google/gemini-3-flash-preview --model-group gemini3fp --model-display Gemini 3 Flash Preview --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9172 --session-seed 20261612086 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:30:39.251040+00:00,80000,True,abort,11,11,S,S,1,random_no_detection,0.909496,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,903,0,,298,33,0,331,194,"To remain unpredictable and prevent exploitation by an opponent who analyzes previous patterns, I must choose my next action randomly, ensuring each choice is independent of past outcomes.
+
+STAR",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,0826d4fbf6f83260ee88d1953a49a0036dc5a92fafd09693aae6bda3df0a2ee0,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 10 choices:   T S T S T S T T T T
+Blue circle landed on:  S T T S S S S S T S
+
+Your action:",TSTSTSTTTT,T0S0T1S1T0S1T0T0T1T0
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,217f080c-df7d-452c-aeef-2ffdf7622402,9172,7da5c896-155f-44dc-b93c-9538e355036c,2026-11-12T20:30:52.831867+00:00,2026-11-12T20:30:51.588100+00:00,google/gemini-3-flash-preview,gemini3fp,Gemini 3 Flash Preview,google/gemini-3-flash-preview,Google,gen-1794515451-a3BhtHbxBVxJkaBHdzv7,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612086,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model google/gemini-3-flash-preview --model-group gemini3fp --model-display Gemini 3 Flash Preview --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9172 --session-seed 20261612086 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:30:39.251040+00:00,80000,True,abort,12,12,T,S,0,random_no_detection,0.583743,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1243,0,,300,47,0,347,230,"To remain unpredictable and prevent the opponent from exploiting patterns in my decision-making, I must choose between TRIANGLE and STAR with a 50/50 probability, ensuring my choice is independent of all previous rounds.
+
+TRIANGLE",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,a33a3e1eb3dc451618025ebeeee0a19dc2d9594366bbcad3efb2f640cd7bda88,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 11 choices:   T S T S T S T T T T S
+Blue circle landed on:  S T T S S S S S T S S
+
+Your action:",TSTSTSTTTTS,T0S0T1S1T0S1T0T0T1T0S1
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,217f080c-df7d-452c-aeef-2ffdf7622402,9172,83b3da07-2f36-406e-a856-f0b8e52afe63,2026-11-12T20:30:53.653655+00:00,2026-11-12T20:30:52.832291+00:00,google/gemini-3-flash-preview,gemini3fp,Gemini 3 Flash Preview,google/gemini-3-flash-preview,Google,gen-1794515452-mbTdk5EZF34NHJzRm0g0,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612086,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model google/gemini-3-flash-preview --model-group gemini3fp --model-display Gemini 3 Flash Preview --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9172 --session-seed 20261612086 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:30:39.251040+00:00,80000,True,abort,13,13,S,T,0,random_no_detection,0.480295,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,820,0,,302,46,0,348,228,"To maintain a Nash Equilibrium and prevent the opponent from identifying a pattern in my behavior, I must choose between TRIANGLE and STAR with a 50% probability, regardless of previous outcomes or the opponent's strategy.
+
+STAR",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,f9ac691ffdbc36220a6092aa2e8a6ff4f723d57e50d699b9f684f2d30b3dac53,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 12 choices:   T S T S T S T T T T S T
+Blue circle landed on:  S T T S S S S S T S S S
+
+Your action:",TSTSTSTTTTST,T0S0T1S1T0S1T0T0T1T0S1T0
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,217f080c-df7d-452c-aeef-2ffdf7622402,9172,96a4ca8e-dbe3-4936-ad32-f575bfee8569,2026-11-12T20:30:54.718035+00:00,2026-11-12T20:30:53.653893+00:00,google/gemini-3-flash-preview,gemini3fp,Gemini 3 Flash Preview,google/gemini-3-flash-preview,Google,gen-1794515453-CSuIuuwAndUitXYwHwK3,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612086,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model google/gemini-3-flash-preview --model-group gemini3fp --model-display Gemini 3 Flash Preview --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9172 --session-seed 20261612086 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:30:39.251040+00:00,80000,True,abort,14,14,T,S,0,random_no_detection,0.893957,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1063,0,,304,43,0,347,225,"To remain unpredictable and prevent the exploitative opponent from detecting a pattern in my choices, I will select my next action randomly, as if by a fair coin flip, ensuring no correlation with previous outcomes.
+
+TRIANGLE",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,68fd326061d6cdddaf9f0d3b5c8f8a9d38dc6a88f29bfcce854f6579669a470d,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 13 choices:   T S T S T S T T T T S T S
+Blue circle landed on:  S T T S S S S S T S S S T
+
+Your action:",TSTSTSTTTTSTS,T0S0T1S1T0S1T0T0T1T0S1T0S0
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,217f080c-df7d-452c-aeef-2ffdf7622402,9172,6c724b13-fc0c-4a14-a6a7-124cfeec76b1,2026-11-12T20:30:56.159558+00:00,2026-11-12T20:30:54.718440+00:00,google/gemini-3-flash-preview,gemini3fp,Gemini 3 Flash Preview,google/gemini-3-flash-preview,Google,gen-1794515454-uiAggp2FFHtk41LQYcbX,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612086,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model google/gemini-3-flash-preview --model-group gemini3fp --model-display Gemini 3 Flash Preview --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9172 --session-seed 20261612086 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:30:39.251040+00:00,80000,True,abort,15,15,T,T,1,random_no_detection,0.184573,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1440,0,,305,74,0,379,328,"To prevent the opponent from exploiting patterns in my play, I must maintain a 50/50 probability for each choice, independent of the previous history. Since the opponent is actively looking for patterns in my sequences (like the recent T-S-T-S-T sequence), I will use a random selection process to decide my next move.
+
+TRIANGLE",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,093ef48e8b28c37801954a8833b818688a367b4001dfb945d50cc309b4235ec0,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 14 choices:   T S T S T S T T T T S T S T
+Blue circle landed on:  S T T S S S S S T S S S T S
+
+Your action:",TSTSTSTTTTSTST,T0S0T1S1T0S1T0T0T1T0S1T0S0T0
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,217f080c-df7d-452c-aeef-2ffdf7622402,9172,bdaf572f-2c21-4450-a059-be0014fa801e,2026-11-12T20:30:59.189320+00:00,2026-11-12T20:30:56.160119+00:00,google/gemini-3-flash-preview,gemini3fp,Gemini 3 Flash Preview,google/gemini-3-flash-preview,Google,gen-1794515455-i7swmNrDmtQb7ObR37Ym,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612086,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model google/gemini-3-flash-preview --model-group gemini3fp --model-display Gemini 3 Flash Preview --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9172 --session-seed 20261612086 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:30:39.251040+00:00,80000,True,abort,16,16,T,T,1,random_no_detection,0.455054,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,3028,0,,308,90,0,398,440,"The opponent is attempting to find a pattern in my history to predict my next move and place the circle on the opposite shape. To remain unexploitable and achieve the optimal Nash equilibrium strategy for matching pennies, I must make my choice based on a random 50/50 process. This ensures that no matter what the opponent predicts based on my previous moves (like the recent sequence of TRIANGLE), my next move is unpredictable.
+
+TRIANGLE",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,55fcee203ca4fcd1d4f871f36c0da57393c49ea4c1778ecdd2a0f233ea09432a,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 15 choices:   T S T S T S T T T T S T S T T
+Blue circle landed on:  S T T S S S S S T S S S T S T
+
+Your action:",TSTSTSTTTTSTSTT,T0S0T1S1T0S1T0T0T1T0S1T0S0T0T1
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,217f080c-df7d-452c-aeef-2ffdf7622402,9172,f33b0b62-b9c1-4a6c-b4db-385b37d65d62,2026-11-12T20:31:00.243735+00:00,2026-11-12T20:30:59.189743+00:00,google/gemini-3-flash-preview,gemini3fp,Gemini 3 Flash Preview,google/gemini-3-flash-preview,Google,gen-1794515458-3o9KegpNNPhPhx0YUzSi,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612086,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model google/gemini-3-flash-preview --model-group gemini3fp --model-display Gemini 3 Flash Preview --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9172 --session-seed 20261612086 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:30:39.251040+00:00,80000,True,abort,17,17,S,S,1,random_no_detection,0.912378,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1053,0,,312,49,0,361,226,"To maintain a 50/50 probability and prevent the exploitative opponent from predicting my next move based on previous patterns (such as the recent run of TRIANGLEs), I will make a choice independent of all prior outcomes.
+
+STAR",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,9dd0f87584aa176c8c9ed7c47bf3e3adb492886f67d068a2876156425002cfb5,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 16 choices:   T S T S T S T T T T S T S T T T
+Blue circle landed on:  S T T S S S S S T S S S T S T T
+
+Your action:",TSTSTSTTTTSTSTTT,T0S0T1S1T0S1T0T0T1T0S1T0S0T0T1T1
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,217f080c-df7d-452c-aeef-2ffdf7622402,9172,d03d656f-a131-4ccd-9d5f-84ea249c4d5b,2026-11-12T20:31:01.787123+00:00,2026-11-12T20:31:00.628158+00:00,google/gemini-3-flash-preview,gemini3fp,Gemini 3 Flash Preview,google/gemini-3-flash-preview,Google,gen-1794515460-PmPuMZGmq3EipRFK71vJ,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612086,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model google/gemini-3-flash-preview --model-group gemini3fp --model-display Gemini 3 Flash Preview --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9172 --session-seed 20261612086 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:30:39.251040+00:00,80000,True,abort,18,18,T,T,1,random_no_detection,0.328900,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,1158,0,,313,42,0,355,193,"To maintain a 50/50 probability and avoid being exploited by the opponent's pattern recognition, I will make my next move based on a random choice independent of the previous history.
+
+TRIANGLE",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,b7578c008755db045e91a71237b625e679e74a570434a63c268220f93e2930a6,"Previous rounds (oldest → most recent):
+  You chose STAR - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 17 choices:   T S T S T S T T T T S T S T T T S
+Blue circle landed on:  S T T S S S S S T S S S T S T T S
+
+Your action:",TSTSTSTTTTSTSTTTS,T0S0T1S1T0S1T0T0T1T0S1T0S0T0T1T1S1
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,217f080c-df7d-452c-aeef-2ffdf7622402,9172,6bffe36e-a89a-446c-b882-023efcc7b514,2026-11-12T20:31:02.628746+00:00,2026-11-12T20:31:01.787226+00:00,google/gemini-3-flash-preview,gemini3fp,Gemini 3 Flash Preview,google/gemini-3-flash-preview,Google,gen-1794515461-ImuUSL4RzKhLrJVbUKR8,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612086,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model google/gemini-3-flash-preview --model-group gemini3fp --model-display Gemini 3 Flash Preview --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9172 --session-seed 20261612086 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:30:39.251040+00:00,80000,True,abort,19,19,S,S,1,random_no_detection,0.712936,,-1,,0,False,False,False,False,False,False,False,False,False,,,,,,,,,,,,,,,,,,,model,stop,False,20000,841,0,,316,48,0,364,214,"To remain unpredictable to an exploitative opponent, I must avoid following any previous patterns or biases. I will choose my next action randomly, as if by a fair coin flip, to maintain a 50/50 distribution.
+
+STAR",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,801063f48493e0889d82cd088aedb9d6e1bb122c6bdfabb20b70fd1f0ac1374d,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 18 choices:   T S T S T S T T T T S T S T T T S T
+Blue circle landed on:  S T T S S S S S T S S S T S T T S T
+
+Your action:",TSTSTSTTTTSTSTTTST,T0S0T1S1T0S1T0T0T1T0S1T0S0T0T1T1S1T1
+proteus-v1,committed-harness-v1,paper1-v1,parse_choice-v1,a7cddf9,c4e385f9-23fe-4864-8b4c-6f8f99f6d89a,217f080c-df7d-452c-aeef-2ffdf7622402,9172,00c24a26-baba-48e2-926f-4fc1de93dc38,2026-11-12T20:31:03.645687+00:00,2026-11-12T20:31:02.754198+00:00,google/gemini-3-flash-preview,gemini3fp,Gemini 3 Flash Preview,google/gemini-3-flash-preview,Google,gen-1794515462-WzUGAzkb7i4F3GzZPgNm,informed,proteus,two_tailed,1.0,,default,20000,5,25,20261112,20261612086,20,3.35.1,3.14.5,Windows-11-10.0.26200-SP0,.\run_session.py --model google/gemini-3-flash-preview --model-group gemini3fp --model-display Gemini 3 Flash Preview --prompt-mode informed --opponent proteus --n-trials 20 --temperature 1.0 --max-tokens 20000 --desc-window 5 --compact-window 25 --master-seed 20261112 --session-index 9172 --session-seed 20261612086 --run-id c4e385f9-23fe-4864-8b4c-6f8f99f6d89a --output-dir data_temp2x2_pilot,2026-11-12T20:30:39.251040+00:00,80000,True,abort,20,20,S,S,1,exploit,0.410989,T,1,100.0000,2,False,True,True,False,False,False,False,False,False,,Triangle,Triangle,,,,,,,,100.0000,100.0000,,,,,,,model,stop,False,20000,891,0,,317,34,0,351,175,"To maintain a 50/50 probability and remain unpredictable against an exploitative opponent, I will use a mental randomization process independent of the previous history.
+
+STAR",c62b4f668d0823c4505cda35a16b1ea947fc103ff49c401b81ce49a9becc80e3,9e7b07e6868ffde65774a1519e1b791041d42313baa1532aaa208651cf405893,"Previous rounds (oldest → most recent):
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR
+  You chose TRIANGLE - blue circle landed on TRIANGLE
+  You chose STAR - blue circle landed on STAR  (most recent)
+
+(grid reads left to right, oldest → most recent)
+Your last 19 choices:   T S T S T S T T T T S T S T T T S T S
+Blue circle landed on:  S T T S S S S S T S S S T S T T S T S
+
+Your action:",TSTSTSTTTTSTSTTTSTS,T0S0T1S1T0S1T0T0T1T0S1T0S0T0T1T1S1T1S1

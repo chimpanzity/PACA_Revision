@@ -1,0 +1,38 @@
+{
+  "primary": {
+    "per_model": {
+      "Claude Haiku 4.5": -0.275,
+      "Claude Opus 4.8": -0.12,
+      "Claude Sonnet 4.6": -0.275,
+      "GPT-5.4": -0.2125,
+      "GPT-5.4-mini": -0.0562,
+      "Gemini 3 Flash Preview": 0.0688,
+      "Gemini 3.1 Flash Lite": -0.1
+    },
+    "pooled_mean": -0.1386,
+    "ci95": [
+      -0.2545,
+      -0.0226
+    ],
+    "t": -2.925,
+    "p": 0.0265,
+    "n_negative": 6,
+    "sign_test_p": 0.125
+  },
+  "secondary_within_pair_order": {
+    "estimate": -0.0171,
+    "ci95": [
+      -0.1147,
+      0.0805
+    ],
+    "p": 0.6824
+  },
+  "secondary_frame_x_position": {
+    "estimate": 0.0051,
+    "ci95": [
+      0.003,
+      0.0073
+    ],
+    "p": 0.0
+  }
+}

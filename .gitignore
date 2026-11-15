@@ -1,0 +1,15 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+*.key
+~$*
+.DS_Store
+Thumbs.db
+.vscode/
+*key_SEALED.csv
+*Admin_Key.xlsx
+*Calibration_KEY.xlsx
+manual_audit_key.csv

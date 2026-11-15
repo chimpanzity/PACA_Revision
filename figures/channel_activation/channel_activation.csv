@@ -1,0 +1,141 @@
+prompt,model,channel,n_rounds,active_pct,winner_pct
+minimalist,Sonnet 4.6,0,1400,0.07,0.0
+minimalist,Sonnet 4.6,1,1400,0.57,0.29
+minimalist,Sonnet 4.6,2,1400,4.21,2.57
+minimalist,Sonnet 4.6,3,1400,2.79,1.5
+minimalist,Sonnet 4.6,4,1400,2.79,2.5
+minimalist,Sonnet 4.6,5,1400,15.36,11.93
+minimalist,Sonnet 4.6,6,1400,6.29,6.0
+minimalist,Sonnet 4.6,7,1400,0.14,0.14
+minimalist,Sonnet 4.6,8,1400,0.0,0.0
+minimalist,Sonnet 4.6,any,1400,24.93,24.93
+minimalist,Haiku 4.5,0,1400,1.71,0.71
+minimalist,Haiku 4.5,1,1400,12.79,4.29
+minimalist,Haiku 4.5,2,1400,12.57,6.64
+minimalist,Haiku 4.5,3,1400,5.5,3.14
+minimalist,Haiku 4.5,4,1400,2.43,1.36
+minimalist,Haiku 4.5,5,1400,15.43,11.07
+minimalist,Haiku 4.5,6,1400,8.14,7.29
+minimalist,Haiku 4.5,7,1400,0.86,0.86
+minimalist,Haiku 4.5,8,1400,0.0,0.0
+minimalist,Haiku 4.5,any,1400,35.36,35.36
+minimalist,Gemini 3.1 FL,0,1400,2.93,1.79
+minimalist,Gemini 3.1 FL,1,1400,18.57,5.0
+minimalist,Gemini 3.1 FL,2,1400,19.43,9.07
+minimalist,Gemini 3.1 FL,3,1400,11.79,7.79
+minimalist,Gemini 3.1 FL,4,1400,5.86,2.79
+minimalist,Gemini 3.1 FL,5,1400,5.36,3.86
+minimalist,Gemini 3.1 FL,6,1400,7.21,5.14
+minimalist,Gemini 3.1 FL,7,1400,1.71,1.5
+minimalist,Gemini 3.1 FL,8,1400,0.21,0.0
+minimalist,Gemini 3.1 FL,any,1400,36.93,36.93
+minimalist,GPT-5.4,0,1400,1.93,0.79
+minimalist,GPT-5.4,1,1400,37.57,15.43
+minimalist,GPT-5.4,2,1400,17.86,7.86
+minimalist,GPT-5.4,3,1400,4.57,3.0
+minimalist,GPT-5.4,4,1400,3.07,2.64
+minimalist,GPT-5.4,5,1400,26.43,20.21
+minimalist,GPT-5.4,6,1400,7.5,6.79
+minimalist,GPT-5.4,7,1400,0.64,0.21
+minimalist,GPT-5.4,8,1400,0.07,0.07
+minimalist,GPT-5.4,any,1400,57.0,57.0
+minimalist,GPT-5.4-mini,0,1400,6.14,2.14
+minimalist,GPT-5.4-mini,1,1400,17.21,8.21
+minimalist,GPT-5.4-mini,2,1400,4.14,1.14
+minimalist,GPT-5.4-mini,3,1400,3.07,1.93
+minimalist,GPT-5.4-mini,4,1400,3.14,2.79
+minimalist,GPT-5.4-mini,5,1400,25.86,21.07
+minimalist,GPT-5.4-mini,6,1400,4.5,4.29
+minimalist,GPT-5.4-mini,7,1400,0.71,0.71
+minimalist,GPT-5.4-mini,8,1400,0.0,0.0
+minimalist,GPT-5.4-mini,any,1400,42.29,42.29
+minimalist,Opus 4.8,0,1400,0.64,0.29
+minimalist,Opus 4.8,1,1400,68.14,20.93
+minimalist,Opus 4.8,2,1400,32.71,7.57
+minimalist,Opus 4.8,3,1400,13.86,4.14
+minimalist,Opus 4.8,4,1400,6.64,3.07
+minimalist,Opus 4.8,5,1400,33.57,23.29
+minimalist,Opus 4.8,6,1400,23.86,15.57
+minimalist,Opus 4.8,7,1400,5.36,3.43
+minimalist,Opus 4.8,8,1400,1.07,0.71
+minimalist,Opus 4.8,any,1400,79.0,79.0
+minimalist,Gemini 3 FP,0,1400,1.21,0.57
+minimalist,Gemini 3 FP,1,1400,63.29,20.5
+minimalist,Gemini 3 FP,2,1400,32.0,7.79
+minimalist,Gemini 3 FP,3,1400,14.79,5.14
+minimalist,Gemini 3 FP,4,1400,7.14,3.64
+minimalist,Gemini 3 FP,5,1400,31.86,18.43
+minimalist,Gemini 3 FP,6,1400,24.71,17.86
+minimalist,Gemini 3 FP,7,1400,5.57,2.64
+minimalist,Gemini 3 FP,8,1400,1.5,0.79
+minimalist,Gemini 3 FP,any,1400,77.36,77.36
+informed,Sonnet 4.6,0,1400,0.0,0.0
+informed,Sonnet 4.6,1,1400,87.93,23.43
+informed,Sonnet 4.6,2,1400,80.86,5.43
+informed,Sonnet 4.6,3,1400,73.29,8.21
+informed,Sonnet 4.6,4,1400,62.0,13.36
+informed,Sonnet 4.6,5,1400,79.21,11.71
+informed,Sonnet 4.6,6,1400,59.14,8.21
+informed,Sonnet 4.6,7,1400,42.43,13.0
+informed,Sonnet 4.6,8,1400,31.36,5.43
+informed,Sonnet 4.6,any,1400,88.79,88.79
+informed,Haiku 4.5,0,1400,0.0,0.0
+informed,Haiku 4.5,1,1400,82.86,18.71
+informed,Haiku 4.5,2,1400,71.07,4.5
+informed,Haiku 4.5,3,1400,59.5,12.86
+informed,Haiku 4.5,4,1400,48.21,19.36
+informed,Haiku 4.5,5,1400,71.71,8.93
+informed,Haiku 4.5,6,1400,45.79,8.29
+informed,Haiku 4.5,7,1400,31.14,5.71
+informed,Haiku 4.5,8,1400,22.07,5.86
+informed,Haiku 4.5,any,1400,84.21,84.21
+informed,Gemini 3.1 FL,0,1400,83.0,21.93
+informed,Gemini 3.1 FL,1,1400,73.21,5.0
+informed,Gemini 3.1 FL,2,1400,51.79,1.57
+informed,Gemini 3.1 FL,3,1400,33.64,4.79
+informed,Gemini 3.1 FL,4,1400,24.29,3.79
+informed,Gemini 3.1 FL,5,1400,65.57,27.93
+informed,Gemini 3.1 FL,6,1400,41.93,10.0
+informed,Gemini 3.1 FL,7,1400,20.21,6.21
+informed,Gemini 3.1 FL,8,1400,6.93,4.14
+informed,Gemini 3.1 FL,any,1400,85.36,85.36
+informed,GPT-5.4,0,1400,85.93,21.86
+informed,GPT-5.4,1,1400,75.36,7.0
+informed,GPT-5.4,2,1400,56.21,11.71
+informed,GPT-5.4,3,1400,42.14,8.29
+informed,GPT-5.4,4,1400,20.0,9.21
+informed,GPT-5.4,5,1400,59.64,14.43
+informed,GPT-5.4,6,1400,34.14,8.86
+informed,GPT-5.4,7,1400,9.93,3.0
+informed,GPT-5.4,8,1400,2.93,1.93
+informed,GPT-5.4,any,1400,86.29,86.29
+informed,GPT-5.4-mini,0,1400,82.79,29.29
+informed,GPT-5.4-mini,1,1400,67.0,12.29
+informed,GPT-5.4-mini,2,1400,39.71,7.64
+informed,GPT-5.4-mini,3,1400,21.5,7.86
+informed,GPT-5.4-mini,4,1400,13.07,7.5
+informed,GPT-5.4-mini,5,1400,36.14,11.5
+informed,GPT-5.4-mini,6,1400,11.07,5.71
+informed,GPT-5.4-mini,7,1400,1.43,1.14
+informed,GPT-5.4-mini,8,1400,0.43,0.43
+informed,GPT-5.4-mini,any,1400,83.36,83.36
+informed,Opus 4.8,0,1400,37.07,7.07
+informed,Opus 4.8,1,1400,55.64,20.14
+informed,Opus 4.8,2,1400,41.14,7.0
+informed,Opus 4.8,3,1400,31.43,5.93
+informed,Opus 4.8,4,1400,27.64,9.71
+informed,Opus 4.8,5,1400,39.71,12.14
+informed,Opus 4.8,6,1400,19.71,4.71
+informed,Opus 4.8,7,1400,4.21,1.57
+informed,Opus 4.8,8,1400,0.57,0.21
+informed,Opus 4.8,any,1400,68.5,68.5
+informed,Gemini 3 FP,0,1400,0.0,0.0
+informed,Gemini 3 FP,1,1400,23.93,9.57
+informed,Gemini 3 FP,2,1400,15.64,3.93
+informed,Gemini 3 FP,3,1400,11.71,3.64
+informed,Gemini 3 FP,4,1400,6.57,4.79
+informed,Gemini 3 FP,5,1400,15.07,5.71
+informed,Gemini 3 FP,6,1400,4.57,3.07
+informed,Gemini 3 FP,7,1400,0.64,0.64
+informed,Gemini 3 FP,8,1400,0.07,0.07
+informed,Gemini 3 FP,any,1400,31.43,31.43

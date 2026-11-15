@@ -1,0 +1,93 @@
+PACA role-contrast PILOT  run_id=582a90d2-e7d1-4d26-861f-45be2c21d370
+  config sha256 41c9e71ecaff339b  schedule sha256 2fa21c569e145b58  harness ae3ce14 (role_contrast/ has uncommitted changes)  -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_role_contrast_v1_pilot
+=== GPT-5.4-mini [OpenAI] block order [1, 2, 3, 4] (rot0), temperature not_applied
+[gpt54mini s9065 MM block1.1] seed=534687971 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_role_contrast_v1_pilot\gpt54mini\gpt54mini_roleproteus_MM_t0p0_s9065_20261114-215321.csv
+  t001 you=T circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  t002 you=S circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t003 you=S circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t004 you=S circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t005 you=S circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t006 you=S circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t007 you=T circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  t008 you=T circle=T WIN  | act=0 ch=-1 pred=- random_no_detection
+  t009 you=T circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  t010 you=S circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t011 you=S circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t012 you=S circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t013 you=T circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  t014 you=S circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t015 you=S circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t016 you=T circle=T WIN  | act=0 ch=-1 pred=- random_no_detection
+  t017 you=S circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t018 you=S circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t019 you=S circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t020 you=T circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  ok: 20/20 win_rate=0.350 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_role_contrast_v1_pilot\gpt54mini\gpt54mini_roleproteus_MM_t0p0_s9065_20261114-215321.csv
+[gpt54mini s9066 MI block1.2] seed=534687971 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_role_contrast_v1_pilot\gpt54mini\gpt54mini_roleproteus_MI_t0p0_s9066_20261114-215339.csv
+  t001 you=T circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  t002 you=S circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t003 you=S circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t004 you=T circle=T WIN  | act=0 ch=-1 pred=- random_no_detection
+  t005 you=S circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t006 you=S circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t007 you=S circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t008 you=T circle=T WIN  | act=0 ch=-1 pred=- random_no_detection
+  t009 you=S circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t010 you=S circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t011 you=S circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t012 you=T circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  t013 you=S circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t014 you=S circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t015 you=S circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t016 you=S circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t017 you=S circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t018 you=T circle=T WIN  | act=1 ch=0 pred=S exploit
+  t019 you=S circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t020 you=T circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  ok: 20/20 win_rate=0.500 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_role_contrast_v1_pilot\gpt54mini\gpt54mini_roleproteus_MI_t0p0_s9066_20261114-215339.csv
+[gpt54mini s9067 XM block1.3] seed=534687971 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_role_contrast_v1_pilot\gpt54mini\gpt54mini_roleproteus_XM_t0p0_s9067_20261114-215356.csv
+  t001 you=S circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  t002 you=T circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t003 you=T circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t004 you=T circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t005 you=S circle=T WIN  | act=0 ch=-1 pred=- random_no_detection
+  t006 you=S circle=T WIN  | act=0 ch=-1 pred=- random_no_detection
+  t007 you=T circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t008 you=T circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t009 you=T circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t010 you=T circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t011 you=S circle=T WIN  | act=0 ch=-1 pred=- random_no_detection
+  t012 you=T circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t013 you=S circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  t014 you=S circle=T WIN  | act=0 ch=-1 pred=- random_no_detection
+  t015 you=T circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t016 you=T circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t017 you=S circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  t018 you=S circle=T WIN  | act=0 ch=-1 pred=- random_no_detection
+  t019 you=T circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t020 you=T circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  ok: 20/20 win_rate=0.600 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_role_contrast_v1_pilot\gpt54mini\gpt54mini_roleproteus_XM_t0p0_s9067_20261114-215356.csv
+[gpt54mini s9068 XI block1.4] seed=534687971 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_role_contrast_v1_pilot\gpt54mini\gpt54mini_roleproteus_XI_t0p0_s9068_20261114-215414.csv
+  t001 you=S circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  t002 you=T circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  t003 you=S circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  t004 you=T circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t005 you=S circle=T WIN  | act=0 ch=-1 pred=- random_no_detection
+  t006 you=T circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t007 you=S circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  t008 you=S circle=T WIN  | act=0 ch=-1 pred=- random_no_detection
+  t009 you=S circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  t010 you=T circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t011 you=S circle=T WIN  | act=0 ch=-1 pred=- random_no_detection
+  t012 you=S circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  t013 you=S circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  t014 you=S circle=T WIN  | act=0 ch=-1 pred=- random_no_detection
+  t015 you=S circle=T WIN  | act=0 ch=-1 pred=- random_no_detection
+  t016 you=T circle=T LOSS | act=0 ch=-1 pred=- random_no_detection
+  t017 you=S circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  t018 you=S circle=T WIN  | act=0 ch=-1 pred=- random_no_detection
+  t019 you=S circle=S LOSS | act=0 ch=-1 pred=- random_no_detection
+  t020 you=T circle=S WIN  | act=0 ch=-1 pred=- random_no_detection
+  ok: 20/20 win_rate=0.400 -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_role_contrast_v1_pilot\gpt54mini\gpt54mini_roleproteus_XI_t0p0_s9068_20261114-215414.csv
+
+DONE run_id=582a90d2-e7d1-4d26-861f-45be2c21d370 ran=4 skipped=0 stopped=[] -> C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\data_role_contrast_v1_pilot

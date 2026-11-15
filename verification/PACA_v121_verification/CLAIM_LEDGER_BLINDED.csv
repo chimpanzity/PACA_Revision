@@ -1,0 +1,39 @@
+claim_id,location_section,population,estimand,test,sided,definition
+INT-01,Abstract/§2/§3.1,main study,count session count,n/a,n/a,distinct main-study sessions
+INT-02,§2/§3.1/Abstract,main study,count trial count,n/a,n/a,main-study trials
+INT-03,Appendix E,supplemental,count,n/a,n/a,supplemental sessions
+INT-04,Appendix E,supplemental,count,n/a,n/a,supplemental trials
+INT-05,Appendix F/Abstract,replication,count,n/a,n/a,counterbalanced sessions
+INT-06,Appendix F,replication,count,n/a,n/a,counterbalanced trials
+MAIN-01,§3.1,7 model-level cell diffs (informed-minimalist),mean of 7 paired differences,descriptive,n/a,cell win rate = mean session win rate; diff = informed-minimalist per model; mean over 7
+MAIN-02,§3.1,7 model diffs,H0 mean diff=0,one-sample paired t,two-sided,t on the 7 differences vs 0
+MAIN-02p,§3.1,.. ,,paired t,two-sided,
+MAIN-03,§3.1,7 model diffs,H0 median diff=0,Wilcoxon signed-rank (exact),two-sided,exact mode; unrounded diffs
+MAIN-04,§3.1,7 model diffs,H0 P(neg)=.5,sign test (exact binomial),two-sided,"k=min(pos,neg); 2*binom.cdf(k,n,.5); zeros dropped"
+MAIN-05,§3.1,7 model diffs,mean diff interval,t interval,two-sided,t(6) interval on the 7 diffs
+MAIN-06,Abstract/§3.1,7 models,direction count,count,n/a,number of models with negative diff
+MAIN-07,Table F1,7 models,per-model diff,descriptive,n/a,informed-minimalist per model
+MAIN-08,§3.1,6-of-7 subsets,LOMO pooled means,descriptive,n/a,mean of remaining 6 diffs
+MAIN-09,§3.1,family-dropped subsets,LOFO pooled means,descriptive,n/a,mean of diffs excluding each family
+REP-01,Appendix F,7 model within-pair mean diffs,mean of 7,descriptive,n/a,each model effect=mean of 4 within-pair diffs; mean over 7
+REP-02,Appendix F,7 model effects,H0=0,one-sample t,two-sided,
+REP-03,Appendix F,7 model effects,,t,two-sided,
+REP-04,Appendix F,7 model effects,interval,t interval,two-sided,t(6) interval
+REP-05,Appendix F,7 models,count,count,n/a,
+REP-06,Appendix F,7 per-model tests,Holm at .05,Holm across 7,two-sided,Holm step-down on per-model t p-values
+REP-07,Table F1,7 models,per-model,descriptive,n/a,mean of 4 within-pair diffs per model
+TRACE-01,§3.6/Appendix B,trials 12-200 (analysis subset),adjusted OR,session-clustered logistic,two-sided,conditional model; g-computation adj probs
+TRACE-02,§3.6/Appendix B,subset size withheld,adjusted OR,session-clustered logistic,two-sided,
+TRACE-03,§3.6/Appendix B,subset size withheld,adjusted OR,session-clustered logistic,two-sided,
+AUDIT-Q1-P,Appendix B,stratified weighted audit,IPW-weighted precision,"precision + session-in-model bootstrap CI (100k, seed 20260717)",n/a,machine vs adjudicated human; IPW; stratified whole-session-within-model bootstrap
+AUDIT-Q1-R,Appendix B,stratified audit,IPW-weighted recall,recall,n/a,
+AUDIT-Q1-K,Appendix B,the stratified sample,inter-coder reliability,"Cohen kappa, Uncertain as a category",n/a,coder A vs B; Uncertain treated as a response category
+AUDIT-Q2-P,Appendix B,stratified weighted audit,IPW-weighted precision,"precision + session-in-model bootstrap CI (100k, seed 20260717)",n/a,machine vs adjudicated human; IPW; stratified whole-session-within-model bootstrap
+AUDIT-Q2-R,Appendix B,stratified audit,IPW-weighted recall,recall,n/a,
+AUDIT-Q2-K,Appendix B,the stratified sample,inter-coder reliability,"Cohen kappa, Uncertain as a category",n/a,coder A vs B; Uncertain treated as a response category
+AUDIT-Q3-P,Appendix B,stratified weighted audit,IPW-weighted precision,"precision + session-in-model bootstrap CI (100k, seed 20260717)",n/a,machine vs adjudicated human; IPW; stratified whole-session-within-model bootstrap
+AUDIT-Q3-R,Appendix B,stratified audit,IPW-weighted recall,recall,n/a,
+AUDIT-Q3-K,Appendix B,the stratified sample,inter-coder reliability,"Cohen kappa, Uncertain as a category",n/a,coder A vs B; Uncertain treated as a response category
+CAL-01,Figure 2,N=2 channel worked example,proportion,n/a,n/a,the worked-example counts
+CAL-02,Figure 2,worked example,p-value,exact binomial (prob-ordering),two-sided,exact two-sided binomial of the worked-example counts
+GLMM-01,§3.1,tested cells (7 models x 2 x 7 sessions),framing fixed-effect odds ratio + interval,binomial GLMM (random intercept+condition slope for model; random intercept for session),two-sided,DEFERRED per author instruction; software/CI method to be confirmed
