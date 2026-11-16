@@ -15,10 +15,13 @@ which is listed below.
 | `shapes-v1` | `ae3ce14` | PACA-Shapes v1 |
 | `paca-role-contrast-v1` | `6aba7c8` | Role-contrast v1 |
 | `paca-opponent-only-v1` | `1a258b8` | Opponent-only control v1 (results committed in `66e7ba3`) |
+| `paca-four-shape-v1` | `99f5af9` | Four-shape matching v1 (results committed in `5309438`) |
 
 ## Local commit log
 
 ```
+5309438 2026-11-15 PACA four-shape v1 results: 56/56 sessions, replay-verified
+99f5af9 2026-11-15 PACA four-shape v1: freeze four-location matching study (tag paca-four-shape-v1)
 66e7ba3 2026-11-15 PACA opponent-only v1 results: 28/28 sessions, replay-verified
 1a258b8 2026-11-15 PACA opponent-only v1: freeze O-only study at T=1, seed-matched to temp2x2 (tag paca-opponent-only-v1)
 6aba7c8 2026-11-14 PACA role-contrast v1: freeze matcher x mismatcher matching-pennies study (tag paca-role-contrast-v1)

@@ -1,0 +1,57 @@
+session_index,global_session_order,model,group,family,schedule_pattern,temperature_param_status,within_model_position,pair_index,pair_id,pair_order,within_pair_position,condition_code,prompt_mode,pair_seed,session_seed
+1,1,Claude Opus 4.8,opus,Anthropic,A,not_applied,1,1,opus-p1,MI,1,M,minimalist,925160716,925160716
+2,2,Claude Opus 4.8,opus,Anthropic,A,not_applied,2,1,opus-p1,MI,2,I,informed,925160716,925160716
+3,3,Claude Opus 4.8,opus,Anthropic,A,not_applied,3,2,opus-p2,IM,1,I,informed,2123681850,2123681850
+4,4,Claude Opus 4.8,opus,Anthropic,A,not_applied,4,2,opus-p2,IM,2,M,minimalist,2123681850,2123681850
+5,5,Claude Opus 4.8,opus,Anthropic,A,not_applied,5,3,opus-p3,IM,1,I,informed,348695669,348695669
+6,6,Claude Opus 4.8,opus,Anthropic,A,not_applied,6,3,opus-p3,IM,2,M,minimalist,348695669,348695669
+7,7,Claude Opus 4.8,opus,Anthropic,A,not_applied,7,4,opus-p4,MI,1,M,minimalist,1860824589,1860824589
+8,8,Claude Opus 4.8,opus,Anthropic,A,not_applied,8,4,opus-p4,MI,2,I,informed,1860824589,1860824589
+9,9,Claude Sonnet 4.6,sonnet,Anthropic,B,applied,1,1,sonnet-p1,IM,1,I,informed,943961839,943961839
+10,10,Claude Sonnet 4.6,sonnet,Anthropic,B,applied,2,1,sonnet-p1,IM,2,M,minimalist,943961839,943961839
+11,11,Claude Sonnet 4.6,sonnet,Anthropic,B,applied,3,2,sonnet-p2,MI,1,M,minimalist,2107761815,2107761815
+12,12,Claude Sonnet 4.6,sonnet,Anthropic,B,applied,4,2,sonnet-p2,MI,2,I,informed,2107761815,2107761815
+13,13,Claude Sonnet 4.6,sonnet,Anthropic,B,applied,5,3,sonnet-p3,MI,1,M,minimalist,1709886541,1709886541
+14,14,Claude Sonnet 4.6,sonnet,Anthropic,B,applied,6,3,sonnet-p3,MI,2,I,informed,1709886541,1709886541
+15,15,Claude Sonnet 4.6,sonnet,Anthropic,B,applied,7,4,sonnet-p4,IM,1,I,informed,189885794,189885794
+16,16,Claude Sonnet 4.6,sonnet,Anthropic,B,applied,8,4,sonnet-p4,IM,2,M,minimalist,189885794,189885794
+17,17,Claude Haiku 4.5,haiku,Anthropic,A,applied,1,1,haiku-p1,MI,1,M,minimalist,579986706,579986706
+18,18,Claude Haiku 4.5,haiku,Anthropic,A,applied,2,1,haiku-p1,MI,2,I,informed,579986706,579986706
+19,19,Claude Haiku 4.5,haiku,Anthropic,A,applied,3,2,haiku-p2,IM,1,I,informed,236343516,236343516
+20,20,Claude Haiku 4.5,haiku,Anthropic,A,applied,4,2,haiku-p2,IM,2,M,minimalist,236343516,236343516
+21,21,Claude Haiku 4.5,haiku,Anthropic,A,applied,5,3,haiku-p3,IM,1,I,informed,1950864582,1950864582
+22,22,Claude Haiku 4.5,haiku,Anthropic,A,applied,6,3,haiku-p3,IM,2,M,minimalist,1950864582,1950864582
+23,23,Claude Haiku 4.5,haiku,Anthropic,A,applied,7,4,haiku-p4,MI,1,M,minimalist,1015878256,1015878256
+24,24,Claude Haiku 4.5,haiku,Anthropic,A,applied,8,4,haiku-p4,MI,2,I,informed,1015878256,1015878256
+25,25,GPT-5.4,gpt54,OpenAI,B,not_applied,1,1,gpt54-p1,IM,1,I,informed,5532866,5532866
+26,26,GPT-5.4,gpt54,OpenAI,B,not_applied,2,1,gpt54-p1,IM,2,M,minimalist,5532866,5532866
+27,27,GPT-5.4,gpt54,OpenAI,B,not_applied,3,2,gpt54-p2,MI,1,M,minimalist,1497187139,1497187139
+28,28,GPT-5.4,gpt54,OpenAI,B,not_applied,4,2,gpt54-p2,MI,2,I,informed,1497187139,1497187139
+29,29,GPT-5.4,gpt54,OpenAI,B,not_applied,5,3,gpt54-p3,MI,1,M,minimalist,1022211943,1022211943
+30,30,GPT-5.4,gpt54,OpenAI,B,not_applied,6,3,gpt54-p3,MI,2,I,informed,1022211943,1022211943
+31,31,GPT-5.4,gpt54,OpenAI,B,not_applied,7,4,gpt54-p4,IM,1,I,informed,1911601683,1911601683
+32,32,GPT-5.4,gpt54,OpenAI,B,not_applied,8,4,gpt54-p4,IM,2,M,minimalist,1911601683,1911601683
+33,33,GPT-5.4-mini,gpt54mini,OpenAI,A,not_applied,1,1,gpt54mini-p1,MI,1,M,minimalist,2045237205,2045237205
+34,34,GPT-5.4-mini,gpt54mini,OpenAI,A,not_applied,2,1,gpt54mini-p1,MI,2,I,informed,2045237205,2045237205
+35,35,GPT-5.4-mini,gpt54mini,OpenAI,A,not_applied,3,2,gpt54mini-p2,IM,1,I,informed,1617109201,1617109201
+36,36,GPT-5.4-mini,gpt54mini,OpenAI,A,not_applied,4,2,gpt54mini-p2,IM,2,M,minimalist,1617109201,1617109201
+37,37,GPT-5.4-mini,gpt54mini,OpenAI,A,not_applied,5,3,gpt54mini-p3,IM,1,I,informed,1518252194,1518252194
+38,38,GPT-5.4-mini,gpt54mini,OpenAI,A,not_applied,6,3,gpt54mini-p3,IM,2,M,minimalist,1518252194,1518252194
+39,39,GPT-5.4-mini,gpt54mini,OpenAI,A,not_applied,7,4,gpt54mini-p4,MI,1,M,minimalist,1879826060,1879826060
+40,40,GPT-5.4-mini,gpt54mini,OpenAI,A,not_applied,8,4,gpt54mini-p4,MI,2,I,informed,1879826060,1879826060
+41,41,Gemini 3.1 Flash Lite,gemini31fl,Google,B,applied,1,1,gemini31fl-p1,IM,1,I,informed,1011753146,1011753146
+42,42,Gemini 3.1 Flash Lite,gemini31fl,Google,B,applied,2,1,gemini31fl-p1,IM,2,M,minimalist,1011753146,1011753146
+43,43,Gemini 3.1 Flash Lite,gemini31fl,Google,B,applied,3,2,gemini31fl-p2,MI,1,M,minimalist,574829839,574829839
+44,44,Gemini 3.1 Flash Lite,gemini31fl,Google,B,applied,4,2,gemini31fl-p2,MI,2,I,informed,574829839,574829839
+45,45,Gemini 3.1 Flash Lite,gemini31fl,Google,B,applied,5,3,gemini31fl-p3,MI,1,M,minimalist,488104442,488104442
+46,46,Gemini 3.1 Flash Lite,gemini31fl,Google,B,applied,6,3,gemini31fl-p3,MI,2,I,informed,488104442,488104442
+47,47,Gemini 3.1 Flash Lite,gemini31fl,Google,B,applied,7,4,gemini31fl-p4,IM,1,I,informed,140422501,140422501
+48,48,Gemini 3.1 Flash Lite,gemini31fl,Google,B,applied,8,4,gemini31fl-p4,IM,2,M,minimalist,140422501,140422501
+49,49,Gemini 3 Flash Preview,gemini3fp,Google,A,applied,1,1,gemini3fp-p1,MI,1,M,minimalist,308648517,308648517
+50,50,Gemini 3 Flash Preview,gemini3fp,Google,A,applied,2,1,gemini3fp-p1,MI,2,I,informed,308648517,308648517
+51,51,Gemini 3 Flash Preview,gemini3fp,Google,A,applied,3,2,gemini3fp-p2,IM,1,I,informed,191313416,191313416
+52,52,Gemini 3 Flash Preview,gemini3fp,Google,A,applied,4,2,gemini3fp-p2,IM,2,M,minimalist,191313416,191313416
+53,53,Gemini 3 Flash Preview,gemini3fp,Google,A,applied,5,3,gemini3fp-p3,IM,1,I,informed,630761241,630761241
+54,54,Gemini 3 Flash Preview,gemini3fp,Google,A,applied,6,3,gemini3fp-p3,IM,2,M,minimalist,630761241,630761241
+55,55,Gemini 3 Flash Preview,gemini3fp,Google,A,applied,7,4,gemini3fp-p4,MI,1,M,minimalist,51524917,51524917
+56,56,Gemini 3 Flash Preview,gemini3fp,Google,A,applied,8,4,gemini3fp-p4,MI,2,I,informed,51524917,51524917
