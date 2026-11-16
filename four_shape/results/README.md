@@ -10,6 +10,8 @@ Frozen at local commit `99f5af9` (tag `paca-four-shape-v1`); collected 15 Nov 20
 | `fig_four_shape.pdf` | Figure |
 | `table_four_shape.tex` | LaTeX model table |
 
+**Permalinks (GitHub, snapshot commit `68fd820`):** [code and frozen design](https://github.com/chimpanzity/PACA_Revision/tree/68fd820/four_shape) · [results](https://github.com/chimpanzity/PACA_Revision/tree/68fd820/four_shape/results) · [data](https://github.com/chimpanzity/PACA_Revision/tree/68fd820/data_four_shape_v1)
+
 ## Completion and QA
 
 All 12 prespecified acceptance checks PASS:
