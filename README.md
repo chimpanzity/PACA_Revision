@@ -37,6 +37,7 @@ README, a data dictionary, tests, and the full analysis output under `results/`.
 | PACA-RPS: three-action extension (rock-paper-scissors) | `rps/` | `data_rps_v1/`, `data_rps_v1_pilot/` |
 | PACA-Shapes: three actions with abstract labels | `shapes/` | `data_shapes_v1/`, `data_shapes_v1_pilot/` |
 | Role contrast: matcher vs mismatcher in matching pennies | `role_contrast/` | `data_role_contrast_v1/`, `data_role_contrast_v1_pilot/` |
+| Opponent-only control: minimal prompt + one opponent-disclosure sentence, T = 1, seed-matched to temp2x2 (Reviewer ADg6) | `opponent_only/` (see `results/REPORT.md`) | `data_opponent_only_v1/` |
 
 Every session CSV records the exact system and user prompts (full text and SHA-256), the full
 model response, served model and provider, Proteus's internal state, and the RNG draw for each
@@ -48,7 +49,7 @@ sessions and checks that Proteus's moves are reproduced exactly.
 The combined all-trials CSVs are stored gzipped, because of GitHub's 100 MB file limit
 (`pandas.read_csv("…_all_trials.csv.gz")` reads them directly):
 `data_rps_v1/rps_all_trials.csv.gz`, `data_shapes_v1/shapes_all_trials.csv.gz`,
-`data_role_contrast_v1/role_all_trials.csv.gz` and `temp2x2_replication/temp2x2_all_trials.csv.gz`.
+`data_role_contrast_v1/role_all_trials.csv.gz`, `data_opponent_only_v1/opponent_only_all_trials.csv.gz` and `temp2x2_replication/temp2x2_all_trials.csv.gz`.
 Each can also be rebuilt from the per-session CSVs with that study's analysis script and `--write-trials`.
 
 See [PROVENANCE.md](PROVENANCE.md) for the original commit and tag history and for what is not included here.

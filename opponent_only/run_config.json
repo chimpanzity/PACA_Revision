@@ -1,0 +1,423 @@
+{
+ "study": "paca_opponent_only_v1",
+ "schedule_version": "oo-schedule-v2-O-only-T1-temp2x2-matched",
+ "design": "O only, temperature 1.0, seeds matched to temp2x2 T=1 pairs 1-4",
+ "master_seed": 20261112,
+ "seed_source": "temp2x2_replication/run_config.json",
+ "seed_source_sha256": "1a613c43f18653fafbd84652aec9b38226a85d38ee346834982247f864bedf81",
+ "trials_per_session": 200,
+ "temperature": 1.0,
+ "top_p": null,
+ "role": "matcher",
+ "conditions": [
+  "O"
+ ],
+ "n_models": 7,
+ "sessions_per_model": 4,
+ "total_sessions": 28,
+ "total_trials": 5600,
+ "schedule_sha256": "5a43d875a82139111ecd6c821ecfa416839ba96db1968d0a5fefe020be00c96e",
+ "comparator_data_dir": "data_temp2x2",
+ "output_dir": "data_opponent_only_v1",
+ "models": [
+  {
+   "model": "Claude Opus 4.8",
+   "family": "Anthropic",
+   "slug": "anthropic/claude-opus-4.8",
+   "group": "opus",
+   "temperature_param_status": "not_applied",
+   "sessions": [
+    {
+     "session_index": 1,
+     "global_session_order": 1,
+     "within_model_position": 1,
+     "condition_code": "O",
+     "role": "matcher",
+     "prompt_mode": "opponent_only",
+     "session_seed": 20261112002,
+     "matched_temp2x2_pair": 1,
+     "matched_temp2x2_minimal_session_index": 3,
+     "matched_temp2x2_informed_session_index": 4
+    },
+    {
+     "session_index": 2,
+     "global_session_order": 2,
+     "within_model_position": 2,
+     "condition_code": "O",
+     "role": "matcher",
+     "prompt_mode": "opponent_only",
+     "session_seed": 20261112003,
+     "matched_temp2x2_pair": 2,
+     "matched_temp2x2_minimal_session_index": 6,
+     "matched_temp2x2_informed_session_index": 5
+    },
+    {
+     "session_index": 3,
+     "global_session_order": 3,
+     "within_model_position": 3,
+     "condition_code": "O",
+     "role": "matcher",
+     "prompt_mode": "opponent_only",
+     "session_seed": 20261112006,
+     "matched_temp2x2_pair": 3,
+     "matched_temp2x2_minimal_session_index": 12,
+     "matched_temp2x2_informed_session_index": 11
+    },
+    {
+     "session_index": 4,
+     "global_session_order": 4,
+     "within_model_position": 4,
+     "condition_code": "O",
+     "role": "matcher",
+     "prompt_mode": "opponent_only",
+     "session_seed": 20261112007,
+     "matched_temp2x2_pair": 4,
+     "matched_temp2x2_minimal_session_index": 13,
+     "matched_temp2x2_informed_session_index": 14
+    }
+   ]
+  },
+  {
+   "model": "Claude Sonnet 4.6",
+   "family": "Anthropic",
+   "slug": "anthropic/claude-sonnet-4.6",
+   "group": "sonnet",
+   "temperature_param_status": "applied",
+   "sessions": [
+    {
+     "session_index": 5,
+     "global_session_order": 5,
+     "within_model_position": 1,
+     "condition_code": "O",
+     "role": "matcher",
+     "prompt_mode": "opponent_only",
+     "session_seed": 20261112015,
+     "matched_temp2x2_pair": 1,
+     "matched_temp2x2_minimal_session_index": 29,
+     "matched_temp2x2_informed_session_index": 30
+    },
+    {
+     "session_index": 6,
+     "global_session_order": 6,
+     "within_model_position": 2,
+     "condition_code": "O",
+     "role": "matcher",
+     "prompt_mode": "opponent_only",
+     "session_seed": 20261112018,
+     "matched_temp2x2_pair": 2,
+     "matched_temp2x2_minimal_session_index": 36,
+     "matched_temp2x2_informed_session_index": 35
+    },
+    {
+     "session_index": 7,
+     "global_session_order": 7,
+     "within_model_position": 3,
+     "condition_code": "O",
+     "role": "matcher",
+     "prompt_mode": "opponent_only",
+     "session_seed": 20261112019,
+     "matched_temp2x2_pair": 3,
+     "matched_temp2x2_minimal_session_index": 38,
+     "matched_temp2x2_informed_session_index": 37
+    },
+    {
+     "session_index": 8,
+     "global_session_order": 8,
+     "within_model_position": 4,
+     "condition_code": "O",
+     "role": "matcher",
+     "prompt_mode": "opponent_only",
+     "session_seed": 20261112022,
+     "matched_temp2x2_pair": 4,
+     "matched_temp2x2_minimal_session_index": 43,
+     "matched_temp2x2_informed_session_index": 44
+    }
+   ]
+  },
+  {
+   "model": "Claude Haiku 4.5",
+   "family": "Anthropic",
+   "slug": "anthropic/claude-haiku-4.5",
+   "group": "haiku",
+   "temperature_param_status": "applied",
+   "sessions": [
+    {
+     "session_index": 9,
+     "global_session_order": 9,
+     "within_model_position": 1,
+     "condition_code": "O",
+     "role": "matcher",
+     "prompt_mode": "opponent_only",
+     "session_seed": 20261112029,
+     "matched_temp2x2_pair": 1,
+     "matched_temp2x2_minimal_session_index": 58,
+     "matched_temp2x2_informed_session_index": 57
+    },
+    {
+     "session_index": 10,
+     "global_session_order": 10,
+     "within_model_position": 2,
+     "condition_code": "O",
+     "role": "matcher",
+     "prompt_mode": "opponent_only",
+     "session_seed": 20261112032,
+     "matched_temp2x2_pair": 2,
+     "matched_temp2x2_minimal_session_index": 63,
+     "matched_temp2x2_informed_session_index": 64
+    },
+    {
+     "session_index": 11,
+     "global_session_order": 11,
+     "within_model_position": 3,
+     "condition_code": "O",
+     "role": "matcher",
+     "prompt_mode": "opponent_only",
+     "session_seed": 20261112033,
+     "matched_temp2x2_pair": 3,
+     "matched_temp2x2_minimal_session_index": 65,
+     "matched_temp2x2_informed_session_index": 66
+    },
+    {
+     "session_index": 12,
+     "global_session_order": 12,
+     "within_model_position": 4,
+     "condition_code": "O",
+     "role": "matcher",
+     "prompt_mode": "opponent_only",
+     "session_seed": 20261112036,
+     "matched_temp2x2_pair": 4,
+     "matched_temp2x2_minimal_session_index": 72,
+     "matched_temp2x2_informed_session_index": 71
+    }
+   ]
+  },
+  {
+   "model": "GPT-5.4",
+   "family": "OpenAI",
+   "slug": "openai/gpt-5.4",
+   "group": "gpt54",
+   "temperature_param_status": "not_applied",
+   "sessions": [
+    {
+     "session_index": 13,
+     "global_session_order": 13,
+     "within_model_position": 1,
+     "condition_code": "O",
+     "role": "matcher",
+     "prompt_mode": "opponent_only",
+     "session_seed": 20261112044,
+     "matched_temp2x2_pair": 1,
+     "matched_temp2x2_minimal_session_index": 88,
+     "matched_temp2x2_informed_session_index": 87
+    },
+    {
+     "session_index": 14,
+     "global_session_order": 14,
+     "within_model_position": 2,
+     "condition_code": "O",
+     "role": "matcher",
+     "prompt_mode": "opponent_only",
+     "session_seed": 20261112045,
+     "matched_temp2x2_pair": 2,
+     "matched_temp2x2_minimal_session_index": 89,
+     "matched_temp2x2_informed_session_index": 90
+    },
+    {
+     "session_index": 15,
+     "global_session_order": 15,
+     "within_model_position": 3,
+     "condition_code": "O",
+     "role": "matcher",
+     "prompt_mode": "opponent_only",
+     "session_seed": 20261112048,
+     "matched_temp2x2_pair": 3,
+     "matched_temp2x2_minimal_session_index": 95,
+     "matched_temp2x2_informed_session_index": 96
+    },
+    {
+     "session_index": 16,
+     "global_session_order": 16,
+     "within_model_position": 4,
+     "condition_code": "O",
+     "role": "matcher",
+     "prompt_mode": "opponent_only",
+     "session_seed": 20261112049,
+     "matched_temp2x2_pair": 4,
+     "matched_temp2x2_minimal_session_index": 98,
+     "matched_temp2x2_informed_session_index": 97
+    }
+   ]
+  },
+  {
+   "model": "GPT-5.4-mini",
+   "family": "OpenAI",
+   "slug": "openai/gpt-5.4-mini",
+   "group": "gpt54mini",
+   "temperature_param_status": "not_applied",
+   "sessions": [
+    {
+     "session_index": 17,
+     "global_session_order": 17,
+     "within_model_position": 1,
+     "condition_code": "O",
+     "role": "matcher",
+     "prompt_mode": "opponent_only",
+     "session_seed": 20261112057,
+     "matched_temp2x2_pair": 1,
+     "matched_temp2x2_minimal_session_index": 113,
+     "matched_temp2x2_informed_session_index": 114
+    },
+    {
+     "session_index": 18,
+     "global_session_order": 18,
+     "within_model_position": 2,
+     "condition_code": "O",
+     "role": "matcher",
+     "prompt_mode": "opponent_only",
+     "session_seed": 20261112060,
+     "matched_temp2x2_pair": 2,
+     "matched_temp2x2_minimal_session_index": 120,
+     "matched_temp2x2_informed_session_index": 119
+    },
+    {
+     "session_index": 19,
+     "global_session_order": 19,
+     "within_model_position": 3,
+     "condition_code": "O",
+     "role": "matcher",
+     "prompt_mode": "opponent_only",
+     "session_seed": 20261112061,
+     "matched_temp2x2_pair": 3,
+     "matched_temp2x2_minimal_session_index": 122,
+     "matched_temp2x2_informed_session_index": 121
+    },
+    {
+     "session_index": 20,
+     "global_session_order": 20,
+     "within_model_position": 4,
+     "condition_code": "O",
+     "role": "matcher",
+     "prompt_mode": "opponent_only",
+     "session_seed": 20261112064,
+     "matched_temp2x2_pair": 4,
+     "matched_temp2x2_minimal_session_index": 127,
+     "matched_temp2x2_informed_session_index": 128
+    }
+   ]
+  },
+  {
+   "model": "Gemini 3.1 Flash Lite",
+   "family": "Google",
+   "slug": "google/gemini-3.1-flash-lite",
+   "group": "gemini31fl",
+   "temperature_param_status": "applied",
+   "sessions": [
+    {
+     "session_index": 21,
+     "global_session_order": 21,
+     "within_model_position": 1,
+     "condition_code": "O",
+     "role": "matcher",
+     "prompt_mode": "opponent_only",
+     "session_seed": 20261112071,
+     "matched_temp2x2_pair": 1,
+     "matched_temp2x2_minimal_session_index": 142,
+     "matched_temp2x2_informed_session_index": 141
+    },
+    {
+     "session_index": 22,
+     "global_session_order": 22,
+     "within_model_position": 2,
+     "condition_code": "O",
+     "role": "matcher",
+     "prompt_mode": "opponent_only",
+     "session_seed": 20261112074,
+     "matched_temp2x2_pair": 2,
+     "matched_temp2x2_minimal_session_index": 147,
+     "matched_temp2x2_informed_session_index": 148
+    },
+    {
+     "session_index": 23,
+     "global_session_order": 23,
+     "within_model_position": 3,
+     "condition_code": "O",
+     "role": "matcher",
+     "prompt_mode": "opponent_only",
+     "session_seed": 20261112075,
+     "matched_temp2x2_pair": 3,
+     "matched_temp2x2_minimal_session_index": 149,
+     "matched_temp2x2_informed_session_index": 150
+    },
+    {
+     "session_index": 24,
+     "global_session_order": 24,
+     "within_model_position": 4,
+     "condition_code": "O",
+     "role": "matcher",
+     "prompt_mode": "opponent_only",
+     "session_seed": 20261112078,
+     "matched_temp2x2_pair": 4,
+     "matched_temp2x2_minimal_session_index": 156,
+     "matched_temp2x2_informed_session_index": 155
+    }
+   ]
+  },
+  {
+   "model": "Gemini 3 Flash Preview",
+   "family": "Google",
+   "slug": "google/gemini-3-flash-preview",
+   "group": "gemini3fp",
+   "temperature_param_status": "applied",
+   "sessions": [
+    {
+     "session_index": 25,
+     "global_session_order": 25,
+     "within_model_position": 1,
+     "condition_code": "O",
+     "role": "matcher",
+     "prompt_mode": "opponent_only",
+     "session_seed": 20261112086,
+     "matched_temp2x2_pair": 1,
+     "matched_temp2x2_minimal_session_index": 171,
+     "matched_temp2x2_informed_session_index": 172
+    },
+    {
+     "session_index": 26,
+     "global_session_order": 26,
+     "within_model_position": 2,
+     "condition_code": "O",
+     "role": "matcher",
+     "prompt_mode": "opponent_only",
+     "session_seed": 20261112087,
+     "matched_temp2x2_pair": 2,
+     "matched_temp2x2_minimal_session_index": 174,
+     "matched_temp2x2_informed_session_index": 173
+    },
+    {
+     "session_index": 27,
+     "global_session_order": 27,
+     "within_model_position": 3,
+     "condition_code": "O",
+     "role": "matcher",
+     "prompt_mode": "opponent_only",
+     "session_seed": 20261112090,
+     "matched_temp2x2_pair": 3,
+     "matched_temp2x2_minimal_session_index": 180,
+     "matched_temp2x2_informed_session_index": 179
+    },
+    {
+     "session_index": 28,
+     "global_session_order": 28,
+     "within_model_position": 4,
+     "condition_code": "O",
+     "role": "matcher",
+     "prompt_mode": "opponent_only",
+     "session_seed": 20261112091,
+     "matched_temp2x2_pair": 4,
+     "matched_temp2x2_minimal_session_index": 181,
+     "matched_temp2x2_informed_session_index": 182
+    }
+   ]
+  }
+ ]
+}

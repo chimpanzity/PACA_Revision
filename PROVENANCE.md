@@ -14,10 +14,13 @@ which is listed below.
 | `rps-v1` | `9cc25f1` | PACA-RPS v1 (results committed in `d1174f9`) |
 | `shapes-v1` | `ae3ce14` | PACA-Shapes v1 |
 | `paca-role-contrast-v1` | `6aba7c8` | Role-contrast v1 |
+| `paca-opponent-only-v1` | `1a258b8` | Opponent-only control v1 (results committed in `66e7ba3`) |
 
 ## Local commit log
 
 ```
+66e7ba3 2026-11-15 PACA opponent-only v1 results: 28/28 sessions, replay-verified
+1a258b8 2026-11-15 PACA opponent-only v1: freeze O-only study at T=1, seed-matched to temp2x2 (tag paca-opponent-only-v1)
 6aba7c8 2026-11-14 PACA role-contrast v1: freeze matcher x mismatcher matching-pennies study (tag paca-role-contrast-v1)
 ae3ce14 2026-11-14 PACA-Shapes v1: freeze abstract-label three-action study (star/triangle/rectangle; tag shapes-v1)
 d1174f9 2026-11-14 PACA-RPS v1 results: 112/112 sessions, replay-verified; primary T=1 framing effect +0.027 [-0.251, +0.306] -> not supported

@@ -1,0 +1,160 @@
+PACA OPPONENT-ONLY v1 PRESPECIFIED ANALYSIS (matching pennies, matcher; condition O only at T = 1;
+seed-matched comparators: temp2x2 T = 1 minimal (M1) and informed (I1), collected 12-13 Nov 2026)
+
+DATA: 28/28 complete O sessions; 0 incomplete/invalid files ignored; 0 duplicates ignored; 0 aborted attempts on record (rerun from round 1, same seed)
+      comparators found 56/56; comparator problems: none
+      non-model choices in O sessions: 0; replay failures: 0
+      harness commits: ['1a258b8']; dirty flags: ['False']; July code identical to temp2x2-v1: ['True']
+      O system-prompt hashes: ['3efd8b82138d54d9']
+      final-line agreement with parsed choice (O): 1.0000
+      chronological order: gemini31fl OK, gemini3fp OK, gpt54 OK, gpt54mini OK, haiku OK, opus OK, sonnet OK
+      providers / served per model (O):
+        Gemini 3.1 FL  providers ['Google', 'Google AI Studio']  served ['google/gemini-3.1-flash-lite']  temperature applied
+        Gemini 3 FP    providers ['Google', 'Google AI Studio']  served ['google/gemini-3-flash-preview']  temperature applied
+        GPT-5.4        providers ['Azure', 'OpenAI']  served ['openai/gpt-5.4']  temperature not_applied
+        GPT-5.4-mini   providers ['OpenAI']  served ['openai/gpt-5.4-mini']  temperature not_applied
+        Haiku 4.5      providers ['Amazon Bedrock', 'Anthropic']  served ['anthropic/claude-haiku-4.5']  temperature applied
+        Opus 4.8       providers ['Claude Platform on AWS']  served ['anthropic/claude-opus-4.8']  temperature not_applied
+        Sonnet 4.6     providers ['Claude Platform on AWS']  served ['anthropic/claude-sonnet-4.6']  temperature applied
+      seed-matched triples whose sessions differ in served model or provider set: 10
+        {'group': 'gemini31fl', 'k': 1, 'O': 'google/gemini-3.1-flash-lite @ Google|Google AI Studio', 'M1': 'google/gemini-3.1-flash-lite @ Google', 'I1': 'google/gemini-3.1-flash-lite @ Google'}
+        {'group': 'gemini31fl', 'k': 2, 'O': 'google/gemini-3.1-flash-lite @ Google|Google AI Studio', 'M1': 'google/gemini-3.1-flash-lite @ Google', 'I1': 'google/gemini-3.1-flash-lite @ Google'}
+        {'group': 'gemini31fl', 'k': 3, 'O': 'google/gemini-3.1-flash-lite @ Google|Google AI Studio', 'M1': 'google/gemini-3.1-flash-lite @ Google', 'I1': 'google/gemini-3.1-flash-lite @ Google'}
+        {'group': 'gemini31fl', 'k': 4, 'O': 'google/gemini-3.1-flash-lite @ Google|Google AI Studio', 'M1': 'google/gemini-3.1-flash-lite @ Google', 'I1': 'google/gemini-3.1-flash-lite @ Google'}
+        {'group': 'gemini3fp', 'k': 1, 'O': 'google/gemini-3-flash-preview @ Google', 'M1': 'google/gemini-3-flash-preview @ Google', 'I1': 'google/gemini-3-flash-preview @ Google|Google AI Studio'}
+        {'group': 'gemini3fp', 'k': 2, 'O': 'google/gemini-3-flash-preview @ Google|Google AI Studio', 'M1': 'google/gemini-3-flash-preview @ Google', 'I1': 'google/gemini-3-flash-preview @ Google'}
+        {'group': 'gpt54', 'k': 2, 'O': 'openai/gpt-5.4 @ OpenAI', 'M1': 'openai/gpt-5.4 @ Azure|OpenAI', 'I1': 'openai/gpt-5.4 @ OpenAI'}
+        {'group': 'gpt54', 'k': 4, 'O': 'openai/gpt-5.4 @ Azure|OpenAI', 'M1': 'openai/gpt-5.4 @ OpenAI', 'I1': 'openai/gpt-5.4 @ OpenAI'}
+        {'group': 'gpt54mini', 'k': 2, 'O': 'openai/gpt-5.4-mini @ OpenAI', 'M1': 'openai/gpt-5.4-mini @ Azure|OpenAI', 'I1': 'openai/gpt-5.4-mini @ Azure|OpenAI'}
+        {'group': 'haiku', 'k': 4, 'O': 'anthropic/claude-haiku-4.5 @ Amazon Bedrock|Anthropic', 'M1': 'anthropic/claude-haiku-4.5 @ Amazon Bedrock', 'I1': 'anthropic/claude-haiku-4.5 @ Amazon Bedrock'}
+
+PER-MODEL (means of 4 seed-matched sessions; d = mean of the 4 within-seed differences)
+condition_code          model      M1       O      I1  d_O_M1  d_O_I1  d_I1_M1  sd_d_O_M1  n_matched
+group                                                                                               
+opus                 Opus 4.8  0.4475  0.4450  0.3362 -0.0025  0.1088  -0.1112     0.0463          4
+sonnet             Sonnet 4.6  0.4825  0.5062  0.2612  0.0237  0.2450  -0.2212     0.0464          4
+haiku               Haiku 4.5  0.4662  0.4088  0.3687 -0.0575  0.0400  -0.0975     0.0287          4
+gpt54                 GPT-5.4  0.4688  0.4362  0.3100 -0.0325  0.1262  -0.1588     0.0240          4
+gpt54mini        GPT-5.4-mini  0.4625  0.4925  0.3325  0.0300  0.1600  -0.1300     0.0455          4
+gemini31fl      Gemini 3.1 FL  0.4712  0.4175  0.4425 -0.0537 -0.0250  -0.0288     0.0466          4
+gemini3fp         Gemini 3 FP  0.4100  0.4575  0.5225  0.0475 -0.0650   0.1125     0.0419          4 
+
+PRIMARY (seed-matched, non-contemporaneous)
+  win(O) - win(minimal, T=1)               mean = -0.0064   95% CI [-0.0455, +0.0326]   t(6) = -0.40, p = 0.7009   Wilcoxon W = 10, p = 0.5781   sign-flip p = 0.6562   +3/-4 of 7
+  (negative = with the opponent sentence the models win less than with the minimal prompt)
+SECONDARY
+  win(O) - win(informed, T=1)              mean = +0.0843   95% CI [-0.0157, +0.1843]   t(6) = 2.06, p = 0.0847   Wilcoxon W = 4, p = 0.1094   sign-flip p = 0.0938   +5/-2 of 7
+  reference: informed - minimal (temp2x2)  mean = -0.0907   95% CI [-0.1898, +0.0083]   t(6) = -2.24, p = 0.0662   Wilcoxon W = 4, p = 0.1094   sign-flip p = 0.0781   +1/-6 of 7
+  win rate O minus .50                     mean = -0.0480   95% CI [-0.0817, -0.0143]   t(6) = -3.49, p = 0.0130   Wilcoxon W = 1, p = 0.0312   sign-flip p = 0.0312   +1/-6 of 7
+  win rate M1 minus .50                    mean = -0.0416   95% CI [-0.0636, -0.0196]   t(6) = -4.63, p = 0.0036   Wilcoxon W = 0, p = 0.0156   sign-flip p = 0.0156   +0/-7 of 7
+  win rate I1 minus .50                    mean = -0.1323   95% CI [-0.2137, -0.0509]   t(6) = -3.98, p = 0.0073   Wilcoxon W = 1, p = 0.0312   sign-flip p = 0.0312   +1/-6 of 7
+  O's position between minimal (0) and informed (1), 7-model means: 0.07 (descriptive)
+
+SIGNATURES PER CELL (session means)
+                  p_T               abs_bias                  alt               runs_z               lag1_autocorr               p_follow_last_landing               p_stay_after_win               p_shift_after_loss               activation               no_detection               exploit_rate               br_lag1               mean_completion_tokens                  
+condition_code     I1     M1      O       I1     M1      O     I1     M1      O     I1     M1      O            I1     M1      O                    I1     M1      O               I1     M1      O                 I1     M1      O         I1     M1      O           I1     M1      O           I1     M1      O      I1     M1      O                     I1       M1        O
+group                                                                                                                                                                                                                                                                                                                                                                             
+opus            0.398  0.469  0.416    0.102  0.031  0.084  0.740  0.389  0.649  7.625 -3.145  4.683        -0.544  0.218 -0.337                 0.535  0.578  0.574            0.196  0.712  0.406              0.708  0.471  0.700      0.716  0.712  0.625        0.284  0.288  0.375        0.579  0.581  0.514  -4.636  0.728 -1.917                 32.470   79.866   83.460
+sonnet          0.540  0.522  0.492    0.040  0.023  0.010  0.842  0.497  0.602  9.734 -0.110  2.811        -0.694  0.003 -0.204                 0.637  0.403  0.369            0.108  0.402  0.271              0.823  0.405  0.469      0.893  0.212  0.361        0.108  0.788  0.639        0.804  0.170  0.285  -4.505  0.246 -0.892                 39.955  190.209  334.316
+haiku           0.479  0.498  0.501    0.021  0.013  0.021  0.753  0.443  0.731  7.093 -1.655  6.496        -0.508  0.112 -0.465                 0.549  0.601  0.523            0.222  0.668  0.241              0.739  0.542  0.713      0.782  0.224  0.755        0.218  0.776  0.245        0.642  0.172  0.585  -2.572  0.317 -2.286                208.975  272.596  370.340
+gpt54           0.215  0.456  0.508    0.285  0.044  0.018  0.305  0.420  0.716 -1.160 -2.209  6.052         0.077  0.152 -0.434                 0.325  0.623  0.594            0.530  0.718  0.361              0.234  0.540  0.776      0.870  0.455  0.696        0.130  0.545  0.304        0.746  0.358  0.555   0.163  0.468 -2.397                  5.646   24.548   52.195
+gpt54mini       0.224  0.452  0.466    0.276  0.048  0.034  0.358  0.436  0.563  0.394 -1.748  1.793        -0.036  0.118 -0.133                 0.323  0.588  0.544            0.443  0.665  0.479              0.262  0.522  0.604      0.899  0.457  0.258        0.101  0.542  0.742        0.759  0.351  0.210  -1.134  0.368 -0.600                 10.811   15.025   13.668
+gemini31fl      0.395  0.485  0.400    0.105  0.018  0.100  0.564  0.428  0.597  2.630 -2.067  3.364        -0.192  0.141 -0.243                 0.410  0.501  0.342            0.324  0.576  0.194              0.476  0.433  0.445      0.538  0.304  0.701        0.462  0.696  0.299        0.419  0.241  0.562  -1.045  0.551 -1.690                 35.838   57.076   90.306
+gemini3fp       0.526  0.481  0.476    0.026  0.019  0.026  0.544  0.408  0.619  1.218 -2.628  3.357        -0.091  0.181 -0.243                 0.462  0.622  0.559            0.421  0.762  0.433              0.505  0.525  0.664      0.190  0.536  0.430        0.810  0.464  0.570        0.155  0.451  0.344  -0.427  0.649 -1.313                 46.749  102.936  142.706 
+
+SIGNATURE CONTRASTS (model level)
+  p_T O - M1                               mean = -0.0148   95% CI [-0.0565, +0.0269]   t(6) = -0.87, p = 0.4179   Wilcoxon W = 9, p = 0.4688   sign-flip p = 0.4219   +3/-4 of 7
+  p_T O - I1                               mean = +0.0691   95% CI [-0.0598, +0.1980]   t(6) = 1.31, p = 0.2376   Wilcoxon W = 9, p = 0.4688   sign-flip p = 0.3906   +5/-2 of 7
+  abs_bias O - M1                          mean = +0.0141   95% CI [-0.0224, +0.0506]   t(6) = 0.95, p = 0.3806   Wilcoxon W = 12, p = 0.8125   sign-flip p = 0.4375   +4/-3 of 7
+  abs_bias O - I1                          mean = -0.0805   95% CI [-0.1914, +0.0303]   t(6) = -1.78, p = 0.1258   Wilcoxon W = 0, p = 0.0312   sign-flip p = 0.0625   +0/-6 of 7
+  alt O - M1                               mean = +0.2078   95% CI [+0.1364, +0.2793]   t(6) = 7.12, p = 0.0004   Wilcoxon W = 0, p = 0.0156   sign-flip p = 0.0156   +7/-0 of 7
+  alt O - I1                               mean = +0.0531   95% CI [-0.1408, +0.2471]   t(6) = 0.67, p = 0.5277   Wilcoxon W = 11, p = 0.6875   sign-flip p = 0.5781   +4/-3 of 7
+  runs_z O - M1                            mean = +6.0169   95% CI [+3.9863, +8.0475]   t(6) = 7.25, p = 0.0003   Wilcoxon W = 0, p = 0.0156   sign-flip p = 0.0156   +7/-0 of 7
+  runs_z O - I1                            mean = +0.1459   95% CI [-3.9185, +4.2103]   t(6) = 0.09, p = 0.9329   Wilcoxon W = 12, p = 0.8125   sign-flip p = 0.9219   +4/-3 of 7
+  lag1_autocorr O - M1                     mean = -0.4265   95% CI [-0.5704, -0.2827]   t(6) = -7.26, p = 0.0003   Wilcoxon W = 0, p = 0.0156   sign-flip p = 0.0156   +0/-7 of 7
+  lag1_autocorr O - I1                     mean = -0.0102   95% CI [-0.2977, +0.2773]   t(6) = -0.09, p = 0.9338   Wilcoxon W = 12, p = 0.8125   sign-flip p = 0.9219   +3/-4 of 7
+  p_follow_last_landing O - M1             mean = -0.0587   95% CI [-0.1054, -0.0120]   t(6) = -3.08, p = 0.0218   Wilcoxon W = 0, p = 0.0156   sign-flip p = 0.0156   +0/-7 of 7
+  p_follow_last_landing O - I1             mean = +0.0377   95% CI [-0.1307, +0.2061]   t(6) = 0.55, p = 0.6038   Wilcoxon W = 10, p = 0.5781   sign-flip p = 0.5938   +4/-3 of 7
+  p_stay_after_win O - M1                  mean = -0.3026   95% CI [-0.4014, -0.2038]   t(6) = -7.50, p = 0.0003   Wilcoxon W = 0, p = 0.0156   sign-flip p = 0.0156   +0/-7 of 7
+  p_stay_after_win O - I1                  mean = +0.0201   95% CI [-0.1080, +0.1482]   t(6) = 0.38, p = 0.7145   Wilcoxon W = 10, p = 0.5781   sign-flip p = 0.6562   +5/-2 of 7
+  p_shift_after_loss O - M1                mean = +0.1334   95% CI [+0.0547, +0.2122]   t(6) = 4.15, p = 0.0060   Wilcoxon W = 0, p = 0.0156   sign-flip p = 0.0156   +7/-0 of 7
+  p_shift_after_loss O - I1                mean = +0.0893   95% CI [-0.1796, +0.3582]   t(6) = 0.81, p = 0.4475   Wilcoxon W = 12, p = 0.8125   sign-flip p = 0.5000   +3/-4 of 7
+  activation O - M1                        mean = +0.1321   95% CI [-0.1232, +0.3875]   t(6) = 1.27, p = 0.2523   Wilcoxon W = 7, p = 0.2969   sign-flip p = 0.2656   +4/-3 of 7
+  activation O - I1                        mean = -0.1516   95% CI [-0.4575, +0.1543]   t(6) = -1.21, p = 0.2708   Wilcoxon W = 8, p = 0.3750   sign-flip p = 0.2969   +2/-5 of 7
+  no_detection O - M1                      mean = -0.1321   95% CI [-0.3875, +0.1232]   t(6) = -1.27, p = 0.2523   Wilcoxon W = 7, p = 0.2969   sign-flip p = 0.2656   +3/-4 of 7
+  no_detection O - I1                      mean = +0.1516   95% CI [-0.1543, +0.4575]   t(6) = 1.21, p = 0.2708   Wilcoxon W = 8, p = 0.3750   sign-flip p = 0.2969   +5/-2 of 7
+  mean_completion_tokens O - M1            mean = +49.2479   95% CI [+0.2974, +98.1983]   t(6) = 2.46, p = 0.0490   Wilcoxon W = 1, p = 0.0312   sign-flip p = 0.0312   +6/-1 of 7
+  mean_completion_tokens O - I1            mean = +100.9354   95% CI [+9.7538, +192.1169]   t(6) = 2.71, p = 0.0352   Wilcoxon W = 0, p = 0.0156   sign-flip p = 0.0156   +7/-0 of 7
+
+WINNING-CHANNEL DISTRIBUTION (% of rounds; pooled over models)
+  M1: ch0 1.4  ch1 6.8  ch2 4.2  ch3 3.4  ch4 2.8  ch5 13.6  ch6 8.4  ch7 0.8  ch8 0.1  none 58.6
+  O: ch0 4.2  ch1 11.9  ch2 5.9  ch3 5.5  ch4 3.9  ch5 15.5  ch6 5.8  ch7 1.7  ch8 0.2  none 45.3
+  I1: ch0 11.1  ch1 13.0  ch2 6.4  ch3 7.6  ch4 6.7  ch5 12.8  ch6 7.0  ch7 3.2  ch8 2.1  none 30.2
+
+PREDICTION CONTENT (Appendix J classification; % of rounds / Proteus win % within category; descriptive)
+                      none_pct  none_proteus_win_pct  side_pct  side_proteus_win_pct  switch_pct  switch_proteus_win_pct  repeat_pct  repeat_proteus_win_pct
+group      condition                                                                                                                                        
+opus       M1             28.8                  50.0       6.5                  50.0         0.9                     NaN        63.9                    58.3
+           O              37.5                  43.3      25.2                  57.9        36.9                    66.8         0.4                     NaN
+           I1             28.4                  51.1      35.6                  71.2        36.0                    73.6         0.0                     NaN
+sonnet     M1             78.8                  51.4       0.8                   NaN         9.1                    49.3        11.4                    56.0
+           O              63.9                  46.2       0.0                   NaN        33.4                    54.3         2.8                     NaN
+           I1             10.8                  41.9       0.0                   NaN        89.2                    77.7         0.0                     NaN
+haiku      M1             77.6                  51.7       0.0                   NaN         0.4                     NaN        22.0                    59.7
+           O              24.5                  48.5       0.0                   NaN        75.5                    62.6         0.0                     NaN
+           I1             21.8                  53.4       0.0                   NaN        78.2                    65.8         0.0                     NaN
+gpt54      M1             54.5                  49.8       0.2                   NaN         2.8                     NaN        42.5                    57.4
+           O              30.4                  44.4       0.0                   NaN        69.6                    61.6         0.0                     NaN
+           I1             13.0                  42.3      86.6                  73.2         0.2                     NaN         0.1                     NaN
+gpt54mini  M1             54.2                  51.8      17.8                  52.8         1.0                     NaN        27.0                    58.8
+           O              74.2                  48.7       1.8                   NaN        22.4                    57.5         1.6                     NaN
+           I1             10.1                  50.6      89.6                  68.5         0.0                     NaN         0.2                     NaN
+gemini31fl M1             69.6                  51.9       0.2                   NaN         0.4                     NaN        29.8                    55.9
+           O              29.9                  49.8      43.0                  61.0        23.9                    65.4         3.2                     NaN
+           I1             46.2                  52.7      30.4                  60.5        21.6                    57.2         1.8                     NaN
+gemini3fp  M1             46.4                  54.2       0.4                   NaN         3.4                     NaN        49.9                    63.2
+           O              57.0                  51.8       0.1                   NaN        41.4                    58.0         1.5                     NaN
+           I1             81.0                  46.5       0.0                   NaN        15.8                    52.4         3.2                     NaN 
+
+  pooled M1 none 58.6% (Proteus wins 51.6%)  side 3.7% (Proteus wins 51.2%)  switch 2.6% (Proteus wins 51.7%)  repeat 35.2% (Proteus wins 58.9%)
+  pooled O none 45.3% (Proteus wins 47.8%)  side 10.0% (Proteus wins 59.4%)  switch 43.3% (Proteus wins 61.2%)  repeat 1.4% (Proteus wins 52.6%)
+  pooled I1 none 30.2% (Proteus wins 48.9%)  side 34.6% (Proteus wins 69.6%)  switch 34.4% (Proteus wins 69.7%)  repeat 0.8% (Proteus wins 51.2%)
+
+BROWN-ROSENTHAL (sessions of 4 with block p < .05: own / opponent / outcome; median lag-1 own coefficient)
+               own       opp       out            lag1                      n      
+condition_code  I1 M1  O  I1 M1  O  I1 M1  O        I1        M1         O I1 M1  O
+group                                                                              
+opus             4  4  4   0  4  3   1  0  0 -3.442539  0.658638 -1.908567  4  4  4
+sonnet           4  1  3   0  4  3   0  0  0 -4.319362  0.212013 -0.862351  4  4  4
+haiku            4  2  4   1  4  0   0  1  0 -2.722024  0.254416 -2.266991  4  4  4
+gpt54            1  2  4   0  4  4   0  0  1 -0.045098  0.435126 -2.404642  4  4  4
+gpt54mini        1  1  2   1  4  0   1  2  0  0.021163  0.303163 -0.612676  4  4  4
+gemini31fl       3  4  4   0  4  4   0  1  1 -0.976536  0.470347 -1.597805  4  4  4
+gemini3fp        2  4  4   0  4  3   0  0  0 -0.323716  0.653052 -1.250541  4  4  4 
+
+DESCRIPTIVE
+  SD of the 4 within-seed O - M1 differences: Opus 4.8 0.046, Sonnet 4.6 0.046, Haiku 4.5 0.029, GPT-5.4 0.024, GPT-5.4-mini 0.045, Gemini 3.1 FL 0.047, Gemini 3 FP 0.042
+  O win by within-model position 1-4: {1: 0.4407142857142857, 2: 0.45142857142857146, 3: 0.4635714285714286, 4: 0.4521428571428571}
+  leave-one-model-out O - M1: Opus 4.8 -0.0071, Sonnet 4.6 -0.0115, Haiku 4.5 +0.0021, GPT-5.4 -0.0021, GPT-5.4-mini -0.0125, Gemini 3.1 FL +0.0015, Gemini 3 FP -0.0154
+  O - M1, 4 temperature-applied models     mean = -0.0100   95% CI [-0.0953, +0.0753]   t(3) = -0.37, p = 0.7338   Wilcoxon W = 3, p = 0.6250   sign-flip p = 0.7500   +2/-2 of 4
+  O - I1, 4 temperature-applied models     mean = +0.0488   95% CI [-0.1705, +0.2680]   t(3) = 0.71, p = 0.5302   Wilcoxon W = 4, p = 0.8750   sign-flip p = 0.7500   +2/-2 of 4
+
+HISTORICAL COMPARISON (descriptive only; different collections, prompts and temperatures; NOT pooled, NOT tested)
+group                                              Opus 4.8  Sonnet 4.6  Haiku 4.5  GPT-5.4  GPT-5.4-mini  Gemini 3.1 FL  Gemini 3 FP  mean_7 sessions_per_model  O_minus_row  O_lower_in_n_models
+source                                                                                                                                                                                            
+THIS STUDY: O, T=1 (15 Nov)                           0.445       0.506      0.409    0.436         0.493          0.418        0.458   0.452      4/4/4/4/4/4/4        0.000                    0
+July main: minimal (T=0)                              0.413       0.471      0.500    0.460         0.491          0.455        0.405   0.456      7/7/7/7/7/7/7       -0.004                    3
+July main: informed (T=0)                             0.374       0.213      0.283    0.350         0.420          0.340        0.452   0.347      7/7/7/7/7/7/7        0.105                    0
+July ablation: informed_no_prescription (T=0)         0.376       0.418      0.450    0.495         0.462          0.380        0.405   0.427      4/4/4/4/4/4/4        0.025                    2
+July ablation: informed_no_opponent (T=0)             0.351       0.056      0.191    0.272         0.324          0.440        0.520   0.308      4/4/4/4/4/4/4        0.144                    2
+Counterbalanced July replication: minimal (T=0)       0.452       0.486      0.480    0.462         0.465          0.473        0.389   0.458      4/4/4/4/4/4/4       -0.006                    4
+Counterbalanced July replication: informed (T=0)      0.332       0.211      0.205    0.250         0.409          0.372        0.458   0.320      4/4/4/4/4/4/4        0.132                    0
+temp2x2 (12 Nov): minimal, T=0                        0.439       0.489      0.478    0.456         0.461          0.454        0.411   0.455      7/7/7/7/7/7/7       -0.003                    3
+temp2x2 (12 Nov): informed, T=0                       0.347       0.192      0.276    0.287         0.339          0.363        0.434   0.320      7/7/7/7/7/7/7        0.132                    0
+temp2x2 (12 Nov): minimal, T=1, all 7 sessions        0.453       0.490      0.471    0.467         0.467          0.482        0.419   0.464      7/7/7/7/7/7/7       -0.012                    4
+temp2x2 (12 Nov): informed, T=1, all 7 sessions       0.336       0.246      0.363    0.296         0.340          0.455        0.521   0.365      7/7/7/7/7/7/7        0.087                    2
+Role contrast (14 Nov): matcher minimal MM (T=0)      0.432       0.460      0.470    0.439         0.444          0.458        0.426   0.447      4/4/4/4/4/4/4        0.005                    3
+Role contrast (14 Nov): matcher informed MI (T=0)     0.326       0.224      0.266    0.311         0.370          0.355        0.418   0.324      4/4/4/4/4/4/4        0.128                    0 
+
+ACCEPTANCE CHECKS: sessions_28=PASS, four_per_model=PASS, trials_5600=PASS, zero_nonmodel=PASS, unique_session_ids=PASS, replay_ok=PASS, O_hash_single_and_expected=PASS, temperature_1=PASS, comparators_56_ok=PASS, legacy_code_identical=PASS, harness_clean=PASS, chronological_order=PASS
+-> wrote results.json, sessions.csv, comparator_sessions.csv, matched_triples.csv, cells.csv, model_summary.csv, prediction_content.csv, brown_rosenthal.csv, historical_descriptive.csv, table_opponent_only.tex, fig_opponent_only.pdf/png to C:\Users\chris\Claude\Projects\LLM Game Theory Study\Protean Choice Task\opponent_only\results
