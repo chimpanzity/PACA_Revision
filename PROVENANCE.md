@@ -20,6 +20,8 @@ which is listed below.
 ## Local commit log
 
 ```
+7c6d6ff 2026-11-16 Add CLAUDE.md operating guide; requirements-lock.txt
+ba85ac2 2026-11-16 four-shape results README: add GitHub permalinks
 5309438 2026-11-15 PACA four-shape v1 results: 56/56 sessions, replay-verified
 99f5af9 2026-11-15 PACA four-shape v1: freeze four-location matching study (tag paca-four-shape-v1)
 66e7ba3 2026-11-15 PACA opponent-only v1 results: 28/28 sessions, replay-verified

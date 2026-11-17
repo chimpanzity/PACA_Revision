@@ -53,4 +53,15 @@ The combined all-trials CSVs are stored gzipped, because of GitHub's 100 MB file
 `data_role_contrast_v1/role_all_trials.csv.gz`, `data_opponent_only_v1/opponent_only_all_trials.csv.gz`, `data_four_shape_v1/four_shape_all_trials.csv.gz` and `temp2x2_replication/temp2x2_all_trials.csv.gz`.
 Each can also be rebuilt from the per-session CSVs with that study's analysis script and `--write-trials`.
 
+## Running new experiments with Claude Code
+
+The revision studies were built, frozen, run and analysed with [Claude Code](https://claude.com/claude-code) from handoff documents. [`CLAUDE.md`](CLAUDE.md) is the operating guide, and Claude Code loads it automatically when the project folder is opened. It covers:
+
+- the standing rules: key handling, approval before paid calls and pushes, freeze-and-tag before data, no substituted choices;
+- setup with `requirements-lock.txt` (Python 3.14.5);
+- the model panel and temperature caveats, the study template, the runbook, and cost and time references;
+- how this snapshot is updated.
+
+This repository is a snapshot without git history. New frozen studies should be run from the full-history project folder, because the harness checks the July code against the git tag `temp2x2-v1`. `CLAUDE.md` describes the fallback if only this snapshot is available.
+
 See [PROVENANCE.md](PROVENANCE.md) for the original commit and tag history and for what is not included here.
